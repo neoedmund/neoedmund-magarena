@@ -390,7 +390,7 @@ MOR C, M10 C, M11 C
 
 
 20.0435
-NOTE:may play additional land this turn*
+NOTE:IMPL
 NAME:Explore
 TEXT:
 {1}{G}
@@ -411,7 +411,7 @@ SOM R
 
 
 19.5866
-NOTE:give green for each creature with defender*
+NOTE:mana pool
 NAME:Overgrown Battlement
 TEXT:
 {1}{G}
@@ -587,7 +587,7 @@ ICE C, 5ED C, MMQ C, BTD C, ME2 C
 
 
 16.6633
-NOTE:protection from red, cast a red spell gain 1 life*
+NOTE:IMPL
 NAME:Kor Firewalker
 TEXT:
 {W}{W}
@@ -599,7 +599,7 @@ WWK U
 
 
 16.6325
-NOTE:destory target artifact or enchantment, its controller gain 4 life*
+NOTE:IMPL
 NAME:Nature's Claim
 TEXT:
 {G}

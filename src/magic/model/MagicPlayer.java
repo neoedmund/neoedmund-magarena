@@ -14,7 +14,7 @@ import magic.model.variable.MagicStaticLocalVariable;
 
 public class MagicPlayer implements MagicTarget {
 	
-	private static final long ID_FACTOR=13;
+	private static final long ID_FACTOR=31;
 	
 	private MagicPlayerDefinition playerDefinition;
 	private MagicCardList hand;
@@ -30,6 +30,7 @@ public class MagicPlayer implements MagicTarget {
 	private int preventDamage=0;
 	private int extraTurns=0;
 	private int attackers=0;
+	private int blockers=0;
 	private MagicCardCounter cardCounter;
 	private MagicActivationMap activationMap;
 	private MagicBuilderManaCost builderCost;
@@ -79,6 +80,7 @@ public class MagicPlayer implements MagicTarget {
 		preventDamage=sourcePlayer.preventDamage;
 		extraTurns=sourcePlayer.extraTurns;
 		attackers=sourcePlayer.attackers;
+		blockers=sourcePlayer.blockers;
 		hand=sourcePlayer.hand.copy(copyMap);
 		library=sourcePlayer.library.copy(copyMap);
 		graveyard=sourcePlayer.graveyard.copy(copyMap);
@@ -98,16 +100,32 @@ public class MagicPlayer implements MagicTarget {
 	}
 	
 	public long getPlayerId(final long id) {
-
-		long playerId=id*ID_FACTOR+life;
+		// Exile is not used for id.
+		long playerId=id;
+        playerId=playerId*ID_FACTOR+life;
 		playerId=playerId*ID_FACTOR+poison;
+		playerId=playerId*ID_FACTOR+stateFlags;
+		playerId=playerId*ID_FACTOR+library.size();
+		playerId=playerId*ID_FACTOR+activationMap.size();
 		playerId=playerId*ID_FACTOR+builderCost.getMinimumAmount();
 		playerId=playerId*ID_FACTOR+permanents.getPermanentsId();
 		playerId=playerId*ID_FACTOR+hand.getCardsId();
 		playerId=playerId*ID_FACTOR+graveyard.getCardsId();
-		// Exile is not used for id.
 		return playerId;
 	}
+
+    public String getIdString() {
+        return life + "," + 
+               poison + "," + 
+               stateFlags + "," + 
+               library.size() + "," + 
+               activationMap.size() + "," + 
+               builderCost.getMinimumAmount() + "," + 
+               permanents.getPermanentsId() + "," +
+               hand.getCardsId() + "," +
+               graveyard.getCardsId();
+    }
+
 	
 	@Override
 	public String toString() {
@@ -243,28 +261,24 @@ public class MagicPlayer implements MagicTarget {
 	}
 	
 	public void setHandToUnknown() {
-		
 		activationMap.removeActivations(hand);
 		hand.setKnown(false);
 		activationMap.addActivations(hand);
 	}
 
 	private void createHandAndLibrary(final int handSize) {
-				
 		int id=0;
 		for (final MagicCardDefinition cardDefinition : playerDefinition.getDeck()) {
-			
 			library.add(new MagicCard(cardDefinition,this,id++));
 		}
 
 		if (library.useSmartShuffle()) {
 			library.smartShuffle();
 		} else {
-			library.shuffle();
+			library.shuffle(MagicRandom.nextInt(library.size()+1));
 		}
 
 		for (int count=handSize;count>0&&!library.isEmpty();count--) {
-			
 			addCardToHand(library.removeCardAtTop());
 		}
 	}
@@ -407,13 +421,19 @@ public class MagicPlayer implements MagicTarget {
 	}
 
 	public void setNrOfAttackers(final int attackers) {
-		
 		this.attackers=attackers;
 	}
 	
 	public int getNrOfAttackers() {
-		
 		return attackers;
+	}
+	
+    public void setNrOfBlockers(final int blockers) {
+		this.blockers=blockers;
+	}
+	
+	public int getNrOfBlockers() {
+		return blockers;
 	}
 	
 	public boolean controlsPermanentWithType(final MagicType type) {

@@ -1,13 +1,6 @@
 package magic.ai;
 
-import java.util.Random;
-import java.util.Arrays;
-import java.util.List;
-import java.util.LinkedList;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.Collection;
-import java.util.Collections;
+import java.util.*;
 
 import magic.model.MagicGame;
 import magic.model.phase.MagicPhase;
@@ -67,19 +60,67 @@ function getValueByMC(node)
 //AI using Monte Carlo Tree Search
 public class MCTSAI implements MagicAI {
 
-    //higher C -> more exploration less exploitation
-    private static final double C = 0.3;
-    private final List<Integer> simLengths = new LinkedList<Integer>();
+    private final List<Integer> LENS = new LinkedList<Integer>();
     private final boolean LOGGING;
+	private final boolean CHEAT;
     private int MAXTIME;
     private long STARTTIME;
+    private static final int MAXEVENTS = 1000;
+    
+    //higher C -> more exploration less exploitation
+    static final double C = 1.0;
+
+    //boost score of win nodes by BOOST and decrease scores of lost nodes by BOOST
+    static final int BOOST = 1000000;
+
+    //cache nodes that might be used in subsequent decision
+    private final NodeCache cache = new NodeCache(1000);
 
     public MCTSAI() {
-        this(false);
+        this(false, true);
     }
 
-    public MCTSAI(boolean printLog) {
-        LOGGING = printLog;
+    public MCTSAI(boolean printLog, boolean cheat) {
+        LOGGING = printLog || (System.getProperty("debug") != null);
+        CHEAT = cheat;
+    }
+
+    private void addNode(final MagicGame game, final MCTSGameTree node) {
+        final long gid = game.getGameId();
+        if (!cache.containsKey(gid)) {
+            System.err.println("ADD : " + game.getIdString());
+            cache.put(gid, node);
+        }
+    }
+
+    static private int getStringHash(Object obj) {
+        return obj == null ? 0 : obj.toString().hashCode();
+    }
+
+    private MCTSGameTree getNode(final MagicGame game, List<Object[]> rootChoices) {
+        final long gid = game.getGameId();
+        MCTSGameTree candidate = cache.get(gid);
+        if (candidate != null && candidate.size() == rootChoices.size()) {
+            for (MCTSGameTree child : candidate) {
+                final int checksum = getStringHash(rootChoices.get(child.getChoice())[0]);
+                if (child.getChecksum() != checksum) {
+                    candidate = null;
+                    break;
+                }
+            }
+        } else {
+            candidate = null;
+        }
+        
+        if (candidate != null) { 
+            System.err.println("***** cache hit! *****");
+            return candidate;
+        } else {
+            System.err.println("***** cache miss! *****");
+            cache.clear();
+            System.err.println("MISS: " + game.getIdString());
+            return new MCTSGameTree(-1, -1, -1);
+        }
     }
 
     private void log(final String message) {
@@ -99,28 +140,29 @@ public class MCTSAI implements MagicAI {
             System.err.print(message);
         }
     }
-    
+
+    private double UCT(final MCTSGameTree parent, final MCTSGameTree child) {
+        return (parent.isAI() ? 1.0 : -1.0) * child.getV() + 
+            C * Math.sqrt(Math.log(parent.getNumSim()) / child.getNumSim());
+    }
+
     public synchronized Object[] findNextEventChoiceResults(
-            final MagicGame game, 
+            final MagicGame startGame, 
             final MagicPlayer scorePlayer) {
-        //ArtificialLevel = number of seconds to run MCTSAI
-        MAXTIME = 1000 * game.getArtificialLevel();
-        STARTTIME = System.currentTimeMillis();
+
+        final MagicGame choiceGame = new MagicGame(startGame, scorePlayer);
+        final MagicEvent event = choiceGame.getNextEvent();
+        final List<Object[]> rootChoices = event.getArtificialChoiceResults(choiceGame);
+
+        final int size = rootChoices.size();
         final String pinfo = "MCTS " + scorePlayer.getIndex() + " (" + scorePlayer.getLife() + ")";
-        final List<Object[]> choices = getCR(game, scorePlayer);
-        final int size = choices.size();
         
         // No choice results
-        if (size == 0) {
-            log(pinfo + " NO CHOICE");
-            return null;
-        }
+        assert size > 0 : "ERROR! MCTS: no choice found at start";
     
         // Single choice result
         if (size == 1) {
-            final ArtificialChoiceResults selected = getACR(choices).get(0);
-            log(pinfo + " " + selected);
-            return game.map(selected.choiceResults);
+            return startGame.map(rootChoices.get(0));
         }
         
         // repeat a number of simulations
@@ -129,168 +171,280 @@ public class MCTSAI implements MagicAI {
         //   score the leaf by doing a random play to the end of the game
         //   update the score of all the ancestors of the leaf
         // return the "best" choice
+        
+        //ArtificialLevel = number of seconds to run MCTSAI
+        MAXTIME = 1000 * startGame.getArtificialLevel(scorePlayer.getIndex());
+        STARTTIME = System.currentTimeMillis();
        
         //root represents the start state
-        final MCTSGameTree root = new MCTSGameTree(-1, -1);
-        int numSim = 0;
-        simLengths.clear();
-        for (int i = 1; System.currentTimeMillis() - STARTTIME < MAXTIME; i++) {
+        //final MCTSGameTree root = new MCTSGameTree(-1, -1, -1);
+        final MCTSGameTree root = getNode(startGame, rootChoices);
+        LENS.clear();
+
+        //end simulations once root is solved or time is up
+        for (; System.currentTimeMillis() - STARTTIME < MAXTIME && !root.isAIWin(); ) {
             //create a new MagicGame for simulation
-            final MagicGame start = new MagicGame(game, scorePlayer);
-            //start.setKnownCards();
+            final MagicGame rootGame = new MagicGame(startGame, scorePlayer);
+            if (!CHEAT) {
+                rootGame.setKnownCards();
+            }
             
             //pass in a clone of the state, genNewTreeNode grows the tree by one node
             //and returns the path from the root to the new node
-            final List<MCTSGameTree> path = genNewTreeNode(root, start);
-            
+            final LinkedList<MCTSGameTree> path = genNewTreeNode(root, rootGame);
+          
+            assert path.size() >= 2 : "ERROR! MCTS: length of path is " + path.size();
+
             // play a simulated game to get score
             // update all nodes along the path from root to new node 
-            final double score = randomPlay(start);
-            logc((score > 0.0) ? '.' : 'X');
-            for (MCTSGameTree node : path) {
-                node.updateScore(score);
-            }
+            final double score = randomPlay(path.getLast(), rootGame);
+            //logc((score > 0.0) ? '.' : 'X');
+            
+            for (MCTSGameTree child = null, parent = null; 
+                 !path.isEmpty(); 
+                 child = parent) {
+                
+                parent = path.removeLast(); 
+                parent.updateScore(score);
 
-            numSim++;
+                //update game theoretic value
+                if (child != null && child.isSolved()) {
+                    if (parent.isAI() && child.isAIWin()) {
+                        parent.setAIWin();
+                    } else if (parent.isAI() && child.isAILose()) {
+                        parent.incLose();
+                    } else if (!parent.isAI() && child.isAIWin()) {
+                        parent.incLose();
+                    } else if (!parent.isAI() && child.isAILose()) {
+                        parent.setAILose();
+                    }
+                }
+            }
         }
-        logc('\n');
+        //logc('\n');
+
+        assert root.size() > 0 : "ERROR! MCTS: root has no children but there are " + size + " choices";
 
         //select the best choice (child that has the highest secure score)
-        int maxV = -1;
-        int maxS = -1;
-        int idx = -1;
-        final List<ArtificialChoiceResults> achoices = getACR(choices);
+        final MCTSGameTree first = root.first();
+        double maxR = first.getRank();
+        int bestC = first.getChoice();
         for (MCTSGameTree node : root) {
-            achoices.get(node.getChoice()).worker = (int)(node.getV() * 100);
-            achoices.get(node.getChoice()).gameCount = node.getNumSim();
-            if (node.getNumSim() > maxV) { 
-                maxV = node.getNumSim();
-                maxS = node.getEvalScore();
-                idx = node.getChoice();
+            final double R = node.getRank();
+            final int C = node.getChoice();
+            if (R > maxR) { 
+                maxR = R;
+                bestC = C;
             }
         }
-        
-        final long duration = System.currentTimeMillis() - STARTTIME;
-        log("MCTS:  time: " + duration + "  sims:  " + numSim);
+        final Object[] selected = rootChoices.get(bestC); 
 
         if (LOGGING) {
+            final long duration = System.currentTimeMillis() - STARTTIME;
+            log("MCTS:  time: " + duration + "  sims:  " + root.getNumSim());
             int minL = 1000000;
             int maxL = -1;
             int sumL = 0;
-            for (int len : simLengths) {
+            for (int len : LENS) {
                 sumL += len;
                 if (len > maxL) maxL = len;
                 if (len < minL) minL = len;
             }
-            log("min: " + minL + "  max: " + maxL + "  avg: " + (sumL / simLengths.size()));
+            log("min: " + minL + "  max: " + maxL + "  avg: " + (sumL / (LENS.size()+1)));
+            log(pinfo);
+            for (MCTSGameTree node : root) {
+                final StringBuffer out = new StringBuffer();
+                if (node.getChoice() == bestC) {
+                    out.append("* ");
+                } else {
+                    out.append("  ");
+                }
+                out.append('[');
+                out.append((int)(node.getV() * 100));
+                out.append('/');
+                out.append(node.getNumSim());
+                out.append('/');
+                if (node.isAIWin()) {
+                    out.append("win");
+                } else if (node.isAILose()) {
+                    out.append("lose");
+                } else {
+                    out.append("?");
+                }
+                out.append(']');
+                out.append(CR2String(rootChoices.get(node.getChoice())));
+                log(out.toString());
+            }
         }
-        
-        log(pinfo);
 
-        final ArtificialChoiceResults selected = (idx >= 0) ? achoices.get(idx) : null;
-        for (final ArtificialChoiceResults achoice : achoices) {
-            log((achoice == selected ? "* ":"  ") + achoice);
-        }
-                
-        return game.map(selected.choiceResults);
+        return startGame.map(selected);
     }
 
-    private List<Object[]> getCR(final MagicGame game, final MagicPlayer player) {
-        final MagicGame choiceGame = new MagicGame(game, player);
-        final MagicEvent event = choiceGame.getNextEvent();
-        return event.getArtificialChoiceResults(choiceGame);
+    private static String CR2String(Object[] choiceResults) {
+		final StringBuffer buffer=new StringBuffer();
+		if (choiceResults!=null) {
+			buffer.append(" (");
+			boolean first=true;
+			for (final Object choiceResult : choiceResults) {
+				if (first) {
+					first=false;
+				} else {
+					buffer.append(',');
+				}
+				buffer.append(choiceResult);
+			}
+			buffer.append(')');
+		}
+        return buffer.toString();
     }
-
-    private List<ArtificialChoiceResults> getACR(final List<Object[]> choices) {
-        final List<ArtificialChoiceResults> aiChoiceResultsList = 
-            new ArrayList<ArtificialChoiceResults>();
-        for (final Object choiceResults[] : choices) {
-            aiChoiceResultsList.add(new ArtificialChoiceResults(choiceResults));
+               
+    private boolean checkNode(final MCTSGameTree curr, List<Object[]> choices) {
+        for (MCTSGameTree child : curr) {
+            final int checksum = getStringHash(choices.get(child.getChoice())[0]);
+            if (child.getChecksum() != checksum) {
+                System.err.println("ERROR! tree node and choice do not match");
+                printNode(curr, choices);
+                return false;
+            }
         }
-        return aiChoiceResultsList;
+        return true;
+    }
+                    
+    private static void printNode(final MCTSGameTree curr, List<Object[]> choices) {
+        for (MCTSGameTree child : curr) {
+            System.err.println("NODE: " + child.desc + " " + child.getChecksum());
+        }
+        for (Object[] choice : choices) {
+            final int checksum = getStringHash(choice[0]);
+            System.err.println("GAME: " + choice[0] + " " + checksum);
+        }
     }
 
-    // p is parent of n
-    // n.nb is how many times the node n is simulated
-    // sum of nb in all children of parent of n (same as p.nb)
-    // select node n (child of node) that maximize v[n]
-    // where v[n] = 1 - n.value/n.nb + C * sqrt(log(nb) / n.nb)
-    // find a path from root to an unexplored node
-    private List<MCTSGameTree> genNewTreeNode(final MCTSGameTree root, final MagicGame game) {
-        final List<MCTSGameTree> path = new LinkedList<MCTSGameTree>();
+    private LinkedList<MCTSGameTree> genNewTreeNode(final MCTSGameTree root, final MagicGame game) {
+        final LinkedList<MCTSGameTree> path = new LinkedList<MCTSGameTree>();
+        boolean cached = false;
         MCTSGameTree curr = root;
         path.add(curr);
 
-        for (List<Object[]> choices = getNextMultiChoiceEvent(game, curr != root, false);
+        for (List<Object[]> choices = getNextChoices(game, curr == root, false);
              choices != null;
-             choices = getNextMultiChoiceEvent(game, curr != root, false)) {
+             choices = getNextChoices(game, curr == root, false)) {
           
             final MagicEvent event = game.getNextEvent();
-            assert choices.size() > 1 : "number of choices is " + choices.size();
-            
+            curr.setIsAI(game.getScorePlayer() == event.getPlayer());
+            curr.setMaxChildren(choices.size());
+
+            if (curr != root && curr.isAI() && !cached) {
+                cached = true;
+                addNode(game, curr);
+            }
+
             if (curr.size() < choices.size()) {
                 //there are unexplored children of node
                 //assume we explore children of a node in increasing order of the choices
-                game.executeNextEvent(choices.get(curr.size()));
-                final MCTSGameTree child = new MCTSGameTree(curr.size(), game.getScore());
+                Object[] choice = choices.get(curr.size());
+                game.executeNextEvent(choice);
+                final MCTSGameTree child = new MCTSGameTree(
+                        curr.size(), 
+                        game.getScore(), 
+                        getStringHash(choice[0]));
+                child.desc = "" + choice[0];
                 curr.addChild(child);
                 path.add(child);
                 return path;
             } else {
-                final int totalSim = curr.getNumSim();
-                double bestV = -1e10;
-                MCTSGameTree child = curr.first();
-                for (MCTSGameTree node : curr) {
-                    if (node.getChoice() >= choices.size()) {
-                        log("MCTS: INVALID NODE");
+                //assert checkNode(curr, choices);
+
+                while (curr.size() > choices.size()) {
+                    System.err.println(
+                            "ERROR! MCTS: too many children nodes! " + 
+                            "curr.size = " + curr.size() + 
+                            ", choices.size = " + choices.size());
+                    System.err.println("curr == root? " + (curr == root));
+                    System.err.println("fast choices = " + game.getFastChoices());
+                    System.err.println(event);
+                    printNode(curr, choices);
+                    System.exit(1);
+                }
+
+                //curr.size() == choices.size()
+                if (curr.size() == 0) {
+                    System.err.println(
+                            "ERROR! MCTS: no children nodes! " +
+                            "curr.size = " + curr.size() + 
+                            ", choices.size = " + choices.size());
+                    System.err.println("curr == root? " + (curr == root));
+                    System.err.println("fast choices = " + game.getFastChoices());
+                    System.err.println(event);
+                    printNode(curr, choices);
+                    System.exit(1);
+                }
+
+                MCTSGameTree next = null;
+                double bestV = Double.NEGATIVE_INFINITY;
+                for (MCTSGameTree child : curr) {
+                    //skip won nodes
+                    if (child.isAIWin()) {
                         continue;
                     }
-
-                    final double v = 
-                        ((game.getScorePlayer() == event.getPlayer()) ? 1.0 : -1.0) * node.getV() + 
-                        C * Math.sqrt(Math.log(totalSim) / node.getNumSim());
+                    final double v = UCT(curr, child);
                     if (v > bestV) {
                         bestV = v;
-                        child = node;
+                        next = child;
                     }
                 }
 
                 //move down the tree
-                curr = child;
-                assert curr != null;
+                curr = next;
                 
                 game.executeNextEvent(choices.get(curr.getChoice()));
                 path.add(curr);
             }
         } 
        
-        //game is finished
-        assert game.isFinished() : "game is not finished";
         return path;
     }
 
-    private double randomPlay(final MagicGame game) {
-        // empirical evidence suggest that number of events should be less than 300
-        final List<Object[]> elist = getNextMultiChoiceEvent(game, true, true);
-        final int events = (Integer)(elist.get(0)[0]);
-      
+    private double randomPlay(final MCTSGameTree node, final MagicGame game) {
+        //terminal node, no need for random play
+        if (game.isFinished()) {
+            assert game.getLosingPlayer() != null : "ERROR! game finished but no losing player";
+            
+            if (game.getLosingPlayer() == game.getScorePlayer()) {
+                node.setAILose();
+                return -1.0;
+            } else {
+                node.setAIWin();
+                return 1.0;
+            }
+        }
+
+        final int startEvents = game.getEventsExecuted();
+        getNextChoices(game, false, true);
+        final int events = game.getEventsExecuted() - startEvents;
+        
+        if (LOGGING) {
+            LENS.add(events);
+        }
+
         if (game.getLosingPlayer() == null) {
             return 0;
         } else if (game.getLosingPlayer() == game.getScorePlayer()) {
-            return  -(1.0 - events/300.0);
+            return  -(1.0 - events/((double)MAXEVENTS));
         } else {
-            return  1.0 - events/300.0;
+            return  1.0 - events/((double)MAXEVENTS);
         }
     }
     
-    private List<Object[]> getNextMultiChoiceEvent(MagicGame game, boolean fastChoices, boolean sim) {
-        game.setFastChoices(fastChoices);
+    private List<Object[]> getNextChoices(
+            final MagicGame game, 
+            final boolean isRoot, 
+            final boolean sim) {
         
-        final int MAXEVENTS = 300;
-        int events = 0;
+        final int startEvents = game.getEventsExecuted();
         
         // simulate game until it is finished or simulated 300 events
-        while (!game.isFinished() && events < MAXEVENTS) {
+        while (!game.isFinished() && (game.getEventsExecuted() - startEvents) < MAXEVENTS) {
             if (!game.hasNextEvent()) {
                 game.getPhase().executePhase(game);
                 continue;
@@ -309,21 +463,15 @@ public class MCTSAI implements MagicAI {
             if (sim) {
                 //get simulation choice and execute
                 final Object[] choice = event.getSimulationChoiceResult(game);
-                if (choice == null) {
-                    //invalid game state
-                    return Collections.<Object[]>singletonList(new Object[]{-1}); 
-                } else {
-                    game.executeNextEvent(choice);
-                    events++;
-                }
+                assert choice != null : "ERROR! MCTS: no choice found during sim";
+                game.executeNextEvent(choice);
             } else {
-                //get possible AI choices, if more than one return list of choices
+                //get list of possible AI choices
                 final List<Object[]> choices = event.getArtificialChoiceResults(game);
                 final int size = choices.size();
-                if (size == 0) {
-                    //invalid game state
-                    return null;
-                } else if (size == 1) {
+                assert size > 0 : "ERROR! MCTS: no choice found";
+                if (size == 1) {
+                    //single choice
                     game.executeNextEvent(choices.get(0));
                 } else {
                     //multiple choice
@@ -332,16 +480,8 @@ public class MCTSAI implements MagicAI {
             }
         }
         
-        if (LOGGING) {
-            simLengths.add(events);
-        }
-
         //game is finished
-        if (sim) {
-            return Collections.<Object[]>singletonList(new Object[]{events}); 
-        } else {
-            return null;
-        }
+        return null;
     }
 }
 
@@ -349,15 +489,42 @@ public class MCTSAI implements MagicAI {
 //each tree node stores the choice from the parent that leads to this node
 //so we only need one copy of MagicGame for MCTSAI
 class MCTSGameTree implements Iterable<MCTSGameTree> {
+    
+    private final LinkedList<MCTSGameTree> children = new LinkedList<MCTSGameTree>();
     private final int choice;
-    private final List<MCTSGameTree> children = new LinkedList<MCTSGameTree>();
+    private final int checksum;
+    private boolean isAI;
+    private int maxChildren;
+    private int numLose = 0;
     private int numSim = 0;
-    private double score = 0;
     private int evalScore = 0;
+    private double score = 0;
+    public String desc;
 
-    public MCTSGameTree(int choice, int evalScore) {
+    public MCTSGameTree(final int choice, final int evalScore, final int checksum) { 
         this.evalScore = evalScore;
         this.choice = choice;
+        this.checksum = checksum;
+    }
+
+    public int getChecksum() {
+        return checksum;
+    }
+
+    public void setMaxChildren(final int mc) {
+        maxChildren = mc;
+    }
+
+    public boolean isAI() {
+        return isAI;
+    }
+    
+    public void setIsAI(final boolean ai) {
+        this.isAI = ai;
+    }
+
+    public boolean isSolved() {
+        return evalScore == Integer.MAX_VALUE || evalScore == Integer.MIN_VALUE;
     }
     
     public void updateScore(final double score) {
@@ -365,8 +532,35 @@ class MCTSGameTree implements Iterable<MCTSGameTree> {
         numSim += 1;
     }
 
+    public boolean isAIWin() {
+        return evalScore == Integer.MAX_VALUE;
+    }
+    
+    public boolean isAILose() {
+        return evalScore == Integer.MIN_VALUE;
+    }
+
+    public void incLose() {
+        numLose++;
+        if (numLose == maxChildren) {
+            if (isAI) {
+                setAILose();
+            } else {
+                setAIWin();
+            }
+        }
+    }
+
     public int getChoice() {
         return choice;
+    }
+
+    public void setAIWin() {
+        evalScore = Integer.MAX_VALUE;
+    }
+
+    public void setAILose() {
+        evalScore = Integer.MIN_VALUE;
     }
 
     public int getEvalScore() {
@@ -377,6 +571,16 @@ class MCTSGameTree implements Iterable<MCTSGameTree> {
         return score;
     }
 
+    public double getRank() {
+        if (isAIWin()) {
+            return MCTSAI.BOOST + getNumSim();
+        } else if (isAILose()) {
+            return getNumSim();
+        } else {
+            return getNumSim();
+        }
+    }
+    
     public int getNumSim() {
         return numSim;
     }
@@ -393,6 +597,10 @@ class MCTSGameTree implements Iterable<MCTSGameTree> {
         children.add(child);
     }
     
+    public void removeLast() {
+        children.removeLast();
+    }
+    
     public MCTSGameTree first() {
         return children.get(0);
     }
@@ -403,5 +611,18 @@ class MCTSGameTree implements Iterable<MCTSGameTree> {
 
     public int size() {
         return children.size();
+    }
+}
+
+class NodeCache extends LinkedHashMap<Long, MCTSGameTree> {
+	private static final long serialVersionUID = 1L;
+    private final int capacity;
+    public NodeCache(int capacity) {
+        super(capacity + 1, 1.1f, true);
+        this.capacity = capacity;
+    }
+
+    protected boolean removeEldestEntry(Map.Entry eldest) {
+        return size() > capacity;
     }
 }

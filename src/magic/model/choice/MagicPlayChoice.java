@@ -13,6 +13,7 @@ import magic.model.MagicSource;
 import magic.model.event.MagicActivation;
 import magic.model.event.MagicActivationMap;
 import magic.model.event.MagicEvent;
+import magic.model.phase.MagicPhaseType;
 import magic.ui.GameController;
 import magic.ui.choice.PlayChoicePanel;
 
@@ -31,12 +32,21 @@ public class MagicPlayChoice extends MagicChoice {
 	}
 	
 	@Override
-	public Collection<Object> getArtificialOptions(final MagicGame game,final MagicEvent event,final MagicPlayer player,final MagicSource source) {
+	public Collection<Object> getArtificialOptions(
+            final MagicGame game,
+            final MagicEvent event,
+            final MagicPlayer player,
+            final MagicSource source) {
 
-		// When something is allready on top of stack for the player, always pass.
+		// When something is already on top of stack for the player, always pass.
 		if (game.getStack().hasItemOnTopOfPlayer(player)) {
 			return PASS_OPTIONS;
 		}
+
+        //can't play spells or abilities during combat damage phase
+        if (game.isPhase(MagicPhaseType.CombatDamage)) {
+            return PASS_OPTIONS;
+        }
 		
 		final List<Object> options=new ArrayList<Object>();
 		final MagicActivationMap activationMap=player.getActivationMap();
@@ -45,10 +55,8 @@ public class MagicPlayChoice extends MagicChoice {
 		options.add(MagicPlayChoiceResult.PASS);
 		
 		for (final MagicActivation activation : activationMap.getActivations()) {
-			
 			final Set<MagicSource> sources=activationMap.get(activation);
 			for (final MagicSource activationSource : sources) {
-				
 				if (activation.canPlay(game,player,activationSource,true)) {
 					options.add(new MagicPlayChoiceResult(activationSource,activation));
 					if (activation.getActivationHints().isIndependent()) {
@@ -62,14 +70,12 @@ public class MagicPlayChoice extends MagicChoice {
 	}
 	
 	private Set<Object> getValidChoices(final MagicGame game,final MagicPlayer player) {
-
 		final Set<Object> validChoices=new HashSet<Object>();
+
 		final MagicActivationMap activationMap=player.getActivationMap();
 		for (final MagicActivation activation : activationMap.getActivations()) {
-			
 			final Set<MagicSource> sources=activationMap.get(activation);
 			for (final MagicSource activationSource : sources) {
-				
 				if (activation.canPlay(game,player,activationSource,false)) {
 					validChoices.add(activationSource);
 				}
@@ -79,16 +85,30 @@ public class MagicPlayChoice extends MagicChoice {
 	}
 	
 	@Override
-	public Object[] getPlayerChoiceResults(final GameController controller,final MagicGame game,final MagicPlayer player,final MagicSource source) {
+	public Object[] getPlayerChoiceResults(
+            final GameController controller,
+            final MagicGame game,
+            final MagicPlayer player,
+            final MagicSource source) {
 
-		final Set<Object> validChoices;
 		if (game.canAlwaysPass()) {
-			validChoices=Collections.emptySet();
-		} else {
-			validChoices=getValidChoices(game,player);
-		}
-
-		if (validChoices.isEmpty() && game.canSkipSingleChoice()) {
+			return PASS_CHOICE_RESULTS;
+		} 
+        
+        if ((game.isPhase(MagicPhaseType.DeclareAttackers) ||
+             game.isPhase(MagicPhaseType.DeclareBlockers) ||
+             game.isPhase(MagicPhaseType.CombatDamage) ||
+             game.isPhase(MagicPhaseType.EndOfCombat)) &&
+            player.getNrOfAttackers() == 0 && 
+            game.getOpponent(player).getNrOfAttackers() == 0) {
+			return PASS_CHOICE_RESULTS;
+        }
+		
+		final Set<Object> validChoices;
+        validChoices=getValidChoices(game,player);
+		
+        if ((game.isPhase(MagicPhaseType.CombatDamage)) ||
+            (validChoices.isEmpty() && game.canSkipSingleChoice())) {
             if (!game.getStack().isEmpty()) {
                 try {
                      Thread.sleep(1000);
@@ -98,6 +118,8 @@ public class MagicPlayChoice extends MagicChoice {
             }
 			return PASS_CHOICE_RESULTS;
 		}
+
+        /*
         if ((game.getStack().isEmpty() || game.getStack().hasItemOnTopOfPlayer(player)) && 
              game.getTurnPlayer() == player &&                
              game.getPassPriority()) {
@@ -110,6 +132,7 @@ public class MagicPlayChoice extends MagicChoice {
             }
             return PASS_CHOICE_RESULTS;
         }
+        */
 
 		controller.focusViewers(0,0);
 		if (validChoices.isEmpty()) {
@@ -156,7 +179,6 @@ public class MagicPlayChoice extends MagicChoice {
 	}
 
 	public static MagicChoice getInstance() {
-		
 		return INSTANCE;
 	}
 }

@@ -1,25 +1,44 @@
-JAR=java -ea -cp $^ 
-DSC=$(JAR) magic.DeckStrCal
+JAVA=java -ea -Xms256M -Xmx256M -Ddebug=true 
+SHELL=/bin/bash
 BUILD=build
 JOPTS=-Xlint:all -d $(BUILD) -cp $(BUILD):.
 SRC=$(shell find -iname *.java) 
-#MAG:=release/Magarena-$(shell hg id -n).jar
 MAG:=release/Magarena.jar
 EXE:=release/Magarena.exe
 
 all: $(MAG) $(EXE) tags
 
-newcards/existing.txt: resources/magic/data/cards.txt resources/magic/data/cards2.txt
+cubes: release/mods/legacy_cube.txt release/mods/extended_cube.txt release/mods/standard_cube.txt
+
+release/mods/legacy_cube.txt: cards/existing.txt cards/legacy_banned.txt
+	join -v1 -t"|" <(sort $(word 1,$^)) <(sort $(word 2,$^)) > $@
+
+release/mods/extended_cube.txt: cards/existing.txt cards/extended_all.txt
+	join -t"|" <(sort $(word 1,$^)) <(sort $(word 2,$^)) > $@
+
+release/mods/standard_cube.txt: cards/existing.txt cards/standard_all.txt
+	join -t"|" <(sort $(word 1,$^)) <(sort $(word 2,$^)) > $@
+
+cards/extended_all.txt:
+	curl "http://magiccards.info/query?q=f%3Aextended&s=cname&v=olist&p=1" | grep "en/" | sed 's/<[^>]*>//g' > $@
+	curl "http://magiccards.info/query?q=f%3Aextended&s=cname&v=olist&p=2" | grep "en/" | sed 's/<[^>]*>//g' >> $@
+	curl "http://magiccards.info/query?q=f%3Aextended&s=cname&v=olist&p=3" | grep "en/" | sed 's/<[^>]*>//g' >> $@
+
+cards/standard_all.txt:
+	curl "http://magiccards.info/query?q=f%3Astandard&s=cname&v=olist&p=1" | grep "en/" | sed 's/<[^>]*>//g' > $@
+	curl "http://magiccards.info/query?q=f%3Astandard&s=cname&v=olist&p=2" | grep "en/" | sed 's/<[^>]*>//g' >> $@
+
+cards/existing.txt: resources/magic/data/cards.txt resources/magic/data/cards2.txt
 	cat $^ | grep "^>" | sed 's/>//' | sort > $@
 
-newcards/existing_full.txt: newcards/existing.txt data/mtg-data.txt
+cards/existing_full.txt: newcards/existing.txt data/mtg-data.txt
 	awk -f scripts/extract_existing.awk $^ > $@
 
-candidate_cards_full.txt: scripts/extract_candidates.awk candidate_cards.tsv data/mtg-data.txt
+cards/candidate_cards_full.txt: scripts/extract_candidates.awk candidate_cards.tsv data/mtg-data.txt
 	awk -f $^ | sort -rg | sed 's/\t/\n/g' > $@
 
 %.out: $(MAG)
-	SGE_TASK_ID=$* exp/array_mag.sh
+	SGE_TASK_ID=$* exp/eval_mcts.sh
 
 M1.%:
 	-rm -rf Magarena-1.$*
@@ -45,6 +64,8 @@ M1.%:
 $(MAG): $(SRC) 
 	ant
 
+class: $(BUILD)/javac.last
+
 $(BUILD)/javac.last: $(SRC)
 	-mkdir $(BUILD)
 	javac $(JOPTS) $?
@@ -55,7 +76,7 @@ tags: $(SRC)
 	ctags -R .
 
 .Test%: $(MAG)
-	java -cp $(MAG) -DtestGame=Test$* magic.MagicMain
+	$(JAVA) -DtestGame=Test$* magic.MagicMain
 
 $(EXE): $(MAG)
 	cd launch4j; ./launch4j ../release/magarena.xml
@@ -66,10 +87,16 @@ clean:
 	-rm $(MAG)
 
 jar: $(MAG)
-	java -Xmx256M -jar $^
+	$(JAVA) -jar $^
+
+# bug with invalid nodes 
+bug: 11.jar
+
+%.jar: $(MAG)
+	$(JAVA) -DrndSeed=$* -jar $^
 
 test: $(MAG)
-	$(JAR) -DrndSeed=123 magic.DeckStrCal \
+	$(JAVA) -DrndSeed=123 magic.DeckStrCal \
 	--deck1 release/decks/LSK_G.dec \
 	--ai1 VEGAS \
 	--deck2 release/decks/LSK_G.dec \
