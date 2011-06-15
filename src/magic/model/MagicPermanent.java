@@ -5,11 +5,13 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
+import java.util.LinkedList;
 
 import javax.swing.ImageIcon;
 
 import magic.ai.ArtificialScoringSystem;
 import magic.data.IconImages;
+import magic.model.action.MagicAction;
 import magic.model.action.MagicAttachEquipmentAction;
 import magic.model.action.MagicChangeCountersAction;
 import magic.model.action.MagicChangeStateAction;
@@ -31,7 +33,6 @@ public class MagicPermanent implements MagicSource,MagicTarget,Comparable<MagicP
 	private MagicCard card;
 	private MagicCardDefinition cardDefinition;
 	private MagicPlayer controller;
-    private MagicPlayer owner;
 	private MagicLocalVariableList localVariables;
 	private MagicPermanent equippedCreature=null;
 	private MagicPermanentSet equipmentPermanents;
@@ -50,7 +51,8 @@ public class MagicPermanent implements MagicSource,MagicTarget,Comparable<MagicP
 	private int damage=0;
 	private int preventDamage=0;
 	private int fixedScore;
-	// Allows cached retrieval of power, toughness and abilities.
+
+    // Allows cached retrieval of power, toughness and abilities.
 	private boolean cached=false;
 	private MagicPowerToughness cachedTurnPowerToughness=null;
 	private long cachedTurnAbilityFlags=0;
@@ -63,7 +65,6 @@ public class MagicPermanent implements MagicSource,MagicTarget,Comparable<MagicP
 		this.card=card;
 		this.cardDefinition=card.getCardDefinition();
 		this.controller=controller;
-		this.owner=controller;
 		localVariables=new MagicLocalVariableList(cardDefinition.getLocalVariables());
 		equipmentPermanents=new MagicPermanentSet();
 		auraPermanents=new MagicPermanentSet();
@@ -89,7 +90,6 @@ public class MagicPermanent implements MagicSource,MagicTarget,Comparable<MagicP
 		cardDefinition=sourcePermanent.cardDefinition; // Must be before the rest for compareTo!
 		card=copyMap.copy(sourcePermanent.card);
 		controller=copyMap.copy(sourcePermanent.controller);
-		owner=copyMap.copy(sourcePermanent.owner);
 		stateFlags=sourcePermanent.stateFlags;
 		turnColorFlags=sourcePermanent.turnColorFlags;
 		turnAbilityFlags=sourcePermanent.turnAbilityFlags;
@@ -118,19 +118,35 @@ public class MagicPermanent implements MagicSource,MagicTarget,Comparable<MagicP
 	}
 	
 	public long getId() {
-		
 		return id;
 	}
 	
-	public int getPermanentId() {
-		
-		int id=cardDefinition.getIndex()+stateFlags+damage*7+preventDamage*13;
+	public long getPermanentId() {
+		long pid = cardDefinition.getIndex();
+        pid = pid * 31 + stateFlags;
+        pid = pid * 31 + damage;
+        pid = pid * 31 + preventDamage;
+        pid = pid * 31 + localVariables.size();
+        pid = pid * 31 + (equippedCreature != null ? equippedCreature.getPermanentId() : 1);
+        pid = pid * 31 + (enchantedCreature != null ? enchantedCreature.getPermanentId() : 1);
+        pid = pid * 31 + (blockedCreature != null ? blockedCreature.getPermanentId() : 1);
+        for (int cnt : counters) {
+            pid = pid * 31 + cnt;
+        }
+	    pid = pid * 31 + turnAbilityFlags;
+        pid = pid * 31 + turnPowerIncr;
+        pid = pid * 31 + turnToughnessIncr;
+        pid = pid * 31 + turnColorFlags;
+        pid = pid * 31 + abilityPlayedThisTurn;
+        pid = pid * 31 + turnLocalVariables;
+        /*		
 		if (equippedCreature!=null) {
-			id+=equippedCreature.cardDefinition.getIndex();
+			pid+=equippedCreature.cardDefinition.getIndex();
 		} else if (enchantedCreature!=null) {
-			id+=enchantedCreature.cardDefinition.getIndex();
+			pid+=enchantedCreature.cardDefinition.getIndex();
 		}
-		return id;
+        */
+		return pid;
  	}
 	
 	/** Determines uniqueness of a mana permanent, e.g. for producing mana, all Mountains are equal. */
@@ -601,16 +617,15 @@ public class MagicPermanent implements MagicSource,MagicTarget,Comparable<MagicP
 		blockingCreatures.clear();
 	}
 	
-	public void checkState(final MagicGame game) {
-
+	public void checkState(final MagicGame game, final List<MagicAction> actions) {
 		// +1/+1 and -1/-1 counters cancel each other out.
 		int plusCounters=getCounters(MagicCounterType.PlusOne);
 		if (plusCounters>0) {
 			int minusCounters=getCounters(MagicCounterType.MinusOne);
 			if (minusCounters>0) {
 				final int amount=-Math.min(plusCounters,minusCounters);
-				game.doAction(new MagicChangeCountersAction(this,MagicCounterType.PlusOne,amount,false));
-				game.doAction(new MagicChangeCountersAction(this,MagicCounterType.MinusOne,amount,false));
+				actions.add(new MagicChangeCountersAction(this,MagicCounterType.PlusOne,amount,false));
+				actions.add(new MagicChangeCountersAction(this,MagicCounterType.MinusOne,amount,false));
 			}
 		}
 		
@@ -618,21 +633,21 @@ public class MagicPermanent implements MagicSource,MagicTarget,Comparable<MagicP
 			final int toughness=getToughness(game);
 			if (toughness<=0) {
 				game.logAppendMessage(controller,getName()+" is put into its owner's graveyard.");
-				game.doAction(new MagicRemoveFromPlayAction(this,MagicLocationType.Graveyard));
+				actions.add(new MagicRemoveFromPlayAction(this,MagicLocationType.Graveyard));
 			} else if (hasState(MagicPermanentState.Destroyed)) {
-				game.doAction(new MagicChangeStateAction(this,MagicPermanentState.Destroyed,false));
-				game.doAction(new MagicDestroyAction(this));
+				actions.add(new MagicChangeStateAction(this,MagicPermanentState.Destroyed,false));
+				actions.add(new MagicDestroyAction(this));
 			} else if (toughness-damage<=0) {
-				game.doAction(new MagicDestroyAction(this));
+				actions.add(new MagicDestroyAction(this));
 			}
 		} else if (cardDefinition.isAura()) {
 			if (enchantedCreature==null||!enchantedCreature.isCreature()||enchantedCreature.hasProtectionFrom(game,this)) {
 				game.logAppendMessage(controller,getName()+" is put into its owner's graveyard.");
-				game.doAction(new MagicRemoveFromPlayAction(this,MagicLocationType.Graveyard));
+				actions.add(new MagicRemoveFromPlayAction(this,MagicLocationType.Graveyard));
 			}
 		} else if (cardDefinition.isEquipment()) {
 			if (equippedCreature!=null&&(!equippedCreature.isCreature()||equippedCreature.hasProtectionFrom(game,this))) {
-				game.doAction(new MagicAttachEquipmentAction(this,null));
+				actions.add(new MagicAttachEquipmentAction(this,null));
 			}
 		}
 	}
@@ -983,7 +998,7 @@ public class MagicPermanent implements MagicSource,MagicTarget,Comparable<MagicP
 		} else if (MagicPermanentState.ReturnToOwnerAtEndOfTurn.hasState(stateFlags)) {
 			game.logAppendMessage(controller,"Return "+this.getName()+" to its owner (end of turn).");
 	        clearState(MagicPermanentState.ReturnToOwnerAtEndOfTurn);
-            game.doAction(new MagicGainControlAction(owner,this));
+            game.doAction(new MagicGainControlAction(card.getOwner(),this));
 			return true;
         }
 		return false;

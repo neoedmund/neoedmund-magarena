@@ -47,9 +47,6 @@ public class CardDefinitions {
         if ("image".equals(property)) {
             card.setImageURL(value);
         } else if ("cube".equals(property)) {
-			if ("default".equals(value)) {
-				CubeDefinitions.getInstance().getCubeDefinition("all").add(card.getName());
-			}
 			CubeDefinitions.getInstance().getCubeDefinition(value).add(card.getName());
 		} else if ("value".equals(property)) {
 			card.setValue(Integer.parseInt(value));
@@ -126,10 +123,15 @@ public class CardDefinitions {
 		cardDefinition.setIndex(cards.size());
 		cards.add(cardDefinition);
 		cardsMap.put(cardDefinition.getFullName(),cardDefinition);
+
+        //add to default vintage cube
+        if (!cardDefinition.isToken()) {
+			CubeDefinitions.getInstance().getCubeDefinition("all").add(cardDefinition.getName());
+        }
         
         //link to companion object containing static variables
         final String fname = cardDefinition.getFullName();
-        final String cname = fname.replace(' ', '_');
+        final String cname = fname.replace(' ', '_').replace('\'','_');
         try {
             Class c = Class.forName("magic.card." + cname);
             Field[] fields = c.getDeclaredFields();
