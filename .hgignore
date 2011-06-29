@@ -1,0 +1,8 @@
+syntax: glob
+crash/*
+build/*
+ref/*
+launch4j/*
+Magarena*/*
+decks/*
+release/mods/*.zip
