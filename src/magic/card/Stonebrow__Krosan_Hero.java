@@ -1,0 +1,34 @@
+package magic.card;
+
+import magic.model.MagicAbility;
+import magic.model.MagicGame;
+import magic.model.MagicPermanent;
+import magic.model.MagicPlayer;
+import magic.model.action.MagicChangeTurnPTAction;
+import magic.model.event.MagicEvent;
+import magic.model.trigger.MagicTrigger;
+import magic.model.trigger.MagicTriggerType;
+
+public class Stonebrow__Krosan_Hero {
+
+    public static final MagicTrigger V9052 =new MagicTrigger(MagicTriggerType.WhenAttacks,"Stonebrow, Krosan Hero") {
+
+		@Override
+		public MagicEvent executeTrigger(final MagicGame game,final MagicPermanent permanent,final Object data) {
+
+			final MagicPlayer player=permanent.getController();
+			final MagicPermanent creature=(MagicPermanent)data;
+			if (creature.getController()==player&&creature.hasAbility(game,MagicAbility.Trample)) {
+				return new MagicEvent(permanent,player,new Object[]{creature},this,creature.getName()+" gets +2/+2 until end of turn.");
+			}
+			return null;
+		}
+		
+		@Override
+		public void executeEvent(final MagicGame game,final MagicEvent event,final Object data[],final Object[] choiceResults) {
+
+			game.doAction(new MagicChangeTurnPTAction((MagicPermanent)data[0],2,2));
+		}
+    };
+    
+}
