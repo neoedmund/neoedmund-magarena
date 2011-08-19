@@ -40,6 +40,19 @@ toughness=6
 ability=flying,first strike,vigilance,trample,haste,protection from black,protection from red
 timing=fmain
 
+>Arbalest Elite
+image=http://magiccards.info/scans/en/m12/5.jpg
+value=2
+rarity=U
+type=Creature
+subtype=Human,Archer
+color=w
+converted=4
+cost={2}{W}{W}
+power=2
+toughness=3
+timing=main
+
 >Assault Zeppelid
 image=http://magiccards.info/scans/en/di/103.jpg
 value=3
@@ -3408,6 +3421,20 @@ power=2
 toughness=2
 timing=fmain
 
+>AEther Adept
+image=http://magiccards.info/scans/en/m12/41.jpg
+value=3
+removal=2
+rarity=C
+type=Creature
+subtype=Human,Wizard
+color=u
+converted=3
+cost={1}{U}{U}
+power=2
+toughness=2
+timing=fmain
+
 >Cairn Wanderer
 image=http://magiccards.info/scans/en/lw/105.jpg
 value=4
@@ -3590,6 +3617,17 @@ color=b
 converted=2
 cost={B}{B}
 timing=draw
+
+>Act of Treason
+image=http://magiccards.info/scans/en/m12/121.jpg
+value=4
+removal=5
+rarity=C
+type=Sorcery
+color=r
+converted=3
+cost={2}{R}
+timing=removal
 
 >Basilisk Collar
 image=http://magiccards.info/scans/en/wwk/122.jpg
