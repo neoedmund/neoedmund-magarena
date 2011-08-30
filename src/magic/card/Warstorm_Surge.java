@@ -8,6 +8,7 @@ import magic.model.target.MagicDamageTargetPicker;
 import magic.model.target.MagicTarget;
 import magic.model.trigger.MagicTrigger;
 import magic.model.trigger.MagicTriggerType;
+import magic.model.action.MagicTargetAction;
 
 public class Warstorm_Surge {
 	public static final MagicTrigger T = new MagicTrigger(MagicTriggerType.WhenOtherComesIntoPlay) {
@@ -31,11 +32,12 @@ public class Warstorm_Surge {
 		@Override
 		public void executeEvent(final MagicGame game,final MagicEvent event,final Object data[],final Object[] choiceResults) {
 			final MagicPermanent permanent = (MagicPermanent)data[0];
-			final MagicTarget target = event.getTarget(game,choiceResults,0);
-			if (target != null) {
-				final MagicDamage damage = new MagicDamage(permanent,target,permanent.getPower(game),false);
-				game.doAction(new MagicDealDamageAction(damage));
-			}
+            event.processTarget(game,choiceResults,0,new MagicTargetAction() {
+                public void doAction(final MagicTarget target) {
+                    final MagicDamage damage = new MagicDamage(permanent,target,permanent.getPower(game),false);
+                    game.doAction(new MagicDealDamageAction(damage));
+                }
+			});
 		}	
     };
 }

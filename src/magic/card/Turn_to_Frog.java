@@ -9,6 +9,7 @@ import magic.model.event.*;
 import magic.model.stack.MagicCardOnStack;
 import magic.model.target.MagicBecomeTargetPicker;
 import magic.model.variable.MagicDummyLocalVariable;
+import magic.model.action.MagicPermanentAction;
 
 import java.util.EnumSet;
 
@@ -49,11 +50,12 @@ public class Turn_to_Frog {
                 final Object[] data,
                 final Object[] choiceResults) {
 			game.doAction(new MagicMoveCardAction((MagicCardOnStack)data[0]));
-			final MagicPermanent creature = event.getTarget(game,choiceResults,0);
-			if (creature != null) {
-				game.doAction(new MagicBecomesCreatureAction(creature,LV));
-				game.doAction(new MagicSetTurnColorAction(creature,MagicColor.Blue));
-			}
+            event.processTargetPermanent(game,choiceResults,0,new MagicPermanentAction() {
+                public void doAction(final MagicPermanent creature) {
+                    game.doAction(new MagicBecomesCreatureAction(creature,LV));
+                    game.doAction(new MagicSetTurnColorAction(creature,MagicColor.Blue));
+                }
+			});
 		}
 	};
 }
