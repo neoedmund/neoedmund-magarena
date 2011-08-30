@@ -9,6 +9,7 @@ import magic.model.event.MagicEvent;
 import magic.model.target.MagicDestroyTargetPicker;
 import magic.model.trigger.MagicTrigger;
 import magic.model.trigger.MagicTriggerType;
+import magic.model.action.MagicPermanentAction;
 
 public class Stingerfling_Spider {
 	public static final MagicTrigger T = new MagicTrigger(MagicTriggerType.WhenComesIntoPlay) {
@@ -33,11 +34,12 @@ public class Stingerfling_Spider {
                 final Object data[],
                 final Object[] choiceResults) {
 			if (MagicMayChoice.isYesChoice(choiceResults[0])) {
-				final MagicPermanent permanent = event.getTarget(game,choiceResults,1);
-				if (permanent != null) {
-					game.doAction(new MagicDestroyAction(permanent));
-				}
-			}
+                event.processTargetPermanent(game,choiceResults,1,new MagicPermanentAction() {
+                    public void doAction(final MagicPermanent permanent) {
+                        game.doAction(new MagicDestroyAction(permanent));
+                    }
+                });
+            }
 		}
     };
 }

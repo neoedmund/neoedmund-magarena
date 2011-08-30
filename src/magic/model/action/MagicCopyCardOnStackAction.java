@@ -4,6 +4,7 @@ import magic.model.MagicGame;
 import magic.model.MagicPlayer;
 import magic.model.event.MagicStackChangeTargetsEvent;
 import magic.model.stack.MagicCardOnStack;
+import magic.model.choice.MagicTargetChoice;
 
 public class MagicCopyCardOnStackAction extends MagicAction {
 
@@ -18,10 +19,10 @@ public class MagicCopyCardOnStackAction extends MagicAction {
 	@Override
 	public void doAction(final MagicGame game) {
 		final MagicCardOnStack copyCardOnStack=cardOnStack.copyCardOnStack(player);
-		final long id=game.incTime(); //createIdentifier(MagicIdentifierType.ItemOnStack);
+		final long id=game.incTime();
 		copyCardOnStack.setId(id);
 		game.getStack().addToTop(copyCardOnStack);
-		if (copyCardOnStack.getEvent().getTargetChoice()!=null) {
+		if (copyCardOnStack.getEvent().getTargetChoice() != MagicTargetChoice.NONE) {
 			copyCardOnStack.getChoiceResults()[0]=null;
 			game.addEvent(new MagicStackChangeTargetsEvent(copyCardOnStack));
 		}
