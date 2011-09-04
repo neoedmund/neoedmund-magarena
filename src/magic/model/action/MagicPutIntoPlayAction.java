@@ -4,14 +4,17 @@ import magic.ai.ArtificialScoringSystem;
 import magic.model.MagicCardDefinition;
 import magic.model.MagicGame;
 import magic.model.MagicPermanent;
+import magic.model.trigger.MagicPermanentTrigger;
 import magic.model.MagicPlayer;
 import magic.model.trigger.MagicTrigger;
 import magic.model.trigger.MagicTriggerType;
 
+import java.util.LinkedList;
+
 public abstract class MagicPutIntoPlayAction extends MagicAction {
 
-	private MagicPermanent permanent;
-	private MagicPermanent enchantedPermanent;
+	private MagicPermanent permanent = MagicPermanent.NONE;
+	private MagicPermanent enchantedPermanent = MagicPermanent.NONE;
 
 	@Override
 	public void doAction(final MagicGame game) {
@@ -21,7 +24,7 @@ public abstract class MagicPutIntoPlayAction extends MagicAction {
 		final MagicPlayer controller=permanent.getController();
 		controller.addPermanent(permanent);
 				
-		if (enchantedPermanent!=null) {
+		if (enchantedPermanent.isValid()) {
 			enchantedPermanent.addAura(permanent);
 			permanent.setEnchantedCreature(enchantedPermanent);			
 		}
@@ -44,12 +47,12 @@ public abstract class MagicPutIntoPlayAction extends MagicAction {
 
 	@Override
 	public void undoAction(final MagicGame game) {
-		if (enchantedPermanent!=null) {			
+		if (enchantedPermanent.isValid()) {			
 			enchantedPermanent.removeAura(permanent);
-			permanent.setEnchantedCreature(null);
+			permanent.setEnchantedCreature(MagicPermanent.NONE);
 		}
 		permanent.getController().removePermanent(permanent);
-		game.removeTriggers(permanent,null);
+		game.removeTriggers(permanent,new LinkedList<MagicPermanentTrigger>());
 	}
 	
 	protected void setEnchantedPermanent(final MagicPermanent enchantedPermanent) {

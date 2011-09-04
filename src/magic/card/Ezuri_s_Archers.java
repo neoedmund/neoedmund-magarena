@@ -13,7 +13,7 @@ public class Ezuri_s_Archers {
 		public MagicEvent executeTrigger(final MagicGame game,final MagicPermanent permanent,final MagicPermanent data) {
             final MagicPermanent blocked=permanent.getBlockedCreature();
 			return (permanent==data && 
-                    blocked!=null &&
+                    blocked.isValid() &&
                     blocked.hasAbility(game,MagicAbility.Flying)) ?
                 new MagicEvent(
                         permanent,
@@ -21,7 +21,7 @@ public class Ezuri_s_Archers {
                         new Object[]{permanent},
                         this,
                         permanent + " gets +3/+0 until end of turn."):
-                null;
+                MagicEvent.NONE;
 		}
 		@Override
 		public void executeEvent(

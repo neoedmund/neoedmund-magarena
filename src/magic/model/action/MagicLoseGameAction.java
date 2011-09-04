@@ -12,7 +12,7 @@ public class MagicLoseGameAction extends MagicAction {
 	
 	private final MagicPlayer player;
 	private final String reason;
-	private MagicPlayer oldLosingPlayer;
+	private MagicPlayer oldLosingPlayer = MagicPlayer.NONE;
 	
 	public MagicLoseGameAction(final MagicPlayer player,final String reason) {
 		this.player=player;
@@ -22,7 +22,7 @@ public class MagicLoseGameAction extends MagicAction {
 	@Override
 	public void doAction(final MagicGame game) {
 		oldLosingPlayer=game.getLosingPlayer();
-		if (oldLosingPlayer==null&&player.canLose()) {
+		if (oldLosingPlayer==MagicPlayer.NONE && player.canLose()) {
 			setScore(player,ArtificialScoringSystem.getLoseGameScore(game));
 			game.setLosingPlayer(player);
 			game.logMessage(player,reason);

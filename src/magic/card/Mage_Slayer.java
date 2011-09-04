@@ -16,14 +16,14 @@ public class Mage_Slayer {
 		public MagicEvent executeTrigger(final MagicGame game,final MagicPermanent permanent,final MagicPermanent creature) {
 			final MagicPermanent equippedCreature=permanent.getEquippedCreature();
             final MagicPlayer player=permanent.getController();
-			return (equippedCreature!=null&&equippedCreature==creature) ?
+			return (equippedCreature.isValid() && equippedCreature==creature) ?
                 new MagicEvent(
                         permanent,
                         player,
                         new Object[]{equippedCreature,game.getOpponent(player)},
                         this,
 						equippedCreature+ " deals damage equal to its power to defending player."):
-                null;
+                MagicEvent.NONE;
 		}
 		@Override
 		public void executeEvent(

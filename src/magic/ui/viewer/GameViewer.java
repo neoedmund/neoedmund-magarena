@@ -93,7 +93,7 @@ public class GameViewer extends TexturedPanel implements ActionListener {
 			@Override
 			public void mouseEntered(final MouseEvent event) {
 				final MagicCardDefinition cardDefinition=controller.getSourceCardDefinition();
-				if (cardDefinition!=null) {
+				if (cardDefinition!=MagicCardDefinition.UNKNOWN) {
 					if (GeneralConfig.getInstance().getTextView()) {
 						controller.viewCard(cardDefinition,0);
 					} else {
@@ -141,7 +141,7 @@ public class GameViewer extends TexturedPanel implements ActionListener {
 		return undoButton.isEnabled();
 	}
 	
-	private void enableUndoButton(final boolean thinking) {
+	public void enableUndoButton(final boolean thinking) {
 		final int undoPoints=game.getNrOfUndoPoints();
 		final boolean allowUndo=undoPoints>0&&!thinking;
 		undoButton.setEnabled(allowUndo);

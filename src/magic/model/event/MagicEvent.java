@@ -28,7 +28,15 @@ import java.util.List;
 
 public class MagicEvent implements MagicCopyable {
 
+	public static final MagicEvent NONE = new MagicEvent() {
+        @Override
+        public boolean isValid() {
+            return false;
+        }
+    };
+
 	public static final MagicEvent NO_EVENTS[] = new MagicEvent[0];
+    public static final MagicSource NO_SOURCE = MagicCard.NONE;
 	public static final MagicChoice NO_CHOICES = MagicChoice.NONE;
 	public static final Object NO_CHOICE_RESULTS[] = new Object[0];
 	public static final Object NO_DATA[] = new Object[0];
@@ -74,7 +82,7 @@ public class MagicEvent implements MagicCopyable {
             final Object data[],
             final MagicEventAction action,
             final String description) {
-		this(source,player,NO_CHOICES,null,data,action,description);
+		this(source,player,NO_CHOICES,MagicDefaultTargetPicker.getInstance(),data,action,description);
 	}
 	
 	private MagicEvent() {
@@ -97,6 +105,10 @@ public class MagicEvent implements MagicCopyable {
 		action=sourceEvent.action;
 		description=sourceEvent.description;
 	}
+
+    public boolean isValid() {
+        return true;
+    }
 	
 	public final MagicSource getSource() {
 		return source;
@@ -151,15 +163,12 @@ public class MagicEvent implements MagicCopyable {
 	}
 	
 	public final String getDescription(final Object choiceResults[]) {
-		if (description!=null) {
-			return MagicMessage.replaceChoices(description,choiceResults);
-		}
-		return description;
+        return MagicMessage.replaceChoices(description,choiceResults);
 	}
 
 	public final String getChoiceDescription() {
 		final String description=getDescription(MagicEvent.NO_CHOICE_RESULTS);
-		if (description!=null) {
+		if (description.length() > 0) {
 			return description;
 		}
 		return hasChoice()?choice.getDescription():"";
@@ -276,7 +285,7 @@ public class MagicEvent implements MagicCopyable {
 	}
 
     public String toString() {
-        return "EVENT: " + player.getIndex() + " " + description + " " + (choice != null ? choice.getDescription() : "null");
+        return "EVENT: " + player.getIndex() + " " + description + " " + (hasChoice() ? choice.getDescription() : "");
     }
 
     public long getEventId() {

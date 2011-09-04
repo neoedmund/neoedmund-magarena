@@ -35,10 +35,10 @@ public class GameController {
 	private final GamePanel gamePanel;
 	private final MagicGame game;
 	private final boolean testMode;
-	private final boolean selfMode;
-	private final AtomicBoolean running;
-	private final AtomicBoolean gameConceded;
-	private final Collection<ChoiceViewer> choiceViewers;
+	private final boolean selfMode = System.getProperty("selfMode") != null;
+	private final AtomicBoolean running = new AtomicBoolean(false);
+	private final AtomicBoolean gameConceded = new AtomicBoolean(false);
+	private final Collection<ChoiceViewer> choiceViewers = new ArrayList<ChoiceViewer>();
 	private Set<Object> validChoices;
 	private CardViewer cardViewer;
 	private CardViewer imageCardViewer;
@@ -47,23 +47,22 @@ public class GameController {
 	private boolean actionClicked=false;
 	private boolean combatChoice=false;
 	private boolean resetGame=false;
-	private Object choiceClicked=null;
+	private Object choiceClicked;
 	private MagicCardDefinition sourceCardDefinition;
 	
 	public GameController(final GamePanel gamePanel,final MagicGame game) {
 		this.gamePanel=gamePanel;
 		this.game=game;
-		testMode = (gamePanel==null);
-        selfMode = System.getProperty("selfMode") != null;
-		running =new AtomicBoolean(false);
-        gameConceded = new AtomicBoolean(false);
-		choiceViewers = new ArrayList<ChoiceViewer>();
+		testMode = false;
 		clearValidChoices();
 	}
 	
 	/** Fully artificial test game. */
-	public GameController(final MagicGame game) {
-		this(null,game);
+    public GameController(final MagicGame game) {
+		this.gamePanel=null;
+		this.game=game;
+		testMode = true;
+		clearValidChoices();
 	}
 		
 	public void enableForwardButton() {
@@ -81,8 +80,18 @@ public class GameController {
             }
         });
 	}
+	
+    public void disableActionUndoButtons() {
+        SwingUtilities.invokeLater(new Runnable() {
+            public void run() {
+                gameViewer.disableButton(false);
+		        gameViewer.enableUndoButton(true);
+            }
+        });
+	}
     
-    public static void pause(int t) {
+    public void pause(int t) {
+        disableActionUndoButtons();
         try { //sleep
             Thread.sleep(t);
 		} catch (final InterruptedException ex) {
@@ -150,7 +159,7 @@ public class GameController {
 			undoClicked = true;
 			actionClicked = false;
 			choiceClicked = null;
-			setSourceCardDefinition(null);
+			setSourceCardDefinition(MagicEvent.NO_SOURCE);
 			clearValidChoices();
 			notifyAll();
 		}
@@ -262,11 +271,7 @@ public class GameController {
 	}
 
 	public void setSourceCardDefinition(final MagicSource source) {
-		if (source!=null) {
-			sourceCardDefinition=source.getCardDefinition();
-		} else {
-			sourceCardDefinition=null;
-		}
+        sourceCardDefinition=source.getCardDefinition();
 	}
 	
 	public MagicCardDefinition getSourceCardDefinition() {
@@ -325,7 +330,10 @@ public class GameController {
     }
 	
 	public String getMessageWithSource(final MagicSource source,final String message) {
-		if (source==null) {
+        if (source == null) {
+            throw new RuntimeException("source is null");
+        }
+		if (source == MagicEvent.NO_SOURCE) {
 			return message;
 		} else {
 			return "("+source+")|"+message;
@@ -362,8 +370,7 @@ public class GameController {
 		//dynamically get the AI based on the player's index
 		final MagicPlayer player = event.getPlayer();
 		final MagicAI ai = game.getTournament().getAIs()[player.getIndex()];
-		final Object choiceResults[]=ai.findNextEventChoiceResults(game, player);
-		return choiceResults;
+		return ai.findNextEventChoiceResults(game, player);
 	}
 
 	private Object[] getPlayerNextEventChoiceResults(final MagicEvent event) {
@@ -371,7 +378,7 @@ public class GameController {
 		setSourceCardDefinition(source);
 		final Object choiceResults[]=event.getChoice().getPlayerChoiceResults(this,game,event.getPlayer(),source);
 		clearValidChoices();
-		setSourceCardDefinition(null);
+		setSourceCardDefinition(MagicEvent.NO_SOURCE);
 		return choiceResults;
 	}
 
@@ -437,7 +444,7 @@ public class GameController {
 							
 				game.logMessages();
 				clearValidChoices();
-				showMessage(null,
+				showMessage(MagicEvent.NO_SOURCE,
                     "{L} " + 
                     game.getLosingPlayer() + " " + 
                     (gameConceded.get() ? "conceded" : "lost" ) + 

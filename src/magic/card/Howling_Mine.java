@@ -11,15 +11,14 @@ public class Howling_Mine {
 	public static final MagicAtUpkeepTrigger T = new MagicAtUpkeepTrigger() {
 		@Override
 		public MagicEvent executeTrigger(final MagicGame game,final MagicPermanent permanent,final MagicPlayer player) {
-			if (!permanent.isTapped()) {
-				return new MagicEvent(
-						permanent,
-						player,
-						new Object[]{player},
-						this,
-						player + " draws a card.");
-			}
-			return null;
+			return (!permanent.isTapped()) ?
+				new MagicEvent(
+                    permanent,
+                    player,
+                    new Object[]{player},
+                    this,
+                    player + " draws a card."):
+                MagicEvent.NONE;
 		}
 		
 		@Override

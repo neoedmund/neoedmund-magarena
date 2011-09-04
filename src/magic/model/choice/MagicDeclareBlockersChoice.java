@@ -54,7 +54,7 @@ public class MagicDeclareBlockersChoice extends MagicChoice {
 						}
 					}
 					blocker.clearState(MagicPermanentState.Blocking);
-					blocker.setBlockedCreature(null);
+					blocker.setBlockedCreature(MagicPermanent.NONE);
 				}
 				attacker.permanent.removeBlockingCreatures();
 				result.add(creatures.toArray(new MagicCombatCreature[0]));
@@ -103,7 +103,7 @@ public class MagicDeclareBlockersChoice extends MagicChoice {
 				if (attacker.getBlockingCreatures().isEmpty()) {
 					attacker.clearState(MagicPermanentState.Blocked);
 				}
-				blocker.setBlockedCreature(null);
+				blocker.setBlockedCreature(MagicPermanent.NONE);
 				blocker.clearState(MagicPermanentState.Blocking);
 			// Block an attacker.
 			} else {
@@ -115,7 +115,7 @@ public class MagicDeclareBlockersChoice extends MagicChoice {
 				    buildResult(builder,result); // For cleanup.
 					return UNDO_CHOICE_RESULTS;
 				}
-				controller.setSourceCardDefinition(null);
+				controller.setSourceCardDefinition(MagicEvent.NO_SOURCE);
 				controller.clearValidChoices();					
 				final MagicPermanent attacker=(MagicPermanent)controller.getChoiceClicked();
 				attacker.addBlockingCreature(blocker);

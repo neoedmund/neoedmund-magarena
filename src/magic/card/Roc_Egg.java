@@ -14,7 +14,7 @@ public class Roc_Egg {
     public static final MagicWhenPutIntoGraveyardTrigger T = new MagicWhenPutIntoGraveyardTrigger() {
 		@Override
 		public MagicEvent executeTrigger(final MagicGame game,final MagicPermanent permanent,final MagicGraveyardTriggerData triggerData) {
-			final MagicPlayer player = (permanent != null) ? permanent.getController() : null;
+			final MagicPlayer player = permanent.getController();
 			return (MagicLocationType.Play == triggerData.fromLocation) ?
 				new MagicEvent(
                     permanent,
@@ -22,7 +22,7 @@ public class Roc_Egg {
                     new Object[]{player},
                     this,
                     player + " puts a 3/3 white Bird creature token with flying onto the battlefield.") :
-                null;
+                MagicEvent.NONE;
 		}
 		
 		@Override

@@ -22,14 +22,14 @@ public class MagicPlayChoice extends MagicChoice {
 	
 	private static final MagicChoice INSTANCE=new MagicPlayChoice();
 
-	private static final String MESSAGE="Choose a card or ability to play.|Press {f} to pass priority.";
+	private static final String MESSAGE="Play a card or ability.|Press {f} to pass priority.";
 	private static final String CONTINUE_MESSAGE="Press {f} to pass priority.";
 	
 	private static final Collection<Object> PASS_OPTIONS=Collections.<Object>singleton(MagicPlayChoiceResult.SKIP);
 	private static final Object PASS_CHOICE_RESULTS[]=new Object[]{MagicPlayChoiceResult.SKIP};
 	
 	private MagicPlayChoice() {
-		super("Choose a card or ability to play.");
+		super("Play a card or ability.");
 	}
 	
 	@Override
@@ -109,7 +109,7 @@ public class MagicPlayChoice extends MagicChoice {
         //anything but resolve triggers
         if (game.isPhase(MagicPhaseType.CombatDamage)) {
             if (!game.getStack().isEmpty()) {
-                GameController.pause(GeneralConfig.getInstance().getMessageDelay());
+                controller.pause(GeneralConfig.getInstance().getMessageDelay());
             }
 			return PASS_CHOICE_RESULTS;
         }
@@ -131,7 +131,7 @@ public class MagicPlayChoice extends MagicChoice {
             if (skip) {
                 //pause if there is an item on the stack
                 if (!game.getStack().isEmpty()) {
-                    GameController.pause(GeneralConfig.getInstance().getMessageDelay());
+                    controller.pause(GeneralConfig.getInstance().getMessageDelay());
                 }
     			return PASS_CHOICE_RESULTS;
             }

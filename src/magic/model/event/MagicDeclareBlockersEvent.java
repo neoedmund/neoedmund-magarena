@@ -22,6 +22,6 @@ public class MagicDeclareBlockersEvent extends MagicEvent {
 	
 	public MagicDeclareBlockersEvent(final MagicPlayer player) {
 		
-		super(null,player,MagicDeclareBlockersChoice.getInstance(),new Object[]{player},EVENT_ACTION,null);
+		super(MagicEvent.NO_SOURCE,player,MagicDeclareBlockersChoice.getInstance(),new Object[]{player},EVENT_ACTION,"");
 	}
 }

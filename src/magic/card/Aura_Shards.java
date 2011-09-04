@@ -16,19 +16,18 @@ public class Aura_Shards {
 		@Override
 		public MagicEvent executeTrigger(final MagicGame game,final MagicPermanent permanent,final MagicPermanent otherPermanent) {
 			final MagicPlayer player = permanent.getController();
-			return (otherPermanent.isCreature() &&
-					otherPermanent.getController() == player) ?
-							new MagicEvent(
-			                        permanent,
-			                        player,
-			                        new MagicMayChoice(
-			                            "You may destroy target artifact or enchantment.",
-			                            MagicTargetChoice.NEG_TARGET_ARTIFACT_OR_ENCHANTMENT),
-			                        new MagicDestroyTargetPicker(false),
-			                        MagicEvent.NO_DATA,
-			                        this,
-			                        "You may$ destroy target artifact or enchantment$."):
-			                null;
+			return (otherPermanent.isCreature() && otherPermanent.getController() == player) ?
+                new MagicEvent(
+                        permanent,
+                        player,
+                        new MagicMayChoice(
+                            "You may destroy target artifact or enchantment.",
+                            MagicTargetChoice.NEG_TARGET_ARTIFACT_OR_ENCHANTMENT),
+                        new MagicDestroyTargetPicker(false),
+                        MagicEvent.NO_DATA,
+                        this,
+                        "You may$ destroy target artifact or enchantment$."):
+	            MagicEvent.NONE;
 		}
 		
 		@Override

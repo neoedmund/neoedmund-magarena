@@ -78,28 +78,23 @@ public class DeckViewer extends JPanel {
 	}
 	
 	private void setCardImage(final DeckEntry entry) {
-
 		cardViewer.setCard(entry.card,0);
 	}
 
 	public void setNameFont(final Font nameFont) {
-		
 		this.nameFont=nameFont;
 	}
 		
 	public void changePlayer(final MagicPlayerDefinition player) {
-
 		this.player=player;
 		update();
 	}
 	
 	public MagicPlayerDefinition getPlayer() {
-		
 		return player;
 	}
 	
 	public String getDeckName() {
-		
 		return player==null?"Deck":player.getDeck().getName();
 	}
 	
@@ -146,7 +141,6 @@ public class DeckViewer extends JPanel {
 	}
 	
 	public void updateAfterEdit() {
-		
 		statisticsViewer.setPlayer(player);
 		update();
 	}
@@ -254,7 +248,7 @@ public class DeckViewer extends JPanel {
 			final JPanel rightPanel=new JPanel();
 			rightPanel.setOpaque(false);
 			rightPanel.setLayout(new BorderLayout(1,0));
-			final JLabel countLabel=new JLabel(count>1?""+count:"");
+			final JLabel countLabel=new JLabel(count>1?Integer.toString(count):"");
 			countLabel.setPreferredSize(new Dimension(16,0));
 			countLabel.setHorizontalAlignment(JLabel.CENTER);
 			rightPanel.add(countLabel,BorderLayout.WEST);

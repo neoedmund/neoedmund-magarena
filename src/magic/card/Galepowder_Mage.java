@@ -27,7 +27,7 @@ public class Galepowder_Mage {
             				this,
             				"Exile target creature$. Return that card to the " +
             				"battlefield under its owner's control at end of turn.") :
-            null;         
+                    MagicEvent.NONE;         
 		}
 		@Override
 		public void executeEvent(

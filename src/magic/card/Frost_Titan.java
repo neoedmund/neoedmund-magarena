@@ -23,16 +23,15 @@ public class Frost_Titan {
     public static final MagicWhenTargetedTrigger T1 = new MagicWhenTargetedTrigger() {
         @Override
         public MagicEvent executeTrigger(final MagicGame game,final MagicPermanent permanent,final MagicItemOnStack target) {
-            if (target.containsInChoiceResults(permanent) &&
-                target.getController() != permanent.getController()) {
-                return new MagicEvent(
-                        permanent,
-                        permanent.getController(),
-                        new Object[]{permanent,target},
-                        this,
-                        "Counter spell or ability$ unless its controller pays {2}.");
-            }
-            return null;
+            return (target.containsInChoiceResults(permanent) &&
+                    target.getController() != permanent.getController()) ?
+                new MagicEvent(
+                    permanent,
+                    permanent.getController(),
+                    new Object[]{permanent,target},
+                    this,
+                    "Counter spell or ability$ unless its controller pays {2}."):
+                MagicEvent.NONE;
         }
         
         @Override
@@ -85,7 +84,7 @@ public class Frost_Titan {
                     MagicEvent.NO_DATA,
                     this,
                     "Tap target permanent$. It doesn't untap during its controller's next untap step."):
-                null;
+                MagicEvent.NONE;
         }
         @Override
         public void executeEvent(
