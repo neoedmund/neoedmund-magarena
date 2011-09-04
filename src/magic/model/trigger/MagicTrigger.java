@@ -1,0 +1,51 @@
+package magic.model.trigger;
+
+import magic.data.CardDefinitions;
+import magic.model.MagicCardDefinition;
+import magic.model.MagicGame;
+import magic.model.MagicCard;
+import magic.model.MagicDamage;
+import magic.model.MagicPlayer;
+import magic.model.MagicPermanent;
+import magic.model.stack.MagicCardOnStack;
+import magic.model.stack.MagicItemOnStack;
+import magic.model.event.MagicEvent;
+import magic.model.event.MagicEventAction;
+import magic.model.trigger.MagicGraveyardTriggerData;
+
+/** Lower priority values trigger before higher priority values. */
+public abstract class MagicTrigger<T> implements MagicEventAction {
+
+	private static final int DEFAULT_PRIORITY=10;
+	
+	private final int priority;
+	private int cardIndex;
+
+    protected MagicTrigger(final int priority) {
+        this.priority = priority;
+	}
+	
+	protected MagicTrigger() {
+		this(DEFAULT_PRIORITY);
+	}
+
+    public void setCardIndex(final int cardIndex) {
+        this.cardIndex = cardIndex;
+    }
+	
+	public final MagicCardDefinition getCardDefinition() {
+		return CardDefinitions.getInstance().getCard(cardIndex);
+	}
+		
+	public final int getPriority() {
+		return priority;
+	}
+	
+	public boolean usesStack() {
+		return getType().usesStack();
+	}
+	
+    public abstract MagicTriggerType getType();
+	
+    public abstract MagicEvent executeTrigger(final MagicGame game,final MagicPermanent permanent, final T data);
+}
