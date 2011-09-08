@@ -20,6 +20,22 @@ import magic.model.stack.MagicTriggerOnStack;
 import magic.model.target.MagicDestroyTargetPicker;
 
 public class Kor_Sanctifiers {
+                	
+    private static final MagicEventAction KICKED = new MagicEventAction() {
+        @Override
+        public void executeEvent(
+            final MagicGame game,
+            final MagicEvent event,
+            final Object[] data,
+            final Object[] choiceResults) {
+            event.processTargetPermanent(game,choiceResults,0,new MagicPermanentAction() {
+                public void doAction(final MagicPermanent target) {
+                    game.doAction(new MagicDestroyAction(target));
+                }
+            });
+        }
+    };
+
 	public static final MagicSpellCardEvent S = new MagicSpellCardEvent() {
 		@Override
 		public MagicEvent getEvent(final MagicCardOnStack cardOnStack,final MagicPayedCost payedCost) {
@@ -53,20 +69,7 @@ public class Kor_Sanctifiers {
 					MagicTargetChoice.NEG_TARGET_ARTIFACT_OR_ENCHANTMENT,
 					new MagicDestroyTargetPicker(false),
 					MagicEvent.NO_DATA,
-                	new MagicEventAction() {
-                        @Override
-                        public void executeEvent(
-                            final MagicGame game,
-                            final MagicEvent event,
-                            final Object[] data,
-                            final Object[] choiceResults) {
-                        	event.processTargetPermanent(game,choiceResults,0,new MagicPermanentAction() {
-                                public void doAction(final MagicPermanent target) {
-                                	game.doAction(new MagicDestroyAction(target));
-                                }
-                			});
-		                }
-	                },
+                    KICKED,
 	                "Destroy target artifact or enchantment$."
                 );
 				game.doAction(new MagicPutItemOnStackAction(new MagicTriggerOnStack(permanent,triggerEvent)));
