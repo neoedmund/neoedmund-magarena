@@ -25,10 +25,10 @@ import magic.model.event.MagicPayManaCostEvent;
 import magic.model.event.MagicPermanentActivation;
 import magic.model.event.MagicTapManaActivation;
 import magic.model.event.MagicTiming;
-import magic.model.variable.MagicDummyLocalVariable;
-import magic.model.variable.MagicLocalVariable;
 import magic.model.trigger.MagicWhenAttacksTrigger;
 import magic.model.trigger.MagicTappedIntoPlayTrigger;
+import magic.model.mstatic.MagicStatic;
+import magic.model.mstatic.MagicLayer;
 
 import java.util.Arrays;
 import java.util.EnumSet;
@@ -41,7 +41,7 @@ public class Raging_Ravine {
                 final MagicGame game,
                 final MagicPermanent permanent,
                 final MagicPermanent creature) {
-			return (permanent == creature && permanent.isCreature()) ?
+			return (permanent == creature && permanent.isCreature(game)) ?
 				new MagicEvent(
                     permanent,
                     permanent.getController(),
@@ -65,7 +65,7 @@ public class Raging_Ravine {
 		}
 	};
 
-    private static final MagicLocalVariable RR = new MagicDummyLocalVariable() {
+    private static final MagicStatic PT = new MagicStatic(MagicLayer.SetPT, MagicStatic.UntilEOT) {
 		@Override
 		public void getPowerToughness(
                 final MagicGame game,
@@ -73,6 +73,9 @@ public class Raging_Ravine {
                 final MagicPowerToughness pt) {
 			pt.set(3,3);
 		}
+    };
+
+    private static final MagicStatic ST = new MagicStatic(MagicLayer.Type, MagicStatic.UntilEOT) {
 		@Override
 		public EnumSet<MagicSubType> getSubTypeFlags(
                 final MagicPermanent permanent,
@@ -85,6 +88,9 @@ public class Raging_Ravine {
 		public int getTypeFlags(final MagicPermanent permanent,final int flags) {
 			return flags|MagicType.Creature.getMask();
 		}
+    };
+
+    private static final MagicStatic C = new MagicStatic(MagicLayer.Color, MagicStatic.UntilEOT) {
 		@Override
 		public int getColorFlags(final MagicPermanent permanent,final int flags) {
 			return MagicColor.Red.getMask()|MagicColor.Green.getMask();
@@ -125,7 +131,7 @@ public class Raging_Ravine {
                 final Object[] data,
                 final Object[] choiceResults) {
 			final MagicPermanent permanent=(MagicPermanent)data[0];
-			game.doAction(new MagicBecomesCreatureAction(permanent,RR));
+			game.doAction(new MagicBecomesCreatureAction(permanent,PT,ST,C));
 			game.doAction(new MagicAddTurnTriggerAction(permanent,CT));
         }
     };
