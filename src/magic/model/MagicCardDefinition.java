@@ -17,9 +17,8 @@ import magic.model.trigger.MagicBattleCryTrigger;
 import magic.model.trigger.MagicExaltedTrigger;
 import magic.model.trigger.MagicTrigger;
 import magic.model.mstatic.MagicStatic;
-import magic.model.variable.MagicAttachmentLocalVariable;
-import magic.model.variable.MagicLocalVariable;
-import magic.model.variable.MagicLocalVariableList;
+import magic.model.mstatic.MagicCDA;
+import magic.model.mstatic.MagicLayer;
 import magic.ui.theme.Theme;
 import magic.ui.theme.ThemeFactory;
 
@@ -58,7 +57,7 @@ public class MagicCardDefinition {
     private static int numManaActivations = 0;
     private static int numSpellEvent = 0;
     private static int numModifications = 0;
-    private static int numLocalVariables = 0;
+    private static int numCDAs = 0;
 
 	private final String name;
 	private final String fullName;
@@ -87,8 +86,8 @@ public class MagicCardDefinition {
 	private MagicTiming timing=MagicTiming.None;
 	private MagicCardEvent cardEvent=MagicPlayCardEvent.getInstance();
     private MagicActivation cardActivation;
-    private MagicLocalVariable attachmentLocalVariable;
-	private final MagicLocalVariableList localVariables=new MagicLocalVariableList();
+    private Collection<MagicStatic> attStatics;
+	private final Collection<MagicCDA> CDAs = new ArrayList<MagicCDA>();
 	private final Collection<MagicTrigger> triggers=new ArrayList<MagicTrigger>();
 	private final Collection<MagicStatic> statics=new ArrayList<MagicStatic>();
 	private final Collection<MagicTrigger> comeIntoPlayTriggers=new ArrayList<MagicTrigger>();
@@ -116,8 +115,58 @@ public class MagicCardDefinition {
 		System.err.println(numManaActivations + " mana activations");
 		System.err.println(numSpellEvent + " spell event");
 		System.err.println(numModifications + " card modifications");
-		System.err.println(numLocalVariables + " local variables");
+		System.err.println(numCDAs + " CDAs");
     }
+	
+    public Collection<MagicStatic> getAttachmentStatics(final MagicGame game, final MagicPlayer player) {
+        if (attStatics != null) {
+            return attStatics;
+        }
+
+        attStatics = new ArrayList<MagicStatic>();
+        
+        //added modification to p/t    
+        final MagicPowerToughness modPT = genPowerToughness(game, player); 
+        if (modPT.power() > 0 || modPT.toughness() > 0) {
+            attStatics.add(new MagicStatic(MagicLayer.ModPT) {
+                @Override
+                public void getPowerToughness(
+                    final MagicGame game,
+                    final MagicPermanent permanent,
+                    final MagicPowerToughness pt) {
+                    pt.add(modPT);
+                }
+                @Override
+                public boolean accept(final MagicGame game,final MagicPermanent source,final MagicPermanent target) {
+                    return (source.isEquipment()) ? 
+                        source.getEquippedCreature() == target :
+                        source.getEnchantedCreature() == target;
+                }
+            });
+        }
+
+        //grant abilities
+        final long givenAbilityFlag = getGivenAbilityFlags();
+        if (givenAbilityFlag != 0) {
+            attStatics.add(new MagicStatic(MagicLayer.Ability) {
+                @Override
+                public long getAbilityFlags(
+                    final MagicGame game,
+                    final MagicPermanent permanent,
+                    long flags) {
+                    return flags | givenAbilityFlag;
+                }
+                @Override
+                public boolean accept(final MagicGame game,final MagicPermanent source,final MagicPermanent target) {
+                    return (source.isEquipment()) ? 
+                        source.getEquippedCreature() == target :
+                        source.getEnchantedCreature() == target;
+                }
+            });
+        }
+
+		return attStatics;
+	}
 
     public boolean isValid() {
         return true;
@@ -267,11 +316,11 @@ public class MagicCardDefinition {
             chg.change(this);
             System.err.println("Adding modification to " + getFullName());
             numModifications++;
-        } else if (obj instanceof MagicLocalVariable) {
-            final MagicLocalVariable lvar = (MagicLocalVariable)obj;
-            addLocalVariable(lvar);
-            System.err.println("Adding local variable to " + getFullName());
-            numLocalVariables++;
+        } else if (obj instanceof MagicCDA) {
+            final MagicCDA cda = (MagicCDA)obj;
+            CDAs.add(cda);
+            System.err.println("Adding CDA to " + getFullName());
+            numCDAs++;
         } else {
             System.err.println("ERROR! Unable to add object to MagicCardDefinition");
             throw new RuntimeException("Unknown field in companion object");
@@ -545,8 +594,8 @@ public class MagicCardDefinition {
         return power;
     }
 
-	public int getPower(final MagicGame game) {
-		return genPowerToughness(game).power();
+	public int getPower(final MagicGame game, final MagicPlayer player) {
+		return genPowerToughness(game,player).power();
 	}
 	
 	public void setToughness(final int toughness) {
@@ -557,14 +606,14 @@ public class MagicCardDefinition {
         return toughness;
     }
 	
-	public int getToughness(final MagicGame game) {
-		return genPowerToughness(game).toughness();
+	public int getToughness(final MagicGame game, final MagicPlayer player) {
+		return genPowerToughness(game,player).toughness();
 	}	
 
-    public MagicPowerToughness genPowerToughness(final MagicGame game) {
+    public MagicPowerToughness genPowerToughness(final MagicGame game, final MagicPlayer player) {
         final MagicPowerToughness pt = new MagicPowerToughness(power, toughness);
-        for (final MagicLocalVariable lv : localVariables) {
-            lv.getPowerToughness(game, MagicPermanent.NONE, pt);
+        for (final MagicCDA lv : CDAs) {
+            lv.getPowerToughness(game, player, pt);
         }
         return pt;
     }
@@ -617,21 +666,6 @@ public class MagicCardDefinition {
 	
 	public MagicTiming getTiming() {
 		return timing;
-	}
-				
-	MagicLocalVariable getAttachmentLocalVariable() {
-        if (attachmentLocalVariable == null) {
-            attachmentLocalVariable = new MagicAttachmentLocalVariable(this);
-        }
-		return attachmentLocalVariable;
-	}
-	
-	public void addLocalVariable(final MagicLocalVariable localVariable) {
-		localVariables.add(localVariable);
-	}
-	
-	List<MagicLocalVariable> getLocalVariables() {
-        return localVariables;
 	}
 	
 	private void setCardEvent(final MagicCardEvent cardEvent) {
