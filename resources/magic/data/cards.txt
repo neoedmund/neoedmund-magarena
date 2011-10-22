@@ -16522,3 +16522,96 @@ cost={4}{U}{R}
 pt=6/6
 ability=flying,trample
 timing=main
+
+>Illusionary Forces
+url=http://magiccards.info/ia/en/75.html
+image=http://magiccards.info/scans/en/ia/75.jpg
+value=4
+rarity=U
+type=Creature
+subtype=Illusion
+color=u
+converted=4
+cost={3}{U}
+pt=4/4
+ability=flying
+timing=main
+
+>Illusionary Wall
+url=http://magiccards.info/ia/en/78.html
+image=http://magiccards.info/scans/en/ia/78.jpg
+value=4
+rarity=C
+type=Creature
+subtype=Illusion,Wall
+color=u
+converted=5
+cost={4}{U}
+pt=7/4
+ability=defender,flying,first strike
+timing=main
+
+>Jotun Owl Keeper
+url=http://magiccards.info/cs/en/9.html
+image=http://magiccards.info/scans/en/cs/9.jpg
+value=3
+rarity=U
+type=Creature
+subtype=Giant
+color=w
+converted=3
+cost={2}{W}
+pt=3/3
+timing=main
+
+>Kjeldoran Javelineer
+url=http://magiccards.info/cs/en/11.html
+image=http://magiccards.info/scans/en/cs/11.jpg
+value=2
+rarity=C
+type=Creature
+subtype=Human,Soldier
+color=w
+converted=1
+cost={W}
+pt=1/2
+timing=main
+
+>Mwonvuli Ooze
+url=http://magiccards.info/wl/en/77.html
+image=http://magiccards.info/scans/en/wl/77.jpg
+value=2
+rarity=R
+type=Creature
+subtype=Ooze
+color=g
+converted=1
+cost={G}
+timing=main
+
+>Phobian Phantasm
+url=http://magiccards.info/cs/en/66.html
+image=http://magiccards.info/scans/en/cs/66.jpg
+value=3
+rarity=U
+type=Creature
+subtype=Illusion
+color=b
+converted=3
+cost={1}{B}{B}
+pt=3/3
+ability=flying,fear
+timing=main
+
+>Uktabi Efreet
+url=http://magiccards.info/wl/en/85.html
+image=http://magiccards.info/scans/en/wl/85.jpg
+value=4
+rarity=C
+type=Creature
+subtype=Efreet
+color=g
+converted=4
+cost={2}{G}{G}
+pt=5/4
+timing=main
