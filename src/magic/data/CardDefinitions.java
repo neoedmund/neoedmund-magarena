@@ -235,7 +235,7 @@ public class CardDefinitions {
 	
     private void loadCardDefinition(final File file) {
         try { //load card definitions
-            System.err.println("processing " + file);
+            System.err.println("Parsing " + file);
             final String content = FileIO.toStr(file);
             final MagicCardDefinition cdef = string2carddef(content);
             checkCard(cdef);
