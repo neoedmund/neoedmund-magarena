@@ -1,0 +1,10 @@
+>Dread Statuary
+url=http://magiccards.info/wwk/en/135.html
+image=http://magiccards.info/scans/en/wwk/135.jpg
+value=4
+rarity=U
+type=Land
+ability=tap add mana {1}
+timing=land
+mana_or_combat
+requires_card_code

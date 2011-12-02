@@ -1,0 +1,12 @@
+>Akroma's Memorial
+url=http://magiccards.info/fut/en/159.html
+image=http://magiccards.info/scans/en/fut/159.jpg
+value=5
+rarity=R
+type=Legendary,Artifact
+converted=7
+cost={7}
+static=player
+timing=artifact
+
+requires_card_code
