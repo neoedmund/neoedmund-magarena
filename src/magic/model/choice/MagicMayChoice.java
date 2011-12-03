@@ -8,6 +8,7 @@ import magic.model.event.MagicEvent;
 import magic.ui.GameController;
 import magic.ui.choice.MayChoicePanel;
 
+import java.util.concurrent.Callable;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
@@ -69,10 +70,11 @@ public class MagicMayChoice extends MagicChoice {
             final MagicPlayer player,
             final MagicSource source) {
 
-		final int nrOfChoices=choices.length;
-		if (nrOfChoices==0) {
+		final int nrOfChoices = choices.length;
+		if (nrOfChoices == 0) {
 			return NO_OTHER_CHOICE_RESULTS;
-		}		
+		}
+		
 		final int nrOfChoiceResults=nrOfChoices+1;
 		final Object noChoiceResults[]=new Object[nrOfChoiceResults];
 		noChoiceResults[0]=NO_CHOICE;
@@ -123,16 +125,19 @@ public class MagicMayChoice extends MagicChoice {
 		final Object choiceResults[]=new Object[choices.length+1];
 		choiceResults[0]=NO_CHOICE;
 
-		final boolean hints=GeneralConfig.getInstance().getSmartTarget();
+		final boolean hints = GeneralConfig.getInstance().getSmartTarget();
 		for (final MagicChoice choice : choices) {
 			if (!choice.hasOptions(game,player,source,hints)) {
 				return choiceResults;
 			}
 		}
 		
-		final MayChoicePanel choicePanel=new MayChoicePanel(controller,source,getDescription());
 		controller.disableActionButton(false);
-		controller.showComponent(choicePanel);
+		final MayChoicePanel choicePanel = controller.showComponent(new Callable<MayChoicePanel>() {
+            public MayChoicePanel call() {
+		        return new MayChoicePanel(controller,source,getDescription());
+            }
+        });
 		if (controller.waitForInputOrUndo()) {
 			return UNDO_CHOICE_RESULTS;
 		}

@@ -2,13 +2,6 @@ package magic.ui;
 
 import magic.data.IconImages;
 
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import javax.swing.JDialog;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JTextArea;
-import javax.swing.WindowConstants;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Cursor;
@@ -23,6 +16,12 @@ import java.awt.event.MouseEvent;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JDialog;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.WindowConstants;
 
 class AboutDialog extends JDialog implements ActionListener {
 
@@ -33,14 +32,14 @@ class AboutDialog extends JDialog implements ActionListener {
 	private static final Font FONT_PLAIN12 = new Font("dialog", Font.PLAIN, 12);
 	private static final Font FONT_SMALL = new Font("dialog", Font.PLAIN, 9);
 	
-	private static final String FORUM_URL = "http://www.slightlymagic.net/forum/"
-			+ "viewforum.php?f=82&sid=08ef9e6ebbb231a0c7ef65b3f12a5d77";
+	private static final String FORUM_URL = "http://www.slightlymagic.net/forum/" +
+			"viewforum.php?f=82&sid=08ef9e6ebbb231a0c7ef65b3f12a5d77";
 	private static final String REPO_URL = "http://code.google.com/p/magarena/";
-	private static final String GNU_TEXT = "This program is free software: you "
-			+ "can redistribute it and/or modify it under the terms of the GNU "
-			+ "General Public License as published by the Free Software Foundation.";
-	private static final String forumDisplayLink = "www.slightlymagic.net";
-	private static final String repoDisplayLink = "code.google.com/p/magarena";
+	private static final String GNU_TEXT = "<html>This program is free software: you can " +
+			"redistribute it and/or modify it under the terms<br />of the GNU General " +
+			"Public License as published by the Free Software Foundation.</html>";
+	private static final String FORUM_DISPLAY_LINK = "www.slightlymagic.net";
+	private static final String REPO_DISPLAY_LINK = "code.google.com/p/magarena";
 
 	private final JButton okButton;
 	
@@ -82,7 +81,7 @@ class AboutDialog extends JDialog implements ActionListener {
 		forumTextLabel.setFont(FONT_PLAIN12);
 		aboutPanel.add(forumTextLabel);
 
-		final JLabel forumLabel = new JLabel(forumDisplayLink);
+		final JLabel forumLabel = new JLabel(FORUM_DISPLAY_LINK);
 		forumLabel.setBounds(335, 130, 320, 25);
 		forumLabel.setFont(FONT_PLAIN12);
 		forumLabel.setForeground(Color.BLUE);
@@ -97,13 +96,13 @@ class AboutDialog extends JDialog implements ActionListener {
 			@Override
 			public void mouseEntered(final MouseEvent e) {
 				setCursor(new Cursor(Cursor.HAND_CURSOR));
-				forumLabel.setText("<html><u>" + forumDisplayLink + "</u></html>");
+				forumLabel.setText("<html><u>" + FORUM_DISPLAY_LINK + "</u></html>");
 			}
 
 			@Override
 			public void mouseExited(final MouseEvent e) {
 				setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
-				forumLabel.setText(forumDisplayLink);
+				forumLabel.setText(FORUM_DISPLAY_LINK);
 			}
 		});
 		
@@ -112,7 +111,7 @@ class AboutDialog extends JDialog implements ActionListener {
 		repoTextLabel.setFont(FONT_PLAIN12);
 		aboutPanel.add(repoTextLabel);
 
-		final JLabel repoLabel = new JLabel(repoDisplayLink);
+		final JLabel repoLabel = new JLabel(REPO_DISPLAY_LINK);
 		repoLabel.setBounds(365, 145, 320, 25);
 		repoLabel.setFont(FONT_PLAIN12);
 		repoLabel.setForeground(Color.BLUE);
@@ -127,23 +126,21 @@ class AboutDialog extends JDialog implements ActionListener {
 			@Override
 			public void mouseEntered(final MouseEvent e) {
 				setCursor(new Cursor(Cursor.HAND_CURSOR));
-				repoLabel.setText("<html><u>" + repoDisplayLink + "</u></html>");
+				repoLabel.setText("<html><u>" + REPO_DISPLAY_LINK + "</u></html>");
 			}
 
 			@Override
 			public void mouseExited(final MouseEvent e) {
 				setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
-				repoLabel.setText(repoDisplayLink);
+				repoLabel.setText(REPO_DISPLAY_LINK);
 			}
 		});
 
-		final JTextArea gnuTextArea = new JTextArea(GNU_TEXT);
-		gnuTextArea.setBounds(210, 220, 367, 50);
-		gnuTextArea.setFont(FONT_SMALL);
-		gnuTextArea.setEditable(false);
-		gnuTextArea.setOpaque(false);
-		gnuTextArea.setLineWrap(true);
-		aboutPanel.add(gnuTextArea);
+		final JLabel gnuLabel = new JLabel(GNU_TEXT);
+		gnuLabel.setBounds(210, 190, 367, 50);
+		gnuLabel.setFont(FONT_SMALL);
+		gnuLabel.setOpaque(false);
+		aboutPanel.add(gnuLabel);
 
 		okButton = new JButton("OK");
 		okButton.setFocusable(false);
@@ -168,7 +165,6 @@ class AboutDialog extends JDialog implements ActionListener {
 			if (Desktop.isDesktopSupported()) {
 				desktop = Desktop.getDesktop();
 			}
-
 			if (desktop != null) {
 				final URI uri = new URI(url);
 				desktop.browse(uri);

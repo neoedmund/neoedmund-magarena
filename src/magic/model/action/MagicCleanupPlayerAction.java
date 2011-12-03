@@ -14,13 +14,11 @@ public class MagicCleanupPlayerAction extends MagicAction {
     private int oldBlockers;
 	
 	public MagicCleanupPlayerAction(final MagicPlayer player) {
-		
 		this.player=player;
 	}
 
 	@Override
 	public void doAction(final MagicGame game) {
-
 		oldStateFlags=player.getStateFlags();
 		player.setStateFlags(oldStateFlags&MagicPlayerState.CLEANUP_MASK);
 
@@ -34,7 +32,7 @@ public class MagicCleanupPlayerAction extends MagicAction {
         player.setNrOfBlockers(0);
 		
 		for (final MagicPermanent permanent : player.getPermanents()) {
-			if (permanent.isCreature()) {
+			if (permanent.isCreature(game)) {
 				game.doAction(new MagicCleanupCreatureAction(permanent));
 			} else {
 				game.doAction(new MagicCleanupPermanentAction(permanent));

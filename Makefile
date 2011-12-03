@@ -14,29 +14,35 @@ check_literals:
 	grep "\"" src/magic/card/* | awk -f scripts/check_literals.awk
 
 cubes: \
-	release/mods/legacy_cube.txt \
-	release/mods/extended_cube.txt \
-	release/mods/standard_cube.txt \
-	release/mods/modern_cube.txt
+	release/Magarena/mods/legacy_cube.txt \
+	release/Magarena/mods/extended_cube.txt \
+	release/Magarena/mods/standard_cube.txt \
+	release/Magarena/mods/modern_cube.txt
 
 themes: \
-	release/mods/felt_theme.zip \
-	release/mods/blackswamp_theme.zip \
-	release/mods/bluemarble_theme.zip \
-	release/mods/darkbattle_theme.zip \
-	release/mods/gothic_theme.zip \
-	release/mods/greenforest_theme.zip \
-	release/mods/moon_theme.zip \
-	release/mods/mystic_theme.zip \
-	release/mods/nature_theme.zip \
-	release/mods/redfire_theme.zip \
-	release/mods/whiteangel_theme.zip
+	release/Magarena/mods/felt_theme.zip \
+	release/Magarena/mods/blackswamp_theme.zip \
+	release/Magarena/mods/bluemarble_theme.zip \
+	release/Magarena/mods/darkbattle_theme.zip \
+	release/Magarena/mods/gothic_theme.zip \
+	release/Magarena/mods/greenforest_theme.zip \
+	release/Magarena/mods/moon_theme.zip \
+	release/Magarena/mods/mystic_theme.zip \
+	release/Magarena/mods/nature_theme.zip \
+	release/Magarena/mods/redfire_theme.zip \
+	release/Magarena/mods/whiteangel_theme.zip
+
+cards_diff: $(MAG)
+	for i in `hg stat -q src/magic/card release/Magarena/scripts | cut -d' ' -f2 | sort -t'/' -k4`; do hg diff $$i; done | flip -u - > $@
+
+code_to_remove: $(MAG)
+	cat src/magic/card/*.java | sed 's/\s\+//g' | sed 's/(.*)/(...)/g' | sort | uniq -c | sort -n | grep publicstaticfinal | grep ");" > $@
 
 casts: $(MAG) 
-	grep -n "([A-Z]\+[a-z]\+[A-Za-z]*)" -r src/ | dos2unix > $@
+	grep -n "([A-Z]\+[a-z]\+[A-Za-z]*)" -r src/ | flip -u > $@
 
 warnings_H.txt: warnings.txt
-	grep "(H)" $^ > $@
+	grep "(H)" $^ | grep -v System.out | grep -v System.err | grep -v EXS > $@
 
 warnings.txt: $(MAG)
 	~/App/findbugs-1.3.9/bin/findbugs \
@@ -49,10 +55,10 @@ warnings.txt: $(MAG)
 			-sourcepath src \
 			build
 
-release/mods/legacy_cube.txt: cards/existing.txt cards/legacy_banned.txt
+release/Magarena/mods/legacy_cube.txt: cards/existing.txt cards/legacy_banned.txt
 	join -v1 -t"|" <(sort $(word 1,$^)) <(sort $(word 2,$^)) > $@
 
-release/mods/%_cube.txt: cards/existing.txt cards/%_all.txt
+release/Magarena/mods/%_cube.txt: cards/existing.txt cards/%_all.txt
 	join -t"|" <(sort $(word 1,$^)) <(sort $(word 2,$^)) > $@
 
 cards/modern_all.txt:
@@ -81,12 +87,19 @@ cards/standard_all.txt:
 	curl "http://magiccards.info/query?q=f%3Astandard&s=cname&v=olist&p=2" | grep "en/" | sed 's/<[^>]*>//g' >> $@
 
 cards/new.txt: cards/existing.txt
-	diff $^ cards/existing_117.txt | grep "<" | sed 's/< /  /' > $@
+	diff $^ cards/existing_old.txt | grep "<" | sed 's/< /  /' > $@
 
-cards/existing.txt: resources/magic/data/cards.txt resources/magic/data/cards2.txt
+cards/existing_scripts.txt: $(wildcard release/Magarena/scripts/*.txt)
 	cat $^ | grep "^>" | sed 's/>//' | sort > $@
+	flip -u $@
 
-cards/existing_full.txt: newcards/existing.txt cards/mtg-data.txt
+cards/existing_tokens.txt: $(wildcard release/Magarena/scripts/*.txt)
+	cat `grep token= $^ | cut -d':' -f1` | grep "^>" | sed 's/>//' | sort > $@
+
+cards/existing.txt: cards/existing_scripts.txt cards/existing_tokens.txt
+	join -v1 -t"|" <(sort $(word 1,$^)) <(sort $(word 2,$^)) > $@
+
+%_full.txt: %.txt cards/mtg-data.txt
 	awk -f scripts/extract_existing.awk $^ > $@
 
 cards/candidates_full.txt: scripts/extract_candidates.awk cards/candidates.txt cards/mtg-data.txt
@@ -95,11 +108,14 @@ cards/candidates_full.txt: scripts/extract_candidates.awk cards/candidates.txt c
 %.out: $(MAG)
 	SGE_TASK_ID=$* exp/eval_mcts.sh
 
-M1.%: cubes
+M1.%: clean all cubes
 	grep "VERSION.*1.$*" -r src/*
 	grep "Release.*1.$*" release/README.txt
+	grep 1.$* -r Magarena.app/
 	-rm -rf Magarena-1.$*
+	-rm -rf Magarena-1.$*.app
 	-rm Magarena-1.$*.zip
+	-rm Magarena-1.$*.app.zip
 	mkdir -p Magarena-1.$*/Magarena/mods
 	cp \
 			release/gpl-3.0.html \
@@ -109,15 +125,20 @@ M1.%: cubes
 			release/README.txt \
 			Magarena-1.$*
 	cp -r \
-			release/avatars \
-			release/decks \
-			release/sounds \
+			release/Magarena/avatars \
+			release/Magarena/decks \
+			release/Magarena/sounds \
+			release/Magarena/scripts \
 			Magarena-1.$*/Magarena
 	cp \
-			release/mods/felt_theme.zip \
-			release/mods/*.txt \
+			release/Magarena/mods/felt_theme.zip \
+			release/Magarena/mods/*.txt \
 			Magarena-1.$*/Magarena/mods
 	-zip -r Magarena-1.$*.zip Magarena-1.$*
+	cp -r Magarena.app Magarena-1.$*.app
+	cd Magarena-1.$*.app/Contents/Resources; ln -s ../../../Magarena-1.$* Java
+	chmod a+x Magarena-1.$*.app/Contents/MacOS/JavaApplicationStub
+	-zip -r Magarena-1.$*.app.zip Magarena-1.$*.app 
 
 $(MAG): $(SRC) 
 	ant -f build-safe.xml
@@ -150,8 +171,14 @@ jar: $(MAG)
 %.g: $(MAG)
 	$(JAVA) -DrndSeed=$* magic.MagicMain |& tee $*.log
 
+inf: $(MAG)
+	-while true; do make `date +%H%M%S`.t; done
+
 test: $(MAG)
-	make `date +%s`.t
+	-make `date +%H%M%S`.g
+
+%.speed: $(MAg)
+	$(JAVA) magic.DeckStrCal --deck1 release/decks/LSK_B.dec --deck2 release/decks/LSK_G.dec --ai1 $* --ai2 $* --games 100
 
 %.t: $(MAG)
 	echo `hg id -n` > $*.log
@@ -178,14 +205,14 @@ decks/td_%.dec: scripts/dailyhtml2dec.awk
 	curl http://www.wizards.com/Magic/Magazine/Article.aspx?x=mtg/daily/td/$* | awk -f $^ > $@
 
 ref/rules.txt:
-	curl http://www.wizards.com/magic/comprules/MagicCompRules_20110617.txt | fmt -s > $@
+	curl http://www.wizards.com/magic/comprules/MagicCompRules_20110930.txt | fmt -s > $@
 	flip -u $@
 
 resources/magic/data/icons/missing_card.png:
 	convert -background gray -bordercolor black -border 5x5 -size 302x435 \
 	-pointsize 30 label:'\nNo card image found\n\nSelect\n\"Download images\"\nfrom Arena menu\n\nOR\n\nSwitch to text mode\nusing the Enter key' $@
 
-release/mods/%_theme.zip: release/mods/%_theme
+release/Magarena/mods/%_theme.zip: release/Magarena/mods/%_theme
 	 zip -j $@ $^/*
 
 cards/evan_cube.txt:
@@ -211,6 +238,14 @@ daily: $(EXE)
 			-u melvinzhang@gmail.com \
 			-w `cat ~/Modules/notes/keys/googlecode_pw.txt` \
 			Magarena_`hg id -n`.exe
+
+%.up: %
+	scripts/googlecode_upload.py \
+			-s "$^" \
+			-p magarena \
+			-u melvinzhang@gmail.com \
+			-w `cat ~/Modules/notes/keys/googlecode_pw.txt` \
+			$^
 
 cards/scriptable.txt: scripts/analyze_cards.scala scripts/effects.txt cards/cards.xml
 	scala $^ > $@ 2> cards/others.txt

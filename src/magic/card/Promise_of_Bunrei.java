@@ -14,7 +14,7 @@ public class Promise_of_Bunrei {
 		@Override
 		public MagicEvent executeTrigger(final MagicGame game,final MagicPermanent permanent,final MagicPermanent otherPermanent) {
 			final MagicPlayer player=permanent.getController();
-            return (otherPermanent.isCreature()&&otherPermanent.getController()==player) ?
+            return (otherPermanent.isCreature(game)&&otherPermanent.getController()==player) ?
 				new MagicEvent(
                         permanent,
                         player,
@@ -36,7 +36,7 @@ public class Promise_of_Bunrei {
 			if (player.controlsPermanent(permanent)) {
 				game.doAction(new MagicSacrificeAction(permanent));
 				for (int count=4;count>0;count--) {
-					game.doAction(new MagicPlayTokenAction(player,TokenCardDefinitions.SPIRIT1_TOKEN_CARD));
+					game.doAction(new MagicPlayTokenAction(player,TokenCardDefinitions.get("Spirit1")));
 				}
 			}
 		}

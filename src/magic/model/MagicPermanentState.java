@@ -4,9 +4,10 @@ public enum MagicPermanentState {
 	
 	Tapped("tapped","{T}"),
 	Summoned("summoned","{n}"),
-	DoesNotUntap("doesn't untap during its controller's next untap step","{s}"),
+	DoesNotUntapDuringNext("doesn't untap during its controller's next untap step","{s}"),
 	Regenerated("regenerated","{r}"),
 	CannotBeRegenerated("can't be regenerated","{~r}"),
+	LosesAllAbilities("loses all abilities",""),
 	Attacking("attacking","{c}"),
 	Blocking("blocking","{c}"),
 	Blocked("blocked","{b}"),
@@ -19,19 +20,27 @@ public enum MagicPermanentState {
 	Kicked("kicked",""),
 	Destroyed("destroyed",""),
 	ReturnToOwnerAtEndOfTurn("return to owner at end of turn","{R}"),
+	ReturnToHandOfOwnerAtEndOfCombat("return to owner's hand at end of combat",""),
+	ExileAtEndOfCombat("exile at end of combat",""),
+	DestroyAtEndOfCombat("destroy at end of combat",""),
+	CannotAttack("can't attack",""),
+	NoCombatDamage("assigns no combat damage",""),
+	MustPayEchoCost("","")
 	;
 
-	public static final int CLEANUP_MASK=
+	public static final int CLEANUP_MASK =
 		Tapped.getMask()|
 		Summoned.getMask()|
-		DoesNotUntap.getMask()|
+		DoesNotUntapDuringNext.getMask()|
 		SacrificeAtEndOfTurn.getMask()|
 		RemoveAtEndOfTurn.getMask()|
 		RemoveAtEndOfYourTurn.getMask()|
 		ReturnToOwnerAtEndOfTurn.getMask()|
 		ExcludeManaSource.getMask()|
 		ExcludeFromCombat.getMask()|
-		Kicked.getMask();
+		Kicked.getMask()|
+		DestroyAtEndOfCombat.getMask()|
+		MustPayEchoCost.getMask();
 	
 	private final String description;
 	private final String text;

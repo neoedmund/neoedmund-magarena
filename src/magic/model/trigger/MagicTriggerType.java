@@ -6,15 +6,18 @@ public enum MagicTriggerType {
 	WhenDamageIsDealt,      // damage
 	WhenSpellIsPlayed,      // card on stack
 	WhenComesIntoPlay,      // controller
+	WhenLeavesPlay,      	// permanent
 	WhenBecomesTapped,      // permanent
 	WhenDiscarded,			// card
 	WhenDrawn,				// card
-	WhenLifeIsGained,		// player
+	WhenLifeIsGained,		// player, life gained
 	WhenOtherComesIntoPlay, // permanent
 	WhenPutIntoGraveyard,   // graveyard trigger data
 	WhenOtherPutIntoGraveyardFromPlay, // permanent
 	WhenAttacks,            // permanent
 	WhenBlocks,             // permanent
+	WhenBecomesBlocked,		// permanent
+	WhenAttacksUnblocked,	// permanent
     WhenTargeted,           // permanent
 	IfDamageWouldBeDealt,   // item on stack
     IfPlayerWouldLose,      // player[]

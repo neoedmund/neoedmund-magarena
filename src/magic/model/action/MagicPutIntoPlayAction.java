@@ -4,10 +4,12 @@ import magic.ai.ArtificialScoringSystem;
 import magic.model.MagicCardDefinition;
 import magic.model.MagicGame;
 import magic.model.MagicPermanent;
-import magic.model.trigger.MagicPermanentTrigger;
 import magic.model.MagicPlayer;
 import magic.model.trigger.MagicTrigger;
 import magic.model.trigger.MagicTriggerType;
+import magic.model.trigger.MagicPermanentTrigger;
+import magic.model.mstatic.MagicStatic;
+import magic.model.mstatic.MagicPermanentStatic;
 
 import java.util.LinkedList;
 
@@ -29,14 +31,15 @@ public abstract class MagicPutIntoPlayAction extends MagicAction {
 			permanent.setEnchantedCreature(enchantedPermanent);			
 		}
 
-		final MagicCardDefinition cardDefinition=permanent.getCardDefinition();
-		for (final MagicTrigger trigger : cardDefinition.getTriggers()) {
-			game.addTrigger(permanent,trigger);
-		}
-		
-		for (final MagicTrigger trigger : cardDefinition.getComeIntoPlayTriggers()) {
+        game.addTriggers(permanent);
+        game.addCardStatics(permanent);
+	
+        //execute come into play triggers
+		for (final MagicTrigger trigger : permanent.getCardDefinition().getComeIntoPlayTriggers()) {
 			game.executeTrigger(trigger,permanent,permanent,permanent.getController());
 		}
+
+        //execute other come into player triggers
 		game.executeTrigger(MagicTriggerType.WhenOtherComesIntoPlay,permanent);
 		
 		setScore(controller,permanent.getScore(game)+permanent.getStaticScore(game)+score);
@@ -52,11 +55,12 @@ public abstract class MagicPutIntoPlayAction extends MagicAction {
 			permanent.setEnchantedCreature(MagicPermanent.NONE);
 		}
 		permanent.getController().removePermanent(permanent);
-		game.removeTriggers(permanent,new LinkedList<MagicPermanentTrigger>());
+		game.removeTriggers(permanent);
+		game.removeCardStatics(permanent);
 	}
 	
-	void setEnchantedPermanent(final MagicPermanent enchantedPermanent) {
-		this.enchantedPermanent=enchantedPermanent;
+	void setEnchantedPermanent(final MagicPermanent aEnchantedPermanent) {
+		enchantedPermanent = aEnchantedPermanent;
 	}
 	
 	protected abstract MagicPermanent createPermanent(final MagicGame game);

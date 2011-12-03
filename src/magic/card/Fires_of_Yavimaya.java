@@ -7,17 +7,29 @@ import magic.model.MagicSource;
 import magic.model.action.MagicChangeTurnPTAction;
 import magic.model.action.MagicPermanentAction;
 import magic.model.choice.MagicTargetChoice;
-import magic.model.condition.MagicCondition;
 import magic.model.event.MagicActivationHints;
+import magic.model.event.MagicActivation;
 import magic.model.event.MagicEvent;
 import magic.model.event.MagicPermanentActivation;
 import magic.model.event.MagicSacrificeEvent;
 import magic.model.event.MagicTiming;
 import magic.model.target.MagicPumpTargetPicker;
+import magic.model.mstatic.MagicLayer;
+import magic.model.MagicAbility;
+import magic.model.mstatic.MagicStatic;
+import magic.model.target.MagicTargetFilter;
 
 public class Fires_of_Yavimaya {
+    public static final MagicStatic S = new MagicStatic(
+        MagicLayer.Ability, 
+        MagicTargetFilter.TARGET_CREATURE_YOU_CONTROL) {
+        @Override
+        public long getAbilityFlags(final MagicGame game,final MagicPermanent permanent,final long flags) {
+            return flags | MagicAbility.Haste.getMask();
+        }
+    };
 	public static final MagicPermanentActivation A = new MagicPermanentActivation(
-            MagicCondition.NONE,
+            MagicActivation.NO_COND,
             new MagicActivationHints(MagicTiming.Pump),
             "Pump") {
 

@@ -7,7 +7,6 @@ import magic.model.MagicCounterType;
 import magic.model.MagicGame;
 import magic.model.MagicPermanent;
 import magic.model.MagicPermanentState;
-import magic.model.MagicPowerToughness;
 import magic.model.MagicSubType;
 import magic.model.MagicType;
 import magic.model.stack.MagicItemOnStack;
@@ -77,19 +76,19 @@ public class PermanentViewerInfo {
 		this.permanent=permanent;
 		cardDefinition=permanent.getCardDefinition();
 		name=permanent.getName();
-		icon=permanent.getIcon();
+		icon=permanent.getIcon(game);
 		index=permanent.getCard().getImageIndex();
 		powerToughness=getPowerToughness(game,permanent);
 		abilityFlags=permanent.getAllAbilityFlags(game);
 		chargeCounters=permanent.getCounters(MagicCounterType.Charge);
 		text=getText(game,permanent,abilityFlags);
 		damage=permanent.getDamage();
-		position=getPosition(permanent);
+		position=getPosition(permanent,game);
 		visible=permanent.getController()==game.getVisiblePlayer();
-		basic=permanent.hasType(MagicType.Basic);
+		basic=permanent.hasType(MagicType.Basic,game);
 		mana=permanent.producesMana();
-		creature=permanent.isCreature();
-		artifact=permanent.isEquipped()||(permanent.isArtifact()&&permanent.getEquippedCreature().isInvalid());
+		creature=permanent.isCreature(game);
+		artifact=permanent.isEquipped()||(permanent.isArtifact(game)&&permanent.getEquippedCreature().isInvalid());
 		enchantment=permanent.isEnchanted()||
             (permanent.isEnchantment()&&permanent.getEnchantedCreature().isInvalid());
 		root=permanent.getEnchantedCreature().isInvalid() && permanent.getEquippedCreature().isInvalid();
@@ -101,18 +100,18 @@ public class PermanentViewerInfo {
 		lowered=attacking||
             (permanent.getEquippedCreature().isValid() && permanent.getEquippedCreature().isAttacking())||
 		  	(permanent.getEnchantedCreature().isValid() && permanent.getEnchantedCreature().isAttacking());
-		manaColor=getManaColor(permanent);
+		manaColor=getManaColor(permanent,game);
 		blockers=getBlockers(game,permanent);
 		linked=getLinked(game,permanent);
 		blockedName = (blocking) ? permanent.getBlockedName() : permanent.getName() + permanent.getId();
 	}
 	
 	private static String getPowerToughness(final MagicGame game,final MagicPermanent permanent) {
-		if (permanent.isCreature()) {
-			final MagicPowerToughness pt=permanent.getPowerToughness(game);
-			return pt.power+"/"+pt.toughness;
-		} 
-		return "";
+		if (permanent.isCreature(game)) {
+			return permanent.getPowerToughness(game).toString();
+		} else { 
+    		return "";
+        }
 	}
 		
 	private static String getText(final MagicGame game,final MagicPermanent permanent,final long abilityFlags) {
@@ -127,8 +126,8 @@ public class PermanentViewerInfo {
 		} else if (!permanent.canTap(game)) {
 			textBuffer.append("{S}");
 		}
-		if (permanent.hasState(MagicPermanentState.DoesNotUntap)) {
-			textBuffer.append(MagicPermanentState.DoesNotUntap.getText());
+		if (permanent.hasState(MagicPermanentState.DoesNotUntapDuringNext)) {
+			textBuffer.append(MagicPermanentState.DoesNotUntapDuringNext.getText());
 		}
 		if (permanent.isRegenerated()) {
 			textBuffer.append(MagicPermanentState.Regenerated.getText());
@@ -141,7 +140,7 @@ public class PermanentViewerInfo {
 		}
 		
 		// Colors
-		final int colorFlags=permanent.getColorFlags();
+		final int colorFlags=permanent.getColorFlags(game);
 		for (final MagicColor color : MagicColor.values()) {
 			
 			if (color.hasColor(colorFlags)) {			
@@ -161,7 +160,7 @@ public class PermanentViewerInfo {
 			}
 		}
 		
-		if (permanent.isCreature()) {
+		if (permanent.isCreature(game)) {
 			// Damage
 			if (permanent.getDamage()>0) {
 				textBuffer.append("{D}").append(permanent.getDamage()).append(' ');
@@ -176,18 +175,31 @@ public class PermanentViewerInfo {
 
 		// Sub types.
 		if (!MagicAbility.Changeling.hasAbility(abilityFlags)) {
-			final EnumSet<MagicSubType> subTypeFlags=permanent.getSubTypeFlags();
-			for (final MagicSubType subType : MagicSubType.values()) {
-				if (subType.hasSubType(subTypeFlags)) {
-					if (first) {
-						first=false;
-						if (textBuffer.length()>0) {
-							textBuffer.append('|');
-						}						
-					} else {
-						textBuffer.append(", ");						
+			final EnumSet<MagicSubType> subTypeFlags=permanent.getSubTypeFlags(game);
+			if (subTypeFlags.equals(MagicSubType.ALL_CREATURES)) {
+				if (first) {
+					first = false;
+					if (textBuffer.length() > 0) {
+						textBuffer.append('|');
+					}						
+				} else {
+					textBuffer.append(", ");						
+				}
+				textBuffer.append("All creature types");
+			}
+			else {
+				for (final MagicSubType subType : MagicSubType.values()) {
+					if (subType.hasSubType(subTypeFlags)) {
+						if (first) {
+							first=false;
+							if (textBuffer.length()>0) {
+								textBuffer.append('|');
+							}						
+						} else {
+							textBuffer.append(", ");						
+						}
+						textBuffer.append(subType.toString());
 					}
-					textBuffer.append(subType.toString());
 				}
 			}
 		}
@@ -211,12 +223,12 @@ public class PermanentViewerInfo {
 		return textBuffer.toString();
 	}	
 	
-	private static int getPosition(final MagicPermanent permanent) {
-		if (permanent.isCreature()) {
+	private static int getPosition(final MagicPermanent permanent, final MagicGame game) {
+		if (permanent.isCreature(game)) {
 			return 2;
 		} else if (permanent.isLand()) {
 			return 1;
-		} else if (permanent.isArtifact()) {
+		} else if (permanent.isArtifact(game)) {
 			return 3;
 		} else {
 			return 4;
@@ -232,14 +244,14 @@ public class PermanentViewerInfo {
 		return false;
 	}
 	
-	private static MagicColor getManaColor(final MagicPermanent permanent) {
-		final EnumSet<MagicSubType> flags=permanent.getSubTypeFlags();
+	private static MagicColor getManaColor(final MagicPermanent permanent, final MagicGame game) {
+		final EnumSet<MagicSubType> flags=permanent.getSubTypeFlags(game);
 		for (final MagicColor color : MagicColor.values()) {
 			if (color.getLandSubType().hasSubType(flags)) {
 				return color;
 			}
 		}
-		return null;
+        return MagicColor.Black;
 	}
 	
 	private static List<PermanentViewerInfo> getBlockers(final MagicGame game,final MagicPermanent permanent) {

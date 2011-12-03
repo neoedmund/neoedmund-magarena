@@ -31,11 +31,13 @@ public class Snake_Umbra {
                     permanent,
                     player,
                     new MagicSimpleMayChoice(
-                        "You may draw a card.",
-                        MagicSimpleMayChoice.DRAW_CARDS,1),
+                        player + " may draw a card.",
+                        MagicSimpleMayChoice.DRAW_CARDS,
+                        1,
+                        MagicSimpleMayChoice.DEFAULT_NONE),
                     new Object[]{player},
                     this,
-                    "You may$ draw a card."):
+                    player + " may$ draw a card.") :
                 MagicEvent.NONE;
 		}
 		@Override

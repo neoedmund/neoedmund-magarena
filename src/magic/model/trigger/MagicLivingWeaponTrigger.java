@@ -12,6 +12,15 @@ import magic.model.event.MagicEvent;
  * Trigger that occurs when a card with the living weapon mechanic comes into play
  */
 public class MagicLivingWeaponTrigger extends MagicWhenComesIntoPlayTrigger {
+    
+    private static final MagicWhenComesIntoPlayTrigger INSTANCE = new MagicLivingWeaponTrigger();
+
+    private MagicLivingWeaponTrigger() {}
+
+    public static MagicWhenComesIntoPlayTrigger create() {
+        return INSTANCE;
+    }
+
 	@Override
 	public MagicEvent executeTrigger(final MagicGame game,final MagicPermanent permanent,final MagicPlayer player) {
 		return new MagicEvent(
@@ -32,7 +41,7 @@ public class MagicLivingWeaponTrigger extends MagicWhenComesIntoPlayTrigger {
         //create the token
 		final MagicPlayTokenAction play_token=new MagicPlayTokenAction(
                 (MagicPlayer)data[1],
-                TokenCardDefinitions.GERM_TOKEN_CARD);
+                TokenCardDefinitions.get("Germ"));
 		game.doAction(play_token);
 
         //attach the equipment to the token

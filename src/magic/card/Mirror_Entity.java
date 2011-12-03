@@ -14,11 +14,12 @@ import magic.model.event.MagicActivationHints;
 import magic.model.event.MagicEvent;
 import magic.model.event.MagicPayManaCostEvent;
 import magic.model.event.MagicPermanentActivation;
+import magic.model.event.MagicPlayAbilityEvent;
 import magic.model.event.MagicTiming;
 import magic.model.target.MagicTarget;
 import magic.model.target.MagicTargetFilter;
-import magic.model.variable.MagicDummyLocalVariable;
-import magic.model.variable.MagicLocalVariable;
+import magic.model.mstatic.MagicStatic;
+import magic.model.mstatic.MagicLayer;
 
 import java.util.Collection;
 import java.util.EnumSet;
@@ -30,7 +31,9 @@ public class Mirror_Entity {
             "X/X") {
 		@Override
 		public MagicEvent[] getCostEvent(final MagicSource source) {
-			return new MagicEvent[]{new MagicPayManaCostEvent(source,source.getController(),MagicManaCost.X)};
+			return new MagicEvent[]{
+					new MagicPayManaCostEvent(source,source.getController(),MagicManaCost.X),
+					new MagicPlayAbilityEvent((MagicPermanent)source)};
 		}
 		@Override
 		public MagicEvent getPermanentEvent(final MagicPermanent source,final MagicPayedCost payedCost) {
@@ -50,15 +53,16 @@ public class Mirror_Entity {
                 final Object[] choiceResults) {
 			final MagicPermanent permanent=(MagicPermanent)data[0];
             final Integer X = (Integer)data[1];
-			final MagicLocalVariable localVariable=new MagicDummyLocalVariable() {
+			final MagicStatic PT = new MagicStatic(MagicLayer.SetPT, MagicStatic.UntilEOT) {
         		@Override
         		public void getPowerToughness(
                         final MagicGame game,
                         final MagicPermanent permanent,
                         final MagicPowerToughness pt) {
-		    	    pt.power=X;
-    			    pt.toughness=X;
+		    	    pt.set(X,X);
 	        	}
+            };
+            final MagicStatic ST = new MagicStatic(MagicLayer.Type, MagicStatic.UntilEOT) {
 		        @Override
         		public EnumSet<MagicSubType> getSubTypeFlags(
                         final MagicPermanent permanent,
@@ -72,7 +76,7 @@ public class Mirror_Entity {
                     permanent.getController(),
                     MagicTargetFilter.TARGET_CREATURE_YOU_CONTROL);
 			for (final MagicTarget creature : creatures) {
-				game.doAction(new MagicBecomesCreatureAction((MagicPermanent)creature,localVariable));
+				game.doAction(new MagicBecomesCreatureAction((MagicPermanent)creature,PT,ST));
 			}
 			game.doAction(new MagicPlayAbilityAction(permanent));
 		}

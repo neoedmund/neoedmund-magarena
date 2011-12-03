@@ -7,6 +7,7 @@ import magic.model.MagicPermanent;
 import magic.model.MagicPlayer;
 import magic.model.action.MagicChangeLifeAction;
 import magic.model.choice.MagicMayChoice;
+import magic.model.choice.MagicSimpleMayChoice;
 import magic.model.event.MagicEvent;
 import magic.model.stack.MagicCardOnStack;
 import magic.model.trigger.MagicWhenSpellIsPlayedTrigger;
@@ -17,14 +18,18 @@ public class Angel_s_Feather {
 		public MagicEvent executeTrigger(final MagicGame game,final MagicPermanent permanent,final MagicCardOnStack data) {
 			final MagicPlayer player = permanent.getController();
 			final MagicCard card = data.getCard();
-			return (MagicColor.White.hasColor(card.getColorFlags())) ?
+			return (MagicColor.White.hasColor(card.getColorFlags(game))) ?
                 new MagicEvent(
                         permanent,
                         player,
-                        new MagicMayChoice("You may gain 1 life."),
+                        new MagicSimpleMayChoice(
+                                player + " may gain 1 life.",
+                                MagicSimpleMayChoice.GAIN_LIFE,
+                                1,
+                                MagicSimpleMayChoice.DEFAULT_YES),
                         new Object[]{player},
                         this,
-                        "You may$ gain 1 life.") :
+                        player + " may$ gain 1 life.") :
                 MagicEvent.NONE;
 		}
 		

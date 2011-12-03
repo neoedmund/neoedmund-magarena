@@ -66,7 +66,7 @@ public class Rise_of_the_Hobgoblins {
                     MagicTargetFilter.TARGET_CREATURE_YOU_CONTROL);
 			for (final MagicTarget target : targets) {
 				final MagicPermanent creature=(MagicPermanent)target;
-				final int colorFlags=creature.getColorFlags();
+				final int colorFlags=creature.getColorFlags(game);
 				if (MagicColor.Red.hasColor(colorFlags)||MagicColor.White.hasColor(colorFlags)) {
 					game.doAction(new MagicSetAbilityAction(creature,MagicAbility.FirstStrike));
 				}
@@ -100,7 +100,7 @@ public class Rise_of_the_Hobgoblins {
 				for (int count=payedManaCost.getX();count>0;count--) {
 					game.doAction(new MagicPlayTokenAction(
                                 player,
-                                TokenCardDefinitions.GOBLIN_SOLDIER_TOKEN_CARD));
+                                TokenCardDefinitions.get("Goblin Soldier")));
 				}
 			}
 		}

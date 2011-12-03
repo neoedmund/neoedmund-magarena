@@ -13,11 +13,9 @@ import magic.model.event.MagicEvent;
 import magic.model.event.MagicPayManaCostEvent;
 import magic.model.event.MagicPermanentActivation;
 import magic.model.event.MagicTiming;
-import magic.model.trigger.MagicLivingWeaponTrigger;
-import magic.model.trigger.MagicTrigger;
 
 public class Batterskull {
-	public static final MagicPermanentActivation RET = new MagicPermanentActivation(
+	public static final MagicPermanentActivation A = new MagicPermanentActivation(
             new MagicCondition[]{MagicManaCost.THREE.getCondition()},
             new MagicActivationHints(MagicTiming.Removal),
             "Return"
@@ -47,6 +45,4 @@ public class Batterskull {
 			game.doAction(new MagicRemoveFromPlayAction((MagicPermanent)data[0],MagicLocationType.OwnersHand));
 		}
 	};
-    
-    public static final MagicTrigger LW = new MagicLivingWeaponTrigger();
 }

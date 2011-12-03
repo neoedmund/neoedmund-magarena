@@ -6,7 +6,6 @@ import magic.model.MagicColor;
 import magic.model.MagicCubeDefinition;
 import magic.model.MagicPlayerDefinition;
 import magic.model.MagicPlayerProfile;
-import magic.ui.EditDeckCard;
 import magic.ui.MagicFrame;
 import magic.ui.widget.CostPanel;
 import magic.ui.widget.FontsAndBorders;
@@ -62,7 +61,7 @@ public class DeckViewer extends JPanel {
 		setLayout(new BorderLayout());
 						
 		scrollPane=new JScrollPane();
-		scrollPane.setBorder(null);
+		scrollPane.setBorder(FontsAndBorders.NO_BORDER);
 		scrollPane.setOpaque(false);
 		scrollPane.getViewport().setOpaque(false);
 		scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
@@ -164,8 +163,8 @@ public class DeckViewer extends JPanel {
 			final MagicPlayerProfile profile=player.getProfile();
 			int cindex=0;
 			for (final MagicColor color : profile.getColors()) {
-
-				if (color.hasColor(card.getColorFlags())||(card.isLand()&&card.getManaSource(color)>0)) {
+				if (color.hasColor(card.getColorFlags()) || 
+                    (card.isLand() && card.getManaSource(color) > 0)) {
 					colorLabels[cindex].setIcon(color.getManaType().getIcon(true));
 				}
 				cindex++;

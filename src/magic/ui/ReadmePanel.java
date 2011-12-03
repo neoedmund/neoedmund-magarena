@@ -2,16 +2,14 @@ package magic.ui;
 
 import magic.data.FileIO;
 import magic.data.IconImages;
+import magic.ui.widget.FontsAndBorders;
 import magic.ui.widget.ZoneBackgroundLabel;
 
-import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.SwingUtilities;
-import javax.swing.border.Border;
-import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -24,13 +22,6 @@ class ReadmePanel extends JPanel implements ActionListener {
 	private static final String README_FILENAME="README.txt";
 
 	private static final int MAX_WIDTH=1000;
-	private static final String HTML_OPEN="<html><body>";
-	private static final String HTML_CLOSE="</body></html>";
-
-	private static final Border KEYWORD_BORDER=BorderFactory.createCompoundBorder(
-		BorderFactory.createEmptyBorder(3,0,3,6),
-		BorderFactory.createLineBorder(Color.BLACK)
-	);
 		
 	private final MagicFrame frame;
 	private final ZoneBackgroundLabel backgroundLabel;
@@ -62,7 +53,7 @@ class ReadmePanel extends JPanel implements ActionListener {
         readMeTextArea.setText(content);
 
 		keywordsPane=new JScrollPane(readMeTextArea);
-		keywordsPane.setBorder(null);
+		keywordsPane.setBorder(FontsAndBorders.NO_BORDER);
 		keywordsPane.setOpaque(false);
 		keywordsPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
 		keywordsPane.getVerticalScrollBar().setUnitIncrement(50);

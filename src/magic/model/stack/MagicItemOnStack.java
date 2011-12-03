@@ -1,7 +1,6 @@
 package magic.model.stack;
 
 import magic.model.MagicCopyMap;
-import magic.model.MagicCopyable;
 import magic.model.MagicGame;
 import magic.model.MagicMappable;
 import magic.model.MagicPermanent;
@@ -17,14 +16,12 @@ public abstract class MagicItemOnStack implements MagicTarget {
 	
 	private MagicSource source;
 	private MagicPlayer controller;
-	private MagicActivation activation;
 	private MagicEvent event;
+	private MagicActivation activation; //may be null
 	private Object choiceResults[]=MagicEvent.NO_CHOICE_RESULTS;
 	private long id;
    
-    MagicItemOnStack() {
-
-    }
+    MagicItemOnStack() {}
 
     MagicItemOnStack(final MagicCopyMap copyMap, final MagicItemOnStack sourceItem) {
 		source = copyMap.copy(sourceItem.source);
@@ -62,7 +59,7 @@ public abstract class MagicItemOnStack implements MagicTarget {
 	}
 	
 	MagicActivation getActivation() {
-		return activation;
+        return activation;
 	}
 			
 	void setEvent(final MagicEvent event) {

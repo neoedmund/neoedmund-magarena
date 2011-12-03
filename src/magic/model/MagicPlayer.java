@@ -1,13 +1,13 @@
 package magic.model;
 
 import magic.data.GeneralConfig;
-import magic.data.TournamentConfig;
+import magic.data.DuelConfig;
+import magic.data.CardDefinitions;
 import magic.model.choice.MagicBuilderManaCost;
 import magic.model.event.MagicActivationMap;
 import magic.model.event.MagicActivationPriority;
 import magic.model.event.MagicSourceManaActivation;
 import magic.model.target.MagicTarget;
-import magic.model.variable.MagicStaticLocalVariable;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -348,22 +348,20 @@ public class MagicPlayer implements MagicTarget {
 		return cardCounter.getCount(cardDefinitionIndex);
 	}
 	
-	public int getNrOfPermanentsWithType(final MagicType type) {
+	public int getNrOfPermanentsWithType(final MagicType type, final MagicGame game) {
 		int count=0;
 		for (final MagicPermanent permanent : permanents) {
-			
-			if (permanent.hasType(type)) {
+			if (permanent.hasType(type,game)) {
 				count++;
 			}
 		}
 		return count;
 	}
 
-	private int getNrOfPermanentsWithSubType(final MagicSubType subType) {
+	public int getNrOfPermanentsWithSubType(final MagicSubType subType, final MagicGame game) {
 		int count=0;
 		for (final MagicPermanent permanent : permanents) {
-			
-			if (permanent.hasSubType(subType)) {
+			if (permanent.hasSubType(subType, game)) {
 				count++;
 			}
 		}
@@ -412,18 +410,27 @@ public class MagicPlayer implements MagicTarget {
 		return blockers;
 	}
 	
-	public boolean controlsPermanentWithType(final MagicType type) {
+	public boolean controlsPermanentWithType(final MagicType type, final MagicGame game) {
 		for (final MagicPermanent permanent : permanents) {
-			if (permanent.hasType(type)) {
+			if (permanent.hasType(type,game)) {
 				return true;
 			}
 		}
 		return false;
 	}
 	
-	public boolean controlsPermanentWithSubType(final MagicSubType subType) {
+	public boolean controlsPermanentWithSubType(final MagicSubType subType, final MagicGame game) {
 		for (final MagicPermanent permanent : permanents) {
-			if (permanent.hasSubType(subType)) {
+			if (permanent.hasSubType(subType,game)) {
+				return true;
+			}
+		}
+		return false;		
+	}
+	
+	public boolean controlsPermanentWithAbility(final MagicAbility ability, final MagicGame game) {
+		for (final MagicPermanent permanent : permanents) {
+			if (permanent.hasAbility(game,ability)) {
 				return true;
 			}
 		}
@@ -471,9 +478,7 @@ public class MagicPlayer implements MagicTarget {
 	
 	@Override
 	public boolean isValidTarget(final MagicGame game,final MagicSource source) {
-		if (source.getController() != this && !MagicStaticLocalVariable.canTarget(this)) {
-			return false;
-		}
-		return true;
+        final int SPIRIT_OF_THE_HEARTH = CardDefinitions.getCard("Spirit of the Hearth").getIndex();
+		return source.getController() == this || getCount(SPIRIT_OF_THE_HEARTH) == 0;
 	}	
 }

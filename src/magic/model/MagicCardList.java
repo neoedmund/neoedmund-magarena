@@ -53,8 +53,11 @@ public class MagicCardList extends ArrayList<MagicCard> {
 		return get(0);
 	}
 	
-	private MagicCard getCardAtTop() {
-		return this.get(size()-1);
+	public MagicCard getCardAtTop() {
+		final int size = this.size();
+		return size > 0 ? 
+				this.get(size()-1) :
+				MagicCard.NONE;
 	}
 	
 	public MagicCard removeCardAtTop() {
@@ -69,7 +72,7 @@ public class MagicCardList extends ArrayList<MagicCard> {
 		if (index >= 0) {
             remove(index);
         } else {
-            System.err.println("WARNING. Card " + card.getName() + " not found in hand.");
+            System.err.println("WARNING. Card " + card.getName() + " not found.");
         }
 		return index;
 	}

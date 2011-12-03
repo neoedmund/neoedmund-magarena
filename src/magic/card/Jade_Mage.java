@@ -35,7 +35,7 @@ public class Jade_Mage {
                     player,
                     new Object[]{player},
                     this,
-                    "Put a 1/1 green Saproling creature token onto the battlefield.");
+                    player + " puts a 1/1 green Saproling creature token onto the battlefield.");
         }
 		
         @Override
@@ -44,7 +44,7 @@ public class Jade_Mage {
                 final MagicEvent event,
                 final Object[] data,
                 final Object[] choiceResults) {
-        	game.doAction(new MagicPlayTokenAction((MagicPlayer)data[0],TokenCardDefinitions.SAPROLING_TOKEN_CARD));
+        	game.doAction(new MagicPlayTokenAction((MagicPlayer)data[0],TokenCardDefinitions.get("Saproling")));
         }
 	};
 }

@@ -1,7 +1,9 @@
 package magic.ui;
 
 import magic.model.MagicCardDefinition;
-import magic.model.MagicDeckCardDefinition;
+import magic.model.MagicCondensedCardDefinition;
+import magic.model.MagicCondensedDeck;
+import magic.model.MagicDeck;
 import magic.model.MagicManaCost;
 
 import java.lang.Integer;
@@ -48,18 +50,34 @@ public class CardTableModel implements TableModel {
 		listeners.remove(l);
 	}
 	
-	public static final String[] COLUMN_NAMES = new String[] {"#", "Name", "CC", "Type", "Subtype", "Rarity", "Text"};
-	public static final int[] COLUMN_MIN_WIDTHS = new int[] {40, 180, 140, 140, 140, 90, 2000};
+	public static final String[] COLUMN_NAMES = new String[] {	"#", // 0
+																"Name", // 1
+																"CC", // 2
+																"P", // 3
+																"T", // 4
+																"Type", // 5
+																"Subtype", // 6
+																"Rarity", // 7
+																"Text"}; // 8
+	public static final int[] COLUMN_MIN_WIDTHS = new int[] {	40, // 0 #
+																180, // 1 name
+																140, // 2 cc
+																30, // 3 P
+																30, // 4 T
+																140, // 5 type
+																140, // 6 subtype 
+																90, // 7 rarity
+																2000}; // 8 text
 	public static final int COST_COLUMN_INDEX = 2;
 	
 	private final boolean isDeck;
 	
-	private boolean[] isDesc = new boolean[] {false, false, false, false, false, false, false};
-	private List<MagicDeckCardDefinition> cardDefinitions;
-	private Comparator<MagicDeckCardDefinition> comp;
+	private boolean[] isDesc = new boolean[] {false, false, false, false, false, false, false, false, false, false, false, false, false};
+	private MagicCondensedDeck cardDefinitions;
+	private Comparator<MagicCondensedCardDefinition> comp;
 	
 	public CardTableModel(final List<MagicCardDefinition> cardDefs, final boolean isDeck) {
-		this.comp = MagicDeckCardDefinition.NAME_COMPARATOR_DESC;
+		this.comp = MagicCondensedCardDefinition.NAME_COMPARATOR_DESC;
 		this.isDeck = isDeck;
 		
 		setCards(cardDefs);
@@ -72,12 +90,18 @@ public class CardTableModel implements TableModel {
 		return cardDefinitions.get(row).getCard();
 	}
 	
-	public void setCards(List<MagicCardDefinition> defs) {
-		if (isDeck) {
-			this.cardDefinitions = MagicDeckCardDefinition.condenseCopyCardList(defs);
-		} else {
-			this.cardDefinitions = MagicDeckCardDefinition.simpleCopyCardList(defs);
+	public int findCardIndex(MagicCardDefinition card) {
+		for (int i = 0; i < cardDefinitions.size(); i++) {
+			if(MagicCardDefinition.NAME_COMPARATOR_ASC.compare(cardDefinitions.get(i).getCard(), card) == 0) {
+				return i;
+			}
 		}
+		
+		return -1;
+	}
+	
+	public void setCards(List<MagicCardDefinition> defs) {
+		this.cardDefinitions = new MagicCondensedDeck(defs);
 		
 		// re-sort if necessary
 		if(comp != null) {
@@ -86,19 +110,23 @@ public class CardTableModel implements TableModel {
 	}
 	
 	public void sort(int column) {
-		Comparator<MagicDeckCardDefinition> oldComp = comp;
+		Comparator<MagicCondensedCardDefinition> oldComp = comp;
 		comp = null;
 		
 		switch(column) {
-			case 0:		comp = (isDesc[column]) ? MagicDeckCardDefinition.NUM_COPIES_COMPARATOR_ASC : MagicDeckCardDefinition.NUM_COPIES_COMPARATOR_DESC;
+			case 0:		comp = (isDesc[column]) ? MagicCondensedCardDefinition.NUM_COPIES_COMPARATOR_ASC : MagicCondensedCardDefinition.NUM_COPIES_COMPARATOR_DESC;
 						break;
-			case 1:		comp = (isDesc[column]) ? MagicDeckCardDefinition.NAME_COMPARATOR_ASC : MagicDeckCardDefinition.NAME_COMPARATOR_DESC;
+			case 1:		comp = (isDesc[column]) ? MagicCondensedCardDefinition.NAME_COMPARATOR_ASC : MagicCondensedCardDefinition.NAME_COMPARATOR_DESC;
 						break;
-			case 2:		comp = (isDesc[column]) ? MagicDeckCardDefinition.CONVERTED_COMPARATOR_ASC : MagicDeckCardDefinition.CONVERTED_COMPARATOR_DESC;
+			case 2:		comp = (isDesc[column]) ? MagicCondensedCardDefinition.CONVERTED_COMPARATOR_ASC : MagicCondensedCardDefinition.CONVERTED_COMPARATOR_DESC;
 						break;
-			case 3:		comp = (isDesc[column]) ? MagicDeckCardDefinition.TYPE_COMPARATOR_ASC : MagicDeckCardDefinition.TYPE_COMPARATOR_DESC;
+			case 3:		comp = (isDesc[column]) ? MagicCondensedCardDefinition.POWER_COMPARATOR_ASC : MagicCondensedCardDefinition.POWER_COMPARATOR_DESC;
 						break;
-			case 5:		comp = (isDesc[column]) ? MagicDeckCardDefinition.RARITY_COMPARATOR_ASC : MagicDeckCardDefinition.RARITY_COMPARATOR_DESC;
+			case 4:		comp = (isDesc[column]) ? MagicCondensedCardDefinition.TOUGHNESS_COMPARATOR_ASC : MagicCondensedCardDefinition.TOUGHNESS_COMPARATOR_DESC;
+						break;
+			case 5:		comp = (isDesc[column]) ? MagicCondensedCardDefinition.TYPE_COMPARATOR_ASC : MagicCondensedCardDefinition.TYPE_COMPARATOR_DESC;
+						break;
+			case 7:		comp = (isDesc[column]) ? MagicCondensedCardDefinition.RARITY_COMPARATOR_ASC : MagicCondensedCardDefinition.RARITY_COMPARATOR_DESC;
 						break;
 		}
 		
@@ -194,9 +222,20 @@ public class CardTableModel implements TableModel {
 						}
 			case 1:		return card.getFullName();
 			case 2:		return card.getCost();
-			case 3:		return card.getLongTypeString();
-			case 4:		return card.getSubTypeString();
-			case 5:		return card.getRarityString();
+			case 3:		if(card.isCreature()) {
+							return card.getCardPower();
+						} else {
+							return "";
+						}
+			case 4:		if(card.isCreature()) {
+							return card.getCardToughness();
+						} else {
+							return "";
+						}
+			case 5:		return card.getLongTypeString();
+			case 6:		return card.getSubTypeString();
+			case 7:		return card.getRarityString();
+			case 8:		return card.getText();
 		}
 		
 		return "";

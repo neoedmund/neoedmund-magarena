@@ -11,7 +11,7 @@ import magic.ui.theme.Theme;
 import magic.ui.theme.ThemeFactory;
 import magic.ui.viewer.BattlefieldViewer;
 import magic.ui.viewer.CardViewer;
-import magic.ui.viewer.GameTournamentViewer;
+import magic.ui.viewer.GameDuelViewer;
 import magic.ui.viewer.HandGraveyardExileViewer;
 import magic.ui.viewer.ImageBattlefieldViewer;
 import magic.ui.viewer.ImageCombatViewer;
@@ -45,7 +45,7 @@ public final class GamePanel extends JPanel {
 
 	private static final String ACTION_KEY="action";
 	private static final String UNDO_KEY="undo";
-	private static final String SWITCH_KEY="switch";
+	// private static final String SWITCH_KEY="switch";
 	private static final String LOG_KEY="log";
 	private static final String PASS_KEY="pass";
 	
@@ -57,7 +57,7 @@ public final class GamePanel extends JPanel {
 	private final PlayerViewer playerViewer;
 	private final PlayerViewer opponentViewer;
 	private final CardViewer cardViewer;
-	private final GameTournamentViewer gameTournamentViewer;
+	private final GameDuelViewer gameDuelViewer;
 	private final LogBookViewer logBookViewer;
 	private final JToggleButton logBookButton;
 	private final JToggleButton textViewButton;
@@ -105,6 +105,7 @@ public final class GamePanel extends JPanel {
 		
 		cardViewer=new CardViewer("Card",false,true);
 		add(cardViewer);
+		cardViewer.setVisible(false);
 		controller.setCardViewer(cardViewer);
 		
 		imageCardViewer=new CardViewer("",true,false);
@@ -118,9 +119,9 @@ public final class GamePanel extends JPanel {
 		opponentViewer=new PlayerViewer(viewerInfo,controller,true);
 		add(opponentViewer);
 		
-		gameTournamentViewer=new GameTournamentViewer(game,controller);
-		controller.setGameViewer(gameTournamentViewer.getGameViewer());
-		add(gameTournamentViewer);
+		gameDuelViewer=new GameDuelViewer(game,controller);
+		controller.setGameViewer(gameDuelViewer.getGameViewer());
+		add(gameDuelViewer);
 						
 		logBookButton=new JToggleButton(theme.getIcon(Theme.ICON_MESSAGE),false);
 		logBookButton.setFocusable(false);
@@ -175,13 +176,13 @@ public final class GamePanel extends JPanel {
 			}
 		});
 		
-		getActionMap().put(SWITCH_KEY, new AbstractAction() {
+		/* getActionMap().put(SWITCH_KEY, new AbstractAction() {
 			private static final long serialVersionUID = 1L;
 			@Override
 			public void actionPerformed(final ActionEvent e) {
 				switchKeyPressed();
 			}
-		});
+		}); */
 		
 		getActionMap().put(LOG_KEY, new AbstractAction() {
 			private static final long serialVersionUID = 1L;
@@ -206,7 +207,7 @@ public final class GamePanel extends JPanel {
 		getInputMap().put(KeyStroke.getKeyStroke(KeyEvent.VK_SPACE, 0),ACTION_KEY);
 		getInputMap().put(KeyStroke.getKeyStroke(KeyEvent.VK_LEFT, 0),UNDO_KEY);		
 		getInputMap().put(KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0),UNDO_KEY);
-		getInputMap().put(KeyStroke.getKeyStroke(KeyEvent.VK_ENTER, 0),SWITCH_KEY);
+		// getInputMap().put(KeyStroke.getKeyStroke(KeyEvent.VK_ENTER, 0),SWITCH_KEY);
 		getInputMap().put(KeyStroke.getKeyStroke(KeyEvent.VK_F1, 0),LOG_KEY);
 		getInputMap().put(KeyStroke.getKeyStroke(KeyEvent.VK_M, 0),LOG_KEY);
 		getInputMap().put(KeyStroke.getKeyStroke(KeyEvent.VK_RIGHT, InputEvent.SHIFT_MASK),PASS_KEY);
@@ -244,21 +245,20 @@ public final class GamePanel extends JPanel {
 	}
 	
 	public boolean canClickAction() {
-		return gameTournamentViewer.getGameViewer().isActionEnabled();
+		return gameDuelViewer.getGameViewer().isActionEnabled();
 	}
 	
 	public boolean canClickUndo() {
-		return gameTournamentViewer.getGameViewer().isUndoEnabled();
+		return gameDuelViewer.getGameViewer().isUndoEnabled();
 	}
 		
-	private void switchKeyPressed() {
+	/* private void switchKeyPressed() {
 		if (textViewButton.isEnabled()) {
 			final boolean selected=!textViewButton.isSelected();
 			textViewButton.setSelected(selected);
-			GeneralConfig.getInstance().setTextView(selected);
-			updateView();
+			frame.setTextImageMode(selected);
 		}
-	}
+	} */
 	
 	private void showLogBook(final boolean visible) {
 		if (visible) {
@@ -305,7 +305,7 @@ public final class GamePanel extends JPanel {
 	public void update() {
 		playerViewer.update();
 		opponentViewer.update();
-		gameTournamentViewer.update();
+		gameDuelViewer.update();
 		
 		if (isTextView()) {
 			handGraveyardViewer.update();	
@@ -321,7 +321,7 @@ public final class GamePanel extends JPanel {
 		}
 	}
 	
-	private void updateView() {
+	public void updateView() {
 		if (isTextView()) {
 			backgroundLabel.setImage(false);
 			remove(imageStackViewer);
@@ -357,7 +357,7 @@ public final class GamePanel extends JPanel {
 	}
 	
 	public void close() {
-		frame.showTournament();
+		frame.showDuel();
 	}
 	
 	public void resizeComponents() {
@@ -370,7 +370,7 @@ public final class GamePanel extends JPanel {
 		playerViewer.setSmall(result.getFlag(ResolutionProfileType.GamePlayerViewerSmall));
 		opponentViewer.setBounds(result.getBoundary(ResolutionProfileType.GameOpponentViewer));
 		opponentViewer.setSmall(result.getFlag(ResolutionProfileType.GamePlayerViewerSmall));
-		gameTournamentViewer.setBounds(result.getBoundary(ResolutionProfileType.GameTournamentViewer));
+		gameDuelViewer.setBounds(result.getBoundary(ResolutionProfileType.GameDuelViewer));
 		logBookButton.setBounds(result.getBoundary(ResolutionProfileType.GameLogBookButton));
 		textViewButton.setBounds(result.getBoundary(ResolutionProfileType.TextViewButton));
 		logBookViewer.setBounds(result.getBoundary(ResolutionProfileType.GameLogBookViewer));

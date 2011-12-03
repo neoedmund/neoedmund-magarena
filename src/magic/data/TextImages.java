@@ -9,7 +9,6 @@ public class TextImages {
 	private static final Map<String,ImageIcon> TEXT_ICONS=new HashMap<String,ImageIcon>();
 	
 	static {
-		
 		TEXT_ICONS.put("{0}",IconImages.COST_ZERO);
 		TEXT_ICONS.put("{1}",IconImages.COST_ONE);
 		TEXT_ICONS.put("{2}",IconImages.COST_TWO);
@@ -53,11 +52,14 @@ public class TextImages {
 		TEXT_ICONS.put("{-}",IconImages.MINUS);
 		TEXT_ICONS.put("{C}",IconImages.CHARGE);
 		TEXT_ICONS.put("{F}",IconImages.FEATHER);
+		TEXT_ICONS.put("{g}",IconImages.GOLDCOUNTER);
 		TEXT_ICONS.put("{L}",IconImages.LOSE);
 	}
 	
 	public static ImageIcon getIcon(final String text) {
-		
+        if (!TEXT_ICONS.containsKey(text)) {
+            throw new RuntimeException("No corresponding icon for " + text);
+        }
 		return TEXT_ICONS.get(text);
 	}
 }

@@ -11,6 +11,7 @@ import magic.model.phase.MagicPhaseType;
 import magic.ui.GameController;
 import magic.ui.choice.PlayChoicePanel;
 
+import java.util.concurrent.Callable;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
@@ -49,14 +50,14 @@ public class MagicPlayChoice extends MagicChoice {
             return PASS_OPTIONS;
         }
 		
-		final List<Object> options=new ArrayList<Object>();
+		final ArrayList<Object> options=new ArrayList<Object>();
 
 		// Pass is first choice when scores are equal.
 		options.add(MagicPlayChoiceResult.PASS);
 
         // add rest of the options
         addValidChoices(game, player, true, options);
-		
+
 		return options;
 	}
 	
@@ -180,9 +181,12 @@ public class MagicPlayChoice extends MagicChoice {
 		if (results.size() == 1) {
             return new Object[]{results.get(0)};
         } else {
-            final PlayChoicePanel choicePanel=new PlayChoicePanel(controller,activationSource,results);
             controller.setSourceCardDefinition(activationSource);
-            controller.showComponent(choicePanel);
+            final PlayChoicePanel choicePanel = controller.showComponent(new Callable<PlayChoicePanel>() {
+                public PlayChoicePanel call() {
+                    return new PlayChoicePanel(controller,activationSource,results);
+                }
+            });
             if (controller.waitForInputOrUndo()) {
                 return UNDO_CHOICE_RESULTS;
             }

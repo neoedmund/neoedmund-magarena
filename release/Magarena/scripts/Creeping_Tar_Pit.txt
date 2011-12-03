@@ -1,0 +1,11 @@
+>Creeping Tar Pit
+url=http://magiccards.info/wwk/en/134.html
+image=http://magiccards.info/scans/en/wwk/134.jpg
+value=4
+rarity=R
+type=Land
+mana=u3b3
+timing=tapland
+ability=enters tapped,tap add mana {U} or {B}
+mana_or_combat
+requires_card_code

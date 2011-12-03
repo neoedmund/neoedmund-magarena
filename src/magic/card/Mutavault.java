@@ -1,8 +1,5 @@
 package magic.card;
 
-import magic.model.MagicAbility;
-import magic.model.MagicCardDefinition;
-import magic.model.MagicChangeCardDefinition;
 import magic.model.MagicGame;
 import magic.model.MagicManaCost;
 import magic.model.MagicManaType;
@@ -10,6 +7,7 @@ import magic.model.MagicPayedCost;
 import magic.model.MagicPermanent;
 import magic.model.MagicPowerToughness;
 import magic.model.MagicSource;
+import magic.model.MagicSubType;
 import magic.model.MagicType;
 import magic.model.action.MagicBecomesCreatureAction;
 import magic.model.condition.MagicArtificialCondition;
@@ -19,31 +17,33 @@ import magic.model.event.MagicEvent;
 import magic.model.event.MagicManaActivation;
 import magic.model.event.MagicPayManaCostEvent;
 import magic.model.event.MagicPermanentActivation;
-import magic.model.event.MagicTapManaActivation;
 import magic.model.event.MagicTiming;
-import magic.model.variable.MagicDummyLocalVariable;
-import magic.model.variable.MagicLocalVariable;
+import magic.model.mstatic.MagicStatic;
+import magic.model.mstatic.MagicLayer;
 
-import java.util.Arrays;
+import java.util.EnumSet;
 
 public class Mutavault {
-    private static final MagicLocalVariable VAR = new MagicDummyLocalVariable() {
+    private static final MagicStatic PT = new MagicStatic(MagicLayer.SetPT, MagicStatic.UntilEOT) {
 		@Override
 		public void getPowerToughness(final MagicGame game,final MagicPermanent permanent,final MagicPowerToughness pt) {
-			pt.power=2;
-			pt.toughness=2;
+			pt.set(2,2);
 		}
+    };
+    private static final MagicStatic ST = new MagicStatic(MagicLayer.Type, MagicStatic.UntilEOT) {
+    	@Override
+		public EnumSet<MagicSubType> getSubTypeFlags(
+                final MagicPermanent permanent,
+                final EnumSet<MagicSubType> flags) {
+            final EnumSet<MagicSubType> mod = flags.clone();
+            mod.addAll(MagicSubType.ALL_CREATURES);
+			return mod;
+        }
         @Override
 		public int getTypeFlags(final MagicPermanent permanent,final int flags) {
 			return flags|MagicType.Creature.getMask();
 		}
-        @Override
-        public long getAbilityFlags(final MagicGame game,final MagicPermanent permanent,final long flags) {
-            return flags|MagicAbility.Changeling.getMask();
-        }
 	};
-
-    public static final MagicManaActivation M = new MagicTapManaActivation(Arrays.asList(MagicManaType.Colorless),0);
 
 	public static final MagicPermanentActivation A = new MagicPermanentActivation(
 			new MagicCondition[]{new MagicArtificialCondition(
@@ -73,14 +73,7 @@ public class Mutavault {
                 final Object[] data,
                 final Object[] choiceResults) {
 			final MagicPermanent permanent=(MagicPermanent)data[0];
-			game.doAction(new MagicBecomesCreatureAction(permanent,VAR));
+			game.doAction(new MagicBecomesCreatureAction(permanent,PT,ST));
 		}
 	};
-
-    public static final MagicChangeCardDefinition SET = new MagicChangeCardDefinition() {
-        @Override
-        public void change(final MagicCardDefinition cdef) {
-		    cdef.setExcludeManaOrCombat();
-        }
-    };
 }

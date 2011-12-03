@@ -33,6 +33,10 @@ import magic.model.trigger.MagicPermanentTriggerList;
 import magic.model.trigger.MagicPermanentTriggerMap;
 import magic.model.trigger.MagicTrigger;
 import magic.model.trigger.MagicTriggerType;
+import magic.model.mstatic.MagicStatic;
+import magic.model.mstatic.MagicPermanentStatic;
+import magic.model.mstatic.MagicPermanentStaticMap;
+import magic.model.mstatic.MagicLayer;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -51,10 +55,11 @@ public class MagicGame {
     private static int COUNT = 0;
     private static MagicGame INSTANCE;
 	
-	private final MagicTournament tournament;
+	private final MagicDuel duel;
 	private final MagicPlayer players[];
 	private final MagicPermanentTriggerMap triggers;
 	private final MagicPermanentTriggerList turnTriggers;
+	private final MagicPermanentStaticMap statics;
 	private final MagicCardList exiledUntilEndOfTurn;
 	private final MagicEventQueue events;
 	private final MagicStack stack;
@@ -66,6 +71,7 @@ public class MagicGame {
 	private int startTurn=0;
 	private int mainPhaseCount=100000000;
 	private int landPlayed=0;
+	private boolean creatureDiedThisTurn = false;
 	private boolean priorityPassed=false;
 	private int priorityPassedCount=0;
     private boolean skipTurn=false;
@@ -89,7 +95,7 @@ public class MagicGame {
     private long time = 1000000;
 
 
-    static MagicGame getInstance() {
+    public static MagicGame getInstance() {
         return INSTANCE;
     }
     
@@ -98,31 +104,32 @@ public class MagicGame {
     }
 
     static MagicGame create(
-            final MagicTournament tournament,
+            final MagicDuel duel,
             final MagicGameplay gameplay,
             final MagicPlayer players[],
             final MagicPlayer startPlayer,
             final boolean sound) {
         COUNT++;
-        INSTANCE = new MagicGame(tournament, gameplay, players, startPlayer, sound);
+        INSTANCE = new MagicGame(duel, gameplay, players, startPlayer, sound);
         return INSTANCE;
     }
 
 	private MagicGame(
-            final MagicTournament tournament,
+            final MagicDuel duel,
             final MagicGameplay gameplay,
             final MagicPlayer players[],
             final MagicPlayer startPlayer,
             final boolean sound) {
 
 		artificial=false;
-		this.tournament=tournament;
+		this.duel=duel;
 		this.gameplay=gameplay;
 		this.players=players;
 		this.sound=sound;
 		
         triggers=new MagicPermanentTriggerMap();
 		turnTriggers=new MagicPermanentTriggerList();
+        statics = new MagicPermanentStaticMap();
 		exiledUntilEndOfTurn=new MagicCardList();
 		events=new MagicEventQueue();
 		stack=new MagicStack();
@@ -143,7 +150,7 @@ public class MagicGame {
 		sound=false;
        
         //copy the reference, these are singletons
-		this.tournament=game.tournament;
+		this.duel=game.duel;
 		this.gameplay=game.gameplay;
 		this.phase=game.phase;
 		this.step=game.step;
@@ -153,6 +160,7 @@ public class MagicGame {
         this.turn = game.turn;
 		this.startTurn = game.startTurn;
 		this.landPlayed = game.landPlayed;
+		this.creatureDiedThisTurn = game.creatureDiedThisTurn;
 		this.priorityPassed = game.priorityPassed;
         this.priorityPassedCount = game.priorityPassedCount;
 		this.stateCheckRequired = game.stateCheckRequired;
@@ -169,6 +177,7 @@ public class MagicGame {
         this.events=new MagicEventQueue(copyMap, game.events);
 		this.stack=new MagicStack(copyMap, game.stack);
 		this.triggers=new MagicPermanentTriggerMap(copyMap, game.triggers);
+		this.statics=new MagicPermanentStaticMap(copyMap, game.statics);
 		this.payedCost=new MagicPayedCost(copyMap, game.payedCost);
 		this.exiledUntilEndOfTurn=new MagicCardList(copyMap, game.exiledUntilEndOfTurn);
        
@@ -213,16 +222,6 @@ public class MagicGame {
 	public int getScore() {
 		return score;
 	}
-
-    /*
-    public long getTime() {
-        return time;
-    }
-
-    public void setTime(final long t) {
-        time = t;
-    }
-    */
 
     public long getUniqueId() {
         time++;
@@ -315,11 +314,11 @@ public class MagicGame {
 	}
 	
 	private int getArtificialLevel() {
-		return tournament.getDifficulty();
+		return duel.getDifficulty();
 	}
 	
     public int getArtificialLevel(final int idx) {
-		return tournament.getDifficulty(idx);
+		return duel.getDifficulty(idx);
 	}
 
 	public boolean isArtificial() {
@@ -616,7 +615,6 @@ public class MagicGame {
         }
         
         event.executeEvent(this,choiceResults);
-        checkState();
 	}
 
 	public MagicEventQueue getEvents() {
@@ -639,12 +637,12 @@ public class MagicGame {
 		doAction(new MagicExecuteFirstEventAction(choiceResults));
 	}
 	
-	public MagicTournament getTournament() {
-		return tournament;
+	public MagicDuel getDuel() {
+		return duel;
 	}
 	
-	public void advanceTournament() {
-		tournament.advance(losingPlayer!=players[0]);
+	public void advanceDuel() {
+		duel.advance(losingPlayer!=players[0]);
 	}
 	
 	public MagicPlayer[] getPlayers() {
@@ -709,8 +707,8 @@ public class MagicGame {
 	}
 	
 	public int getNrOfPermanents(final MagicType type) {
-		return players[0].getNrOfPermanentsWithType(type) + 
-               players[1].getNrOfPermanentsWithType(type);
+		return players[0].getNrOfPermanentsWithType(type,this) + 
+               players[1].getNrOfPermanentsWithType(type,this);
 	}
 			
 	public boolean canPlaySorcery(final MagicPlayer controller) {
@@ -742,7 +740,15 @@ public class MagicGame {
     public void setLandPlayed(final int lp) {
 		this.landPlayed = lp;
 	}
-			
+	
+    public boolean getCreatureDiedThisTurn() {
+    	return creatureDiedThisTurn;
+    }
+    
+    public void setCreatureDiedThisTurn(boolean died) {
+    	this.creatureDiedThisTurn = died;
+    }
+    
 	public MagicStack getStack() {
 		return stack;
 	}
@@ -1042,6 +1048,49 @@ public class MagicGame {
 		return false;
 	}
 	
+    // ***** STATICS *****
+	
+    public void addCardStatics(final MagicPermanent permanent) {
+        for (final MagicStatic mstatic : permanent.getCardDefinition().getStatics()) {
+            addStatic(permanent, mstatic);
+        }
+	}
+    
+    public Collection<MagicPermanentStatic> removeCardStatics(final MagicPermanent permanent) {
+        return statics.remove(permanent, permanent.getCardDefinition().getStatics());
+	}
+    
+    public void addStatic(final MagicPermanent permanent, final MagicStatic mstatic) {
+        addStatic(new MagicPermanentStatic(getUniqueId(),permanent,mstatic));
+	}
+    
+    public void addStatic(final MagicPermanentStatic permanentStatic) {
+		statics.add(permanentStatic);
+	}
+
+    public void addStatics(final Collection<MagicPermanentStatic> aStatics) {
+        for (final MagicPermanentStatic mpstatic : aStatics) {
+            addStatic(mpstatic);
+        }
+    }
+    
+    public Collection<MagicPermanentStatic> getStatics(MagicLayer layer) {
+        return statics.get(layer);
+	}
+    
+    public Collection<MagicPermanentStatic> removeTurnStatics() {
+        return statics.removeTurn();
+	}
+	
+    public Collection<MagicPermanentStatic> removeAllStatics(final MagicPermanent permanent) {
+        return statics.remove(permanent);
+	}
+    
+    public void removeStatic(final MagicPermanent permanent,final MagicStatic mstatic) {
+        statics.remove(permanent, mstatic);
+	}
+
+	
 	// ***** TRIGGERS *****
 	
 	/** Executes triggers immediately when they have no choices, otherwise ignore them. */
@@ -1049,31 +1098,36 @@ public class MagicGame {
 		this.immediate=immediate;
 	}
 	
-	public MagicPermanentTrigger addTrigger(final MagicPermanent permanent,final MagicTrigger trigger) {
-		final MagicPermanentTrigger permanentTrigger=new MagicPermanentTrigger(getUniqueId(),permanent,trigger);
-		triggers.get(trigger.getType()).add(permanentTrigger);
-		return permanentTrigger;
+	public void addTriggers(final MagicPermanent permanent) {
+        for (final MagicTrigger trigger : permanent.getCardDefinition().getTriggers()) {
+            addTrigger(permanent, trigger);
+        }
+	}
+
+	public MagicPermanentTrigger addTrigger(final MagicPermanent permanent, final MagicTrigger trigger) {
+        return addTrigger(new MagicPermanentTrigger(getUniqueId(),permanent,trigger));
 	}
 		
-	public void addTrigger(final MagicPermanentTrigger permanentTrigger) {
-		triggers.get(permanentTrigger.getTrigger().getType()).add(permanentTrigger);
+	public MagicPermanentTrigger addTrigger(final MagicPermanentTrigger permanentTrigger) {
+		triggers.add(permanentTrigger);
+        return permanentTrigger;
 	}
 
 	public MagicPermanentTrigger addTurnTrigger(final MagicPermanent permanent,final MagicTrigger trigger) {
-		final MagicPermanentTrigger permanentTrigger=addTrigger(permanent,trigger);
+		final MagicPermanentTrigger permanentTrigger = addTrigger(permanent,trigger);
 		turnTriggers.add(permanentTrigger);
 		return permanentTrigger;
 	}
 	
 	public void addTurnTriggers(final List<MagicPermanentTrigger> triggersList) {
 		for (final MagicPermanentTrigger permanentTrigger : triggersList) {
-			triggers.get(permanentTrigger.getTrigger().getType()).add(permanentTrigger);
+            addTrigger(permanentTrigger);
 		}
 		turnTriggers.addAll(triggersList);
 	}
 	
 	public void removeTurnTrigger(final MagicPermanentTrigger permanentTrigger) {
-		triggers.get(permanentTrigger.getTrigger().getType()).remove(permanentTrigger);
+		triggers.remove(permanentTrigger);
 		turnTriggers.remove(permanentTrigger);
 	}
 
@@ -1081,24 +1135,15 @@ public class MagicGame {
 		if (turnTriggers.isEmpty()) {
 			return Collections.<MagicPermanentTrigger>emptyList();
 		}
-		final MagicPermanentTriggerList removedTriggers=new MagicPermanentTriggerList(turnTriggers);
-		for (final MagicPermanentTrigger permanentTrigger : turnTriggers) {
-			triggers.get(permanentTrigger.getTrigger().getType()).remove(permanentTrigger);
+		final MagicPermanentTriggerList removedTriggers = new MagicPermanentTriggerList(turnTriggers);
+		for (final MagicPermanentTrigger permanentTrigger : removedTriggers) {
+            removeTurnTrigger(permanentTrigger);
 		}
-		turnTriggers.clear();
 		return removedTriggers;
 	}
 	
-	public void removeTriggers(final MagicPermanent permanent,final Collection<MagicPermanentTrigger> removedTriggers) {
-		for (final MagicTriggerType type : triggers.keySet()) {
-			for (final Iterator<MagicPermanentTrigger> iterator=triggers.get(type).iterator();iterator.hasNext();) {
-				final MagicPermanentTrigger permanentTrigger=iterator.next();
-				if (permanentTrigger.getPermanent()==permanent) {
-					iterator.remove();
-                    removedTriggers.add(permanentTrigger);
-				}
-			}
-		}
+	public Collection<MagicPermanentTrigger> removeTriggers(final MagicPermanent permanent) {
+        return triggers.remove(permanent);
 	}
 
 	public void executeTrigger(

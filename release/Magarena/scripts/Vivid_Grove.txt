@@ -1,0 +1,9 @@
+>Vivid Grove
+url=http://magiccards.info/cmd/en/295.html
+image=http://magiccards.info/scans/en/lw/277.jpg
+value=3
+rarity=U
+type=Land
+mana=b1g3r1u1w1
+ability=enters tapped,enters with charge 2,tap add mana {G},tap drain add mana any 
+timing=tapland

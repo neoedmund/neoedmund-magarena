@@ -8,11 +8,9 @@ import magic.model.MagicPlayer;
 import magic.model.action.MagicChangeCountersAction;
 import magic.model.event.MagicEvent;
 import magic.model.target.MagicTarget;
-import magic.model.trigger.MagicFromGraveyardToLibraryTrigger;
 import magic.model.trigger.MagicIfDamageWouldBeDealtTrigger;
 
 public class Vigor {
-
     public static final MagicIfDamageWouldBeDealtTrigger T1 = new MagicIfDamageWouldBeDealtTrigger(4) {
 		@Override
 		public MagicEvent executeTrigger(
@@ -28,7 +26,7 @@ public class Vigor {
                 target.isPermanent() && 
                 target.getController()==player) {
 				final MagicPermanent creature=(MagicPermanent)target;
-				if (creature.isCreature()) {
+				if (creature.isCreature(game)) {
 					// Prevention effect.
 					damage.setAmount(0);
 					return new MagicEvent(
@@ -55,6 +53,4 @@ public class Vigor {
                         true));
 		}
     };
-    
-    public static final MagicFromGraveyardToLibraryTrigger T2 = new MagicFromGraveyardToLibraryTrigger();
 }

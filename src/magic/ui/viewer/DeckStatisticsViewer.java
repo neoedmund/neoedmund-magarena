@@ -25,7 +25,7 @@ public class DeckStatisticsViewer extends JPanel implements ChangeListener {
 
 	private static final long serialVersionUID = 1L;
 	
-	public static final Dimension PREFERRED_SIZE = new Dimension(270, 170);
+	public static final Dimension PREFERRED_SIZE = new Dimension(300, 170);
 
 	private final TitleBar titleBar;
 	private final JPanel topPanel;
@@ -38,6 +38,7 @@ public class DeckStatisticsViewer extends JPanel implements ChangeListener {
 		textColor=ThemeFactory.getInstance().getCurrentTheme().getTextColor();
 		
 		setPreferredSize(PREFERRED_SIZE);
+		setBorder(FontsAndBorders.UP_BORDER);
 		
 		setLayout(new BorderLayout());
 				

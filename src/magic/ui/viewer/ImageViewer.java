@@ -7,7 +7,6 @@ import magic.ui.DelayedViewersThread;
 import magic.ui.theme.ThemeFactory;
 
 import javax.swing.JPanel;
-import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.RenderingHints;
@@ -34,14 +33,14 @@ public class ImageViewer extends JPanel implements DelayedViewer {
 	private static final List<Integer> imageIndices;
 	
 	private final BufferedImage image;
-	private BufferedImage scaledImage;
+	private final BufferedImage scaledImage;
 	private boolean showScaled=false;
 	private boolean scaled=false;
-	private int imageWidth;
-	private int imageHeight;
-	private int viewerHeight;
-	private int zoomX;
-	private int zoomY;
+	private final int viewerHeight;
+	private final int imageWidth;
+	private final int imageHeight;
+	private final int zoomX;
+	private final int zoomY;
 	private int sx1;
 	private int sy1;
 	private int sx2;
@@ -71,7 +70,7 @@ public class ImageViewer extends JPanel implements DelayedViewer {
 	
 	private static synchronized File rndFile() {
 		if (imageFiles.isEmpty()) {
-			return null;
+			return new File("");
 		}
 		if (imageIndices.size()==0) {
 			for (int index=0;index<imageFiles.size();index++) {
@@ -84,57 +83,59 @@ public class ImageViewer extends JPanel implements DelayedViewer {
 	
 	public ImageViewer() {
 		setOpaque(false);
-		image = magic.data.FileIO.toImg(rndFile(), ThemeFactory.getInstance().getCurrentTheme().getLogoTexture());
-		if (image!=null) {
-			imageWidth=image.getWidth();
-			imageHeight=image.getHeight();
-			viewerHeight=imageHeight*VIEWER_WIDTH/imageWidth;
-			zoomX=imageWidth/ZOOM_FACTOR;
-			zoomY=imageHeight/ZOOM_FACTOR;
-			
-			final MouseAdapter mouseListener=new MouseAdapter() {
-				@Override
-				public void mouseEntered(final MouseEvent e) {
-					DelayedViewersThread.getInstance().showViewer(ImageViewer.this,DELAY);
-				}
+		
+        image = magic.data.FileIO.toImg(rndFile(), ThemeFactory.getInstance().getCurrentTheme().getLogoTexture());
+        
+        imageWidth=image.getWidth();
+        imageHeight=image.getHeight();
+        viewerHeight=imageHeight*VIEWER_WIDTH/imageWidth;
+        zoomX=imageWidth/ZOOM_FACTOR;
+        zoomY=imageHeight/ZOOM_FACTOR;
+        
+        scaledImage=magic.GraphicsUtilities.scale(image,VIEWER_WIDTH,viewerHeight);
+        
+        final MouseAdapter mouseListener=new MouseAdapter() {
+            @Override
+            public void mouseEntered(final MouseEvent e) {
+                DelayedViewersThread.getInstance().showViewer(ImageViewer.this,DELAY);
+            }
 
-				@Override
-				public void mouseExited(final MouseEvent e) {
-					DelayedViewersThread.getInstance().hideViewer(ImageViewer.this);
-				}				
+            @Override
+            public void mouseExited(final MouseEvent e) {
+                DelayedViewersThread.getInstance().hideViewer(ImageViewer.this);
+            }				
 
-				@Override
-				public void mouseMoved(final MouseEvent e) {
-					final int y=e.getY();
-					if (y<=viewerHeight&&showScaled) {
-						final int x=e.getX();
-						int px=(x*imageWidth)/getWidth();
-						int py=(y*imageHeight)/viewerHeight;
-						if (px<zoomX) {
-							px=zoomX;						
-						} else if (px+zoomX>=imageWidth) {
-							px=imageWidth-zoomX;
-						}
-						if (py<zoomY) {
-							py=zoomY;
-						} else if (py+zoomY>=imageHeight) {
-							py=imageHeight-zoomY;
-						}
-						scaled=true;
-						sx1=px-zoomX;
-						sy1=py-zoomY;
-						sx2=px+zoomX;
-						sy2=py+zoomY;
-					} else {
-						scaled=false;
-					}
-					repaint();
-				}
-			};
-			
-			addMouseListener(mouseListener);
-			addMouseMotionListener(mouseListener);
-		}
+            @Override
+            public void mouseMoved(final MouseEvent e) {
+                final int y=e.getY();
+                if (y<=viewerHeight&&showScaled) {
+                    final int x=e.getX();
+                    int px=(x*imageWidth)/getWidth();
+                    int py=(y*imageHeight)/viewerHeight;
+                    if (px<zoomX) {
+                        px=zoomX;						
+                    } else if (px+zoomX>=imageWidth) {
+                        px=imageWidth-zoomX;
+                    }
+                    if (py<zoomY) {
+                        py=zoomY;
+                    } else if (py+zoomY>=imageHeight) {
+                        py=imageHeight-zoomY;
+                    }
+                    scaled=true;
+                    sx1=px-zoomX;
+                    sy1=py-zoomY;
+                    sx2=px+zoomX;
+                    sy2=py+zoomY;
+                } else {
+                    scaled=false;
+                }
+                repaint();
+            }
+        };
+        
+        addMouseListener(mouseListener);
+        addMouseMotionListener(mouseListener);
 	}
 	
 	@Override
@@ -151,21 +152,15 @@ public class ImageViewer extends JPanel implements DelayedViewer {
 	}
 
 	@Override
-	public void paint(final Graphics g) {
-		super.paint(g);
-		if (image!=null) {
-			if (scaled) {
-				final Graphics2D g2d=(Graphics2D)g;
-				g2d.setRenderingHint(RenderingHints.KEY_INTERPOLATION,RenderingHints.VALUE_INTERPOLATION_BILINEAR);		
-				g.drawImage(image,0,0,VIEWER_WIDTH,viewerHeight,sx1,sy1,sx2,sy2,this);
-			} else {
-				if (scaledImage==null) {
-					scaledImage=magic.GraphicsUtilities.scale(image,VIEWER_WIDTH,viewerHeight);
-				}
-				g.drawImage(scaledImage,0,0,this);
-			}
-			g.setColor(Color.black);
-			g.drawRect(0,0,getWidth()-1,viewerHeight-1);
-		}
+	public void paintComponent(final Graphics g) {
+        if (scaled) {
+            final Graphics2D g2d=(Graphics2D)g;
+            g2d.setRenderingHint(RenderingHints.KEY_INTERPOLATION,RenderingHints.VALUE_INTERPOLATION_BILINEAR);		
+            g.drawImage(image,0,0,VIEWER_WIDTH,viewerHeight,sx1,sy1,sx2,sy2,this);
+        } else {
+            g.drawImage(scaledImage,0,0,this);
+        }
+        //g.setColor(Color.black);
+        //g.drawRect(0,0,getWidth()-1,viewerHeight-1);
 	}
 }

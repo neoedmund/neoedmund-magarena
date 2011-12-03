@@ -26,7 +26,7 @@ public class Sheoldred__Whispering_One {
                     permanent,
                     player,
                     MagicTargetChoice.TARGET_CREATURE_CARD_FROM_GRAVEYARD,
-                    MagicGraveyardTargetPicker.getInstance(),
+                    new MagicGraveyardTargetPicker(true),
                     new Object[]{player},
                     this,
                     "Return target creature card$ from your graveyard to the battlefield.");
@@ -66,7 +66,7 @@ public class Sheoldred__Whispering_One {
                 final Object data[],
                 final Object[] choiceResults) {
 			final MagicPlayer opponent=(MagicPlayer)data[1];
-			if (opponent.controlsPermanentWithType(MagicType.Creature)) {
+			if (opponent.controlsPermanentWithType(MagicType.Creature,game)) {
 				game.addEvent(new MagicSacrificePermanentEvent(
                             (MagicPermanent)data[0],
                             opponent,

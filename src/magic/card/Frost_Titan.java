@@ -52,7 +52,7 @@ public class Frost_Titan {
             return new MagicEvent(
                     permanent,
                     player,
-                    MagicTargetChoice.NEG_TARGET_PERMANENT,
+                    MagicTargetChoice.TARGET_PERMANENT,
                     MagicEvent.NO_DATA,
                     this,
                     "Tap target permanent$. It doesn't untap during its controller's next untap step.");
@@ -66,7 +66,7 @@ public class Frost_Titan {
             event.processTargetPermanent(game,choiceResults,0,new MagicPermanentAction() {
                 public void doAction(final MagicPermanent perm) {
                     game.doAction(new MagicTapAction(perm,true));
-                    game.doAction(new MagicChangeStateAction(perm,MagicPermanentState.DoesNotUntap,true));
+                    game.doAction(new MagicChangeStateAction(perm,MagicPermanentState.DoesNotUntapDuringNext,true));
                 }
             });
         }
@@ -79,7 +79,7 @@ public class Frost_Titan {
                 new MagicEvent(
                     permanent,
                     permanent.getController(),
-                    MagicTargetChoice.NEG_TARGET_PERMANENT,
+                    MagicTargetChoice.TARGET_PERMANENT,
                     MagicEvent.NO_DATA,
                     this,
                     "Tap target permanent$. It doesn't untap during its controller's next untap step."):
@@ -94,7 +94,7 @@ public class Frost_Titan {
             event.processTargetPermanent(game,choiceResults,0,new MagicPermanentAction() {
                 public void doAction(final MagicPermanent perm) {
                     game.doAction(new MagicTapAction(perm,true));
-                    game.doAction(new MagicChangeStateAction(perm,MagicPermanentState.DoesNotUntap,true));
+                    game.doAction(new MagicChangeStateAction(perm,MagicPermanentState.DoesNotUntapDuringNext,true));
                 }
             });
         }
