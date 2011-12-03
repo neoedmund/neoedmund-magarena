@@ -16,17 +16,8 @@ public class MagicDeclareAttackersResultBuilder {
 	private static final Collection<Object> EMPTY_RESULT=Collections.<Object>singletonList(new MagicDeclareAttackersResult());
 	private static final int MAX_ATTACKERS[]={5,4,3,2,1,0,0,0};
 
-	private final MagicGame game;
-	private final MagicPlayer attackingPlayer;
-	private final MagicPlayer defendingPlayer;
-	
-	MagicDeclareAttackersResultBuilder(final MagicGame game,final MagicPlayer attackingPlayer) {
-		this.game=game;
-		this.attackingPlayer=attackingPlayer;
-		this.defendingPlayer=game.getOpponent(attackingPlayer);
-	}
-	
-	Collection<Object> buildResults() {
+	static Collection<Object> buildResults(final MagicGame game, final MagicPlayer attackingPlayer) {
+        final MagicPlayer defendingPlayer = game.getOpponent(attackingPlayer);
 		final MagicCombatCreatureBuilder creatureBuilder=new MagicCombatCreatureBuilder(game,attackingPlayer,defendingPlayer);
 		creatureBuilder.buildBlockers();
 		
@@ -50,7 +41,8 @@ public class MagicDeclareAttackersResultBuilder {
 			}
 		}
 
-		final int maxAttackers=MAX_ATTACKERS[game.getRelativeTurn()];
+		final int maxAttackers = game.getRelativeTurn() < MAX_ATTACKERS.length ? 
+            MAX_ATTACKERS[game.getRelativeTurn()] : 0;
 		int size=attackersSet.size();
 
         // Single result with the required attackers only.

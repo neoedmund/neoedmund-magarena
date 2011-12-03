@@ -12,7 +12,8 @@ public class Ronin_Warclub {
 		@Override
 		public MagicEvent executeTrigger(final MagicGame game,final MagicPermanent permanent,final MagicPermanent otherPermanent) {
 			final MagicPlayer player=permanent.getController();
-            return (otherPermanent.isCreature()&&otherPermanent.getController()==player) ?
+            return (otherPermanent.isCreature(game) && 
+                    otherPermanent.getController()==player) ?
 				new MagicEvent(
                         permanent,
                         player,
@@ -28,7 +29,9 @@ public class Ronin_Warclub {
                 final MagicEvent event,
                 final Object data[],
                 final Object[] choiceResults) {
-			game.doAction(new MagicAttachEquipmentAction((MagicPermanent)data[0],(MagicPermanent)data[1]));
+			game.doAction(new MagicAttachEquipmentAction(
+					(MagicPermanent)data[0],
+					(MagicPermanent)data[1]));
 		}
     };
 }

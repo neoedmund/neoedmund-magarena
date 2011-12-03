@@ -15,7 +15,7 @@ public class Dragonmaster_Outcast {
 		@Override
 		public MagicEvent executeTrigger(final MagicGame game,final MagicPermanent permanent,final MagicPlayer data) {
 			final MagicPlayer player=permanent.getController();
-			return (player==data&&player.getNrOfPermanentsWithType(MagicType.Land)>=6) ?
+			return (player==data&&player.getNrOfPermanentsWithType(MagicType.Land,game)>=6) ?
                 new MagicEvent(
                         permanent,
                         player,
@@ -30,7 +30,7 @@ public class Dragonmaster_Outcast {
                 final MagicEvent event,
                 final Object data[],
                 final Object[] choiceResults) {
-			game.doAction(new MagicPlayTokenAction((MagicPlayer)data[0],TokenCardDefinitions.DRAGON5_TOKEN_CARD));
+			game.doAction(new MagicPlayTokenAction((MagicPlayer)data[0],TokenCardDefinitions.get("Dragon5")));
 		}
     };
 }

@@ -1,7 +1,5 @@
 package magic.card;
 
-import magic.model.MagicCardDefinition;
-import magic.model.MagicChangeCardDefinition;
 import magic.model.MagicCounterType;
 import magic.model.MagicDamage;
 import magic.model.MagicGame;
@@ -12,39 +10,23 @@ import magic.model.MagicPowerToughness;
 import magic.model.MagicSource;
 import magic.model.action.MagicDealDamageAction;
 import magic.model.event.MagicEvent;
-import magic.model.event.MagicLevelUpActivation;
-import magic.model.event.MagicPermanentActivation;
+import magic.model.mstatic.MagicLayer;
+import magic.model.mstatic.MagicStatic;
 import magic.model.target.MagicTarget;
 import magic.model.target.MagicTargetFilter;
 import magic.model.trigger.MagicWhenAttacksTrigger;
 
-import magic.model.variable.MagicDummyLocalVariable;
-import magic.model.variable.MagicLocalVariable;
-import magic.model.variable.MagicStaticLocalVariable;
-
 import java.util.Collection;
 
 public class Lord_of_Shatterskull_Pass {
-    private static final MagicLocalVariable LV = new MagicDummyLocalVariable() {
+	public static final MagicStatic S = new MagicStatic(MagicLayer.SetPT) {
 		@Override
 		public void getPowerToughness(final MagicGame game,final MagicPermanent permanent,final MagicPowerToughness pt) {
 			if (permanent.getCounters(MagicCounterType.Charge)>0) {
-				pt.power=6;
-				pt.toughness=6;
+				pt.set(6,6);
 			} 
 		}		
 	};
-
-	public static final MagicPermanentActivation A = new MagicLevelUpActivation(MagicManaCost.ONE_RED,6);
-		
-    public static final MagicChangeCardDefinition SET = new MagicChangeCardDefinition() {
-        @Override
-        public void change(final MagicCardDefinition cdef) {
-            cdef.addLocalVariable(LV);	
-            cdef.addLocalVariable(MagicStaticLocalVariable.getInstance());
-            cdef.setVariablePT();
-        }
-    };
 		
     public static final MagicWhenAttacksTrigger T = new MagicWhenAttacksTrigger() {
 		@Override

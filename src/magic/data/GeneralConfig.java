@@ -147,6 +147,18 @@ public class GeneralConfig {
 		this.avatar=avatar;
 	}
 	
+	public boolean isHighlightNone() {
+		return "none".equals(highlight);
+	}
+	
+	public boolean isHighlightOverlay() {
+		return "overlay".equals(highlight);
+	}
+	
+	public boolean isHighlightTheme() {
+		return "theme".equals(highlight);
+	}
+	
 	public String getHighlight() {
 		return highlight;
 	}
@@ -303,6 +315,7 @@ public class GeneralConfig {
 		properties.setProperty(MAXIMIZED,String.valueOf(maximized));
 		properties.setProperty(THEME,theme);
 		properties.setProperty(AVATAR,avatar);
+		properties.setProperty(HIGHLIGHT,highlight);
 		properties.setProperty(TEXT_VIEW,String.valueOf(textView));
 		properties.setProperty(SKIP_SINGLE,String.valueOf(skipSingle));
 		properties.setProperty(ALWAYS_PASS,String.valueOf(alwaysPass));

@@ -1,8 +1,13 @@
 package magic.ui;
 
+import magic.MagicMain;
+
+import magic.data.CardDefinitions;
 import magic.data.DownloadImageFile;
-import magic.data.DownloadImageFiles;
+import magic.data.DownloadMissingFiles;
 import magic.data.IconImages;
+import magic.data.WebDownloader;
+import magic.data.FileIO;
 
 import javax.swing.BorderFactory;
 import javax.swing.DefaultComboBoxModel;
@@ -15,6 +20,12 @@ import javax.swing.JPanel;
 import javax.swing.JProgressBar;
 import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
+import javax.swing.JSeparator;
+import javax.swing.JFileChooser;
+
+import java.io.File;
+import java.io.IOException;
+
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
@@ -23,106 +34,107 @@ import java.awt.event.ActionListener;
 import java.net.InetSocketAddress;
 import java.net.Proxy;
 
-public class DownloadImagesDialog extends JDialog implements Runnable,ActionListener {
+import net.miginfocom.swing.MigLayout;
+
+public class DownloadImagesDialog extends JFrame implements Runnable,ActionListener {
 	private static final long serialVersionUID = 1L;
 
 	private static final String DOWNLOAD_IMAGES_FILENAME="images.txt";
 	
-	private final DownloadImageFiles files;
+	private final MagicFrame frame;
+	private final DownloadMissingFiles files;
 	private final JComboBox proxyComboBox;
 	private final JTextField addressTextField;
 	private final JTextField portTextField;
 	private final JProgressBar progressBar;
 	private final JLabel downloadLabel;
 	private final JLabel downloadProgressLabel;
+    private final JLabel dirChosen;
 	private final JButton okButton;
 	private final JButton cancelButton;
-	private Thread downloader;
+	private final JButton dirButton;
+	private final Thread downloader;
+    private File oldDataFolder = new File("");
 	private Proxy proxy;
+    private boolean cancelDownload = false;
 
 	public DownloadImagesDialog(final MagicFrame frame) {
-		super(frame,true);
-		this.setLayout(new BorderLayout());
-		this.setTitle("Download images");
-		this.setSize(300,405);
+		super("Download card images and text");
+
+        this.frame = frame;
+		this.downloader = new Thread(this);
+		
+        this.setLayout(new MigLayout("ins 20, fillx, wrap 1","[grow]"));
 		this.setLocationRelativeTo(frame);
 		this.setResizable(false);
 		this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 
-		final JPanel downloadPanel=new JPanel();
-		downloadPanel.setLayout(null);
-		add(downloadPanel,BorderLayout.CENTER);
+		add(new JLabel("Import data from previous version"), "gapbottom rel, w 300");
 		
-		final Proxy.Type[] proxyTypes=Proxy.Type.values();
+        dirButton = new JButton("Select Magarena data folder");
+		dirButton.addActionListener(this);
+        add(dirButton, "growx, gapbottom rel"); 
+        
+        add(new JLabel("Selected:"), "split 2");
+
+        dirChosen = new JLabel("None");
+        add(dirChosen, "growx, gapbottom unrel");
+
+		add(new JLabel("Proxy configuration"), "gapbottom rel");
+
+        final Proxy.Type[] proxyTypes=Proxy.Type.values();
 		final DefaultComboBoxModel proxyModel=new DefaultComboBoxModel(proxyTypes);
 		proxyComboBox=new JComboBox(proxyModel);
-		proxyComboBox.setBounds(10,25,220,25);
 		proxyComboBox.setFocusable(false);
 		proxyComboBox.addActionListener(this);
-		final JLabel addressLabel=new JLabel("Address");
-		addressLabel.setBounds(10,55,220,25);
-		addressTextField=new JTextField();
-		addressTextField.setBounds(10,80,220,25);
-		final JLabel portLabel=new JLabel("Port");
-		portLabel.setBounds(10,110,220,25);
+        add(proxyComboBox, "growx, gapbottom rel");
+
+	    add(new JLabel("URL"), "split 2");
+        addressTextField=new JTextField();
+        add(addressTextField, "growx, gapbottom rel");
+
+        add(new JLabel("Port"), "split 2");
 		portTextField=new JTextField();
-		portTextField.setBounds(10,135,220,25);
+        add(portTextField, "growx, gapbottom unrel");
 		
-		final JPanel proxyPanel=new JPanel();
-		proxyPanel.setBorder(BorderFactory.createTitledBorder("Proxy"));
-		proxyPanel.setBounds(25,20,240,175);
-		proxyPanel.setLayout(null);
-		proxyPanel.add(proxyComboBox);
-		proxyPanel.add(addressLabel);
-		proxyPanel.add(addressTextField);
-		proxyPanel.add(portLabel);
-		proxyPanel.add(portTextField);
-		downloadPanel.add(proxyPanel);
+        add(new JLabel("Progress"), "gapbottom rel");
 		
 		progressBar=new JProgressBar();
-		progressBar.setBounds(10,30,220,25);
-		downloadLabel=new JLabel();
-		downloadLabel.setBounds(10,60,220,25);
-		downloadProgressLabel = new JLabel();
-		downloadProgressLabel.setBounds(10,80,220,25);
-		downloadProgressLabel.setText("");
-		final JPanel progressPanel=new JPanel();
-		progressPanel.setBorder(BorderFactory.createTitledBorder("Progress"));
-		progressPanel.setBounds(25,200,240,120);
-		progressPanel.setLayout(null);
-		progressPanel.add(progressBar);
-		progressPanel.add(downloadLabel);
-		progressPanel.add(downloadProgressLabel);
-		downloadPanel.add(progressPanel);
+        add(progressBar, "growx");
 
+		downloadLabel=new JLabel();
+		downloadLabel.setText("");
+        add(downloadLabel, "growx");
+
+		downloadProgressLabel = new JLabel();
+		downloadProgressLabel.setText("");
+        add(downloadProgressLabel, "growx");
+        
 		okButton=new JButton("OK");
 		okButton.setFocusable(false);
 		okButton.setIcon(IconImages.OK);
 		okButton.addActionListener(this);
-		cancelButton=new JButton("Cancel");
+        add(okButton, "tag ok, split 2");
+		
+        cancelButton=new JButton("Cancel");
 		cancelButton.setFocusable(false);
 		cancelButton.setIcon(IconImages.CANCEL);
 		cancelButton.addActionListener(this);
+        add(cancelButton, "tag cancel");
 
-		final JPanel buttonPanel=new JPanel();
-		buttonPanel.setPreferredSize(new Dimension(0,45));
-		buttonPanel.setLayout(new FlowLayout(FlowLayout.RIGHT,15,0));
-		buttonPanel.add(okButton);
-		buttonPanel.add(cancelButton);
-		add(buttonPanel,BorderLayout.SOUTH);
-
-		files=new DownloadImageFiles(DOWNLOAD_IMAGES_FILENAME);
+		files=new DownloadMissingFiles(DOWNLOAD_IMAGES_FILENAME);
 		if (files.isEmpty()) {
 			okButton.setEnabled(false);
 			progressBar.setMaximum(1);
 			progressBar.setValue(1);
-			downloadLabel.setText("All images are present.");
+			downloadLabel.setText("All images and text are present.");
 		} else {
 			downloadLabel.setText("Press OK to begin or Cancel.");
 		}
 
 		updateProxy();
-		setVisible(true);		
+        this.pack();
+		this.setVisible(true);		
 	}
 	
 	private void updateProxy() {
@@ -145,8 +157,17 @@ public class DownloadImagesDialog extends JDialog implements Runnable,ActionList
             }
         });
         
+
+        final File[] oldDirs = {
+            new File(oldDataFolder, CardDefinitions.CARD_IMAGE_FOLDER),
+            new File(oldDataFolder, CardDefinitions.TOKEN_IMAGE_FOLDER),
+            new File(oldDataFolder, CardDefinitions.CARD_TEXT_FOLDER),
+            new File(oldDataFolder, "symbols")
+        };
+        
         int count=0;
-        for (final DownloadImageFile file : files) {
+
+        for (final WebDownloader file : files) {
             final int curr = count + 1;
             SwingUtilities.invokeLater(new Runnable() {
                 public void run() {
@@ -155,10 +176,26 @@ public class DownloadImagesDialog extends JDialog implements Runnable,ActionList
                 }
             });
 
-            file.download(proxy);
+            //check if file is in previous version
+            for (final File oldDir : oldDirs) {
+                final File oldFile = new File(oldDir, file.getFilename());
+                if (oldFile.exists()) {
+                    try {
+                        FileIO.copyFile(oldFile, file.getFile());
+                        break;
+                    } catch (IOException ex) {
+                        System.err.println("Unable to copy " + oldFile);
+                    }
+                }
+            }
+            
+            if (!file.getFile().exists()) {
+                file.download(proxy);
+            }
+
             count++;
 
-            if (downloader == null) {
+            if (cancelDownload) {
                 break;
             }
            
@@ -169,10 +206,21 @@ public class DownloadImagesDialog extends JDialog implements Runnable,ActionList
                 }
             });
         }
+			
+		// clear images that are set to "missing image" in cache
+        SwingUtilities.invokeLater(new Runnable() {
+            public void run() {
+                magic.data.HighQualityCardImagesProvider.getInstance().clearCache();
+                frame.updateGameView();
+            }
+        });
+		
+		// reload text
+		CardDefinitions.loadCardTexts();
                 
         IconImages.reloadSymbols();
       
-        if (downloader != null) {
+        if (!cancelDownload) {
             SwingUtilities.invokeLater(new Runnable() {
                 public void run() {
                     dispose();
@@ -202,13 +250,24 @@ public class DownloadImagesDialog extends JDialog implements Runnable,ActionList
 			addressTextField.setEnabled(false);
 			portTextField.setEnabled(false);
 			okButton.setEnabled(false);
-			downloader = new Thread(this);
 			downloader.start();	
 		} else if (source==cancelButton) {
-            downloader = null;
+            cancelDownload = true;
 			dispose();
 		} else if (source==proxyComboBox) {
 			updateProxy();
-		}
+		} else if (source==dirButton) {
+            final JFileChooser fc = new JFileChooser();
+            fc.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+            int returnVal = fc.showOpenDialog(this);
+            if (returnVal == JFileChooser.APPROVE_OPTION) {
+                oldDataFolder = fc.getSelectedFile();
+                final File subFolder = new File(oldDataFolder, MagicMain.getGameFolder());
+                if (subFolder.exists()) {
+                    oldDataFolder = subFolder;
+                }
+                dirChosen.setText(oldDataFolder.getName());
+            }
+        }
 	}
 }

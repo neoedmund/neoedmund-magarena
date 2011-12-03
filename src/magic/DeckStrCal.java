@@ -3,9 +3,9 @@ package magic;
 import magic.ai.MagicAI;
 import magic.ai.MagicAIImpl;
 import magic.data.DeckUtils;
-import magic.data.TournamentConfig;
+import magic.data.DuelConfig;
 import magic.model.MagicGame;
-import magic.model.MagicTournament;
+import magic.model.MagicDuel;
 import magic.ui.GameController;
 
 import java.io.File;
@@ -91,42 +91,44 @@ public class DeckStrCal {
         return validArgs;
     }
 
-    private static MagicTournament setupTournament() {
+    private static MagicDuel setupDuel() {
         // Load cards and cubes.
         MagicMain.initializeEngine();
 
         // Set number of games.
-        final TournamentConfig config=new TournamentConfig();
+        final DuelConfig config=new DuelConfig();
         config.setNrOfGames(games);
 
         // Set difficulty.
-        final MagicTournament testTournament=new MagicTournament(config);
-        testTournament.initialize();
-        testTournament.setDifficulty(0, str1);
-        testTournament.setDifficulty(1, str2);
+        final MagicDuel testDuel=new MagicDuel(config);
+        testDuel.initialize();
+        testDuel.setDifficulty(0, str1);
+        testDuel.setDifficulty(1, str2);
         
         // Set the AI
-        testTournament.setAIs(new MagicAI[]{ai1.getAI(), ai2.getAI()});
-        testTournament.getPlayer(0).setArtificial(true);
-        testTournament.getPlayer(1).setArtificial(true);
+        testDuel.setAIs(new MagicAI[]{ai1.getAI(), ai2.getAI()});
+        testDuel.getPlayer(0).setArtificial(true);
+        testDuel.getPlayer(1).setArtificial(true);
 
         // Set the deck.
-        DeckUtils.loadDeck(deck1, testTournament.getPlayer(0)); 
-        DeckUtils.loadDeck(deck2, testTournament.getPlayer(1));
+        DeckUtils.loadDeck(deck1, testDuel.getPlayer(0)); 
+        DeckUtils.loadDeck(deck2, testDuel.getPlayer(1));
 
-        return testTournament;
+        return testDuel;
     }
    
     public static void main(final String[] args) {
         if (!parseArguments(args)) {
             System.err.println("Usage: java -jar <path to Magarena.jar/exe> magic.DeckStrCal --deck1 <.dec file> --deck2 <.dec file> [options]");
             System.err.println("Options:");
-            System.err.println("--games <1-*> [number of games to play, default 10]");
-            System.err.println("--strength <1-8> [strength of default AI, default 6]");
+            System.err.println("--ai1      [MMAB|MMABC|MCTS|RND] (AI for player 1, default MMAB)");
+            System.err.println("--ai2      [MMAB|MMABC|MCTS|RND] (AI for player 2, default MMAB)");
+            System.err.println("--strength <1-8>                 (level of AI, default 6)");
+            System.err.println("--games    <1-*>                 (number of games to play, default 10)");
             System.exit(1);
         }
 
-        final MagicTournament testTournament = setupTournament();
+        final MagicDuel testDuel = setupDuel();
         
         System.out.println(
                  "#deck1" +
@@ -141,8 +143,8 @@ public class DeckStrCal {
         ); 
 
         int played = 0;
-        while (!testTournament.isFinished()) {
-            final MagicGame game=testTournament.nextGame(false);
+        while (!testDuel.isFinished()) {
+            final MagicGame game=testDuel.nextGame(false);
             game.setArtificial(true);
             final GameController controller=new GameController(game);
         
@@ -150,7 +152,7 @@ public class DeckStrCal {
             controller.setMaxTestGameDuration(3600000);
 
             controller.runGame();
-            if (testTournament.getGamesPlayed() > played) {
+            if (testDuel.getGamesPlayed() > played) {
                 System.err.println(
                         deck1 + "\t" +
                         ai1 + "\t" +
@@ -158,11 +160,11 @@ public class DeckStrCal {
                         deck2 + "\t" + 
                         ai2 + "\t" +
                         str2 + "\t" +
-                        testTournament.getGamesTotal() + "\t" +
-                        testTournament.getGamesWon() + "\t" +
-                        (testTournament.getGamesPlayed() - testTournament.getGamesWon())
+                        testDuel.getGamesTotal() + "\t" +
+                        testDuel.getGamesWon() + "\t" +
+                        (testDuel.getGamesPlayed() - testDuel.getGamesWon())
                 ); 
-                played = testTournament.getGamesPlayed();
+                played = testDuel.getGamesPlayed();
             }
         }
         System.out.println(
@@ -172,9 +174,9 @@ public class DeckStrCal {
                 deck2 + "\t" + 
                 ai2 + "\t" +
                 str2 + "\t" +
-                testTournament.getGamesTotal() + "\t" +
-                testTournament.getGamesWon() + "\t" +
-                (testTournament.getGamesPlayed() - testTournament.getGamesWon())
+                testDuel.getGamesTotal() + "\t" +
+                testDuel.getGamesWon() + "\t" +
+                (testDuel.getGamesPlayed() - testDuel.getGamesWon())
         ); 
     }
 }

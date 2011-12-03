@@ -3,24 +3,31 @@ package magic.ui;
 import magic.data.CardImagesProvider;
 import magic.model.MagicCardDefinition;
 import magic.model.MagicCubeDefinition;
+import magic.model.MagicDeck;
 import magic.model.MagicPlayerDefinition;
 import magic.model.MagicPlayerProfile;
+import magic.model.MagicRandom;
 import magic.ui.viewer.CardViewer;
 import magic.ui.viewer.DeckStatisticsViewer;
 import magic.ui.viewer.DeckStrengthViewer;
+import magic.ui.widget.FontsAndBorders;
 import magic.ui.widget.ZoneBackgroundLabel;
 
 import java.awt.Container;
 import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 import java.util.List;
 import javax.swing.Box;
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JSplitPane;
+import javax.swing.ScrollPaneConstants;
 import javax.swing.SpringLayout;
 
 
@@ -33,9 +40,9 @@ public class ExplorerPanel extends JPanel implements ActionListener {
 	public static final int SPELL = 2;	
 	
 	private static final String CLOSE_BUTTON_TEXT = "Close";
-	private static final String SWAP_BUTTON_TEXT = "Swap Selected Cards";
+	private static final String ADD_BUTTON_TEXT = "Add";
+	private static final String REMOVE_BUTTON_TEXT = "Remove";
 	private static final String CARD_POOL_TITLE = "Card Pool";
-	private static final String DECK_TITLE = "Deck";
  	private static final int SPACING=10;
 	
  	private final MagicFrame frame;
@@ -48,10 +55,11 @@ public class ExplorerPanel extends JPanel implements ActionListener {
 	private final DeckStatisticsViewer statsViewer;
 	private final ExplorerFilterPanel filterPanel;
 	private final JButton closeButton;
-	private final JButton swapButton;
+	private final JButton addButton;
+	private final JButton removeButton;
 	
 	private List<MagicCardDefinition> cardPoolDefs;
-	private List<MagicCardDefinition> deckDefs;
+	private MagicDeck deckDefs;
 	
 	public ExplorerPanel(final MagicFrame frame, final int mode, final MagicPlayerDefinition player, final MagicCubeDefinition cube) {
 		this.frame=frame;
@@ -65,20 +73,31 @@ public class ExplorerPanel extends JPanel implements ActionListener {
 		buttonsPanel.setLayout(new BoxLayout(buttonsPanel, BoxLayout.X_AXIS));
 		buttonsPanel.setOpaque(false);
 		
-		// create swap button for deck editing
+		// create buttons for deck editing
 		if (isEditingDeck()) {
-			swapButton = new JButton(SWAP_BUTTON_TEXT);
-			swapButton.setFocusable(false);
-			swapButton.addActionListener(this);
-			buttonsPanel.add(swapButton);
+			addButton = new JButton(ADD_BUTTON_TEXT);
+			addButton.setFont(FontsAndBorders.FONT1);
+			addButton.setFocusable(false);
+			addButton.addActionListener(this);
+			buttonsPanel.add(addButton);
 			
-			buttonsPanel.add(Box.createHorizontalStrut(SPACING));			
+			buttonsPanel.add(Box.createHorizontalStrut(SPACING));
+			
+			removeButton = new JButton(REMOVE_BUTTON_TEXT);
+			removeButton.setFont(FontsAndBorders.FONT1);
+			removeButton.setFocusable(false);
+			removeButton.addActionListener(this);
+			buttonsPanel.add(removeButton);
+			
+			buttonsPanel.add(Box.createHorizontalStrut(SPACING));
 		} else {
-			swapButton = null;
+			addButton = null;
+			removeButton = null;
 		}
 		
 		// close button
 		closeButton = new JButton(CLOSE_BUTTON_TEXT);
+		closeButton.setFont(FontsAndBorders.FONT1);
 		closeButton.setFocusable(false);
 		closeButton.addActionListener(this);
 		buttonsPanel.add(closeButton);
@@ -108,9 +127,14 @@ public class ExplorerPanel extends JPanel implements ActionListener {
 		
 		// add scrolling to left side
 		JScrollPane leftScrollPane = new JScrollPane(leftPanel);
-		leftScrollPane.setBorder(null);
+		leftScrollPane.setBorder(FontsAndBorders.NO_BORDER);
+		leftScrollPane.setBackground(java.awt.Color.green);
+		leftPanel.setOpaque(false);
+		leftPanel.setBorder(FontsAndBorders.NO_BORDER);
+		leftPanel.setBackground(java.awt.Color.yellow);
 		leftScrollPane.setOpaque(false);
 		leftScrollPane.getViewport().setOpaque(false);
+		leftScrollPane.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
 		add(leftScrollPane);
 		
 		// filters
@@ -118,24 +142,28 @@ public class ExplorerPanel extends JPanel implements ActionListener {
 		if (isEditingDeck()) {
 			profile=getPlayer().getProfile();
 		}
-		filterPanel = new ExplorerFilterPanel(this, mode, profile, cube);
+		filterPanel = new ExplorerFilterPanel(frame, this, mode, profile, cube);
 		
 		final JScrollPane filterScrollPane = new JScrollPane(filterPanel);
-		filterScrollPane.setBorder(null);
+		filterScrollPane.setBorder(FontsAndBorders.NO_BORDER);
 		filterScrollPane.setOpaque(false);
 		filterScrollPane.getViewport().setOpaque(false);
+		filterScrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
 		add(filterScrollPane);
 		
 		// card pool
 		cardPoolDefs = filterPanel.getCardDefinitions();
-		cardPoolTable = (isEditingDeck()) ? new CardTable(cardPoolDefs, cardViewer, CARD_POOL_TITLE, true) : new CardTable(cardPoolDefs, cardViewer);
 
 		// deck
 		final Container cardsPanel; // reference panel holding both card pool and deck
 		
 		if (isEditingDeck()) {
+			cardPoolTable = new CardTable(cardPoolDefs, cardViewer, generatePoolTitle(), true);
+			cardPoolTable.addMouseListener(new CardPoolMouseListener());
+			
 			deckDefs = getPlayer().getDeck();
-			deckTable = new CardTable(deckDefs, cardViewer, DECK_TITLE, true);
+			deckTable = new CardTable(deckDefs, cardViewer, generateDeckTitle(deckDefs), true);
+			deckTable.addMouseListener(new DeckMouseListener());
 			
 			JSplitPane cardsSplitPane = new JSplitPane(JSplitPane.VERTICAL_SPLIT);
 			cardsSplitPane.setOneTouchExpandable(true);
@@ -150,6 +178,7 @@ public class ExplorerPanel extends JPanel implements ActionListener {
 			statsViewer.setPlayer(getPlayer());
 		} else {
 			// no deck
+			cardPoolTable = new CardTable(cardPoolDefs, cardViewer);
 			deckDefs = null;
 			deckTable = null;
 			
@@ -216,49 +245,109 @@ public class ExplorerPanel extends JPanel implements ActionListener {
 		if (cardPoolDefs.isEmpty()) {
 			cardViewer.setCard(MagicCardDefinition.UNKNOWN,0);
  		} else {
- 			cardViewer.setCard(cardPoolDefs.get(0),0);
+ 			final int index = MagicRandom.nextInt(cardPoolDefs.size());
+ 			cardViewer.setCard(cardPoolDefs.get(index),0);
  		}
 	}
 	
+ 	private String generatePoolTitle() {
+ 		return CARD_POOL_TITLE + " - " + cardPoolDefs.size() + " cards";
+ 	}
+
 	private boolean isEditingDeck() {
 		return player != null;
 	}
 	
-	private MagicPlayerDefinition getPlayer() {
+	public MagicPlayerDefinition getPlayer() {
 		return player;
+	}
+	
+	String generateDeckTitle(MagicDeck deck) {
+		return "Deck (" + deck.getName() + ") - " + deck.size() + " cards";
 	}
 	
 	public void updateCardPool() {
 		cardPoolDefs = filterPanel.getCardDefinitions();
 		cardPoolTable.setCards(cardPoolDefs);
+		if(isEditingDeck()) {
+ 			cardPoolTable.setTitle(generatePoolTitle());
+ 		}
 	}
 	
 	public void updateDeck() {
-		deckDefs = getPlayer().getDeck();
-		deckTable.setCards(deckDefs);
+		if(isEditingDeck()) {
+			deckDefs = getPlayer().getDeck();
+			deckTable.setTitle(generateDeckTitle(deckDefs));
+			deckTable.setCards(deckDefs);
+		}
+	}
+	
+	private void removeSelectedFromDeck() {
+		List<MagicCardDefinition> deckCards = deckTable.getSelectedCards();
+		
+		if (deckCards.size() > 0) {
+			for(MagicCardDefinition card : deckCards) { 
+				getPlayer().getDeck().remove(card);
+			}
+			
+			updateDeck();
+			statsViewer.setPlayer(getPlayer());
+		} else {
+			// display error
+			JOptionPane.showMessageDialog(frame, "Select a valid card in the deck to remove it.", "Error", JOptionPane.ERROR_MESSAGE);
+		}
+	}
+	
+	private void addSelectedToDeck() {
+		List<MagicCardDefinition> cardPoolCards = cardPoolTable.getSelectedCards();
+		
+		if (cardPoolCards.size() > 0) {
+			for(MagicCardDefinition card : cardPoolCards) { 
+				getPlayer().getDeck().add(card);
+			}
+			
+			updateDeck();
+			statsViewer.setPlayer(getPlayer());
+		} else {
+			// display error
+			JOptionPane.showMessageDialog(frame, "Select a valid card in the card pool to add it to the deck.", "Error", JOptionPane.ERROR_MESSAGE);
+		}
 	}
 	
 	@Override
 	public void actionPerformed(final ActionEvent event) {
-	
 		final Object source=event.getSource();
 		
 		if (source == closeButton) {
+			filterPanel.closePopups();
 			if (isEditingDeck()) {
 				frame.closeDeckEditor();
 			} else {
 				frame.closeCardExplorer();
 			}
-		} else if (source == swapButton && isEditingDeck()) {
-			MagicCardDefinition cardPoolCard = cardPoolTable.getSelectedCard();
-			MagicCardDefinition deckCard = deckTable.getSelectedCard();
-			if (cardPoolCard != null && deckCard != null) {
-				getPlayer().getDeck().remove(deckCard);
-				getPlayer().getDeck().add(cardPoolCard);
-				updateDeck();
-			
-				// update deck stats
-				statsViewer.setPlayer(getPlayer());
+		} else if (isEditingDeck()) {
+			if(source == addButton) {
+				addSelectedToDeck();
+			} else if(source == removeButton) {
+				removeSelectedFromDeck();
+			}
+		}
+	}
+	
+	private class CardPoolMouseListener extends MouseAdapter {
+		@Override
+		public void mouseClicked(MouseEvent e) {
+			if(isEditingDeck() && e.getClickCount() > 1) {
+				addSelectedToDeck();
+			}
+		}
+	}
+	
+	private class DeckMouseListener extends MouseAdapter {
+		@Override
+		public void mouseClicked(MouseEvent e) {
+			if(isEditingDeck() && e.getClickCount() > 1) {
+				removeSelectedFromDeck();
 			}
 		}
 	}

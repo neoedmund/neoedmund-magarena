@@ -2,25 +2,26 @@ BEGIN {
     FS = "\t"
 }
 
-FILENAME ~ /existing/ {
+!(FILENAME ~ /mtg-data/) {
     impl[$1] = 0
     next
 }
 
-{
-    if ($1 in impl) {
-        found[$1] = 1
-        print $1
-        while ($0 != "") {
-            getline
-            print $0
-        }
-        cnt++
+FILENAME ~ /mtg-data/ && $0 == "" {
+    getline
+    name = $1
+    if (name in impl) {
+        found[name] = 1
+        print ""
     }
 }
 
+name in found {
+    print
+}
+
 END {
-    print "found " cnt " card" > "/dev/stderr"
+    print "found " length(found) " cards" > "/dev/stderr"
     for (i in impl) {
         if (!(i in found)) {
             print i " not found" > "/dev/stderr"

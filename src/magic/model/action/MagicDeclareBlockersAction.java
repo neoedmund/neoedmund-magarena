@@ -5,6 +5,7 @@ import magic.model.MagicPermanent;
 import magic.model.MagicPlayer;
 import magic.model.choice.MagicCombatCreature;
 import magic.model.choice.MagicDeclareBlockersResult;
+import magic.model.trigger.MagicTriggerType;
 
 public class MagicDeclareBlockersAction extends MagicAction {
 
@@ -29,10 +30,22 @@ public class MagicDeclareBlockersAction extends MagicAction {
 					game.doAction(new MagicDeclareBlockerAction(attacker,creatures[index].permanent));
                     count++;
 				}
+				
+				if (attacker.isBlocked()) {
+					game.executeTrigger(MagicTriggerType.WhenBecomesBlocked,attacker);
+				}
 			}
 		}
 
-        player.setNrOfBlockers(count);
+		player.setNrOfBlockers(count);
+		
+		for (final MagicPermanent permanent : game.getOpponent(player).getPermanents()) {	
+			if (permanent.isAttacking() && !permanent.isBlocked()) {
+				game.executeTrigger(MagicTriggerType.WhenAttacksUnblocked,permanent);
+			}
+		}
+        
+        
 	}
 	
 	@Override

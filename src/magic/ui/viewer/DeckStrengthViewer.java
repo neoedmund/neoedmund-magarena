@@ -4,9 +4,9 @@ import magic.ai.MagicAI;
 import magic.ai.MagicAIImpl;
 import magic.data.GeneralConfig;
 import magic.data.IconImages;
-import magic.data.TournamentConfig;
+import magic.data.DuelConfig;
 import magic.model.MagicGame;
-import magic.model.MagicTournament;
+import magic.model.MagicDuel;
 import magic.ui.GameController;
 import magic.ui.theme.ThemeFactory;
 import magic.ui.widget.FontsAndBorders;
@@ -35,7 +35,8 @@ public class DeckStrengthViewer extends JPanel implements ActionListener {
 
 	private static final long serialVersionUID = 1L;
 	
-	public static final Dimension PREFERRED_SIZE = new Dimension(270, 170);
+	public static final Dimension PREFERRED_SIZE = new Dimension(270, 175);
+	public static final Dimension START_BUTTON_SIZE = new Dimension(75, 50);
 
 	private static final String PURPOSE=
 		"<html><body>"+
@@ -49,7 +50,7 @@ public class DeckStrengthViewer extends JPanel implements ActionListener {
 	
 	private static final MagicAI DEFAULT_AIS[]=new MagicAI[]{MagicAIImpl.MMAB.getAI(),MagicAIImpl.MMAB.getAI()};
 
-	private final MagicTournament tournament;
+	private final MagicDuel duel;
 	private final JProgressBar progressBar;
 	private final JLabel gameLabel;
 	private final JLabel strengthLabel;
@@ -59,12 +60,13 @@ public class DeckStrengthViewer extends JPanel implements ActionListener {
 	private final Color textColor;
 	private CalculateThread calculateThread;
 	
-	public DeckStrengthViewer(final MagicTournament tournament) {
+	public DeckStrengthViewer(final MagicDuel duel) {
 		
-		this.tournament=tournament;
+		this.duel=duel;
 		textColor=ThemeFactory.getInstance().getCurrentTheme().getTextColor();
 		
 		setPreferredSize(PREFERRED_SIZE);
+		setBorder(FontsAndBorders.UP_BORDER);
 		
 		setLayout(new BorderLayout());
 		
@@ -135,7 +137,7 @@ public class DeckStrengthViewer extends JPanel implements ActionListener {
 		
 		startButton=new JButton(IconImages.START);
 		startButton.setFocusable(false);
-		startButton.setPreferredSize(new Dimension(75,0));
+		startButton.setPreferredSize(START_BUTTON_SIZE);
 		startButton.addActionListener(this);
 		centerPanel.add(startButton,BorderLayout.EAST);
 		
@@ -195,29 +197,27 @@ public class DeckStrengthViewer extends JPanel implements ActionListener {
 	private class CalculateThread extends Thread {
 
 		private final AtomicBoolean running=new AtomicBoolean(true);
-		private GameController controller=null;
+		private GameController controller;
 		
 		public void run() {
-
 			final GeneralConfig generalConfig=GeneralConfig.getInstance();
-			final TournamentConfig config=new TournamentConfig(TournamentConfig.getInstance());
+			final DuelConfig config=new DuelConfig(DuelConfig.getInstance());
 			config.setNrOfGames(generalConfig.getStrengthGames());
-			final MagicTournament testTournament=new MagicTournament(config,tournament);
-			testTournament.setDifficulty(generalConfig.getStrengthDifficulty());
-			testTournament.setAIs(DEFAULT_AIS);
-			progressBar.setMaximum(testTournament.getGamesTotal());
+			final MagicDuel testDuel=new MagicDuel(config,duel);
+			testDuel.setDifficulty(generalConfig.getStrengthDifficulty());
+			testDuel.setAIs(DEFAULT_AIS);
+			progressBar.setMaximum(testDuel.getGamesTotal());
 			progressBar.setValue(0);
 			setStrength(0);
 
-			while (running.get()&&!testTournament.isFinished()) {
-			
-				gameLabel.setText("Game "+(testTournament.getGamesPlayed()+1));
-				final MagicGame game=testTournament.nextGame(false);
+			while (running.get()&&!testDuel.isFinished()) {
+				gameLabel.setText("Game "+(testDuel.getGamesPlayed()+1));
+				final MagicGame game=testDuel.nextGame(false);
 				controller=new GameController(game);
 				controller.runGame();
-				progressBar.setValue(testTournament.getGamesPlayed());
-				if (testTournament.getGamesPlayed()>0) {
-					final int percentage=(testTournament.getGamesWon()*100)/testTournament.getGamesPlayed();
+				progressBar.setValue(testDuel.getGamesPlayed());
+				if (testDuel.getGamesPlayed()>0) {
+					final int percentage=(testDuel.getGamesWon()*100)/testDuel.getGamesPlayed();
 					setStrength(percentage);
 				}
 			}
@@ -229,7 +229,6 @@ public class DeckStrengthViewer extends JPanel implements ActionListener {
 		}
 		
 		public void halt() {
-			
 			running.set(false);
 			if (controller!=null) {
 				controller.haltGame();

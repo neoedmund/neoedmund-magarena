@@ -10,8 +10,10 @@ import magic.model.MagicSubType;
 import magic.model.MagicType;
 import magic.ui.theme.ThemeFactory;
 import magic.ui.widget.ButtonControlledPopup;
+import magic.ui.widget.FontsAndBorders;
 import magic.ui.widget.TexturedPanel;
 
+import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Dimension;
@@ -27,11 +29,13 @@ import javax.swing.BoxLayout;
 import javax.swing.ButtonGroup;
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
+import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 import javax.swing.JScrollPane;
 import javax.swing.JTextField;
+import javax.swing.border.Border;
 import javax.swing.border.TitledBorder;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
@@ -45,11 +49,14 @@ public class ExplorerFilterPanel extends TexturedPanel implements ActionListener
 	private static final String FILTER_BUTTON_TEXT = "Filter";
 	private static final String HIDE_BUTTON_TEXT = "Hide";
 	private static final String RESET_BUTTON_TEXT = "Reset";
-	private static final Dimension BUTTON_SIZE = new Dimension(70, 20);
+	private static final Dimension BUTTON_SIZE = new Dimension(70, 25);
 	private static final int SEARCH_FIELD_WIDTH = 12;
 	private static final Color TEXT_COLOR = ThemeFactory.getInstance().getCurrentTheme().getTextColor();
 	private static final Dimension POPUP_CHECKBOXES_SIZE = new Dimension(200, 150);
+	private static final Dimension BUTTON_HOLDER_PANEL_SIZE = new Dimension(100, 72);
+	private static final Dimension SEARCH_HOLDER_PANEL_SIZE = new Dimension(150, 72);
 	
+	private final JFrame frame;
 	private final ExplorerPanel explorerPanel;
 	private final ButtonControlledPopup typePopup;
 	private final JCheckBox typeCheckBoxes[];
@@ -74,8 +81,8 @@ public class ExplorerFilterPanel extends TexturedPanel implements ActionListener
 	
 	private boolean disableUpdate; // so when we change several filters, it doesn't update until the end
 	
-	public ExplorerFilterPanel(final ExplorerPanel explorerPanel,final int mode,final MagicPlayerProfile profile,final MagicCubeDefinition cube) {
-				
+	public ExplorerFilterPanel(JFrame frame, final ExplorerPanel explorerPanel,final int mode,final MagicPlayerProfile profile,final MagicCubeDefinition cube) {
+		this.frame = frame;
 		this.explorerPanel=explorerPanel;
 		this.mode=mode;
 		this.profile=profile;
@@ -83,6 +90,7 @@ public class ExplorerFilterPanel extends TexturedPanel implements ActionListener
 		
 		disableUpdate = false;
 		
+		setBorder(FontsAndBorders.UP_BORDER);
 		setLayout(new FlowLayout(FlowLayout.LEFT));
 		
 		// Type
@@ -94,8 +102,11 @@ public class ExplorerFilterPanel extends TexturedPanel implements ActionListener
 		// Color
 		colorPopup = addFilterPopupPanel("Color");
 		colorCheckBoxes=new JCheckBox[MagicColor.NR_COLORS];
-		final JPanel colorsPanel=new JPanel(new GridLayout(1,MagicColor.NR_COLORS));
+		final JPanel colorsPanel=new JPanel();
+		colorsPanel.setLayout(new BoxLayout(colorsPanel, BoxLayout.X_AXIS));
+		colorsPanel.setBorder(FontsAndBorders.DOWN_BORDER);
 		colorsPanel.setOpaque(false);
+		colorPopup.setPopupSize(280, 90);
 		for (int i = 0; i < MagicColor.NR_COLORS; i++) {
 			final MagicColor color = MagicColor.values()[i];
 			final JPanel colorPanel=new JPanel();
@@ -104,6 +115,7 @@ public class ExplorerFilterPanel extends TexturedPanel implements ActionListener
 			colorCheckBoxes[i].addActionListener(this);
 			colorCheckBoxes[i].setOpaque(false);
 			colorCheckBoxes[i].setFocusPainted(false);
+			colorCheckBoxes[i].setAlignmentY(Component.CENTER_ALIGNMENT);
 			colorCheckBoxes[i].setActionCommand(Character.toString(color.getSymbol()));
 			colorPanel.add(colorCheckBoxes[i]);
 			colorPanel.add(new JLabel(color.getManaType().getIcon(true)));
@@ -111,7 +123,7 @@ public class ExplorerFilterPanel extends TexturedPanel implements ActionListener
 		}
 		colorsPanel.setAlignmentX(Component.LEFT_ALIGNMENT);
 		colorPopup.add(colorsPanel);
-		colorPopup.addSeparator();
+		
 		ButtonGroup colorFilterBg = new ButtonGroup();
 		colorFilterChoices = new JRadioButton[FILTER_CHOICES.length];
 		for (int i = 0; i < FILTER_CHOICES.length; i++) {
@@ -149,41 +161,46 @@ public class ExplorerFilterPanel extends TexturedPanel implements ActionListener
 		// Search Name
 		final TitledBorder textFilterBorder = BorderFactory.createTitledBorder("Search Text");
 		textFilterBorder.setTitleColor(TEXT_COLOR);
-		final JPanel textFilterPanel = new JPanel();
+		final JPanel textFilterPanel = new JPanel(new BorderLayout());
 		textFilterPanel.setOpaque(false);
 		textFilterPanel.setBorder(textFilterBorder);
+		textFilterPanel.setPreferredSize(SEARCH_HOLDER_PANEL_SIZE);
 		nameTextField = new JTextField(SEARCH_FIELD_WIDTH);
 		nameTextField.addActionListener(this);
 		nameTextField.getDocument().addDocumentListener(this);
-		textFilterPanel.add(nameTextField);
+		textFilterPanel.add(nameTextField, BorderLayout.CENTER);
 		add(textFilterPanel);
 
 		// Reset Button
 		final TitledBorder resetBorder = BorderFactory.createTitledBorder("Reset All");
 		resetBorder.setTitleColor(TEXT_COLOR);
-		final JPanel resetFilterPanel = new JPanel();
+		final JPanel resetFilterPanel = new JPanel(new BorderLayout());
+		resetFilterPanel.setPreferredSize(BUTTON_HOLDER_PANEL_SIZE);
 		resetFilterPanel.setOpaque(false);
 		resetFilterPanel.setBorder(resetBorder);
 		resetButton = new JButton(RESET_BUTTON_TEXT);
+		resetButton.setFont(FontsAndBorders.FONT1);
 		resetButton.addActionListener(this);
 		resetButton.setPreferredSize(BUTTON_SIZE);
-		resetFilterPanel.add(resetButton);
+		resetFilterPanel.add(resetButton, BorderLayout.CENTER);
 		add(resetFilterPanel);
 	}
 	
 	private ButtonControlledPopup addFilterPopupPanel(final String title) {
 		final TitledBorder border = BorderFactory.createTitledBorder(title);
 		border.setTitleColor(TEXT_COLOR);
-		final JPanel filterPanel = new JPanel();
+		final JPanel filterPanel = new JPanel(new BorderLayout());
 		filterPanel.setOpaque(false);
 		filterPanel.setBorder(border);
+		filterPanel.setPreferredSize(BUTTON_HOLDER_PANEL_SIZE);
 		add(filterPanel);
 		
 		JButton selectButton = new JButton(FILTER_BUTTON_TEXT);
+		selectButton.setFont(FontsAndBorders.FONT1);
 		selectButton.setPreferredSize(BUTTON_SIZE);
-		filterPanel.add(selectButton);
+		filterPanel.add(selectButton, BorderLayout.CENTER);
 		
-		ButtonControlledPopup pop = new ButtonControlledPopup(selectButton, HIDE_BUTTON_TEXT, FILTER_BUTTON_TEXT);
+		ButtonControlledPopup pop = new ButtonControlledPopup(frame, selectButton, HIDE_BUTTON_TEXT, FILTER_BUTTON_TEXT);
 		pop.setLayout(new BoxLayout(pop, BoxLayout.Y_AXIS));
 		selectButton.addActionListener(new PopupCloser(pop));
 		return pop;
@@ -220,6 +237,7 @@ public class ExplorerFilterPanel extends TexturedPanel implements ActionListener
 	private void populateCheckboxPopup(final ButtonControlledPopup popup, final Object[] checkboxValues, final JCheckBox[] newCheckboxes, final JRadioButton[] newFilterButtons, final boolean hideAND) {
 		JPanel checkboxesPanel = new JPanel(new GridLayout(newCheckboxes.length, 1));
 		checkboxesPanel.setAlignmentX(Component.LEFT_ALIGNMENT);
+		checkboxesPanel.setOpaque(false);		
 		for (int i=0;i<checkboxValues.length;i++) {
 			newCheckboxes[i]=new JCheckBox(checkboxValues[i].toString().replace('_', ' '));
 			newCheckboxes[i].addActionListener(this);
@@ -232,13 +250,11 @@ public class ExplorerFilterPanel extends TexturedPanel implements ActionListener
 		
 		JScrollPane scrollPane = new JScrollPane(checkboxesPanel);
 		scrollPane.setAlignmentX(Component.LEFT_ALIGNMENT);
-		scrollPane.setBorder(null);
+		scrollPane.setBorder(FontsAndBorders.DOWN_BORDER);
 		scrollPane.setOpaque(false);
 		scrollPane.getViewport().setOpaque(false);
 		scrollPane.setPreferredSize(POPUP_CHECKBOXES_SIZE);
 		popup.add(scrollPane);
-		
-		popup.addSeparator();
 		
 		ButtonGroup bg = new ButtonGroup();
 		for (int i = 0; i < FILTER_CHOICES.length; i++) {
@@ -263,9 +279,10 @@ public class ExplorerFilterPanel extends TexturedPanel implements ActionListener
 		if (cardDefinition.isToken()) {
 			return false;
 		}
-		if (cube!=null&&!cube.containsCard(cardDefinition)) {
+		
+		/* if (cube!=null&&!cube.containsCard(cardDefinition)) {
 			return false;
-		}
+		} */
 				
 		/* switch (mode) {
 			case ExplorerPanel.LAND: 
@@ -280,11 +297,11 @@ public class ExplorerFilterPanel extends TexturedPanel implements ActionListener
 				break;
 		} */
 		
-		if (profile!=null&&!cardDefinition.isBasic()&&!cardDefinition.isPlayable(profile)) {
+		/* if (profile!=null&&!cardDefinition.isBasic()&&!cardDefinition.isPlayable(profile)) {
 			return false;
-		}
+		} */
 		
-		// name search
+		// search text in name, abilities, type, text, etc.
 		final String filterString = nameTextField.getText();
 		if (filterString.length() > 0) {
 			final String[] filters = filterString.split(" ");
@@ -383,7 +400,7 @@ public class ExplorerFilterPanel extends TexturedPanel implements ActionListener
 	public List<MagicCardDefinition> getCardDefinitions() {
 		
 		final List<MagicCardDefinition> cardDefinitions=new ArrayList<MagicCardDefinition>();
-		for (final MagicCardDefinition cardDefinition : CardDefinitions.getInstance().getCards()) {
+		for (final MagicCardDefinition cardDefinition : CardDefinitions.getCards()) {
 			
 			if (filter(cardDefinition)) {
 				cardDefinitions.add(cardDefinition);
@@ -394,6 +411,8 @@ public class ExplorerFilterPanel extends TexturedPanel implements ActionListener
 		
 	public void resetFilters() {
 		disableUpdate = true; // ignore any events caused by resetting filters
+		
+		closePopups();
 		
 		unselectFilterSet(typeCheckBoxes, typeFilterChoices);
 		unselectFilterSet(colorCheckBoxes, colorFilterChoices);
@@ -414,6 +433,14 @@ public class ExplorerFilterPanel extends TexturedPanel implements ActionListener
 		
 		// reset to first option
 		filterButtons[0].setSelected(true);
+	}
+	
+	public void closePopups() {
+		typePopup.hidePopup();
+		colorPopup.hidePopup();
+		costPopup.hidePopup();
+		subtypePopup.hidePopup();
+		rarityPopup.hidePopup();
 	}
 	
 	@Override

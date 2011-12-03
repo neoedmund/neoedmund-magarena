@@ -13,19 +13,15 @@ import magic.model.event.MagicPlayCardEvent;
 import magic.model.event.MagicSpellCardEvent;
 import magic.model.event.MagicTapManaActivation;
 import magic.model.event.MagicTiming;
-import magic.model.trigger.MagicBattleCryTrigger;
-import magic.model.trigger.MagicExaltedTrigger;
 import magic.model.trigger.MagicTrigger;
-import magic.model.variable.MagicAttachmentLocalVariable;
-import magic.model.variable.MagicLocalVariable;
-import magic.model.variable.MagicLocalVariableList;
-import magic.model.variable.MagicStaticLocalVariable;
+import magic.model.mstatic.MagicStatic;
+import magic.model.mstatic.MagicCDA;
+import magic.model.mstatic.MagicLayer;
 import magic.ui.theme.Theme;
 import magic.ui.theme.ThemeFactory;
 
 import javax.swing.ImageIcon;
 import java.awt.Color;
-import java.lang.StringBuffer;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
@@ -44,27 +40,26 @@ public class MagicCardDefinition {
 			addType(MagicType.Creature);
 			setConvertedCost(8);
 			setCost(MagicManaCost.EIGHT);
-			setPower(1);
-			setToughness(1);
+			setPowerToughness(1,1);
 			setAbility(MagicAbility.Defender);
 			setAbility(MagicAbility.CannotBeCountered);
 			setAbility(MagicAbility.Shroud);
+            setTiming(MagicTiming.Main);
 		}
 	};
 
     private static int numTriggers = 0;
+    private static int numStatics = 0;
     private static int numPermanentActivations = 0;
     private static int numManaActivations = 0;
     private static int numSpellEvent = 0;
     private static int numModifications = 0;
-    private static final int numLocalVariables = 0;
-
-	private static final List<MagicLocalVariable> DEFAULT_LOCAL_VARIABLES = 
-        Arrays.<MagicLocalVariable>asList(MagicStaticLocalVariable.getInstance());
+    private static int numCDAs = 0;
 
 	private final String name;
-	private final String fullName;
+	private String fullName;
 	private String imageURL;
+	private String cardInfoUrl = "";
 	private int imageCount = 1;
     private Collection<Long> ignore;
 	private int index=-1;
@@ -83,17 +78,17 @@ public class MagicCardDefinition {
 	private final int manaSource[]=new int[MagicColor.NR_COLORS];
 	private int power=0;
 	private int toughness=0;
-	private int turnLocalVariableIndex=0;
 	private long abilityFlags=0;
+	private String text = "";
 	private MagicStaticType staticType=MagicStaticType.None;
 	private MagicTiming timing=MagicTiming.None;
 	private MagicCardEvent cardEvent=MagicPlayCardEvent.getInstance();
     private MagicActivation cardActivation;
-    private MagicLocalVariable attachmentLocalVariable;
-	private final MagicLocalVariableList localVariables=new MagicLocalVariableList();
+	private final Collection<MagicCDA> CDAs = new ArrayList<MagicCDA>();
 	private final Collection<MagicTrigger> triggers=new ArrayList<MagicTrigger>();
+	private final Collection<MagicStatic> statics=new ArrayList<MagicStatic>();
 	private final Collection<MagicTrigger> comeIntoPlayTriggers=new ArrayList<MagicTrigger>();
-	private final Collection<MagicTrigger> putIntograveyardTriggers=new ArrayList<MagicTrigger>();
+	private final Collection<MagicTrigger> putIntoGraveyardTriggers=new ArrayList<MagicTrigger>();
 	private final Collection<MagicActivation> activations=new ArrayList<MagicActivation>();
 	private final Collection<MagicManaActivation> manaActivations=new ArrayList<MagicManaActivation>();
 	private boolean excludeManaOrCombat=false;
@@ -112,11 +107,16 @@ public class MagicCardDefinition {
 	
     public static void printStatistics() {
 		System.err.println(numTriggers + " triggers");
+		System.err.println(numStatics + " statics");
 		System.err.println(numPermanentActivations + " permanent activations");
 		System.err.println(numManaActivations + " mana activations");
 		System.err.println(numSpellEvent + " spell event");
 		System.err.println(numModifications + " card modifications");
-		System.err.println(numLocalVariables + " local variables");
+		System.err.println(numCDAs + " CDAs");
+    }
+    
+    public boolean isValid() {
+        return true;
     }
 
     public void addIgnore(final long size) {
@@ -137,6 +137,10 @@ public class MagicCardDefinition {
 	
 	public String getFullName() {
 		return fullName;
+	}
+	
+	public void setFullName(String name) {
+		this.fullName = name;
 	}
 	
 	public void setIndex(final int index) {
@@ -166,6 +170,18 @@ public class MagicCardDefinition {
     public String getImageURL() {
         return imageURL;
     }
+    
+    public void setCardInfoURL(final String url) {
+    	this.cardInfoUrl = url;
+    }
+    
+    public String getCardInfoURL() {
+    	return this.cardInfoUrl;
+    }
+    
+    public String getCardTextName() {
+    	return getImageName();
+    }
 		
 	public void setValue(final int value) {
 		this.value = value;
@@ -186,6 +202,13 @@ public class MagicCardDefinition {
 	public int getScore() {
 		if (score<0) {
 			score=ArtificialScoringSystem.getCardDefinitionScore(this);
+		}
+		return score;
+	}
+	
+	public int getFreeScore() {
+		if (score<0) {
+			score=ArtificialScoringSystem.getFreeCardDefinitionScore(this);
 		}
 		return score;
 	}
@@ -216,7 +239,7 @@ public class MagicCardDefinition {
 		}
 	}
 				
-	protected void setToken() {
+	public void setToken() {
 		token=true;
 	}
 	
@@ -229,7 +252,9 @@ public class MagicCardDefinition {
     }
     
     public void add(final Object obj) {
-        if (obj instanceof MagicSpellCardEvent) {
+        if (obj == null) {
+            throw new RuntimeException("MagicCardDefinition.add passed null");
+        } else if (obj instanceof MagicSpellCardEvent) {
             final MagicSpellCardEvent cevent = (MagicSpellCardEvent)obj;
             setCardEvent(cevent);
             cevent.setCardIndex(index);
@@ -246,6 +271,12 @@ public class MagicCardDefinition {
             mtrig.setCardIndex(index);
             System.err.println("Adding trigger to " + getFullName());
             numTriggers++;
+        } else if (obj instanceof MagicStatic) {
+            final MagicStatic mstatic = (MagicStatic)obj;
+            addStatic(mstatic);
+            mstatic.setCardIndex(index);
+            System.err.println("Adding static to " + getFullName());
+            numStatics++;
         } else if (obj instanceof MagicPermanentActivation) {
             final MagicPermanentActivation mact = (MagicPermanentActivation)obj;
             addActivation(mact);
@@ -257,13 +288,11 @@ public class MagicCardDefinition {
             chg.change(this);
             System.err.println("Adding modification to " + getFullName());
             numModifications++;
-        /*
-        } else if (obj instanceof MagicLocalVariable) {
-            final MagicLocalVariable lvar = (MagicLocalVariable)obj;
-            addLocalVariable(lvar);
-            System.err.println("Adding local variable to " + getFullName());
-            numLocalVariables++;
-        */
+        } else if (obj instanceof MagicCDA) {
+            final MagicCDA cda = (MagicCDA)obj;
+            CDAs.add(cda);
+            System.err.println("Adding CDA to " + getFullName());
+            numCDAs++;
         } else {
             System.err.println("ERROR! Unable to add object to MagicCardDefinition");
             throw new RuntimeException("Unknown field in companion object");
@@ -306,6 +335,10 @@ public class MagicCardDefinition {
 		return hasType(MagicType.Legendary);
 	}
 	
+	public boolean isTribal() {
+		return hasType(MagicType.Tribal);
+	}
+	
 	public boolean isAura() {
 		return isEnchantment() && hasSubType(MagicSubType.Aura);
 	}
@@ -330,31 +363,55 @@ public class MagicCardDefinition {
 			return "Legendary " + getTypeString();
 		}
 		
+		if (isTribal()) {
+			return "Tribal " + getTypeString();
+		}
 		return getTypeString();	
 	}
 	
 	public String getTypeString() {
+		StringBuilder sb = new StringBuilder();
 		if (isLand()) {
-			return MagicType.Land.toString();
-		} else if (isCreature()) {
-			return MagicType.Creature.toString();
-		} else if (isArtifact()) {
-			return MagicType.Artifact.toString();
-		} else if (isEnchantment()) {
-			return MagicType.Enchantment.toString();
-		} else if (isInstant()) {
-			return MagicType.Instant.toString();
-		} else if (isSorcery()) {
-			return MagicType.Sorcery.toString();
+			sb.append(MagicType.Land.toString());
+		} 
+		if (isArtifact()) {
+			if (sb.length() > 0) {
+				sb.append(" ");
+			}
+			sb.append(MagicType.Artifact.toString());
+		} 
+		if (isCreature()) {
+			if (sb.length() > 0) {
+				sb.append(" ");
+			}
+			sb.append(MagicType.Creature.toString());
+		} 
+		if (isEnchantment()) {
+			if (sb.length() > 0) {
+				sb.append(" ");
+			}
+			sb.append(MagicType.Enchantment.toString());
+		} 
+		if (isInstant()) {
+			if (sb.length() > 0) {
+				sb.append(" ");
+			}
+			sb.append(MagicType.Instant.toString());
+		} 
+		if (isSorcery()) {
+			if (sb.length() > 0) {
+				sb.append(" ");
+			}
+			sb.append(MagicType.Sorcery.toString());
 		}
 		
-		return "";	
+		return sb.toString();	
 	}
 
 	public boolean usesStack() {
 		return !isLand();
 	}
-	
+    
 	public void setSubTypes(final String[] subTypeNames) {
 		subTypeFlags = EnumSet.noneOf(MagicSubType.class);
 		for (final String subTypeName : subTypeNames) {
@@ -463,13 +520,13 @@ public class MagicCardDefinition {
 	
 	public boolean isPlayable(final MagicPlayerProfile profile) {
 		if (isLand()) {
-			int source=0;
+			int source = 0;
 			for (final MagicColor color : profile.getColors()) {
-				source+=getManaSource(color);
+				source += getManaSource(color);
 			}
-			return source>4;
+			return source > 4;
 		} else {
-			return cost.getCostScore(profile)>0;
+			return cost.getCostScore(profile) > 0;
 		}
 	}
 		
@@ -478,10 +535,8 @@ public class MagicCardDefinition {
 	}
 		
 	public void setManaSourceText(final String sourceText) {
-		
 		manaSourceText=sourceText;
 		for (int index=0;index<sourceText.length();index+=2) {
-			
 			final char symbol=sourceText.charAt(index);
 			final int source=sourceText.charAt(index+1)-'0';
 			final MagicColor color=MagicColor.getColor(symbol);
@@ -490,17 +545,14 @@ public class MagicCardDefinition {
 	}
 
 	private String getManaSourceText() {
-		
 		return manaSourceText;
 	}
 	
 	public int getManaSource(final MagicColor color) {
-
 		return manaSource[color.ordinal()];
 	}
 	
 	public void setBasicManaActivations(final String basicText) {
-
 		final int length=basicText.length();
 		final List<MagicManaType> manaTypes=new ArrayList<MagicManaType>(length+1);
 		for (int i=0;i<length;i++) {
@@ -509,38 +561,48 @@ public class MagicCardDefinition {
 		manaTypes.add(MagicManaType.Colorless);
 		addManaActivation(new MagicTapManaActivation(manaTypes,0));
 	}
-
-	public void setPower(final int power) {
-		this.power = power;
+	
+	
+	public void setPowerToughness(final int aPower, final int aToughness) {
+        power = aPower;
+        toughness = aToughness;
+	}
+    
+    public int getCardPower() {
+        return power;
+    }
+	
+    public int getPower(final MagicGame game, final MagicPlayer player) {
+		return genPowerToughness(game,player).power();
 	}
 
-	public int getPower() {
-		return power;
-	}
+    public int getCardToughness() {
+        return toughness;
+    }
 	
-	public void setToughness(final int toughness) {
-		this.toughness = toughness;
-	}
-	
-	public int getToughness() {
-		return toughness;
-	}		
-	
-	public void setVariablePT() {
-		turnLocalVariableIndex=1;
-	}
-	
-	int getTurnLocalVariableIndex() {
-		return turnLocalVariableIndex;
-	}
-	
+	public int getToughness(final MagicGame game, final MagicPlayer player) {
+		return genPowerToughness(game,player).toughness();
+	}	
+    
+    public MagicPowerToughness genPowerToughness(final MagicGame game, final MagicPlayer player) {
+        return genPowerToughness(game, player, MagicPermanent.NONE);
+    }
+
+    public MagicPowerToughness genPowerToughness(final MagicGame game, final MagicPlayer player, final MagicPermanent perm) {
+        final MagicPowerToughness pt = new MagicPowerToughness(power, toughness);
+        for (final MagicCDA lv : CDAs) {
+            lv.getPowerToughness(game, player, perm, pt);
+        }
+        return pt;
+    }
+
 	public void setAbility(final MagicAbility ability) {
-		abilityFlags|=ability.getMask();
-		if (ability==MagicAbility.Exalted) {
-			addTrigger(MagicExaltedTrigger.getInstance());
-		} else if (ability==MagicAbility.BattleCry) {
-			addTrigger(MagicBattleCryTrigger.getInstance());
-		}
+        setAbility(ability, "");
+	}
+	
+	public void setAbility(final MagicAbility ability, final String arg) {
+        abilityFlags |= ability.getMask();
+        ability.addAbilityImpl(this, arg);
 	}
 
 	public long getAbilityFlags() {
@@ -549,6 +611,14 @@ public class MagicCardDefinition {
 	
 	public boolean hasAbility(final MagicAbility ability) {
 		return ability.hasAbility(abilityFlags);
+	}
+	
+	public void setText(String text) {
+		this.text = text;
+	}
+	
+	public String getText() {
+		return this.text;
 	}
 	
 	public void setStaticType(final MagicStaticType staticType) {
@@ -565,25 +635,6 @@ public class MagicCardDefinition {
 	
 	public MagicTiming getTiming() {
 		return timing;
-	}
-				
-	MagicLocalVariable getAttachmentLocalVariable() {
-        if (attachmentLocalVariable == null) {
-            attachmentLocalVariable = new MagicAttachmentLocalVariable(this);
-        }
-		return attachmentLocalVariable;
-	}
-	
-	public void addLocalVariable(final MagicLocalVariable localVariable) {
-		localVariables.add(localVariable);
-	}
-	
-	List<MagicLocalVariable> getLocalVariables() {
-		if (localVariables.isEmpty()) {
-			return DEFAULT_LOCAL_VARIABLES;
-		} else {
-			return localVariables;
-		}
 	}
 	
 	private void setCardEvent(final MagicCardEvent cardEvent) {
@@ -611,7 +662,7 @@ public class MagicCardDefinition {
 				comeIntoPlayTriggers.add(trigger);
 				break;
 			case WhenPutIntoGraveyard:
-				putIntograveyardTriggers.add(trigger);
+				putIntoGraveyardTriggers.add(trigger);
 				break;
 			default:
 				triggers.add(trigger);
@@ -619,8 +670,16 @@ public class MagicCardDefinition {
 		}
 	}
 	
+    private void addStatic(final MagicStatic mstatic) {
+        statics.add(mstatic);
+    }
+	
 	public Collection<MagicTrigger> getTriggers() {
 		return triggers;
+	}
+	
+    public Collection<MagicStatic> getStatics() {
+		return statics;
 	}
 	
 	public Collection<MagicTrigger> getComeIntoPlayTriggers() {
@@ -628,7 +687,7 @@ public class MagicCardDefinition {
 	}
 	
 	public Collection<MagicTrigger> getPutIntoGraveyardTriggers() {
-		return putIntograveyardTriggers;
+		return putIntoGraveyardTriggers;
 	}
 	
 	private void addActivation(final MagicPermanentActivation activation) {
@@ -639,7 +698,7 @@ public class MagicCardDefinition {
 		return activations;
 	}
 	
-	protected void addManaActivation(final MagicManaActivation activation) {
+	public void addManaActivation(final MagicManaActivation activation) {
 		manaActivations.add(activation);
 	}
 	
@@ -699,7 +758,8 @@ public class MagicCardDefinition {
 			fullName.toLowerCase().contains(s) ||
 			name.toLowerCase().contains(s) ||
 			subTypeHasText(s) ||
-			abilityHasText(s)
+			abilityHasText(s) ||
+			getText().toLowerCase().contains(s)
 		);
 	}
 
@@ -764,6 +824,44 @@ public class MagicCardDefinition {
 		@Override
 		public int compare(final MagicCardDefinition cardDefinition1,final MagicCardDefinition cardDefinition2) {
 			return RARITY_COMPARATOR_DESC.compare(cardDefinition2, cardDefinition1);
+		}
+	};
+
+	public static final Comparator<MagicCardDefinition> POWER_COMPARATOR_DESC=new Comparator<MagicCardDefinition>() {
+		@Override
+		public int compare(final MagicCardDefinition cardDefinition1,final MagicCardDefinition cardDefinition2) {
+			if(!cardDefinition1.isCreature()) {
+				return 1;
+			} else if (!cardDefinition2.isCreature()) {
+				return -1;
+			}
+			return cardDefinition1.getCardPower() - cardDefinition2.getCardPower();
+		}
+	};
+
+	public static final Comparator<MagicCardDefinition> POWER_COMPARATOR_ASC=new Comparator<MagicCardDefinition>() {
+		@Override
+		public int compare(final MagicCardDefinition cardDefinition1,final MagicCardDefinition cardDefinition2) {
+			return POWER_COMPARATOR_DESC.compare(cardDefinition2, cardDefinition1);
+		}
+	};
+
+	public static final Comparator<MagicCardDefinition> TOUGHNESS_COMPARATOR_DESC=new Comparator<MagicCardDefinition>() {
+		@Override
+		public int compare(final MagicCardDefinition cardDefinition1,final MagicCardDefinition cardDefinition2) {
+			if(!cardDefinition1.isCreature()) {
+				return 1;
+			} else if (!cardDefinition2.isCreature()) {
+				return -1;
+			}
+			return cardDefinition1.getCardToughness() - cardDefinition2.getCardToughness();
+		}
+	};
+
+	public static final Comparator<MagicCardDefinition> TOUGHNESS_COMPARATOR_ASC=new Comparator<MagicCardDefinition>() {
+		@Override
+		public int compare(final MagicCardDefinition cardDefinition1,final MagicCardDefinition cardDefinition2) {
+			return TOUGHNESS_COMPARATOR_DESC.compare(cardDefinition2, cardDefinition1);
 		}
 	};
 }

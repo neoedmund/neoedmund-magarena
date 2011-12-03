@@ -2,12 +2,10 @@ package magic.card;
 
 import magic.model.MagicCounterType;
 import magic.model.MagicGame;
-import magic.model.MagicPlayer;
 import magic.model.MagicManaCost;
 import magic.model.MagicPayedCost;
 import magic.model.MagicPermanent;
 import magic.model.MagicSource;
-import magic.model.action.MagicChangeCountersAction;
 import magic.model.action.MagicDestroyAction;
 import magic.model.action.MagicPermanentAction;
 import magic.model.choice.MagicTargetChoice;
@@ -19,7 +17,6 @@ import magic.model.event.MagicPermanentActivation;
 import magic.model.event.MagicRemoveCounterEvent;
 import magic.model.event.MagicTiming;
 import magic.model.target.MagicDestroyTargetPicker;
-import magic.model.trigger.MagicWhenComesIntoPlayTrigger;
 
 public class Wickerbough_Elder {
 	public static final MagicPermanentActivation A = new MagicPermanentActivation( 
@@ -28,7 +25,7 @@ public class Wickerbough_Elder {
                 MagicManaCost.GREEN.getCondition()
             },
             new MagicActivationHints(MagicTiming.Removal),
-            "destroy") {
+            "Destroy") {
 		@Override
 		public MagicEvent[] getCostEvent(final MagicSource source) {
 			return new MagicEvent[]{
@@ -55,28 +52,4 @@ public class Wickerbough_Elder {
 			});
 		}
 	};
-
-    public static final MagicWhenComesIntoPlayTrigger T = new MagicWhenComesIntoPlayTrigger() {
-		@Override
-		public MagicEvent executeTrigger(final MagicGame game,final MagicPermanent permanent, final MagicPlayer player) {
-			return new MagicEvent(
-                    permanent,
-                    player,
-                    new Object[]{permanent},
-                    this,
-					permanent + " enters the battlefield with a -1/-1 counter on it.");
-		}
-		@Override
-		public void executeEvent(
-                final MagicGame game,
-                final MagicEvent event,
-                final Object data[],
-                final Object[] choiceResults) {
-			game.doAction(new MagicChangeCountersAction((MagicPermanent)data[0],MagicCounterType.MinusOne,1,false));
-		}
-		@Override
-		public boolean usesStack() {
-			return false;
-		}
-    };
 }

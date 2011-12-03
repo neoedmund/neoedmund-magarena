@@ -14,15 +14,10 @@ import magic.model.event.MagicActivationHints;
 import magic.model.event.MagicEvent;
 import magic.model.event.MagicPayManaCostEvent;
 import magic.model.event.MagicPermanentActivation;
-import magic.model.event.MagicRegenerationActivation;
+import magic.model.event.MagicPlayAbilityEvent;
 import magic.model.event.MagicTiming;
-import magic.model.trigger.MagicTrigger;
-import magic.model.trigger.MagicVeteranTrigger;
 
 public class Spiritmonger {
-	public static final MagicPermanentActivation R = new MagicRegenerationActivation(
-            MagicManaCost.BLACK);
-
 	public static final MagicPermanentActivation A = new MagicPermanentActivation(
             new MagicCondition[]{MagicManaCost.GREEN.getCondition()},
 			new MagicActivationHints(MagicTiming.Pump,false,1),
@@ -31,7 +26,8 @@ public class Spiritmonger {
 		public MagicEvent[] getCostEvent(final MagicSource source) {
 			return new MagicEvent[]{
                 new MagicPayManaCostEvent(source,source.getController(),
-                MagicManaCost.GREEN)};
+                		MagicManaCost.GREEN),
+                new MagicPlayAbilityEvent((MagicPermanent)source)};
 		}
 		@Override
 		public MagicEvent getPermanentEvent(
@@ -56,6 +52,4 @@ public class Spiritmonger {
 			game.doAction(new MagicPlayAbilityAction(permanent));
 		}
 	};
-	
-    public static final MagicTrigger T = new MagicVeteranTrigger(false);
 }

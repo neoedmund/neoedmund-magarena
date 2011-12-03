@@ -27,7 +27,7 @@ public class VersionPanel extends JPanel implements ActionListener {
 
 	private static final long serialVersionUID = 1L;
 	
-	private static final String VERSION = "1.18";
+	private static final String VERSION = "1.20b";
 	private static final String VERSION_TEXT = "Magarena " + VERSION;
 
 	private static final Border LOGO_BORDER=BorderFactory.createMatteBorder(2,2,2,2,new Color(0x8C,0x78,0x53));
@@ -62,7 +62,7 @@ public class VersionPanel extends JPanel implements ActionListener {
 		versionLabel.setSize(logoIcon.getIconWidth(),20);
 				
 		cardViewer=new CardViewer("",true,true);
-		final List<MagicCardDefinition> spellCards=CardDefinitions.getInstance().getSpellCards();
+		final List<MagicCardDefinition> spellCards=CardDefinitions.getSpellCards();
 		final int index=MagicRandom.nextInt(spellCards.size());
 		cardViewer.setCard(spellCards.get(index),0);
 		
@@ -110,9 +110,9 @@ public class VersionPanel extends JPanel implements ActionListener {
 		
 		final Object source=event.getSource();
 		if (source==newButton) {
-			frame.showNewTournamentDialog();
+			frame.showNewDuelDialog();
 		} else if (source==loadButton) {
-			frame.loadTournament();
+			frame.loadDuel();
 		}
 	}
 }

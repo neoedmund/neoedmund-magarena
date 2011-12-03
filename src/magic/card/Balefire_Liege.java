@@ -13,15 +13,42 @@ import magic.model.choice.MagicTargetChoice;
 import magic.model.event.MagicEvent;
 import magic.model.stack.MagicCardOnStack;
 import magic.model.trigger.MagicWhenSpellIsPlayedTrigger;
-
+import magic.model.MagicPowerToughness;
+import magic.model.mstatic.MagicLayer;
+import magic.model.mstatic.MagicStatic;
+import magic.model.target.MagicTargetFilter;
 
 public class Balefire_Liege {
+    public static final MagicStatic S1 = new MagicStatic(
+        MagicLayer.ModPT, 
+        MagicTargetFilter.TARGET_RED_CREATURE_YOU_CONTROL) {
+        @Override
+        public void getPowerToughness(final MagicGame game,final MagicPermanent permanent,final MagicPowerToughness pt) {
+            pt.add(1,1);
+        }
+        @Override
+        public boolean condition(final MagicGame game,final MagicPermanent source,final MagicPermanent target) {
+            return source != target;
+        }
+    };
+    public static final MagicStatic S2 = new MagicStatic(
+        MagicLayer.ModPT, 
+        MagicTargetFilter.TARGET_WHITE_CREATURE_YOU_CONTROL) {
+        @Override
+        public void getPowerToughness(final MagicGame game,final MagicPermanent permanent,final MagicPowerToughness pt) {
+            pt.add(1,1);
+        }
+        @Override
+        public boolean condition(final MagicGame game,final MagicPermanent source,final MagicPermanent target) {
+            return source != target;
+        }
+    };
     public static final MagicWhenSpellIsPlayedTrigger T = new MagicWhenSpellIsPlayedTrigger() {
 		@Override
 		public MagicEvent executeTrigger(final MagicGame game,final MagicPermanent permanent,final MagicCardOnStack data) {
 			final MagicPlayer player=permanent.getController();
 			final MagicCard card=data.getCard();
-			return (card.getOwner()==player&&MagicColor.Red.hasColor(card.getColorFlags())) ?
+			return (card.getOwner()==player&&MagicColor.Red.hasColor(card.getColorFlags(game))) ?
                 new MagicEvent(
                         permanent,
                         player,
@@ -51,7 +78,7 @@ public class Balefire_Liege {
 		public MagicEvent executeTrigger(final MagicGame game,final MagicPermanent permanent,final MagicCardOnStack data) {
 			final MagicPlayer player=permanent.getController();
 			final MagicCard card=data.getCard();
-			return (card.getOwner()==player&&MagicColor.White.hasColor(card.getColorFlags())) ?
+			return (card.getOwner()==player&&MagicColor.White.hasColor(card.getColorFlags(game))) ?
                 new MagicEvent(
                         permanent,
                         player,

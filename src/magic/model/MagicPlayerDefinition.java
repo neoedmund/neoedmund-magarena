@@ -1,7 +1,8 @@
 package magic.model;
 
 import magic.data.CardDefinitions;
-import magic.data.DeckGenerator;
+import magic.data.DeckGenerators;
+import magic.generator.DefaultDeckGenerator;
 
 import java.util.Properties;
 
@@ -19,7 +20,7 @@ public class MagicPlayerDefinition {
 	private boolean artificial;
 	private MagicPlayerProfile profile;
 	private int face;
-	private MagicDeck deck=new MagicDeck();
+	private final MagicDeck deck = new MagicDeck();
 
 	MagicPlayerDefinition() {}
 	
@@ -59,16 +60,13 @@ public class MagicPlayerDefinition {
 		final int colorCount[]=new int[MagicColor.NR_COLORS];
 		final int colorSource[]=new int[MagicColor.NR_COLORS];
 		for (final MagicCardDefinition cardDefinition : deck) {
-
 			if (cardDefinition.isLand()) {
 				for (final MagicColor color : MagicColor.values()) {
-
-					colorSource[color.ordinal()]+=cardDefinition.getManaSource(color);
+					colorSource[color.ordinal()] += cardDefinition.getManaSource(color);
 				}
 			} else {
 				final int colorFlags=cardDefinition.getColorFlags();
 				for (final MagicColor color : profile.getColors()) {
-
 					if (color.hasColor(colorFlags)) {
 						colorCount[color.ordinal()]++;
 					}
@@ -81,7 +79,6 @@ public class MagicPlayerDefinition {
 			MagicColor bestColor=null;
 			int lowestRatio=Integer.MAX_VALUE;
 			for (final MagicColor color : MagicColor.values()) {
-				
 				final int index=color.ordinal();
 				final int count=colorCount[index];
 				if (count>0) {
@@ -98,8 +95,8 @@ public class MagicPlayerDefinition {
 					}
 				}
 			}
-			final MagicCardDefinition landCard=CardDefinitions.getInstance().getBasicLand(bestColor);
-			colorSource[bestColor.ordinal()]+=landCard.getManaSource(bestColor);
+			final MagicCardDefinition landCard = CardDefinitions.getBasicLand(bestColor);
+			colorSource[bestColor.ordinal()] += landCard.getManaSource(bestColor);
 			deck.add(landCard);
 		}
 	}
@@ -108,13 +105,30 @@ public class MagicPlayerDefinition {
 		return deck;
 	}	
 	
-	void generateDeck(final DeckGenerator generator) {
-		this.deck=generator.generateDeck(DECK_SIZE, profile);
-		addBasicLandsToDeck();
+    public void setDeck(final MagicDeck aDeck) {
+        deck.setContent(aDeck);
+	}	
+	
+	public DefaultDeckGenerator getDeckGenerator() {
+		String name = getProfile().getDeckGeneratorName();
+		
+		if (name == null) {
+			return null;
+		}
+		
+		return DeckGenerators.getInstance().getDeckGenerator(name);
 	}
 	
-	public void setDeck(final MagicDeck deck) {
-		this.deck=deck;
+	void generateDeck(final DefaultDeckGenerator defaultGenerator) {
+		DefaultDeckGenerator customGenerator =  getDeckGenerator();
+		
+		if(customGenerator == null) {
+			defaultGenerator.generateDeck(DECK_SIZE, profile, deck);
+		} else {
+			customGenerator.generateDeck(DECK_SIZE, profile, deck);
+		}
+		
+		addBasicLandsToDeck();
 	}
 	
 	private static String getDeckPrefix(final String prefix,final int index) {
@@ -128,14 +142,22 @@ public class MagicPlayerDefinition {
 		profile=new MagicPlayerProfile(colors);
 		face=Integer.parseInt(properties.getProperty(prefix+FACE));
 
+        final MagicDeck unsupported = new MagicDeck();
 		deck.clear();
         for (int index=1;index<=properties.size();index++) {
             final String deckPrefix = getDeckPrefix(prefix,index);
             if (properties.containsKey(deckPrefix)) {
                 final String tName = properties.getProperty(deckPrefix);
-                deck.add(CardDefinitions.getInstance().getCard(tName));
+                final MagicCardDefinition cdef = CardDefinitions.getCard(tName);
+                if (cdef.isValid()){
+                    deck.add(cdef);
+                } else {
+                    unsupported.add(cdef);
+                }
             }
         }
+
+        magic.data.DeckUtils.showUnsupportedCards(unsupported);
 	}
 	
 	void save(final Properties properties,final String prefix) {

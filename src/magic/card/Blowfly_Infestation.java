@@ -14,13 +14,13 @@ public class Blowfly_Infestation {
     public static final MagicWhenOtherPutIntoGraveyardFromPlayTrigger T = new MagicWhenOtherPutIntoGraveyardFromPlayTrigger() {
 		@Override
 		public MagicEvent executeTrigger(final MagicGame game,final MagicPermanent permanent,final MagicPermanent otherPermanent) {
-			return (otherPermanent.isCreature() &&
+			return (otherPermanent.isCreature(game) &&
 					otherPermanent.getCounters(MagicCounterType.MinusOne) > 0) ?
 				new MagicEvent(
                     permanent,
                     permanent.getController(),
                     MagicTargetChoice.TARGET_CREATURE,
-                    new MagicWeakenTargetPicker(-1,-1),
+                    new MagicWeakenTargetPicker(1,1),
                     MagicEvent.NO_DATA,
                     this,
                     "Put a -1/-1 counter on target creature$."):

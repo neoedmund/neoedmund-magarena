@@ -39,14 +39,30 @@ public class ArtificialScoringSystem {
 		if (cardDefinition.isLand()) {
 			int score=cardDefinition.getValue()*50;
 			for (final MagicColor color : MagicColor.values()) {
-				
 				score+=cardDefinition.getManaSource(color)*50;
 			}
 			return score;
 		}
 		final int score=cardDefinition.getValue()*100-cardDefinition.getConvertedCost()*20;
 		if (cardDefinition.isCreature()) {
-			return score+(cardDefinition.getPower()+cardDefinition.getToughness())*10;
+			return score+(cardDefinition.getCardPower()+cardDefinition.getCardToughness())*10;
+		} else {
+			return score+cardDefinition.getRemoval()*50+cardDefinition.getRarity()*30;
+		}
+	}
+	
+	// score for a card that gets put into play without paying the mana cost
+	public static int getFreeCardDefinitionScore(final MagicCardDefinition cardDefinition) {
+		if (cardDefinition.isLand()) {
+			int score=cardDefinition.getValue()*50;
+			for (final MagicColor color : MagicColor.values()) {
+				score+=cardDefinition.getManaSource(color)*50;
+			}
+			return score;
+		}
+		final int score=cardDefinition.getValue()*100;
+		if (cardDefinition.isCreature()) {
+			return score+(cardDefinition.getCardPower()+cardDefinition.getCardToughness())*10;
 		} else {
 			return score+cardDefinition.getRemoval()*50+cardDefinition.getRarity()*30;
 		}
@@ -55,11 +71,15 @@ public class ArtificialScoringSystem {
 	public static int getCardScore(final MagicCard card) {
 		return card.isKnown()?card.getCardDefinition().getScore():UNKNOWN_CARD_SCORE;
 	}
+	
+	public static int getFreeCardScore(final MagicCard card) {
+		return card.isKnown()?card.getCardDefinition().getFreeScore():UNKNOWN_CARD_SCORE;
+	}
 
 	public static int getFixedPermanentScore(final MagicPermanent permanent) {
 		final MagicCardDefinition cardDefinition=permanent.getCardDefinition();
 		int score=cardDefinition.getScore();
-		if (permanent.isCreature()) {
+		if (cardDefinition.isCreature()) {
 			score+=cardDefinition.getActivations().size()*50;
 			score+=cardDefinition.getManaActivations().size()*80;			
 		} else {
@@ -74,19 +94,19 @@ public class ArtificialScoringSystem {
 	public static int getVariablePermanentScore(final MagicGame game,final MagicPermanent permanent) {
 		int score=permanent.getCounters(MagicCounterType.Charge)*30;
 		if (!permanent.canTap(game)) {
-			score+=getTappedScore(permanent);
+			score+=getTappedScore(permanent,game);
 		}
-		if (permanent.isCreature()) {
+		if (permanent.isCreature(game)) {
 			final MagicPowerToughness pt=permanent.getPowerToughness(game,false);
 			final long abilityFlags=permanent.getAllAbilityFlags(game,false);
-			score+=pt.power*300+pt.getPositiveToughness()*200+MagicAbility.getScore(abilityFlags)*(pt.getPositivePower()+1)/2;
+			score+=pt.power()*300+pt.getPositiveToughness()*200+MagicAbility.getScore(abilityFlags)*(pt.getPositivePower()+1)/2;
 			score+=permanent.getEquipmentPermanents().size()*50+permanent.getAuraPermanents().size()*100;
 		} 
 		return score;
 	}
 	
-	public static int getTappedScore(final MagicPermanent permanent) {
-		return permanent.isCreature()?-10:-5;
+	public static int getTappedScore(final MagicPermanent permanent,final MagicGame game) {
+		return permanent.isCreature(game)?-10:-5;
 	}
 	
 	public static int getLifeScore(final int life) {

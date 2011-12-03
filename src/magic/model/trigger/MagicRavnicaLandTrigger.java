@@ -10,21 +10,27 @@ import magic.model.choice.MagicMayChoice;
 import magic.model.event.MagicEvent;
 
 public class MagicRavnicaLandTrigger extends MagicWhenComesIntoPlayTrigger {
-	
+
+    private static final MagicRavnicaLandTrigger INSTANCE = new MagicRavnicaLandTrigger();
 	private static final MagicChoice RAVNICA_CHOICE = new MagicMayChoice("You may pay 2 life.");
 	
+    private MagicRavnicaLandTrigger() {}
+
+    public static MagicRavnicaLandTrigger create() {
+        return INSTANCE;
+    }
+
 	@Override
 	public MagicEvent executeTrigger(final MagicGame game, final MagicPermanent permanent, final MagicPlayer player) {
-		if (player.getLife()>1) {
-			return new MagicEvent(
-                    permanent,
-                    player,
-                    RAVNICA_CHOICE,
-                    new Object[]{player,permanent},
-                    this,
-                    "You may$ pay 2 life. If you don't, "+permanent.getName()+" enters the battlefield tapped.");
-		}
-		return MagicEvent.NONE;
+		return (player.getLife() >= 2) ?
+			new MagicEvent(
+                permanent,
+                player,
+                RAVNICA_CHOICE,
+                new Object[]{player,permanent},
+                this,
+                "You may$ pay 2 life. If you don't, "+permanent.getName()+" enters the battlefield tapped."):
+            MagicEvent.NONE;
 	}
 
 	@Override

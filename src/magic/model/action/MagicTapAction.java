@@ -10,7 +10,7 @@ import magic.model.trigger.MagicTriggerType;
 public class MagicTapAction extends MagicAction {
 
 	private final MagicPermanent permanent;
-	private boolean tap;
+	private boolean isUntapped;
 	private final boolean hasScore;
 	
 	public MagicTapAction(final MagicPermanent permanent,final boolean hasScore) {
@@ -20,11 +20,11 @@ public class MagicTapAction extends MagicAction {
 	
 	@Override
 	public void doAction(final MagicGame game) {
-		tap=!permanent.hasState(MagicPermanentState.Tapped);
-		if (tap) {
+		isUntapped=!permanent.hasState(MagicPermanentState.Tapped);
+		if (isUntapped) {
 			permanent.setState(MagicPermanentState.Tapped);
 			if (hasScore) {
-				setScore(permanent.getController(),ArtificialScoringSystem.getTappedScore(permanent));
+				setScore(permanent.getController(),ArtificialScoringSystem.getTappedScore(permanent,game));
 			}
 			game.executeTrigger(MagicTriggerType.WhenBecomesTapped,permanent);
 			game.setStateCheckRequired();
@@ -33,7 +33,7 @@ public class MagicTapAction extends MagicAction {
 
 	@Override
 	public void undoAction(final MagicGame game) {
-		if (tap) {
+		if (isUntapped) {
 			permanent.clearState(MagicPermanentState.Tapped);
 		}
 	}

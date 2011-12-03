@@ -20,7 +20,7 @@ public abstract class AbstractTheme implements Theme {
 		this.name=name;
 		themeMap=new HashMap<String,Object>();
 		
-		addToTheme(TEXTURE_LOGO,null);
+		addToTheme(TEXTURE_LOGO,new BufferedImage(1,1,BufferedImage.TYPE_INT_ARGB));
 		
 		addToTheme(ICON_LIFE,IconImages.LIFE);
 		addToTheme(ICON_PREVENT,IconImages.PREVENT2);
@@ -46,7 +46,7 @@ public abstract class AbstractTheme implements Theme {
 		addToTheme(COLOR_RARE_FOREGROUND,new Color(0xCD,0x7F,0x32));
 		addToTheme(OPTION_USE_OVERLAY,false);
 		addToTheme(COLOR_CHOICE,new Color(0,250,0,70));
-		addToTheme(COLOR_COMBAT_CHOICE,new Color(250,130,0,125));
+		addToTheme(COLOR_COMBAT_CHOICE,new Color(250,100,0,90));
 		addToTheme(COLOR_CHOICE_BORDER,new Color(0,250,0,70));
 		addToTheme(COLOR_COMBAT_CHOICE_BORDER,new Color(250,0,0,125));
 		addToTheme(COLOR_SELECTED_PLAYER,Color.RED);
@@ -64,7 +64,6 @@ public abstract class AbstractTheme implements Theme {
 	}
 	
 	void addToTheme(final String aName, final Object value) {
-		
 		themeMap.put(aName,value);
 	}
 	
@@ -75,20 +74,17 @@ public abstract class AbstractTheme implements Theme {
 
 	@Override
 	public String getName() {
-
 		return name;
 	}
 
 	@Override
 	public BufferedImage getTexture(final String aName) {
-
 		final Object value=themeMap.get(aName);
 		return value==null?IconImages.MISSING:(BufferedImage)value;
 	}
 
 	@Override
 	public BufferedImage getLogoTexture() {
-
 		return (BufferedImage)themeMap.get(Theme.TEXTURE_LOGO);
 	}
 
@@ -101,7 +97,7 @@ public abstract class AbstractTheme implements Theme {
 	@Override
 	public ImageIcon getIcon(final String aName) {
 		final Object value=themeMap.get(aName);
-		return value==null?IconImages.MISSING2:(ImageIcon)value;
+		return value==null?IconImages.MISSING_ICON:(ImageIcon)value;
 	}
 
 	@Override

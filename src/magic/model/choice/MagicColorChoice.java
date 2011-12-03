@@ -11,6 +11,7 @@ import magic.model.target.MagicTargetFilter;
 import magic.ui.GameController;
 import magic.ui.choice.ColorChoicePanel;
 
+import java.util.concurrent.Callable;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
@@ -50,7 +51,7 @@ public class MagicColorChoice extends MagicChoice {
 		for (final MagicTarget target : targets) {
 			
 			final MagicPermanent permanent=(MagicPermanent)target;
-			final int colorFlags=permanent.getColorFlags();
+			final int colorFlags=permanent.getColorFlags(game);
 			for (final MagicColor color : MagicColor.values()) {
 				
 				if (color.hasColor(colorFlags)) {
@@ -83,9 +84,8 @@ public class MagicColorChoice extends MagicChoice {
 			if (permanent.getController()==player) {
 				score=-score;
 			}
-			final int colorFlags=permanent.getColorFlags();
+			final int colorFlags=permanent.getColorFlags(game);
 			for (final MagicColor color : MagicColor.values()) {
-				
 				if (color.hasColor(colorFlags)) {
 					scores[color.ordinal()]+=score;
 				}
@@ -127,9 +127,12 @@ public class MagicColorChoice extends MagicChoice {
             final MagicPlayer player,
             final MagicSource source) {
 		
-        final ColorChoicePanel choicePanel=new ColorChoicePanel(controller,source);
 		controller.disableActionButton(false);
-		controller.showComponent(choicePanel);
+		final ColorChoicePanel choicePanel = controller.showComponent(new Callable<ColorChoicePanel>() {
+            public ColorChoicePanel call() {
+                return new ColorChoicePanel(controller,source);
+            }
+        });
 		if (controller.waitForInputOrUndo()) {
 			return UNDO_CHOICE_RESULTS;
 		}

@@ -8,17 +8,30 @@ import magic.model.MagicSource;
 import magic.model.action.MagicPermanentAction;
 import magic.model.action.MagicRemoveFromPlayAction;
 import magic.model.choice.MagicTargetChoice;
-import magic.model.condition.MagicCondition;
 import magic.model.event.MagicActivationHints;
+import magic.model.event.MagicActivation;
 import magic.model.event.MagicEvent;
 import magic.model.event.MagicPermanentActivation;
 import magic.model.event.MagicSacrificeEvent;
 import magic.model.event.MagicTiming;
 import magic.model.target.MagicBounceTargetPicker;
+import magic.model.target.MagicTargetFilter;
+import magic.model.mstatic.MagicStatic;
+import magic.model.MagicPowerToughness;
+import magic.model.mstatic.MagicLayer;
 
 public class Angelic_Shield {
-	public static final MagicPermanentActivation A = new MagicPermanentActivation(
-            MagicCondition.NONE,
+    public static final MagicStatic S = new MagicStatic(
+        MagicLayer.ModPT, 
+        MagicTargetFilter.TARGET_CREATURE_YOU_CONTROL) {
+        @Override
+        public void getPowerToughness(final MagicGame game,final MagicPermanent permanent,final MagicPowerToughness pt) {
+            pt.add(0,1);
+        }
+    };
+	
+    public static final MagicPermanentActivation A = new MagicPermanentActivation(
+            MagicActivation.NO_COND,
             new MagicActivationHints(MagicTiming.Removal),
             "Return") {
 

@@ -47,7 +47,7 @@ public class Skeletal_Vampire {
                     player,
                     new Object[]{player},
                     this,
-                    "Put two 1/1 black Bat creature tokens with flying onto the battlefield.");
+                    player + " puts two 1/1 black Bat creature tokens with flying onto the battlefield.");
 		}
 
 		@Override
@@ -57,8 +57,8 @@ public class Skeletal_Vampire {
                 final Object[] data,
                 final Object[] choiceResults) {
 			final MagicPlayer player=(MagicPlayer)data[0];
-			game.doAction(new MagicPlayTokenAction(player,TokenCardDefinitions.BAT_TOKEN_CARD));
-			game.doAction(new MagicPlayTokenAction(player,TokenCardDefinitions.BAT_TOKEN_CARD));			}
+			game.doAction(new MagicPlayTokenAction(player,TokenCardDefinitions.get("Bat")));
+			game.doAction(new MagicPlayTokenAction(player,TokenCardDefinitions.get("Bat")));			}
 	};
 
 	public static final MagicPermanentActivation A2 = new MagicPermanentActivation(
@@ -118,8 +118,8 @@ public class Skeletal_Vampire {
                 final Object data[],
                 final Object[] choiceResults) {
 			final MagicPlayer player=(MagicPlayer)data[0];
-			game.doAction(new MagicPlayTokenAction(player,TokenCardDefinitions.BAT_TOKEN_CARD));
-			game.doAction(new MagicPlayTokenAction(player,TokenCardDefinitions.BAT_TOKEN_CARD));
+			game.doAction(new MagicPlayTokenAction(player,TokenCardDefinitions.get("Bat")));
+			game.doAction(new MagicPlayTokenAction(player,TokenCardDefinitions.get("Bat")));
 		}		
     };
 }

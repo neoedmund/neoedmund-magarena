@@ -1,7 +1,5 @@
 package magic.card;
 
-import magic.model.MagicCardDefinition;
-import magic.model.MagicChangeCardDefinition;
 import magic.model.MagicCounterType;
 import magic.model.MagicGame;
 import magic.model.MagicManaCost;
@@ -16,32 +14,25 @@ import magic.model.choice.MagicTargetChoice;
 import magic.model.condition.MagicCondition;
 import magic.model.event.MagicActivationHints;
 import magic.model.event.MagicEvent;
-import magic.model.event.MagicLevelUpActivation;
 import magic.model.event.MagicPayManaCostTapEvent;
 import magic.model.event.MagicPermanentActivation;
 import magic.model.event.MagicTiming;
+import magic.model.mstatic.MagicLayer;
+import magic.model.mstatic.MagicStatic;
 import magic.model.stack.MagicCardOnStack;
-import magic.model.variable.MagicDummyLocalVariable;
-import magic.model.variable.MagicLocalVariable;
-import magic.model.variable.MagicStaticLocalVariable;
 
 public class Echo_Mage {
-	
-    private static final MagicLocalVariable LV = new MagicDummyLocalVariable() {
+	public static final MagicStatic S = new MagicStatic(MagicLayer.SetPT) {
 		@Override
 		public void getPowerToughness(final MagicGame game,final MagicPermanent permanent,final MagicPowerToughness pt) {
 			final int charges=permanent.getCounters(MagicCounterType.Charge);
 			if (charges>=4) {
-				pt.power=2;
-				pt.toughness=5;
+				pt.set(2,5);
 			} else if (charges>=2) {
-				pt.power=2;
-				pt.toughness=4;
+				pt.set(2,4);
 			}
 		}		
 	};
-
-	public static final MagicPermanentActivation A = new MagicLevelUpActivation(MagicManaCost.ONE_BLUE,4);
 	
 	public static final MagicPermanentActivation A2 = new MagicPermanentActivation(
 			new MagicCondition[]{
@@ -88,13 +79,4 @@ public class Echo_Mage {
 			});
 		}
 	};
-	
-    public static final MagicChangeCardDefinition SET = new MagicChangeCardDefinition() {
-        @Override
-        public void change(final MagicCardDefinition cdef) {
-            cdef.addLocalVariable(LV);	
-            cdef.addLocalVariable(MagicStaticLocalVariable.getInstance());
-            cdef.setVariablePT();
-        }
-    };
 }

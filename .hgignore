@@ -4,6 +4,8 @@ crash/*
 build/*
 ref/*
 launch4j/*
-Magarena*/*
 decks/*
-release/mods/*.zip
+release/Magarena/cards/*
+release/Magarena/texts/*
+release/Magarena/tokens/*
+release/Magarena/symbols/*

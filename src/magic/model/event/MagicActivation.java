@@ -4,6 +4,8 @@ import magic.data.CardDefinitions;
 import magic.data.GeneralConfig;
 import magic.model.MagicCardDefinition;
 import magic.model.MagicGame;
+import magic.model.MagicPermanent;
+import magic.model.MagicPermanentState;
 import magic.model.MagicPlayer;
 import magic.model.MagicSource;
 import magic.model.choice.MagicTargetChoice;
@@ -11,12 +13,14 @@ import magic.model.condition.MagicCondition;
 import magic.model.condition.MagicSingleActivationCondition;
 
 public abstract class MagicActivation implements MagicEventAction, Comparable<MagicActivation> {
+
+    public static final MagicCondition[] NO_COND = new MagicCondition[0];
 	
-    private final MagicCondition conditions[];
-    private final String text;
-	private final MagicActivationHints hints;
 	private final int priority;
     private final int index;
+    private final String text;
+    private final MagicCondition conditions[];
+	private final MagicActivationHints hints;
 	
     private int cardIndex;
 	private long id;
@@ -34,28 +38,28 @@ public abstract class MagicActivation implements MagicEventAction, Comparable<Ma
 		this.hints=hints;
 		this.priority=hints.getTiming().getPriority();
         
+        // set the activation for the single activation condition
+        for (final MagicCondition condition : conditions) {
+            if (condition instanceof MagicSingleActivationCondition) {
+                final MagicSingleActivationCondition singleCondition = (MagicSingleActivationCondition)condition;
+                singleCondition.setActivation(this);
+            }
+        }
+        
         //depends on the card
         this.cardIndex = -1;
         this.id = -1;
-		this.targetChoice = MagicTargetChoice.TARGET_NONE;
+        this.targetChoice = null;
 	}
     
     public void setCardIndex(final int cardIndex) {
         this.cardIndex = cardIndex;
         this.id = (cardIndex << 16) + index;
         this.targetChoice = getTargetChoice();
-		
-        // set the activation for the single activation condition, depends on id
-        for (final MagicCondition condition : conditions) {
-            if (condition instanceof MagicSingleActivationCondition) {
-                final MagicSingleActivationCondition singleCondition = (MagicSingleActivationCondition)condition;
-                singleCondition.setActivation(id);
-            }
-        }
     }
 	
     final MagicCardDefinition getCardDefinition() {
-		return CardDefinitions.getInstance().getCard(cardIndex);
+		return CardDefinitions.getCard(cardIndex);
 	}
 		
 	private final MagicCondition[] getConditions() {
@@ -85,8 +89,8 @@ public abstract class MagicActivation implements MagicEventAction, Comparable<Ma
 		return id >= actpri.getActivationId();		
 	}
 	
-	void changeActivationPriority(final MagicGame game,final MagicSource source) {
-        final MagicActivationPriority actpri = source.getController().getActivationPriority();
+	void changeActivationPriority(final MagicGame game,final MagicPlayer player) {
+        final MagicActivationPriority actpri = player.getActivationPriority();
 		actpri.setPriority(priority);
 		actpri.setActivationId(id);
 	}
@@ -110,6 +114,11 @@ public abstract class MagicActivation implements MagicEventAction, Comparable<Ma
             if (!condition.accept(game,source)) {
                 return false;
             }
+        }
+        
+        if (source instanceof MagicPermanent &&
+            ((MagicPermanent)source).hasState(MagicPermanentState.LosesAllAbilities)) {
+            return false;
         }
 		
         // Check for legal targets.

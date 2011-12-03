@@ -34,7 +34,7 @@ public class Zombie_Infestation {
                     player,
                     new Object[]{player},
                     this,
-                    "Put a 2/2 black Zombie creature token onto the battlefield.");
+                    player + " puts a 2/2 black Zombie creature token onto the battlefield.");
 		}
 		@Override
 		public void executeEvent(
@@ -45,7 +45,7 @@ public class Zombie_Infestation {
 			final MagicPlayer player = (MagicPlayer)data[0];
 			game.doAction(new MagicPlayTokenAction(
                     player,
-                    TokenCardDefinitions.ZOMBIE_TOKEN_CARD));
+                    TokenCardDefinitions.get("Zombie")));
 		}
 	};
 }

@@ -29,7 +29,7 @@ public class Gatekeeper_of_Malakir {
             final Object[] choiceResults) {
             event.processTargetPlayer(game,choiceResults,0,new MagicPlayerAction() {
                 public void doAction(final MagicPlayer opponent) {
-                    if (opponent.controlsPermanentWithType(MagicType.Creature)) {
+                    if (opponent.controlsPermanentWithType(MagicType.Creature,game)) {
                         game.addEvent(new MagicSacrificePermanentEvent(
                             event.getSource(),
                             game.getOpponent(event.getPlayer()),
@@ -51,8 +51,8 @@ public class Gatekeeper_of_Malakir {
                     new MagicKickerChoice(MagicManaCost.BLACK,false),
                     new Object[]{cardOnStack,player},
                     this,
-                    "$Play " + card + ". When " + card + " enters the battlefield, " +
-                    "if it is was kicked$, target player sacrifices a creature.");
+                    "$Play " + card + ". If " + card + " was kicked$, " +
+                    "target player sacrifices a creature.");
 		}
 		@Override
 		public void executeEvent(
