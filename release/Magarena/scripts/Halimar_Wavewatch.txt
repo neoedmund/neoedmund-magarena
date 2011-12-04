@@ -1,0 +1,14 @@
+>Halimar Wavewatch
+url=http://magiccards.info/roe/en/72.html
+image=http://magiccards.info/scans/en/roe/72.jpg
+value=2
+rarity=C
+type=Creature
+subtype=Merfolk,Soldier
+color=u
+converted=2
+cost={1}{U}
+pt=0/3
+ability=level up {2} 5
+timing=main
+requires_card_code
