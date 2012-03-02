@@ -1,0 +1,9 @@
+>Seat of the Synod
+url=http://magiccards.info/pch/en/136.html
+image=http://magiccards.info/scans/en/pch/136.jpg
+value=2
+rarity=C
+type=Artifact,Land
+mana=u4
+ability=tap add mana {U}
+timing=land
