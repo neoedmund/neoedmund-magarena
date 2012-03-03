@@ -1,0 +1,10 @@
+>Nantuko Monastery
+url=http://magiccards.info/arc/en/131.html
+image=http://magiccards.info/scans/en/arc/131.jpg
+value=4
+rarity=U
+type=Land
+ability=tap add mana {1}
+timing=land
+mana_or_combat
+requires_card_code

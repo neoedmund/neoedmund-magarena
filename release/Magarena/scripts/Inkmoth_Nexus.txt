@@ -1,0 +1,10 @@
+>Inkmoth Nexus
+url=http://magiccards.info/mbs/en/145.html
+image=http://magiccards.info/scans/en/mbs/145.jpg
+value=4
+rarity=R
+type=Land
+ability=tap add mana {1}
+timing=land
+mana_or_combat
+requires_card_code
