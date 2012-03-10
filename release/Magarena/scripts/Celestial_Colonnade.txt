@@ -1,0 +1,11 @@
+>Celestial Colonnade
+url=http://magiccards.info/wwk/en/133.html
+image=http://magiccards.info/scans/en/wwk/133.jpg
+value=4
+rarity=R
+type=Land
+mana=w3u3
+timing=tapland
+ability=enters tapped,tap add mana {W} or {U}
+mana_or_combat
+requires_card_code
