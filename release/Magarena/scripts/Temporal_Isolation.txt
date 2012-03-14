@@ -1,0 +1,19 @@
+>Temporal Isolation
+url=http://magiccards.info/ts/en/43.html
+image=http://magiccards.info/scans/en/ts/43.jpg
+value=2
+rarity=C
+type=Enchantment
+subtype=Aura
+color=w
+converted=2
+cost={1}{W}
+ability=flash
+given_ability=shadow
+timing=flash
+# not the ideal targetPicker as the creature can still
+# attack and block, but because this gives the creature
+# shadow it can't block much and the aura prevents it
+# from doing any damage.
+enchant=can't attack or block,neg creature
+requires_card_code
