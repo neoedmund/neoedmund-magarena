@@ -1,0 +1,10 @@
+>Jar of Eyeballs
+url=http://magiccards.info/query?q=Jar+of+Eyeballs&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Jar+of+Eyeballs
+timing=main
+rarity=R
+type=Artifact
+converted=3
+cost={3}
+
+# TODO -- gen by neoe

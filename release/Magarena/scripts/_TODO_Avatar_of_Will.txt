@@ -1,0 +1,13 @@
+>Avatar of Will
+url=http://magiccards.info/query?q=Avatar+of+Will&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Avatar+of+Will
+timing=main
+rarity=R
+type=Creature
+subtype=Avatar
+pt=5/6
+converted=8
+cost={6}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

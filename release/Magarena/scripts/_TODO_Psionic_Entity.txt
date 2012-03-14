@@ -1,0 +1,13 @@
+>Psionic Entity
+url=http://magiccards.info/query?q=Psionic+Entity&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Psionic+Entity
+timing=main
+rarity=R
+type=Creature
+subtype=Illusion
+pt=2/2
+converted=5
+cost={4}{U}
+color=u
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Sparkspitter
+url=http://magiccards.info/query?q=Sparkspitter&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sparkspitter
+timing=main
+rarity=U
+type=Creature
+subtype=Elemental,Spellshaper
+pt=1/3
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

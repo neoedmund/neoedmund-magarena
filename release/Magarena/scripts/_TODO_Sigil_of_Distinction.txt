@@ -1,0 +1,11 @@
+>Sigil of Distinction
+url=http://magiccards.info/query?q=Sigil+of+Distinction&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sigil+of+Distinction
+timing=main
+rarity=R
+type=Artifact
+subtype=Equipment
+converted=0
+cost={X}{0}
+
+# TODO -- gen by neoe

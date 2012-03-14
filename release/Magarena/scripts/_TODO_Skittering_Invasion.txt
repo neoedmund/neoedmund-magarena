@@ -1,0 +1,11 @@
+>Skittering Invasion
+url=http://magiccards.info/query?q=Skittering+Invasion&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Skittering+Invasion
+timing=main
+rarity=U
+type=Tribal,Sorcery
+subtype=Eldrazi
+converted=7
+cost={7}
+
+# TODO -- gen by neoe

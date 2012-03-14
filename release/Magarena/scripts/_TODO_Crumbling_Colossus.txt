@@ -1,0 +1,12 @@
+>Crumbling Colossus
+url=http://magiccards.info/query?q=Crumbling+Colossus&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Crumbling+Colossus
+timing=main
+rarity=U
+type=Artifact,Creature
+subtype=Golem
+pt=7/4
+converted=5
+cost={5}
+
+# TODO -- gen by neoe

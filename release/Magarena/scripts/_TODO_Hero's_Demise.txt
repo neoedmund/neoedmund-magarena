@@ -1,0 +1,11 @@
+>Hero's Demise
+url=http://magiccards.info/query?q=Hero%27s+Demise&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Hero%27s+Demise
+timing=main
+rarity=R
+type=Instant
+converted=2
+cost={1}{B}
+color=b
+
+# TODO -- gen by neoe

@@ -1,0 +1,12 @@
+>Rustspore Ram
+url=http://magiccards.info/query?q=Rustspore+Ram&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Rustspore+Ram
+timing=main
+rarity=U
+type=Artifact,Creature
+subtype=Sheep
+pt=1/3
+converted=4
+cost={4}
+
+# TODO -- gen by neoe

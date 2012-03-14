@@ -1,0 +1,11 @@
+>Guan Yu's 1,000-Li March
+url=http://magiccards.info/query?q=Guan+Yu%27s+1%2C000-Li+March&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Guan+Yu%27s+1%2C000-Li+March
+timing=main
+rarity=R
+type=Sorcery
+converted=6
+cost={4}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Elvish Scrapper
+url=http://magiccards.info/query?q=Elvish+Scrapper&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Elvish+Scrapper
+timing=main
+rarity=U
+type=Creature
+subtype=Elf
+pt=1/1
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

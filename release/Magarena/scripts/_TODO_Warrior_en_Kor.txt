@@ -1,0 +1,13 @@
+>Warrior en-Kor
+url=http://magiccards.info/query?q=Warrior+en-Kor&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Warrior+en-Kor
+timing=main
+rarity=U
+type=Creature
+subtype=Kor,Warrior,Knight
+pt=2/2
+converted=2
+cost={W}{W}
+color=ww
+
+# TODO -- gen by neoe

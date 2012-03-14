@@ -1,0 +1,13 @@
+>Fascist Art Director
+url=http://magiccards.info/query?q=Fascist+Art+Director&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Fascist+Art+Director
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Horror
+pt=2/2
+converted=3
+cost={1}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

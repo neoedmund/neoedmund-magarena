@@ -1,0 +1,11 @@
+>Dream Cache
+url=http://magiccards.info/query?q=Dream+Cache&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dream+Cache
+timing=main
+rarity=C
+type=Sorcery
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

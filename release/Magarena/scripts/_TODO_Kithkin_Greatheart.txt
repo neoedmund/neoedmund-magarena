@@ -1,0 +1,13 @@
+>Kithkin Greatheart
+url=http://magiccards.info/query?q=Kithkin+Greatheart&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Kithkin+Greatheart
+timing=main
+rarity=C
+type=Creature
+subtype=Kithkin,Soldier
+pt=2/1
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

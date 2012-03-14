@@ -1,0 +1,13 @@
+>Symbiotic Beast
+url=http://magiccards.info/query?q=Symbiotic+Beast&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Symbiotic+Beast
+timing=main
+rarity=U
+type=Creature
+subtype=Insect,Beast
+pt=4/4
+converted=6
+cost={4}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

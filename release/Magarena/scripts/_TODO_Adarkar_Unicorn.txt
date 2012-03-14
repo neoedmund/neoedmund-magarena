@@ -1,0 +1,13 @@
+>Adarkar Unicorn
+url=http://magiccards.info/query?q=Adarkar+Unicorn&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Adarkar+Unicorn
+timing=main
+rarity=C
+type=Creature
+subtype=Unicorn
+pt=2/2
+converted=3
+cost={1}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

@@ -1,0 +1,10 @@
+>Beseech the Queen
+url=http://magiccards.info/query?q=Beseech+the+Queen&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Beseech+the+Queen
+timing=main
+rarity=U
+type=Sorcery
+converted=15
+cost={2/B}{2/B}{2/B}
+
+# TODO -- gen by neoe

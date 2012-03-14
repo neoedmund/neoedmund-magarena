@@ -1,0 +1,13 @@
+>Farrel's Zealot
+url=http://magiccards.info/query?q=Farrel%27s+Zealot&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Farrel%27s+Zealot
+timing=main
+rarity=C
+type=Creature
+subtype=Human
+pt=2/2
+converted=3
+cost={1}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

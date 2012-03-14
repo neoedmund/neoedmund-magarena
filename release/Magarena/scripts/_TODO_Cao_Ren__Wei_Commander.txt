@@ -1,0 +1,13 @@
+>Cao Ren, Wei Commander
+url=http://magiccards.info/query?q=Cao+Ren%2C+Wei+Commander&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Cao+Ren%2C+Wei+Commander
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Human,Soldier,Warrior
+pt=3/3
+converted=4
+cost={2}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

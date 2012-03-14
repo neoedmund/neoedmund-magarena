@@ -1,0 +1,13 @@
+>Immerwolf
+url=http://magiccards.info/query?q=Immerwolf&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Immerwolf
+timing=main
+rarity=U
+type=Creature
+subtype=Wolf
+pt=2/2
+converted=3
+cost={1}{R}{G}
+color=rg
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Earthshaker
+url=http://magiccards.info/query?q=Earthshaker&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Earthshaker
+timing=main
+rarity=U
+type=Creature
+subtype=Spirit
+pt=4/5
+converted=6
+cost={4}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

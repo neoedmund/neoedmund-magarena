@@ -1,0 +1,13 @@
+>Disciple of Tevesh Szat
+url=http://magiccards.info/query?q=Disciple+of+Tevesh+Szat&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Disciple+of+Tevesh+Szat
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Cleric
+pt=3/1
+converted=4
+cost={2}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

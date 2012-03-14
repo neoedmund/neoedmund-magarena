@@ -1,0 +1,11 @@
+>Soulshriek
+url=http://magiccards.info/query?q=Soulshriek&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Soulshriek
+timing=main
+rarity=C
+type=Instant
+converted=1
+cost={B}
+color=b
+
+# TODO -- gen by neoe

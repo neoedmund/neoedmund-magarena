@@ -1,0 +1,11 @@
+>Task Mage Assembly
+url=http://magiccards.info/query?q=Task+Mage+Assembly&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Task+Mage+Assembly
+timing=main
+rarity=R
+type=Enchantment
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

@@ -1,0 +1,10 @@
+>Mishra's Groundbreaker
+url=http://magiccards.info/query?q=Mishra%27s+Groundbreaker&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mishra%27s+Groundbreaker
+timing=main
+rarity=U
+type=Artifact
+converted=4
+cost={4}
+
+# TODO -- gen by neoe

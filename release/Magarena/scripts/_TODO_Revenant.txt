@@ -1,0 +1,12 @@
+>Revenant
+url=http://magiccards.info/query?q=Revenant&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Revenant
+timing=main
+rarity=R
+type=Creature
+subtype=Spirit
+converted=5
+cost={4}{B}
+color=b
+
+# TODO -- gen by neoe

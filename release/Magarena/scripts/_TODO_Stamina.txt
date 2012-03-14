@@ -1,0 +1,12 @@
+>Stamina
+url=http://magiccards.info/query?q=Stamina&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Stamina
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

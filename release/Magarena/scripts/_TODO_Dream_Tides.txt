@@ -1,0 +1,11 @@
+>Dream Tides
+url=http://magiccards.info/query?q=Dream+Tides&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dream+Tides
+timing=main
+rarity=U
+type=Enchantment
+converted=4
+cost={2}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

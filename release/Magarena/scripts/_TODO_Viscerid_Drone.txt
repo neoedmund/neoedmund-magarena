@@ -1,0 +1,13 @@
+>Viscerid Drone
+url=http://magiccards.info/query?q=Viscerid+Drone&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Viscerid+Drone
+timing=main
+rarity=U
+type=Creature
+subtype=Homarid,Drone
+pt=1/2
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

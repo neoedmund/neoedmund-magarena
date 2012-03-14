@@ -1,0 +1,11 @@
+>Cleansing Beam
+url=http://magiccards.info/query?q=Cleansing+Beam&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Cleansing+Beam
+timing=main
+rarity=U
+type=Instant
+converted=5
+cost={4}{R}
+color=r
+
+# TODO -- gen by neoe

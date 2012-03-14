@@ -1,0 +1,11 @@
+>Ambition's Cost
+url=http://magiccards.info/query?q=Ambition%27s+Cost&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ambition%27s+Cost
+timing=main
+rarity=R
+type=Sorcery
+converted=4
+cost={3}{B}
+color=b
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Snow-Covered Mountain
+url=http://magiccards.info/query?q=Snow-Covered+Mountain&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Snow-Covered+Mountain
+timing=main
+rarity=C
+type=Basic,Snow,Land
+subtype=Mountain
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

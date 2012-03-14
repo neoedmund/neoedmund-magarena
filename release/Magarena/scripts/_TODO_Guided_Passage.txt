@@ -1,0 +1,11 @@
+>Guided Passage
+url=http://magiccards.info/query?q=Guided+Passage&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Guided+Passage
+timing=main
+rarity=R
+type=Sorcery
+converted=3
+cost={U}{R}{G}
+color=urg
+
+# TODO -- gen by neoe

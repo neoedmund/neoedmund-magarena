@@ -1,0 +1,13 @@
+>Phyrexian Hydra
+url=http://magiccards.info/query?q=Phyrexian+Hydra&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Phyrexian+Hydra
+timing=main
+rarity=R
+type=Creature
+subtype=Hydra
+pt=7/7
+converted=5
+cost={3}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

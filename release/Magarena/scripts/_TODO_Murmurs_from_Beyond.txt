@@ -1,0 +1,11 @@
+>Murmurs from Beyond
+url=http://magiccards.info/query?q=Murmurs+from+Beyond&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Murmurs+from+Beyond
+timing=main
+rarity=C
+type=Instant
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

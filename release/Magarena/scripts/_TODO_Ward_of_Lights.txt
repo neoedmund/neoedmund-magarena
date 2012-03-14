@@ -1,0 +1,12 @@
+>Ward of Lights
+url=http://magiccards.info/query?q=Ward+of+Lights&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ward+of+Lights
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=2
+cost={W}{W}
+color=ww
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Trokin High Guard
+url=http://magiccards.info/query?q=Trokin+High+Guard&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Trokin+High+Guard
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Knight
+pt=3/3
+converted=4
+cost={3}{W}
+color=w
+
+# TODO -- gen by neoe

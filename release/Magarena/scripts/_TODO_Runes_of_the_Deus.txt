@@ -1,0 +1,11 @@
+>Runes of the Deus
+url=http://magiccards.info/query?q=Runes+of+the+Deus&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Runes+of+the+Deus
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=9
+cost={4}{R/G}
+
+# TODO -- gen by neoe

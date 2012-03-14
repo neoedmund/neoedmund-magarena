@@ -1,0 +1,13 @@
+>Synapse Sliver
+url=http://magiccards.info/query?q=Synapse+Sliver&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Synapse+Sliver
+timing=main
+rarity=R
+type=Creature
+subtype=Sliver
+pt=3/3
+converted=5
+cost={4}{U}
+color=u
+
+# TODO -- gen by neoe

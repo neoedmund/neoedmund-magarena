@@ -1,0 +1,11 @@
+>Patriarch's Bidding
+url=http://magiccards.info/query?q=Patriarch%27s+Bidding&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Patriarch%27s+Bidding
+timing=main
+rarity=R
+type=Sorcery
+converted=5
+cost={3}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Winter's Grasp
+url=http://magiccards.info/query?q=Winter%27s+Grasp&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Winter%27s+Grasp
+timing=main
+rarity=U
+type=Sorcery
+converted=3
+cost={1}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

@@ -1,0 +1,12 @@
+>Centaur Safeguard
+url=http://magiccards.info/query?q=Centaur+Safeguard&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Centaur+Safeguard
+timing=main
+rarity=C
+type=Creature
+subtype=Centaur,Warrior
+pt=3/1
+converted=7
+cost={2}{G/W}
+
+# TODO -- gen by neoe

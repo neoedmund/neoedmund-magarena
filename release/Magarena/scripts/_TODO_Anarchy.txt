@@ -1,0 +1,11 @@
+>Anarchy
+url=http://magiccards.info/query?q=Anarchy&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Anarchy
+timing=main
+rarity=U
+type=Sorcery
+converted=4
+cost={2}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

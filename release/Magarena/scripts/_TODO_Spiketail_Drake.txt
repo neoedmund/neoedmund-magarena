@@ -1,0 +1,13 @@
+>Spiketail Drake
+url=http://magiccards.info/query?q=Spiketail+Drake&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Spiketail+Drake
+timing=main
+rarity=U
+type=Creature
+subtype=Drake
+pt=3/3
+converted=5
+cost={3}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

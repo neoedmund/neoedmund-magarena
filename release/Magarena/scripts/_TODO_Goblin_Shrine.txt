@@ -1,0 +1,12 @@
+>Goblin Shrine
+url=http://magiccards.info/query?q=Goblin+Shrine&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Goblin+Shrine
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=3
+cost={1}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Disciple of Grace
+url=http://magiccards.info/query?q=Disciple+of+Grace&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Disciple+of+Grace
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Cleric
+pt=1/2
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

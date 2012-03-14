@@ -1,0 +1,11 @@
+>Desecrated Earth
+url=http://magiccards.info/query?q=Desecrated+Earth&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Desecrated+Earth
+timing=main
+rarity=C
+type=Sorcery
+converted=5
+cost={4}{B}
+color=b
+
+# TODO -- gen by neoe

@@ -1,0 +1,12 @@
+>Casting of Bones
+url=http://magiccards.info/query?q=Casting+of+Bones&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Casting+of+Bones
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

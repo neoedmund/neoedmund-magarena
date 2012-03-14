@@ -1,0 +1,13 @@
+>Academy Rector
+url=http://magiccards.info/query?q=Academy+Rector&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Academy+Rector
+timing=main
+rarity=R
+type=Creature
+subtype=Human,Cleric
+pt=1/2
+converted=4
+cost={3}{W}
+color=w
+
+# TODO -- gen by neoe

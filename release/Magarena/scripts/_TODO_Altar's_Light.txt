@@ -1,0 +1,11 @@
+>Altar's Light
+url=http://magiccards.info/query?q=Altar%27s+Light&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Altar%27s+Light
+timing=main
+rarity=U
+type=Instant
+converted=4
+cost={2}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

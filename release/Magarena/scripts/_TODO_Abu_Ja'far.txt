@@ -1,0 +1,13 @@
+>Abu Ja'far
+url=http://magiccards.info/query?q=Abu+Ja%27far&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Abu+Ja%27far
+timing=main
+rarity=U
+type=Creature
+subtype=Human
+pt=0/1
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

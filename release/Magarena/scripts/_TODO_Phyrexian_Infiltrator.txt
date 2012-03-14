@@ -1,0 +1,13 @@
+>Phyrexian Infiltrator
+url=http://magiccards.info/query?q=Phyrexian+Infiltrator&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Phyrexian+Infiltrator
+timing=main
+rarity=R
+type=Creature
+subtype=Minion
+pt=2/2
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

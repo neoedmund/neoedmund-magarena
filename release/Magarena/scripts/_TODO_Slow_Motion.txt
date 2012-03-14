@@ -1,0 +1,12 @@
+>Slow Motion
+url=http://magiccards.info/query?q=Slow+Motion&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Slow+Motion
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

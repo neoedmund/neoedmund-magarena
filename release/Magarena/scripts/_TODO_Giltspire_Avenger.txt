@@ -1,0 +1,13 @@
+>Giltspire Avenger
+url=http://magiccards.info/query?q=Giltspire+Avenger&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Giltspire+Avenger
+timing=main
+rarity=R
+type=Creature
+subtype=Human,Soldier
+pt=2/2
+converted=3
+cost={G}{W}{U}
+color=gwu
+
+# TODO -- gen by neoe

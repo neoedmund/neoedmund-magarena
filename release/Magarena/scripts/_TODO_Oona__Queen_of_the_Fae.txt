@@ -1,0 +1,12 @@
+>Oona, Queen of the Fae
+url=http://magiccards.info/query?q=Oona%2C+Queen+of+the+Fae&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Oona%2C+Queen+of+the+Fae
+timing=main
+rarity=M
+type=Legendary,Creature
+subtype=Faerie,Wizard
+pt=5/5
+converted=18
+cost={3}{U/B}{U/B}{U/B}
+
+# TODO -- gen by neoe

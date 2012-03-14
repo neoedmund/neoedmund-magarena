@@ -1,0 +1,12 @@
+>Vector Asp
+url=http://magiccards.info/query?q=Vector+Asp&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Vector+Asp
+timing=main
+rarity=C
+type=Artifact,Creature
+subtype=Snake
+pt=1/1
+converted=1
+cost={1}
+
+# TODO -- gen by neoe

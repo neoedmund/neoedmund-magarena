@@ -1,0 +1,11 @@
+>Wandering Stream
+url=http://magiccards.info/query?q=Wandering+Stream&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wandering+Stream
+timing=main
+rarity=C
+type=Sorcery
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

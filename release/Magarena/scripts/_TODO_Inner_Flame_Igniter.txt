@@ -1,0 +1,13 @@
+>Inner-Flame Igniter
+url=http://magiccards.info/query?q=Inner-Flame+Igniter&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Inner-Flame+Igniter
+timing=main
+rarity=U
+type=Creature
+subtype=Elemental,Warrior
+pt=2/2
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

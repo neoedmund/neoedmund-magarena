@@ -1,0 +1,10 @@
+>Shadow of Doubt
+url=http://magiccards.info/query?q=Shadow+of+Doubt&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Shadow+of+Doubt
+timing=main
+rarity=R
+type=Instant
+converted=10
+cost={U/B}{U/B}
+
+# TODO -- gen by neoe

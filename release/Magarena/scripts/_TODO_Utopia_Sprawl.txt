@@ -1,0 +1,12 @@
+>Utopia Sprawl
+url=http://magiccards.info/query?q=Utopia+Sprawl&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Utopia+Sprawl
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

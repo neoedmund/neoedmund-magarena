@@ -1,0 +1,13 @@
+>Jungle Weaver
+url=http://magiccards.info/query?q=Jungle+Weaver&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Jungle+Weaver
+timing=main
+rarity=C
+type=Creature
+subtype=Spider
+pt=5/6
+converted=7
+cost={5}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

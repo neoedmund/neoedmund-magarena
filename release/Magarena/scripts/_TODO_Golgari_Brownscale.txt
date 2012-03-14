@@ -1,0 +1,13 @@
+>Golgari Brownscale
+url=http://magiccards.info/query?q=Golgari+Brownscale&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Golgari+Brownscale
+timing=main
+rarity=C
+type=Creature
+subtype=Lizard
+pt=2/3
+converted=3
+cost={1}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

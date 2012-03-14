@@ -1,0 +1,13 @@
+>Deathmask Nezumi
+url=http://magiccards.info/query?q=Deathmask+Nezumi&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Deathmask+Nezumi
+timing=main
+rarity=C
+type=Creature
+subtype=Rat,Shaman
+pt=2/2
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Journey of Discovery
+url=http://magiccards.info/query?q=Journey+of+Discovery&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Journey+of+Discovery
+timing=main
+rarity=C
+type=Sorcery
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

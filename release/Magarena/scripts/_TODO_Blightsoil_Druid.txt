@@ -1,0 +1,13 @@
+>Blightsoil Druid
+url=http://magiccards.info/query?q=Blightsoil+Druid&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Blightsoil+Druid
+timing=main
+rarity=C
+type=Creature
+subtype=Elf,Druid
+pt=1/2
+converted=2
+cost={1}{B}
+color=b
+
+# TODO -- gen by neoe

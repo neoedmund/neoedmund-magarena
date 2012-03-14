@@ -1,0 +1,13 @@
+>Brine Hag
+url=http://magiccards.info/query?q=Brine+Hag&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Brine+Hag
+timing=main
+rarity=U
+type=Creature
+subtype=Hag
+pt=2/2
+converted=4
+cost={2}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

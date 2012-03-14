@@ -1,0 +1,12 @@
+>Dance of the Dead
+url=http://magiccards.info/query?q=Dance+of+the+Dead&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dance+of+the+Dead
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=2
+cost={1}{B}
+color=b
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Mountain Titan
+url=http://magiccards.info/query?q=Mountain+Titan&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mountain+Titan
+timing=main
+rarity=R
+type=Creature
+subtype=Giant
+pt=2/2
+converted=4
+cost={2}{B}{R}
+color=br
+
+# TODO -- gen by neoe

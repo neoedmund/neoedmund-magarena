@@ -1,0 +1,13 @@
+>Iona, Shield of Emeria
+url=http://magiccards.info/query?q=Iona%2C+Shield+of+Emeria&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Iona%2C+Shield+of+Emeria
+timing=main
+rarity=M
+type=Legendary,Creature
+subtype=Angel
+pt=7/7
+converted=9
+cost={6}{W}{W}{W}
+color=www
+
+# TODO -- gen by neoe

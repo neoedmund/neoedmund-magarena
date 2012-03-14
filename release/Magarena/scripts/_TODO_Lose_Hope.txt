@@ -1,0 +1,11 @@
+>Lose Hope
+url=http://magiccards.info/query?q=Lose+Hope&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Lose+Hope
+timing=main
+rarity=C
+type=Instant
+converted=1
+cost={B}
+color=b
+
+# TODO -- gen by neoe

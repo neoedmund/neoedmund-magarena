@@ -1,0 +1,12 @@
+>Clone Shell
+url=http://magiccards.info/query?q=Clone+Shell&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Clone+Shell
+timing=main
+rarity=U
+type=Artifact,Creature
+subtype=Shapeshifter
+pt=2/2
+converted=5
+cost={5}
+
+# TODO -- gen by neoe

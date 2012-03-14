@@ -1,0 +1,13 @@
+>Wild Dogs
+url=http://magiccards.info/query?q=Wild+Dogs&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wild+Dogs
+timing=main
+rarity=C
+type=Creature
+subtype=Hound
+pt=2/1
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

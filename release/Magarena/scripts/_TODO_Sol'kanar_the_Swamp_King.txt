@@ -1,0 +1,13 @@
+>Sol'kanar the Swamp King
+url=http://magiccards.info/query?q=Sol%27kanar+the+Swamp+King&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sol%27kanar+the+Swamp+King
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Demon
+pt=5/5
+converted=5
+cost={2}{U}{B}{R}
+color=ubr
+
+# TODO -- gen by neoe

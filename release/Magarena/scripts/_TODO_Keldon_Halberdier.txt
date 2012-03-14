@@ -1,0 +1,13 @@
+>Keldon Halberdier
+url=http://magiccards.info/query?q=Keldon+Halberdier&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Keldon+Halberdier
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Warrior
+pt=4/1
+converted=5
+cost={4}{R}
+color=r
+
+# TODO -- gen by neoe

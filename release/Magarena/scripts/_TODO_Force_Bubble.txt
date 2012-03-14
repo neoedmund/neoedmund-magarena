@@ -1,0 +1,11 @@
+>Force Bubble
+url=http://magiccards.info/query?q=Force+Bubble&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Force+Bubble
+timing=main
+rarity=R
+type=Enchantment
+converted=4
+cost={2}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

@@ -1,0 +1,12 @@
+>Vulshok Replica
+url=http://magiccards.info/query?q=Vulshok+Replica&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Vulshok+Replica
+timing=main
+rarity=C
+type=Artifact,Creature
+subtype=Berserker
+pt=3/1
+converted=3
+cost={3}
+
+# TODO -- gen by neoe

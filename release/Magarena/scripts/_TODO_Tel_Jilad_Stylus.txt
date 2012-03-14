@@ -1,0 +1,10 @@
+>Tel-Jilad Stylus
+url=http://magiccards.info/query?q=Tel-Jilad+Stylus&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Tel-Jilad+Stylus
+timing=main
+rarity=U
+type=Artifact
+converted=1
+cost={1}
+
+# TODO -- gen by neoe

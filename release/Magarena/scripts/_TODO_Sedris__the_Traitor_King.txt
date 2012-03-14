@@ -1,0 +1,13 @@
+>Sedris, the Traitor King
+url=http://magiccards.info/query?q=Sedris%2C+the+Traitor+King&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sedris%2C+the+Traitor+King
+timing=main
+rarity=M
+type=Legendary,Creature
+subtype=Zombie,Warrior
+pt=5/5
+converted=6
+cost={3}{U}{B}{R}
+color=ubr
+
+# TODO -- gen by neoe

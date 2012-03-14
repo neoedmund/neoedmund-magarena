@@ -1,0 +1,11 @@
+>Furnace Celebration
+url=http://magiccards.info/query?q=Furnace+Celebration&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Furnace+Celebration
+timing=main
+rarity=U
+type=Enchantment
+converted=3
+cost={1}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Burning-Tree Shaman
+url=http://magiccards.info/query?q=Burning-Tree+Shaman&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Burning-Tree+Shaman
+timing=main
+rarity=R
+type=Creature
+subtype=Centaur,Shaman
+pt=3/4
+converted=3
+cost={1}{R}{G}
+color=rg
+
+# TODO -- gen by neoe

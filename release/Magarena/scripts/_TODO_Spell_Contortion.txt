@@ -1,0 +1,11 @@
+>Spell Contortion
+url=http://magiccards.info/query?q=Spell+Contortion&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Spell+Contortion
+timing=main
+rarity=U
+type=Instant
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

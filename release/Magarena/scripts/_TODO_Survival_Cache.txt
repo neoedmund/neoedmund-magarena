@@ -1,0 +1,11 @@
+>Survival Cache
+url=http://magiccards.info/query?q=Survival+Cache&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Survival+Cache
+timing=main
+rarity=U
+type=Sorcery
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

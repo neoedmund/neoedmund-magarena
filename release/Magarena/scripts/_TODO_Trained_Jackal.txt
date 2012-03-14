@@ -1,0 +1,13 @@
+>Trained Jackal
+url=http://magiccards.info/query?q=Trained+Jackal&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Trained+Jackal
+timing=main
+rarity=C
+type=Creature
+subtype=Hound
+pt=1/2
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

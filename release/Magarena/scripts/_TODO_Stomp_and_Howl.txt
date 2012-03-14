@@ -1,0 +1,11 @@
+>Stomp and Howl
+url=http://magiccards.info/query?q=Stomp+and+Howl&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Stomp+and+Howl
+timing=main
+rarity=U
+type=Sorcery
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

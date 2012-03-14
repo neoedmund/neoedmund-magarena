@@ -1,0 +1,12 @@
+>Telethopter
+url=http://magiccards.info/query?q=Telethopter&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Telethopter
+timing=main
+rarity=U
+type=Artifact,Creature
+subtype=Thopter
+pt=3/1
+converted=4
+cost={4}
+
+# TODO -- gen by neoe

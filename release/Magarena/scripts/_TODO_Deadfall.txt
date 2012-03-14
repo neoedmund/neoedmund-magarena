@@ -1,0 +1,11 @@
+>Deadfall
+url=http://magiccards.info/query?q=Deadfall&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Deadfall
+timing=main
+rarity=U
+type=Enchantment
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

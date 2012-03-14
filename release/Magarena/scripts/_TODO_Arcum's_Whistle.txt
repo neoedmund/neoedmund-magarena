@@ -1,0 +1,10 @@
+>Arcum's Whistle
+url=http://magiccards.info/query?q=Arcum%27s+Whistle&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Arcum%27s+Whistle
+timing=main
+rarity=U
+type=Artifact
+converted=3
+cost={3}
+
+# TODO -- gen by neoe

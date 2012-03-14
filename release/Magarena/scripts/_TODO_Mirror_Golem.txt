@@ -1,0 +1,12 @@
+>Mirror Golem
+url=http://magiccards.info/query?q=Mirror+Golem&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mirror+Golem
+timing=main
+rarity=U
+type=Artifact,Creature
+subtype=Golem
+pt=3/4
+converted=6
+cost={6}
+
+# TODO -- gen by neoe

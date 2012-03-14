@@ -1,0 +1,13 @@
+>Seasoned Tactician
+url=http://magiccards.info/query?q=Seasoned+Tactician&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Seasoned+Tactician
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Advisor
+pt=1/3
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

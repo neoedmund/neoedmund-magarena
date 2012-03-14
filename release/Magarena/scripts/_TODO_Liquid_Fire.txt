@@ -1,0 +1,11 @@
+>Liquid Fire
+url=http://magiccards.info/query?q=Liquid+Fire&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Liquid+Fire
+timing=main
+rarity=U
+type=Sorcery
+converted=6
+cost={4}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

@@ -1,0 +1,12 @@
+>Seedcradle Witch
+url=http://magiccards.info/query?q=Seedcradle+Witch&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Seedcradle+Witch
+timing=main
+rarity=U
+type=Creature
+subtype=Elf,Shaman
+pt=1/1
+converted=5
+cost={G/W}
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Scorched Earth
+url=http://magiccards.info/query?q=Scorched+Earth&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Scorched+Earth
+timing=main
+rarity=R
+type=Sorcery
+converted=1
+cost={X}{R}
+color=r
+
+# TODO -- gen by neoe

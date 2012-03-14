@@ -1,0 +1,13 @@
+>Utopia Mycon
+url=http://magiccards.info/query?q=Utopia+Mycon&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Utopia+Mycon
+timing=main
+rarity=U
+type=Creature
+subtype=Fungus
+pt=0/2
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

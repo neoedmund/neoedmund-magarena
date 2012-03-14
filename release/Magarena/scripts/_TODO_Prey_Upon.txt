@@ -1,0 +1,11 @@
+>Prey Upon
+url=http://magiccards.info/query?q=Prey+Upon&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Prey+Upon
+timing=main
+rarity=C
+type=Sorcery
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

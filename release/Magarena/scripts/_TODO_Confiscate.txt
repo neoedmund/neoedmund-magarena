@@ -1,0 +1,12 @@
+>Confiscate
+url=http://magiccards.info/query?q=Confiscate&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Confiscate
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=6
+cost={4}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

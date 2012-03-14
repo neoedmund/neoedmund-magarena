@@ -1,0 +1,13 @@
+>Monk Idealist
+url=http://magiccards.info/query?q=Monk+Idealist&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Monk+Idealist
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Monk,Cleric
+pt=2/2
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

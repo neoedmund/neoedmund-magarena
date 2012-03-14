@@ -1,0 +1,10 @@
+>Pact of the Titan
+url=http://magiccards.info/query?q=Pact+of+the+Titan&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Pact+of+the+Titan
+timing=main
+rarity=R
+type=Instant
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Dwarven Warriors
+url=http://magiccards.info/query?q=Dwarven+Warriors&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dwarven+Warriors
+timing=main
+rarity=C
+type=Creature
+subtype=Dwarf,Warrior
+pt=1/1
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

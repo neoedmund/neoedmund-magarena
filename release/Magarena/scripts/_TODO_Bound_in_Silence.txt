@@ -1,0 +1,12 @@
+>Bound in Silence
+url=http://magiccards.info/query?q=Bound+in+Silence&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Bound+in+Silence
+timing=main
+rarity=U
+type=Tribal,Enchantment
+subtype=Rebel,Aura
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

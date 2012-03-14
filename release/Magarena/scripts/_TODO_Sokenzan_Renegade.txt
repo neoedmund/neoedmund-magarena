@@ -1,0 +1,13 @@
+>Sokenzan Renegade
+url=http://magiccards.info/query?q=Sokenzan+Renegade&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sokenzan+Renegade
+timing=main
+rarity=U
+type=Creature
+subtype=Ogre,Samurai,Mercenary
+pt=3/3
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

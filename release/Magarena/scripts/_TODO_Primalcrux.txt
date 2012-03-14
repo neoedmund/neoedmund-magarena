@@ -1,0 +1,12 @@
+>Primalcrux
+url=http://magiccards.info/query?q=Primalcrux&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Primalcrux
+timing=main
+rarity=R
+type=Creature
+subtype=Elemental
+converted=6
+cost={G}{G}{G}{G}{G}{G}
+color=gggggg
+
+# TODO -- gen by neoe

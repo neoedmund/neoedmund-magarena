@@ -1,0 +1,13 @@
+>War Elephant
+url=http://magiccards.info/query?q=War+Elephant&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=War+Elephant
+timing=main
+rarity=C
+type=Creature
+subtype=Elephant
+pt=2/2
+converted=4
+cost={3}{W}
+color=w
+
+# TODO -- gen by neoe

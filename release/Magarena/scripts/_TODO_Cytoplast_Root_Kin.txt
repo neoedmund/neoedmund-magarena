@@ -1,0 +1,13 @@
+>Cytoplast Root-Kin
+url=http://magiccards.info/query?q=Cytoplast+Root-Kin&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Cytoplast+Root-Kin
+timing=main
+rarity=R
+type=Creature
+subtype=Elemental,Mutant
+pt=0/0
+converted=4
+cost={2}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Nath of the Gilt-Leaf
+url=http://magiccards.info/query?q=Nath+of+the+Gilt-Leaf&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Nath+of+the+Gilt-Leaf
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Elf,Warrior
+pt=4/4
+converted=5
+cost={3}{B}{G}
+color=bg
+
+# TODO -- gen by neoe

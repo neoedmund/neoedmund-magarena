@@ -1,0 +1,10 @@
+>Amulet of Vigor
+url=http://magiccards.info/query?q=Amulet+of+Vigor&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Amulet+of+Vigor
+timing=main
+rarity=R
+type=Artifact
+converted=1
+cost={1}
+
+# TODO -- gen by neoe

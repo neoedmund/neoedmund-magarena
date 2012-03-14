@@ -1,0 +1,11 @@
+>Illusionary Terrain
+url=http://magiccards.info/query?q=Illusionary+Terrain&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Illusionary+Terrain
+timing=main
+rarity=U
+type=Enchantment
+converted=2
+cost={U}{U}
+color=uu
+
+# TODO -- gen by neoe

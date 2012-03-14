@@ -1,0 +1,13 @@
+>Flamekin Bladewhirl
+url=http://magiccards.info/query?q=Flamekin+Bladewhirl&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Flamekin+Bladewhirl
+timing=main
+rarity=U
+type=Creature
+subtype=Elemental,Warrior
+pt=2/1
+converted=1
+cost={R}
+color=r
+
+# TODO -- gen by neoe

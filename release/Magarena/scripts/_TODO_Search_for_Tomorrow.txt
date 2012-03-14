@@ -1,0 +1,11 @@
+>Search for Tomorrow
+url=http://magiccards.info/query?q=Search+for+Tomorrow&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Search+for+Tomorrow
+timing=main
+rarity=C
+type=Sorcery
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

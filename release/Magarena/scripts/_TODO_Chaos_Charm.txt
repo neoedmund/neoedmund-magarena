@@ -1,0 +1,11 @@
+>Chaos Charm
+url=http://magiccards.info/query?q=Chaos+Charm&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Chaos+Charm
+timing=main
+rarity=C
+type=Instant
+converted=1
+cost={R}
+color=r
+
+# TODO -- gen by neoe

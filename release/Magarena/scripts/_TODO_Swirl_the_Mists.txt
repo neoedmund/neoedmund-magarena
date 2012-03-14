@@ -1,0 +1,11 @@
+>Swirl the Mists
+url=http://magiccards.info/query?q=Swirl+the+Mists&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Swirl+the+Mists
+timing=main
+rarity=R
+type=Enchantment
+converted=4
+cost={2}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

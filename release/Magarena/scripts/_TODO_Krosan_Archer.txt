@@ -1,0 +1,13 @@
+>Krosan Archer
+url=http://magiccards.info/query?q=Krosan+Archer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Krosan+Archer
+timing=main
+rarity=C
+type=Creature
+subtype=Centaur,Archer
+pt=2/3
+converted=4
+cost={3}{G}
+color=g
+
+# TODO -- gen by neoe

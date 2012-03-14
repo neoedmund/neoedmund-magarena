@@ -1,0 +1,13 @@
+>Sanguine Guard
+url=http://magiccards.info/query?q=Sanguine+Guard&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sanguine+Guard
+timing=main
+rarity=U
+type=Creature
+subtype=Zombie,Knight
+pt=2/2
+converted=3
+cost={1}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

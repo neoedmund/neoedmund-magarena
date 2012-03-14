@@ -1,0 +1,11 @@
+>Flurry of Wings
+url=http://magiccards.info/query?q=Flurry+of+Wings&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Flurry+of+Wings
+timing=main
+rarity=U
+type=Instant
+converted=3
+cost={G}{W}{U}
+color=gwu
+
+# TODO -- gen by neoe

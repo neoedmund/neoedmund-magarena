@@ -1,0 +1,13 @@
+>Crookclaw Elder
+url=http://magiccards.info/query?q=Crookclaw+Elder&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Crookclaw+Elder
+timing=main
+rarity=U
+type=Creature
+subtype=Bird,Wizard
+pt=3/2
+converted=6
+cost={5}{U}
+color=u
+
+# TODO -- gen by neoe

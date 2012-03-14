@@ -1,0 +1,12 @@
+>Doubtless One
+url=http://magiccards.info/query?q=Doubtless+One&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Doubtless+One
+timing=main
+rarity=U
+type=Creature
+subtype=Cleric,Avatar
+converted=4
+cost={3}{W}
+color=w
+
+# TODO -- gen by neoe

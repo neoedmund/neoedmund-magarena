@@ -1,0 +1,13 @@
+>Aven Mindcensor
+url=http://magiccards.info/query?q=Aven+Mindcensor&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Aven+Mindcensor
+timing=main
+rarity=U
+type=Creature
+subtype=Bird,Wizard
+pt=2/1
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

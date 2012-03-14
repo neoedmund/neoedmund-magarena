@@ -1,0 +1,13 @@
+>Reveka, Wizard Savant
+url=http://magiccards.info/query?q=Reveka%2C+Wizard+Savant&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Reveka%2C+Wizard+Savant
+timing=main
+rarity=U
+type=Legendary,Creature
+subtype=Dwarf,Wizard
+pt=0/1
+converted=4
+cost={2}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

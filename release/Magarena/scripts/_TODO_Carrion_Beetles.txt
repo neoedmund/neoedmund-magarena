@@ -1,0 +1,13 @@
+>Carrion Beetles
+url=http://magiccards.info/query?q=Carrion+Beetles&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Carrion+Beetles
+timing=main
+rarity=C
+type=Creature
+subtype=Insect
+pt=1/1
+converted=1
+cost={B}
+color=b
+
+# TODO -- gen by neoe

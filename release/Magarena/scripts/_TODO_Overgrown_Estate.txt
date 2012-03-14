@@ -1,0 +1,11 @@
+>Overgrown Estate
+url=http://magiccards.info/query?q=Overgrown+Estate&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Overgrown+Estate
+timing=main
+rarity=R
+type=Enchantment
+converted=3
+cost={B}{G}{W}
+color=bgw
+
+# TODO -- gen by neoe

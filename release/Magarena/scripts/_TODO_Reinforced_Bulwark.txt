@@ -1,0 +1,12 @@
+>Reinforced Bulwark
+url=http://magiccards.info/query?q=Reinforced+Bulwark&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Reinforced+Bulwark
+timing=main
+rarity=C
+type=Artifact,Creature
+subtype=Wall
+pt=0/4
+converted=3
+cost={3}
+
+# TODO -- gen by neoe

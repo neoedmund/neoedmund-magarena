@@ -1,0 +1,11 @@
+>Moment of Silence
+url=http://magiccards.info/query?q=Moment+of+Silence&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Moment+of+Silence
+timing=main
+rarity=C
+type=Instant
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

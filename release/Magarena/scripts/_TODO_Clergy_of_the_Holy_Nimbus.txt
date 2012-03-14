@@ -1,0 +1,13 @@
+>Clergy of the Holy Nimbus
+url=http://magiccards.info/query?q=Clergy+of+the+Holy+Nimbus&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Clergy+of+the+Holy+Nimbus
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Cleric
+pt=1/1
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

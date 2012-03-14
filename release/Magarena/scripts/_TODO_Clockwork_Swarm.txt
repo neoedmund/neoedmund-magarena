@@ -1,0 +1,12 @@
+>Clockwork Swarm
+url=http://magiccards.info/query?q=Clockwork+Swarm&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Clockwork+Swarm
+timing=main
+rarity=C
+type=Artifact,Creature
+subtype=Insect
+pt=0/3
+converted=4
+cost={4}
+
+# TODO -- gen by neoe

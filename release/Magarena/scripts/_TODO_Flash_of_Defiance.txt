@@ -1,0 +1,11 @@
+>Flash of Defiance
+url=http://magiccards.info/query?q=Flash+of+Defiance&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Flash+of+Defiance
+timing=main
+rarity=C
+type=Sorcery
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

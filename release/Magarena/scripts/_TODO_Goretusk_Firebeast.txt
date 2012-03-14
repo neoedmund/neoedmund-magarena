@@ -1,0 +1,13 @@
+>Goretusk Firebeast
+url=http://magiccards.info/query?q=Goretusk+Firebeast&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Goretusk+Firebeast
+timing=main
+rarity=C
+type=Creature
+subtype=Elemental,Boar,Beast
+pt=2/2
+converted=6
+cost={5}{R}
+color=r
+
+# TODO -- gen by neoe

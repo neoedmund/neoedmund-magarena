@@ -1,0 +1,13 @@
+>Mold Shambler
+url=http://magiccards.info/query?q=Mold+Shambler&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mold+Shambler
+timing=main
+rarity=C
+type=Creature
+subtype=Fungus,Beast
+pt=3/3
+converted=4
+cost={3}{G}
+color=g
+
+# TODO -- gen by neoe

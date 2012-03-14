@@ -1,0 +1,10 @@
+>Thran Turbine
+url=http://magiccards.info/query?q=Thran+Turbine&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Thran+Turbine
+timing=main
+rarity=U
+type=Artifact
+converted=1
+cost={1}
+
+# TODO -- gen by neoe

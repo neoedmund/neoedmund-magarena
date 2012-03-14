@@ -1,0 +1,13 @@
+>Sentry Oak
+url=http://magiccards.info/query?q=Sentry+Oak&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sentry+Oak
+timing=main
+rarity=U
+type=Creature
+subtype=Treefolk,Warrior
+pt=3/5
+converted=5
+cost={4}{W}
+color=w
+
+# TODO -- gen by neoe

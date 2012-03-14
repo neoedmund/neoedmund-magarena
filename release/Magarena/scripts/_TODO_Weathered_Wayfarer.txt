@@ -1,0 +1,13 @@
+>Weathered Wayfarer
+url=http://magiccards.info/query?q=Weathered+Wayfarer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Weathered+Wayfarer
+timing=main
+rarity=R
+type=Creature
+subtype=Human,Nomad,Cleric
+pt=1/1
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

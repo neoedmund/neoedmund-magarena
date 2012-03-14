@@ -1,0 +1,13 @@
+>Jungle Barrier
+url=http://magiccards.info/query?q=Jungle+Barrier&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Jungle+Barrier
+timing=main
+rarity=U
+type=Creature
+subtype=Plant,Wall
+pt=2/6
+converted=4
+cost={2}{G}{U}
+color=gu
+
+# TODO -- gen by neoe

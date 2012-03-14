@@ -1,0 +1,11 @@
+>Gravity Well
+url=http://magiccards.info/query?q=Gravity+Well&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Gravity+Well
+timing=main
+rarity=U
+type=Enchantment
+converted=3
+cost={1}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

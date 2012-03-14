@@ -1,0 +1,13 @@
+>Waterfront Bouncer
+url=http://magiccards.info/query?q=Waterfront+Bouncer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Waterfront+Bouncer
+timing=main
+rarity=C
+type=Creature
+subtype=Merfolk,Spellshaper
+pt=1/1
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

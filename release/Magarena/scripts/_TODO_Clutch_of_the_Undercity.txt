@@ -1,0 +1,11 @@
+>Clutch of the Undercity
+url=http://magiccards.info/query?q=Clutch+of+the+Undercity&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Clutch+of+the+Undercity
+timing=main
+rarity=U
+type=Instant
+converted=4
+cost={1}{U}{U}{B}
+color=uub
+
+# TODO -- gen by neoe

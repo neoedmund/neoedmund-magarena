@@ -1,0 +1,13 @@
+>Locust Miser
+url=http://magiccards.info/query?q=Locust+Miser&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Locust+Miser
+timing=main
+rarity=U
+type=Creature
+subtype=Rat,Shaman
+pt=2/2
+converted=4
+cost={2}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

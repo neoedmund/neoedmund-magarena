@@ -1,0 +1,12 @@
+>Angry Mob
+url=http://magiccards.info/query?q=Angry+Mob&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Angry+Mob
+timing=main
+rarity=U
+type=Creature
+subtype=Human
+converted=4
+cost={2}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

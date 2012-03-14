@@ -1,0 +1,13 @@
+>Warrior Angel
+url=http://magiccards.info/query?q=Warrior+Angel&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Warrior+Angel
+timing=main
+rarity=R
+type=Creature
+subtype=Angel,Warrior
+pt=3/4
+converted=6
+cost={4}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

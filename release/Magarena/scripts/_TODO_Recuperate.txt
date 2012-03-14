@@ -1,0 +1,11 @@
+>Recuperate
+url=http://magiccards.info/query?q=Recuperate&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Recuperate
+timing=main
+rarity=C
+type=Instant
+converted=4
+cost={3}{W}
+color=w
+
+# TODO -- gen by neoe

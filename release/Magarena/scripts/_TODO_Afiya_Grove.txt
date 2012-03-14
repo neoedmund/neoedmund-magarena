@@ -1,0 +1,11 @@
+>Afiya Grove
+url=http://magiccards.info/query?q=Afiya+Grove&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Afiya+Grove
+timing=main
+rarity=R
+type=Enchantment
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

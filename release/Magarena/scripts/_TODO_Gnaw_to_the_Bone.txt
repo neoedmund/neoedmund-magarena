@@ -1,0 +1,11 @@
+>Gnaw to the Bone
+url=http://magiccards.info/query?q=Gnaw+to+the+Bone&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Gnaw+to+the+Bone
+timing=main
+rarity=C
+type=Instant
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

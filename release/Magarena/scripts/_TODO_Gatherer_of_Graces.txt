@@ -1,0 +1,13 @@
+>Gatherer of Graces
+url=http://magiccards.info/query?q=Gatherer+of+Graces&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Gatherer+of+Graces
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Druid
+pt=1/2
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

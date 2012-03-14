@@ -1,0 +1,12 @@
+>Skyreach Manta
+url=http://magiccards.info/query?q=Skyreach+Manta&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Skyreach+Manta
+timing=main
+rarity=C
+type=Artifact,Creature
+subtype=Fish
+pt=0/0
+converted=5
+cost={5}
+
+# TODO -- gen by neoe

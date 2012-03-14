@@ -1,0 +1,11 @@
+>Hurkyl's Recall
+url=http://magiccards.info/query?q=Hurkyl%27s+Recall&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Hurkyl%27s+Recall
+timing=main
+rarity=R
+type=Instant
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

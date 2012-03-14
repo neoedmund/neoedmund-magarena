@@ -1,0 +1,13 @@
+>Stalwart Shield-Bearers
+url=http://magiccards.info/query?q=Stalwart+Shield-Bearers&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Stalwart+Shield-Bearers
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Soldier
+pt=0/3
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

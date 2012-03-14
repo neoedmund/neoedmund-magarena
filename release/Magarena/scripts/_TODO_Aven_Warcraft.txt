@@ -1,0 +1,11 @@
+>Aven Warcraft
+url=http://magiccards.info/query?q=Aven+Warcraft&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Aven+Warcraft
+timing=main
+rarity=U
+type=Instant
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

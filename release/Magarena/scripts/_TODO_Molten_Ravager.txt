@@ -1,0 +1,13 @@
+>Molten Ravager
+url=http://magiccards.info/query?q=Molten+Ravager&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Molten+Ravager
+timing=main
+rarity=C
+type=Creature
+subtype=Elemental
+pt=0/4
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

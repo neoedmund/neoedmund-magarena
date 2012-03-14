@@ -1,0 +1,13 @@
+>Villainous Ogre
+url=http://magiccards.info/query?q=Villainous+Ogre&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Villainous+Ogre
+timing=main
+rarity=C
+type=Creature
+subtype=Ogre,Warrior
+pt=3/2
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

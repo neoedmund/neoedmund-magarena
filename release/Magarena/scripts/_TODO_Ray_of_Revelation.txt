@@ -1,0 +1,11 @@
+>Ray of Revelation
+url=http://magiccards.info/query?q=Ray+of+Revelation&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ray+of+Revelation
+timing=main
+rarity=C
+type=Instant
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

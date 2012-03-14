@@ -1,0 +1,13 @@
+>Mana Leech
+url=http://magiccards.info/query?q=Mana+Leech&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mana+Leech
+timing=main
+rarity=U
+type=Creature
+subtype=Leech
+pt=1/1
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

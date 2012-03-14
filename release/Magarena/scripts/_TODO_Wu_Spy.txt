@@ -1,0 +1,13 @@
+>Wu Spy
+url=http://magiccards.info/query?q=Wu+Spy&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wu+Spy
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Soldier,Rogue
+pt=1/1
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

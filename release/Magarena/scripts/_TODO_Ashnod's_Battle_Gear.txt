@@ -1,0 +1,10 @@
+>Ashnod's Battle Gear
+url=http://magiccards.info/query?q=Ashnod%27s+Battle+Gear&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ashnod%27s+Battle+Gear
+timing=main
+rarity=U
+type=Artifact
+converted=2
+cost={2}
+
+# TODO -- gen by neoe

@@ -1,0 +1,12 @@
+>Platinum Emperion
+url=http://magiccards.info/query?q=Platinum+Emperion&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Platinum+Emperion
+timing=main
+rarity=M
+type=Artifact,Creature
+subtype=Golem
+pt=8/8
+converted=8
+cost={8}
+
+# TODO -- gen by neoe

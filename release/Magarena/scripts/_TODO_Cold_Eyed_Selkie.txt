@@ -1,0 +1,12 @@
+>Cold-Eyed Selkie
+url=http://magiccards.info/query?q=Cold-Eyed+Selkie&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Cold-Eyed+Selkie
+timing=main
+rarity=R
+type=Creature
+subtype=Merfolk,Rogue
+pt=1/1
+converted=11
+cost={1}{G/U}{G/U}
+
+# TODO -- gen by neoe

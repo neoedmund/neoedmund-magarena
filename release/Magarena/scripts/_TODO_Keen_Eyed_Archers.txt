@@ -1,0 +1,13 @@
+>Keen-Eyed Archers
+url=http://magiccards.info/query?q=Keen-Eyed+Archers&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Keen-Eyed+Archers
+timing=main
+rarity=C
+type=Creature
+subtype=Elf,Archer
+pt=2/2
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

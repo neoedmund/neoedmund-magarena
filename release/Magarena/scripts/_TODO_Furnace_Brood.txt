@@ -1,0 +1,13 @@
+>Furnace Brood
+url=http://magiccards.info/query?q=Furnace+Brood&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Furnace+Brood
+timing=main
+rarity=C
+type=Creature
+subtype=Elemental
+pt=3/3
+converted=4
+cost={3}{R}
+color=r
+
+# TODO -- gen by neoe

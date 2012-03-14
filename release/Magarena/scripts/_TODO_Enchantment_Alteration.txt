@@ -1,0 +1,11 @@
+>Enchantment Alteration
+url=http://magiccards.info/query?q=Enchantment+Alteration&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Enchantment+Alteration
+timing=main
+rarity=C
+type=Instant
+converted=1
+cost={U}
+color=u
+
+# TODO -- gen by neoe

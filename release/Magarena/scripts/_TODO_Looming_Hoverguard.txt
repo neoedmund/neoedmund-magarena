@@ -1,0 +1,13 @@
+>Looming Hoverguard
+url=http://magiccards.info/query?q=Looming+Hoverguard&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Looming+Hoverguard
+timing=main
+rarity=U
+type=Creature
+subtype=Drone
+pt=3/3
+converted=6
+cost={4}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

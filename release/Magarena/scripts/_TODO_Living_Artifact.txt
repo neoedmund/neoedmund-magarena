@@ -1,0 +1,12 @@
+>Living Artifact
+url=http://magiccards.info/query?q=Living+Artifact&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Living+Artifact
+timing=main
+rarity=R
+type=Enchantment
+subtype=Aura
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

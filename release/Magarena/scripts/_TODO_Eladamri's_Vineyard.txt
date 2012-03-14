@@ -1,0 +1,11 @@
+>Eladamri's Vineyard
+url=http://magiccards.info/query?q=Eladamri%27s+Vineyard&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Eladamri%27s+Vineyard
+timing=main
+rarity=R
+type=Enchantment
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

@@ -1,0 +1,12 @@
+>Phantasmal Terrain
+url=http://magiccards.info/query?q=Phantasmal+Terrain&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Phantasmal+Terrain
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=2
+cost={U}{U}
+color=uu
+
+# TODO -- gen by neoe

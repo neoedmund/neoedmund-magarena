@@ -1,0 +1,13 @@
+>Khalni Hydra
+url=http://magiccards.info/query?q=Khalni+Hydra&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Khalni+Hydra
+timing=main
+rarity=M
+type=Creature
+subtype=Hydra
+pt=8/8
+converted=8
+cost={G}{G}{G}{G}{G}{G}{G}{G}
+color=gggggggg
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Praetor's Counsel
+url=http://magiccards.info/query?q=Praetor%27s+Counsel&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Praetor%27s+Counsel
+timing=main
+rarity=M
+type=Sorcery
+converted=8
+cost={5}{G}{G}{G}
+color=ggg
+
+# TODO -- gen by neoe

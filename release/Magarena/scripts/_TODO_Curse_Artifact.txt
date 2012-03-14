@@ -1,0 +1,12 @@
+>Curse Artifact
+url=http://magiccards.info/query?q=Curse+Artifact&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Curse+Artifact
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=4
+cost={2}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Auriok Survivors
+url=http://magiccards.info/query?q=Auriok+Survivors&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Auriok+Survivors
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Soldier
+pt=4/6
+converted=6
+cost={5}{W}
+color=w
+
+# TODO -- gen by neoe

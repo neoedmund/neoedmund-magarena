@@ -1,0 +1,10 @@
+>Evermind
+url=http://magiccards.info/query?q=Evermind&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Evermind
+timing=main
+rarity=U
+type=Instant
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

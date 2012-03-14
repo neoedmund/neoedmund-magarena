@@ -1,0 +1,13 @@
+>Hunted Wumpus
+url=http://magiccards.info/query?q=Hunted+Wumpus&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Hunted+Wumpus
+timing=main
+rarity=U
+type=Creature
+subtype=Beast
+pt=6/6
+converted=4
+cost={3}{G}
+color=g
+
+# TODO -- gen by neoe

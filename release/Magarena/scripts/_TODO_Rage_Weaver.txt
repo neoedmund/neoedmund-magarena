@@ -1,0 +1,13 @@
+>Rage Weaver
+url=http://magiccards.info/query?q=Rage+Weaver&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Rage+Weaver
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Wizard
+pt=2/1
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

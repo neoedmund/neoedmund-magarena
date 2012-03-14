@@ -1,0 +1,13 @@
+>Wall of Heat
+url=http://magiccards.info/query?q=Wall+of+Heat&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wall+of+Heat
+timing=main
+rarity=C
+type=Creature
+subtype=Wall
+pt=2/6
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

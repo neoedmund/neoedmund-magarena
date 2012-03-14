@@ -1,0 +1,10 @@
+>Water Gun Balloon Game
+url=http://magiccards.info/query?q=Water+Gun+Balloon+Game&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Water+Gun+Balloon+Game
+timing=main
+rarity=R
+type=Artifact
+converted=2
+cost={2}
+
+# TODO -- gen by neoe

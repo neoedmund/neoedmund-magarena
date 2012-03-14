@@ -1,0 +1,13 @@
+>Ceremonial Guard
+url=http://magiccards.info/query?q=Ceremonial+Guard&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ceremonial+Guard
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Soldier
+pt=3/4
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

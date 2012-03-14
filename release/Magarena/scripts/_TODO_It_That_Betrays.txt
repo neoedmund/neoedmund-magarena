@@ -1,0 +1,12 @@
+>It That Betrays
+url=http://magiccards.info/query?q=It+That+Betrays&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=It+That+Betrays
+timing=main
+rarity=R
+type=Creature
+subtype=Eldrazi
+pt=11/11
+converted=12
+cost={12}
+
+# TODO -- gen by neoe

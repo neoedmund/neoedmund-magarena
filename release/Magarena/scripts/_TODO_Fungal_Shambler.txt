@@ -1,0 +1,13 @@
+>Fungal Shambler
+url=http://magiccards.info/query?q=Fungal+Shambler&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Fungal+Shambler
+timing=main
+rarity=R
+type=Creature
+subtype=Fungus,Beast
+pt=6/4
+converted=7
+cost={4}{G}{U}{B}
+color=gub
+
+# TODO -- gen by neoe

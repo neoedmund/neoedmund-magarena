@@ -1,0 +1,13 @@
+>Skulking Ghost
+url=http://magiccards.info/query?q=Skulking+Ghost&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Skulking+Ghost
+timing=main
+rarity=C
+type=Creature
+subtype=Spirit
+pt=2/1
+converted=2
+cost={1}{B}
+color=b
+
+# TODO -- gen by neoe

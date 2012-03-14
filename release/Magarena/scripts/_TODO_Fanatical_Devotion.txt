@@ -1,0 +1,11 @@
+>Fanatical Devotion
+url=http://magiccards.info/query?q=Fanatical+Devotion&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Fanatical+Devotion
+timing=main
+rarity=C
+type=Enchantment
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

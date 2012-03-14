@@ -1,0 +1,11 @@
+>Fact or Fiction
+url=http://magiccards.info/query?q=Fact+or+Fiction&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Fact+or+Fiction
+timing=main
+rarity=U
+type=Instant
+converted=4
+cost={3}{U}
+color=u
+
+# TODO -- gen by neoe

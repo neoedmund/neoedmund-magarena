@@ -1,0 +1,13 @@
+>Uril, the Miststalker
+url=http://magiccards.info/query?q=Uril%2C+the+Miststalker&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Uril%2C+the+Miststalker
+timing=main
+rarity=M
+type=Legendary,Creature
+subtype=Beast
+pt=5/5
+converted=5
+cost={2}{R}{G}{W}
+color=rgw
+
+# TODO -- gen by neoe

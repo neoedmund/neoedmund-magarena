@@ -1,0 +1,11 @@
+>Nature's Lore
+url=http://magiccards.info/query?q=Nature%27s+Lore&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Nature%27s+Lore
+timing=main
+rarity=C
+type=Sorcery
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

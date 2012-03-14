@@ -1,0 +1,13 @@
+>Harbor Guardian
+url=http://magiccards.info/query?q=Harbor+Guardian&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Harbor+Guardian
+timing=main
+rarity=U
+type=Creature
+subtype=Gargoyle
+pt=3/4
+converted=4
+cost={2}{W}{U}
+color=wu
+
+# TODO -- gen by neoe

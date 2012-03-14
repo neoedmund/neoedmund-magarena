@@ -1,0 +1,11 @@
+>Dosan's Oldest Chant
+url=http://magiccards.info/query?q=Dosan%27s+Oldest+Chant&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dosan%27s+Oldest+Chant
+timing=main
+rarity=C
+type=Sorcery
+converted=5
+cost={4}{G}
+color=g
+
+# TODO -- gen by neoe

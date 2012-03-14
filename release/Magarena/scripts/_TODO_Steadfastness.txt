@@ -1,0 +1,11 @@
+>Steadfastness
+url=http://magiccards.info/query?q=Steadfastness&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Steadfastness
+timing=main
+rarity=C
+type=Sorcery
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

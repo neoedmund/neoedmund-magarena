@@ -1,0 +1,11 @@
+>Multani's Presence
+url=http://magiccards.info/query?q=Multani%27s+Presence&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Multani%27s+Presence
+timing=main
+rarity=U
+type=Enchantment
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

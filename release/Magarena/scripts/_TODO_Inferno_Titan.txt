@@ -1,0 +1,13 @@
+>Inferno Titan
+url=http://magiccards.info/query?q=Inferno+Titan&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Inferno+Titan
+timing=main
+rarity=M
+type=Creature
+subtype=Giant
+pt=6/6
+converted=6
+cost={4}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Bloodcrazed Goblin
+url=http://magiccards.info/query?q=Bloodcrazed+Goblin&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Bloodcrazed+Goblin
+timing=main
+rarity=C
+type=Creature
+subtype=Goblin,Berserker
+pt=2/2
+converted=1
+cost={R}
+color=r
+
+# TODO -- gen by neoe

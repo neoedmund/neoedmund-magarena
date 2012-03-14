@@ -1,0 +1,13 @@
+>Drowned Rusalka
+url=http://magiccards.info/query?q=Drowned+Rusalka&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Drowned+Rusalka
+timing=main
+rarity=U
+type=Creature
+subtype=Spirit
+pt=1/1
+converted=1
+cost={U}
+color=u
+
+# TODO -- gen by neoe

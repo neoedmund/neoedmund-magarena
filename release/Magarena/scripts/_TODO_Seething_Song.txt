@@ -1,0 +1,11 @@
+>Seething Song
+url=http://magiccards.info/query?q=Seething+Song&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Seething+Song
+timing=main
+rarity=C
+type=Instant
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

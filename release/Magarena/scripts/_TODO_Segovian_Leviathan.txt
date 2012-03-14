@@ -1,0 +1,13 @@
+>Segovian Leviathan
+url=http://magiccards.info/query?q=Segovian+Leviathan&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Segovian+Leviathan
+timing=main
+rarity=U
+type=Creature
+subtype=Leviathan
+pt=3/3
+converted=5
+cost={4}{U}
+color=u
+
+# TODO -- gen by neoe

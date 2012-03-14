@@ -1,0 +1,11 @@
+>Kaervek's Torch
+url=http://magiccards.info/query?q=Kaervek%27s+Torch&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Kaervek%27s+Torch
+timing=main
+rarity=C
+type=Sorcery
+converted=1
+cost={X}{R}
+color=r
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Root-Kin Ally
+url=http://magiccards.info/query?q=Root-Kin+Ally&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Root-Kin+Ally
+timing=main
+rarity=U
+type=Creature
+subtype=Elemental,Warrior
+pt=3/3
+converted=6
+cost={4}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

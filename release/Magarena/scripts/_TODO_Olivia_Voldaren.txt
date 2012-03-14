@@ -1,0 +1,13 @@
+>Olivia Voldaren
+url=http://magiccards.info/query?q=Olivia+Voldaren&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Olivia+Voldaren
+timing=main
+rarity=M
+type=Legendary,Creature
+subtype=Vampire
+pt=3/3
+converted=4
+cost={2}{B}{R}
+color=br
+
+# TODO -- gen by neoe

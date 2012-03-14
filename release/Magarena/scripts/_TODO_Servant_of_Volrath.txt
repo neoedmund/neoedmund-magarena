@@ -1,0 +1,13 @@
+>Servant of Volrath
+url=http://magiccards.info/query?q=Servant+of+Volrath&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Servant+of+Volrath
+timing=main
+rarity=C
+type=Creature
+subtype=Minion
+pt=3/3
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

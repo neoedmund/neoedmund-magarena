@@ -1,0 +1,10 @@
+>Bottled Cloister
+url=http://magiccards.info/query?q=Bottled+Cloister&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Bottled+Cloister
+timing=main
+rarity=R
+type=Artifact
+converted=4
+cost={4}
+
+# TODO -- gen by neoe

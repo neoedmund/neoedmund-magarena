@@ -1,0 +1,11 @@
+>Rhystic Lightning
+url=http://magiccards.info/query?q=Rhystic+Lightning&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Rhystic+Lightning
+timing=main
+rarity=C
+type=Instant
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

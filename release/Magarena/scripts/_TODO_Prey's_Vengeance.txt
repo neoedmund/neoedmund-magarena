@@ -1,0 +1,11 @@
+>Prey's Vengeance
+url=http://magiccards.info/query?q=Prey%27s+Vengeance&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Prey%27s+Vengeance
+timing=main
+rarity=U
+type=Instant
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

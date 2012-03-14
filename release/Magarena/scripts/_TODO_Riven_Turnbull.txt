@@ -1,0 +1,13 @@
+>Riven Turnbull
+url=http://magiccards.info/query?q=Riven+Turnbull&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Riven+Turnbull
+timing=main
+rarity=U
+type=Legendary,Creature
+subtype=Human,Advisor
+pt=5/7
+converted=7
+cost={5}{U}{B}
+color=ub
+
+# TODO -- gen by neoe

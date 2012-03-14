@@ -1,0 +1,11 @@
+>Raid Bombardment
+url=http://magiccards.info/query?q=Raid+Bombardment&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Raid+Bombardment
+timing=main
+rarity=C
+type=Enchantment
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

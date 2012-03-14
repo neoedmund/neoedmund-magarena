@@ -1,0 +1,13 @@
+>Malach of the Dawn
+url=http://magiccards.info/query?q=Malach+of+the+Dawn&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Malach+of+the+Dawn
+timing=main
+rarity=U
+type=Creature
+subtype=Angel
+pt=2/4
+converted=4
+cost={2}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

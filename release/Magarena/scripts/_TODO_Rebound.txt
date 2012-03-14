@@ -1,0 +1,11 @@
+>Rebound
+url=http://magiccards.info/query?q=Rebound&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Rebound
+timing=main
+rarity=U
+type=Instant
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

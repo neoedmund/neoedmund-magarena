@@ -1,0 +1,13 @@
+>Sapphire Leech
+url=http://magiccards.info/query?q=Sapphire+Leech&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sapphire+Leech
+timing=main
+rarity=R
+type=Creature
+subtype=Leech
+pt=2/2
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

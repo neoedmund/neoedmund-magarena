@@ -1,0 +1,11 @@
+>Kuldotha Rebirth
+url=http://magiccards.info/query?q=Kuldotha+Rebirth&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Kuldotha+Rebirth
+timing=main
+rarity=C
+type=Sorcery
+converted=1
+cost={R}
+color=r
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Drop of Honey
+url=http://magiccards.info/query?q=Drop+of+Honey&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Drop+of+Honey
+timing=main
+rarity=U
+type=Enchantment
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

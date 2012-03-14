@@ -1,0 +1,11 @@
+>Death Denied
+url=http://magiccards.info/query?q=Death+Denied&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Death+Denied
+timing=main
+rarity=C
+type=Instant
+converted=2
+cost={X}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

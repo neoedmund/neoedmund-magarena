@@ -1,0 +1,13 @@
+>Durkwood Baloth
+url=http://magiccards.info/query?q=Durkwood+Baloth&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Durkwood+Baloth
+timing=main
+rarity=C
+type=Creature
+subtype=Beast
+pt=5/5
+converted=6
+cost={4}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

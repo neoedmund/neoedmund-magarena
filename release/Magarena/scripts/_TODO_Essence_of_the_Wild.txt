@@ -1,0 +1,13 @@
+>Essence of the Wild
+url=http://magiccards.info/query?q=Essence+of+the+Wild&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Essence+of+the+Wild
+timing=main
+rarity=M
+type=Creature
+subtype=Avatar
+pt=6/6
+converted=6
+cost={3}{G}{G}{G}
+color=ggg
+
+# TODO -- gen by neoe

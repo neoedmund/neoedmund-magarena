@@ -1,0 +1,13 @@
+>Camel
+url=http://magiccards.info/query?q=Camel&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Camel
+timing=main
+rarity=C
+type=Creature
+subtype=Camel
+pt=0/1
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

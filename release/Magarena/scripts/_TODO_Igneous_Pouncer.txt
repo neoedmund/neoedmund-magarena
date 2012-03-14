@@ -1,0 +1,13 @@
+>Igneous Pouncer
+url=http://magiccards.info/query?q=Igneous+Pouncer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Igneous+Pouncer
+timing=main
+rarity=C
+type=Creature
+subtype=Elemental
+pt=5/1
+converted=6
+cost={4}{B}{R}
+color=br
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Control of the Court
+url=http://magiccards.info/query?q=Control+of+the+Court&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Control+of+the+Court
+timing=main
+rarity=U
+type=Sorcery
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

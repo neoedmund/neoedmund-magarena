@@ -1,0 +1,11 @@
+>Army of Allah
+url=http://magiccards.info/query?q=Army+of+Allah&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Army+of+Allah
+timing=main
+rarity=C
+type=Instant
+converted=3
+cost={1}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

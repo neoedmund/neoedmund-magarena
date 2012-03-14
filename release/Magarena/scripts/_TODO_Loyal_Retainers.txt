@@ -1,0 +1,13 @@
+>Loyal Retainers
+url=http://magiccards.info/query?q=Loyal+Retainers&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Loyal+Retainers
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Advisor
+pt=1/1
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

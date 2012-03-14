@@ -1,0 +1,13 @@
+>Woodwraith Corrupter
+url=http://magiccards.info/query?q=Woodwraith+Corrupter&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Woodwraith+Corrupter
+timing=main
+rarity=R
+type=Creature
+subtype=Elemental,Horror
+pt=3/6
+converted=6
+cost={3}{B}{B}{G}
+color=bbg
+
+# TODO -- gen by neoe

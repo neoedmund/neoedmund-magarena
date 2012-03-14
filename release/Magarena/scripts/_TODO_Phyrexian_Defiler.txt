@@ -1,0 +1,13 @@
+>Phyrexian Defiler
+url=http://magiccards.info/query?q=Phyrexian+Defiler&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Phyrexian+Defiler
+timing=main
+rarity=U
+type=Creature
+subtype=Carrier
+pt=3/3
+converted=4
+cost={2}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Bringer of the Green Dawn
+url=http://magiccards.info/query?q=Bringer+of+the+Green+Dawn&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Bringer+of+the+Green+Dawn
+timing=main
+rarity=R
+type=Creature
+subtype=Bringer
+pt=5/5
+converted=9
+cost={7}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

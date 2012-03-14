@@ -1,0 +1,11 @@
+>Prophetic Bolt
+url=http://magiccards.info/query?q=Prophetic+Bolt&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Prophetic+Bolt
+timing=main
+rarity=R
+type=Instant
+converted=5
+cost={3}{U}{R}
+color=ur
+
+# TODO -- gen by neoe

@@ -1,0 +1,12 @@
+>Granite Grip
+url=http://magiccards.info/query?q=Granite+Grip&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Granite+Grip
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

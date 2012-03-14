@@ -1,0 +1,11 @@
+>Clout of the Dominus
+url=http://magiccards.info/query?q=Clout+of+the+Dominus&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Clout+of+the+Dominus
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=5
+cost={U/R}
+
+# TODO -- gen by neoe

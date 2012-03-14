@@ -1,0 +1,13 @@
+>Wall of Resistance
+url=http://magiccards.info/query?q=Wall+of+Resistance&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wall+of+Resistance
+timing=main
+rarity=C
+type=Creature
+subtype=Wall
+pt=0/3
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

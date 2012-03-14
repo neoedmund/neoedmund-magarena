@@ -1,0 +1,13 @@
+>Kongming, ""Sleeping Dragon""
+url=http://magiccards.info/query?q=Kongming%2C+%22%22Sleeping+Dragon%22%22&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Kongming%2C+%22%22Sleeping+Dragon%22%22
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Human,Advisor
+pt=2/2
+converted=4
+cost={2}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

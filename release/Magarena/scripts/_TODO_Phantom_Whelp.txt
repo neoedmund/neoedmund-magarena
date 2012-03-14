@@ -1,0 +1,13 @@
+>Phantom Whelp
+url=http://magiccards.info/query?q=Phantom+Whelp&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Phantom+Whelp
+timing=main
+rarity=C
+type=Creature
+subtype=Illusion,Hound
+pt=2/2
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

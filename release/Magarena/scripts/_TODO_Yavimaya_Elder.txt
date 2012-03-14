@@ -1,0 +1,13 @@
+>Yavimaya Elder
+url=http://magiccards.info/query?q=Yavimaya+Elder&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Yavimaya+Elder
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Druid
+pt=2/1
+converted=3
+cost={1}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Viridian Joiner
+url=http://magiccards.info/query?q=Viridian+Joiner&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Viridian+Joiner
+timing=main
+rarity=C
+type=Creature
+subtype=Elf,Druid
+pt=1/2
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

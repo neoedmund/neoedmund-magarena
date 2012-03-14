@@ -1,0 +1,11 @@
+>Three Tragedies
+url=http://magiccards.info/query?q=Three+Tragedies&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Three+Tragedies
+timing=main
+rarity=U
+type=Sorcery
+converted=5
+cost={3}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

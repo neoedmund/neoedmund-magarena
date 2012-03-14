@@ -1,0 +1,12 @@
+>Armor of Faith
+url=http://magiccards.info/query?q=Armor+of+Faith&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Armor+of+Faith
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

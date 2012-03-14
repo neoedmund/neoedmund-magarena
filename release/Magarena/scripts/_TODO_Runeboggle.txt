@@ -1,0 +1,11 @@
+>Runeboggle
+url=http://magiccards.info/query?q=Runeboggle&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Runeboggle
+timing=main
+rarity=C
+type=Instant
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

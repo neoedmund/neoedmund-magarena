@@ -1,0 +1,11 @@
+>Desert Sandstorm
+url=http://magiccards.info/query?q=Desert+Sandstorm&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Desert+Sandstorm
+timing=main
+rarity=C
+type=Sorcery
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

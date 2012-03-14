@@ -1,0 +1,11 @@
+>Imperial Edict
+url=http://magiccards.info/query?q=Imperial+Edict&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Imperial+Edict
+timing=main
+rarity=C
+type=Sorcery
+converted=2
+cost={1}{B}
+color=b
+
+# TODO -- gen by neoe

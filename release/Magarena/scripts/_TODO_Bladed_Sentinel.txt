@@ -1,0 +1,12 @@
+>Bladed Sentinel
+url=http://magiccards.info/query?q=Bladed+Sentinel&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Bladed+Sentinel
+timing=main
+rarity=C
+type=Artifact,Creature
+subtype=Construct
+pt=2/4
+converted=4
+cost={4}
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Dark Tutelage
+url=http://magiccards.info/query?q=Dark+Tutelage&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dark+Tutelage
+timing=main
+rarity=R
+type=Enchantment
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

@@ -1,0 +1,12 @@
+>Dakkon Blackblade
+url=http://magiccards.info/query?q=Dakkon+Blackblade&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dakkon+Blackblade
+timing=main
+rarity=U
+type=Legendary,Creature
+subtype=Human,Warrior
+converted=6
+cost={2}{W}{U}{U}{B}
+color=wuub
+
+# TODO -- gen by neoe

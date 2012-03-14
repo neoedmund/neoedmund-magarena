@@ -1,0 +1,13 @@
+>Darigaaz, the Igniter
+url=http://magiccards.info/query?q=Darigaaz%2C+the+Igniter&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Darigaaz%2C+the+Igniter
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Dragon
+pt=6/6
+converted=6
+cost={3}{B}{R}{G}
+color=brg
+
+# TODO -- gen by neoe

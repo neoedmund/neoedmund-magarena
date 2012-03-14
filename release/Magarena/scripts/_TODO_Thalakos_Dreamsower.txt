@@ -1,0 +1,13 @@
+>Thalakos Dreamsower
+url=http://magiccards.info/query?q=Thalakos+Dreamsower&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Thalakos+Dreamsower
+timing=main
+rarity=U
+type=Creature
+subtype=Thalakos,Wizard
+pt=1/1
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

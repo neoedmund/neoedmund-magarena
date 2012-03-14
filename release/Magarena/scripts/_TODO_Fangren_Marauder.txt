@@ -1,0 +1,13 @@
+>Fangren Marauder
+url=http://magiccards.info/query?q=Fangren+Marauder&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Fangren+Marauder
+timing=main
+rarity=C
+type=Creature
+subtype=Beast
+pt=5/5
+converted=6
+cost={5}{G}
+color=g
+
+# TODO -- gen by neoe

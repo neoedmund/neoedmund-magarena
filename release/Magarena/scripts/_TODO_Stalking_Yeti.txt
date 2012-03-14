@@ -1,0 +1,13 @@
+>Stalking Yeti
+url=http://magiccards.info/query?q=Stalking+Yeti&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Stalking+Yeti
+timing=main
+rarity=U
+type=Creature
+subtype=Yeti
+pt=3/3
+converted=4
+cost={2}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

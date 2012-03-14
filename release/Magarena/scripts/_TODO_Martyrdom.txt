@@ -1,0 +1,11 @@
+>Martyrdom
+url=http://magiccards.info/query?q=Martyrdom&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Martyrdom
+timing=main
+rarity=C
+type=Instant
+converted=3
+cost={1}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

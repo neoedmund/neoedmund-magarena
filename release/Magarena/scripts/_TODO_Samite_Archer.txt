@@ -1,0 +1,13 @@
+>Samite Archer
+url=http://magiccards.info/query?q=Samite+Archer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Samite+Archer
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Cleric,Archer
+pt=1/1
+converted=3
+cost={1}{W}{U}
+color=wu
+
+# TODO -- gen by neoe

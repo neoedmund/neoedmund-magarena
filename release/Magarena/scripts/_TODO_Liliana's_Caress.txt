@@ -1,0 +1,11 @@
+>Liliana's Caress
+url=http://magiccards.info/query?q=Liliana%27s+Caress&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Liliana%27s+Caress
+timing=main
+rarity=U
+type=Enchantment
+converted=2
+cost={1}{B}
+color=b
+
+# TODO -- gen by neoe

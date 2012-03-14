@@ -1,0 +1,13 @@
+>Cho-Arrim Legate
+url=http://magiccards.info/query?q=Cho-Arrim+Legate&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Cho-Arrim+Legate
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Soldier
+pt=1/2
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

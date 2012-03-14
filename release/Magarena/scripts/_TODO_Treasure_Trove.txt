@@ -1,0 +1,11 @@
+>Treasure Trove
+url=http://magiccards.info/query?q=Treasure+Trove&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Treasure+Trove
+timing=main
+rarity=U
+type=Enchantment
+converted=4
+cost={2}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

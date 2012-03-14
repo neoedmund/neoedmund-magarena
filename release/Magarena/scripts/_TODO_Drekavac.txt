@@ -1,0 +1,13 @@
+>Drekavac
+url=http://magiccards.info/query?q=Drekavac&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Drekavac
+timing=main
+rarity=U
+type=Creature
+subtype=Beast
+pt=3/3
+converted=2
+cost={1}{B}
+color=b
+
+# TODO -- gen by neoe

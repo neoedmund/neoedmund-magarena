@@ -1,0 +1,12 @@
+>Air Bladder
+url=http://magiccards.info/query?q=Air+Bladder&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Air+Bladder
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=1
+cost={U}
+color=u
+
+# TODO -- gen by neoe

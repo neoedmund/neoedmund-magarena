@@ -1,0 +1,13 @@
+>Orim, Samite Healer
+url=http://magiccards.info/query?q=Orim%2C+Samite+Healer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Orim%2C+Samite+Healer
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Human,Cleric
+pt=1/3
+converted=3
+cost={1}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

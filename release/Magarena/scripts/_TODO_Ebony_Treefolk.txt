@@ -1,0 +1,13 @@
+>Ebony Treefolk
+url=http://magiccards.info/query?q=Ebony+Treefolk&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ebony+Treefolk
+timing=main
+rarity=U
+type=Creature
+subtype=Treefolk
+pt=3/3
+converted=3
+cost={1}{B}{G}
+color=bg
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Anarchist
+url=http://magiccards.info/query?q=Anarchist&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Anarchist
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Wizard
+pt=2/2
+converted=5
+cost={4}{R}
+color=r
+
+# TODO -- gen by neoe

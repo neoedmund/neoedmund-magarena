@@ -1,0 +1,13 @@
+>Evil Eye of Orms-by-Gore
+url=http://magiccards.info/query?q=Evil+Eye+of+Orms-by-Gore&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Evil+Eye+of+Orms-by-Gore
+timing=main
+rarity=R
+type=Creature
+subtype=Eye
+pt=3/6
+converted=5
+cost={4}{B}
+color=b
+
+# TODO -- gen by neoe

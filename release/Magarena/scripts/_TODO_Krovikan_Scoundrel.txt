@@ -1,0 +1,13 @@
+>Krovikan Scoundrel
+url=http://magiccards.info/query?q=Krovikan+Scoundrel&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Krovikan+Scoundrel
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Rogue
+pt=2/1
+converted=2
+cost={1}{B}
+color=b
+
+# TODO -- gen by neoe

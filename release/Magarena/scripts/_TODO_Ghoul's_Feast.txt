@@ -1,0 +1,11 @@
+>Ghoul's Feast
+url=http://magiccards.info/query?q=Ghoul%27s+Feast&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ghoul%27s+Feast
+timing=main
+rarity=U
+type=Instant
+converted=2
+cost={1}{B}
+color=b
+
+# TODO -- gen by neoe

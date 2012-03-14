@@ -1,0 +1,11 @@
+>Crushing Vines
+url=http://magiccards.info/query?q=Crushing+Vines&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Crushing+Vines
+timing=main
+rarity=C
+type=Instant
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

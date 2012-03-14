@@ -1,0 +1,11 @@
+>Tranquility
+url=http://magiccards.info/query?q=Tranquility&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Tranquility
+timing=main
+rarity=C
+type=Sorcery
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

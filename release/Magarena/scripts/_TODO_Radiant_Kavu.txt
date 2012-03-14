@@ -1,0 +1,13 @@
+>Radiant Kavu
+url=http://magiccards.info/query?q=Radiant+Kavu&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Radiant+Kavu
+timing=main
+rarity=R
+type=Creature
+subtype=Kavu
+pt=3/3
+converted=3
+cost={R}{G}{W}
+color=rgw
+
+# TODO -- gen by neoe

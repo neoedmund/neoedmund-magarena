@@ -1,0 +1,12 @@
+>Vow of Duty
+url=http://magiccards.info/query?q=Vow+of+Duty&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Vow+of+Duty
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

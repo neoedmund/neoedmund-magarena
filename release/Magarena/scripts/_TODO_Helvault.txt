@@ -1,0 +1,10 @@
+>Helvault
+url=http://magiccards.info/query?q=Helvault&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Helvault
+timing=main
+rarity=M
+type=Legendary,Artifact
+converted=3
+cost={3}
+
+# TODO -- gen by neoe

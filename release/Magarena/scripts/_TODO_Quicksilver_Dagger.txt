@@ -1,0 +1,12 @@
+>Quicksilver Dagger
+url=http://magiccards.info/query?q=Quicksilver+Dagger&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Quicksilver+Dagger
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=3
+cost={1}{U}{R}
+color=ur
+
+# TODO -- gen by neoe

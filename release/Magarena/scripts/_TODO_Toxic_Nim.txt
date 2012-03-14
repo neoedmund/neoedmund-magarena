@@ -1,0 +1,13 @@
+>Toxic Nim
+url=http://magiccards.info/query?q=Toxic+Nim&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Toxic+Nim
+timing=main
+rarity=C
+type=Creature
+subtype=Zombie
+pt=4/1
+converted=6
+cost={4}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

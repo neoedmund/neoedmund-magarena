@@ -1,0 +1,11 @@
+>Mine Excavation
+url=http://magiccards.info/query?q=Mine+Excavation&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mine+Excavation
+timing=main
+rarity=C
+type=Sorcery
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

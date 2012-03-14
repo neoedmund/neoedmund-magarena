@@ -1,0 +1,12 @@
+>Bloodied Ghost
+url=http://magiccards.info/query?q=Bloodied+Ghost&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Bloodied+Ghost
+timing=main
+rarity=U
+type=Creature
+subtype=Spirit
+pt=3/3
+converted=11
+cost={1}{W/B}{W/B}
+
+# TODO -- gen by neoe

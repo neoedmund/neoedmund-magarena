@@ -1,0 +1,13 @@
+>Jor Kadeen, the Prevailer
+url=http://magiccards.info/query?q=Jor+Kadeen%2C+the+Prevailer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Jor+Kadeen%2C+the+Prevailer
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Human,Warrior
+pt=5/4
+converted=5
+cost={3}{R}{W}
+color=rw
+
+# TODO -- gen by neoe

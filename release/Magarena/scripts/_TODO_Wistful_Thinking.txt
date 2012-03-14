@@ -1,0 +1,11 @@
+>Wistful Thinking
+url=http://magiccards.info/query?q=Wistful+Thinking&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wistful+Thinking
+timing=main
+rarity=C
+type=Sorcery
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

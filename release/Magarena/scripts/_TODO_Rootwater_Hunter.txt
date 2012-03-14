@@ -1,0 +1,13 @@
+>Rootwater Hunter
+url=http://magiccards.info/query?q=Rootwater+Hunter&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Rootwater+Hunter
+timing=main
+rarity=C
+type=Creature
+subtype=Merfolk
+pt=1/1
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

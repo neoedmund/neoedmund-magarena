@@ -1,0 +1,13 @@
+>Balduvian Warlord
+url=http://magiccards.info/query?q=Balduvian+Warlord&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Balduvian+Warlord
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Barbarian
+pt=3/2
+converted=4
+cost={3}{R}
+color=r
+
+# TODO -- gen by neoe

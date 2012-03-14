@@ -1,0 +1,12 @@
+>Thundering Tanadon
+url=http://magiccards.info/query?q=Thundering+Tanadon&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Thundering+Tanadon
+timing=main
+rarity=C
+type=Artifact,Creature
+subtype=Beast
+pt=5/4
+converted=6
+cost={4}{G}{G}
+
+# TODO -- gen by neoe

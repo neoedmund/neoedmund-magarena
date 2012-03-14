@@ -1,0 +1,11 @@
+>Tranquil Domain
+url=http://magiccards.info/query?q=Tranquil+Domain&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Tranquil+Domain
+timing=main
+rarity=C
+type=Instant
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

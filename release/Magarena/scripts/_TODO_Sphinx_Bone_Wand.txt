@@ -1,0 +1,10 @@
+>Sphinx-Bone Wand
+url=http://magiccards.info/query?q=Sphinx-Bone+Wand&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sphinx-Bone+Wand
+timing=main
+rarity=R
+type=Artifact
+converted=7
+cost={7}
+
+# TODO -- gen by neoe

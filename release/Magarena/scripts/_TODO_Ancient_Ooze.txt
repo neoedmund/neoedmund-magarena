@@ -1,0 +1,12 @@
+>Ancient Ooze
+url=http://magiccards.info/query?q=Ancient+Ooze&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ancient+Ooze
+timing=main
+rarity=R
+type=Creature
+subtype=Ooze
+converted=7
+cost={5}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Vorinclex, Voice of Hunger
+url=http://magiccards.info/query?q=Vorinclex%2C+Voice+of+Hunger&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Vorinclex%2C+Voice+of+Hunger
+timing=main
+rarity=M
+type=Legendary,Creature
+subtype=Praetor
+pt=7/6
+converted=8
+cost={6}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

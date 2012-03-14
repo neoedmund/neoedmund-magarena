@@ -1,0 +1,13 @@
+>Gempalm Avenger
+url=http://magiccards.info/query?q=Gempalm+Avenger&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Gempalm+Avenger
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Soldier
+pt=3/5
+converted=6
+cost={5}{W}
+color=w
+
+# TODO -- gen by neoe

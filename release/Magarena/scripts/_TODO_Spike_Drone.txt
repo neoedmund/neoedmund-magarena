@@ -1,0 +1,13 @@
+>Spike Drone
+url=http://magiccards.info/query?q=Spike+Drone&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Spike+Drone
+timing=main
+rarity=C
+type=Creature
+subtype=Spike,Drone
+pt=0/0
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

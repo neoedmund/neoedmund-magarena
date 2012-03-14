@@ -1,0 +1,10 @@
+>Leonin Bladetrap
+url=http://magiccards.info/query?q=Leonin+Bladetrap&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Leonin+Bladetrap
+timing=main
+rarity=U
+type=Artifact
+converted=3
+cost={3}
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Brimstone Volley
+url=http://magiccards.info/query?q=Brimstone+Volley&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Brimstone+Volley
+timing=main
+rarity=C
+type=Instant
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

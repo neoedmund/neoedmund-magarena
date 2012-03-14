@@ -1,0 +1,11 @@
+>Bant Charm
+url=http://magiccards.info/query?q=Bant+Charm&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Bant+Charm
+timing=main
+rarity=U
+type=Instant
+converted=3
+cost={G}{W}{U}
+color=gwu
+
+# TODO -- gen by neoe

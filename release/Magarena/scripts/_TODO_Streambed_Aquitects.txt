@@ -1,0 +1,13 @@
+>Streambed Aquitects
+url=http://magiccards.info/query?q=Streambed+Aquitects&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Streambed+Aquitects
+timing=main
+rarity=C
+type=Creature
+subtype=Merfolk,Scout
+pt=2/3
+converted=3
+cost={1}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

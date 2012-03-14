@@ -1,0 +1,10 @@
+>Orzhova, the Church of Deals
+url=http://magiccards.info/query?q=Orzhova%2C+the+Church+of+Deals&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Orzhova%2C+the+Church+of+Deals
+timing=main
+rarity=U
+type=Land
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

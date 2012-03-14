@@ -1,0 +1,13 @@
+>Kor Line-Slinger
+url=http://magiccards.info/query?q=Kor+Line-Slinger&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Kor+Line-Slinger
+timing=main
+rarity=C
+type=Creature
+subtype=Kor,Scout
+pt=0/1
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

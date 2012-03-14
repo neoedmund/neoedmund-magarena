@@ -1,0 +1,13 @@
+>Orcish Mechanics
+url=http://magiccards.info/query?q=Orcish+Mechanics&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Orcish+Mechanics
+timing=main
+rarity=C
+type=Creature
+subtype=Orc
+pt=1/1
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

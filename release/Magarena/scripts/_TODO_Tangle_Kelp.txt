@@ -1,0 +1,12 @@
+>Tangle Kelp
+url=http://magiccards.info/query?q=Tangle+Kelp&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Tangle+Kelp
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=1
+cost={U}
+color=u
+
+# TODO -- gen by neoe

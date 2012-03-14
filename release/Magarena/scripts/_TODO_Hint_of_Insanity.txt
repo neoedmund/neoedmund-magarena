@@ -1,0 +1,11 @@
+>Hint of Insanity
+url=http://magiccards.info/query?q=Hint+of+Insanity&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Hint+of+Insanity
+timing=main
+rarity=R
+type=Sorcery
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

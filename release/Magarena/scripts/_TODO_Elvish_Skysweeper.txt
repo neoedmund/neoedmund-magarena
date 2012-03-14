@@ -1,0 +1,13 @@
+>Elvish Skysweeper
+url=http://magiccards.info/query?q=Elvish+Skysweeper&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Elvish+Skysweeper
+timing=main
+rarity=C
+type=Creature
+subtype=Elf,Warrior
+pt=1/1
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

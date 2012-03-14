@@ -1,0 +1,12 @@
+>Overgrowth
+url=http://magiccards.info/query?q=Overgrowth&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Overgrowth
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

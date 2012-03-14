@@ -1,0 +1,13 @@
+>Grollub
+url=http://magiccards.info/query?q=Grollub&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Grollub
+timing=main
+rarity=C
+type=Creature
+subtype=Beast
+pt=3/3
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

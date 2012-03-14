@@ -1,0 +1,11 @@
+>Haunting Hymn
+url=http://magiccards.info/query?q=Haunting+Hymn&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Haunting+Hymn
+timing=main
+rarity=U
+type=Instant
+converted=6
+cost={4}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

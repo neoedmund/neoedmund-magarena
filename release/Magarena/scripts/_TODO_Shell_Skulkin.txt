@@ -1,0 +1,12 @@
+>Shell Skulkin
+url=http://magiccards.info/query?q=Shell+Skulkin&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Shell+Skulkin
+timing=main
+rarity=C
+type=Artifact,Creature
+subtype=Scarecrow
+pt=3/2
+converted=4
+cost={4}
+
+# TODO -- gen by neoe

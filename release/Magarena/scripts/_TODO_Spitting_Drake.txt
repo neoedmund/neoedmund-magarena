@@ -1,0 +1,13 @@
+>Spitting Drake
+url=http://magiccards.info/query?q=Spitting+Drake&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Spitting+Drake
+timing=main
+rarity=U
+type=Creature
+subtype=Drake
+pt=2/2
+converted=4
+cost={3}{R}
+color=r
+
+# TODO -- gen by neoe

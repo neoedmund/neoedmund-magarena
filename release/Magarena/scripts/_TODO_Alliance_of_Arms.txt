@@ -1,0 +1,11 @@
+>Alliance of Arms
+url=http://magiccards.info/query?q=Alliance+of+Arms&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Alliance+of+Arms
+timing=main
+rarity=R
+type=Sorcery
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

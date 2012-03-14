@@ -1,0 +1,13 @@
+>Famished Ghoul
+url=http://magiccards.info/query?q=Famished+Ghoul&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Famished+Ghoul
+timing=main
+rarity=U
+type=Creature
+subtype=Zombie
+pt=3/2
+converted=4
+cost={3}{B}
+color=b
+
+# TODO -- gen by neoe

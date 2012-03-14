@@ -1,0 +1,13 @@
+>Indentured Djinn
+url=http://magiccards.info/query?q=Indentured+Djinn&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Indentured+Djinn
+timing=main
+rarity=U
+type=Creature
+subtype=Djinn
+pt=4/4
+converted=3
+cost={1}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

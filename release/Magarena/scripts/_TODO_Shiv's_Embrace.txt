@@ -1,0 +1,12 @@
+>Shiv's Embrace
+url=http://magiccards.info/query?q=Shiv%27s+Embrace&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Shiv%27s+Embrace
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=4
+cost={2}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

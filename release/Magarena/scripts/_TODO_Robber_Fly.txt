@@ -1,0 +1,13 @@
+>Robber Fly
+url=http://magiccards.info/query?q=Robber+Fly&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Robber+Fly
+timing=main
+rarity=U
+type=Creature
+subtype=Insect
+pt=1/1
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

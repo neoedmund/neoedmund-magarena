@@ -1,0 +1,13 @@
+>Avenging Angel
+url=http://magiccards.info/query?q=Avenging+Angel&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Avenging+Angel
+timing=main
+rarity=R
+type=Creature
+subtype=Angel
+pt=3/3
+converted=5
+cost={3}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

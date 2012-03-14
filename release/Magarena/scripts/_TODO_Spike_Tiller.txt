@@ -1,0 +1,13 @@
+>Spike Tiller
+url=http://magiccards.info/query?q=Spike+Tiller&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Spike+Tiller
+timing=main
+rarity=R
+type=Creature
+subtype=Spike
+pt=0/0
+converted=5
+cost={3}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

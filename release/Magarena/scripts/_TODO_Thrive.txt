@@ -1,0 +1,11 @@
+>Thrive
+url=http://magiccards.info/query?q=Thrive&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Thrive
+timing=main
+rarity=C
+type=Sorcery
+converted=1
+cost={X}{G}
+color=g
+
+# TODO -- gen by neoe

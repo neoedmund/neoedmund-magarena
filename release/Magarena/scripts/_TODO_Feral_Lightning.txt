@@ -1,0 +1,11 @@
+>Feral Lightning
+url=http://magiccards.info/query?q=Feral+Lightning&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Feral+Lightning
+timing=main
+rarity=U
+type=Sorcery
+converted=6
+cost={3}{R}{R}{R}
+color=rrr
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Rhystic Scrying
+url=http://magiccards.info/query?q=Rhystic+Scrying&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Rhystic+Scrying
+timing=main
+rarity=U
+type=Sorcery
+converted=4
+cost={2}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

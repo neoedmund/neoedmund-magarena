@@ -1,0 +1,11 @@
+>Infernal Tribute
+url=http://magiccards.info/query?q=Infernal+Tribute&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Infernal+Tribute
+timing=main
+rarity=R
+type=Enchantment
+converted=3
+cost={B}{B}{B}
+color=bbb
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Copperhoof Vorrac
+url=http://magiccards.info/query?q=Copperhoof+Vorrac&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Copperhoof+Vorrac
+timing=main
+rarity=R
+type=Creature
+subtype=Boar,Beast
+pt=2/2
+converted=5
+cost={3}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

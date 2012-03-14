@@ -1,0 +1,13 @@
+>Flowstone Shambler
+url=http://magiccards.info/query?q=Flowstone+Shambler&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Flowstone+Shambler
+timing=main
+rarity=C
+type=Creature
+subtype=Beast
+pt=2/2
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

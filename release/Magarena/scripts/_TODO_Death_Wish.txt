@@ -1,0 +1,11 @@
+>Death Wish
+url=http://magiccards.info/query?q=Death+Wish&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Death+Wish
+timing=main
+rarity=R
+type=Sorcery
+converted=3
+cost={1}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

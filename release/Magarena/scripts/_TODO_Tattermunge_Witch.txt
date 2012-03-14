@@ -1,0 +1,12 @@
+>Tattermunge Witch
+url=http://magiccards.info/query?q=Tattermunge+Witch&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Tattermunge+Witch
+timing=main
+rarity=U
+type=Creature
+subtype=Goblin,Shaman
+pt=2/1
+converted=6
+cost={1}{R/G}
+
+# TODO -- gen by neoe

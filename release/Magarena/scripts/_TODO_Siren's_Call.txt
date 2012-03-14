@@ -1,0 +1,11 @@
+>Siren's Call
+url=http://magiccards.info/query?q=Siren%27s+Call&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Siren%27s+Call
+timing=main
+rarity=U
+type=Instant
+converted=1
+cost={U}
+color=u
+
+# TODO -- gen by neoe

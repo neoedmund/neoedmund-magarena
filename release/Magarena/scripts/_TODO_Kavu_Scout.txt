@@ -1,0 +1,13 @@
+>Kavu Scout
+url=http://magiccards.info/query?q=Kavu+Scout&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Kavu+Scout
+timing=main
+rarity=C
+type=Creature
+subtype=Kavu,Scout
+pt=0/2
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

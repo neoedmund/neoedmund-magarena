@@ -1,0 +1,13 @@
+>Phantasmal Bear
+url=http://magiccards.info/query?q=Phantasmal+Bear&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Phantasmal+Bear
+timing=main
+rarity=C
+type=Creature
+subtype=Bear,Illusion
+pt=2/2
+converted=1
+cost={U}
+color=u
+
+# TODO -- gen by neoe

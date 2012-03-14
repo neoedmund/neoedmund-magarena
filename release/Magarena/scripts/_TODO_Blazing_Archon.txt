@@ -1,0 +1,13 @@
+>Blazing Archon
+url=http://magiccards.info/query?q=Blazing+Archon&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Blazing+Archon
+timing=main
+rarity=R
+type=Creature
+subtype=Archon
+pt=5/6
+converted=9
+cost={6}{W}{W}{W}
+color=www
+
+# TODO -- gen by neoe

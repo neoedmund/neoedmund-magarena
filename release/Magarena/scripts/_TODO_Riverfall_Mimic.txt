@@ -1,0 +1,12 @@
+>Riverfall Mimic
+url=http://magiccards.info/query?q=Riverfall+Mimic&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Riverfall+Mimic
+timing=main
+rarity=C
+type=Creature
+subtype=Shapeshifter
+pt=2/1
+converted=6
+cost={1}{U/R}
+
+# TODO -- gen by neoe

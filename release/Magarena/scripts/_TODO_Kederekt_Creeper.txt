@@ -1,0 +1,13 @@
+>Kederekt Creeper
+url=http://magiccards.info/query?q=Kederekt+Creeper&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Kederekt+Creeper
+timing=main
+rarity=C
+type=Creature
+subtype=Horror
+pt=2/3
+converted=3
+cost={U}{B}{R}
+color=ubr
+
+# TODO -- gen by neoe

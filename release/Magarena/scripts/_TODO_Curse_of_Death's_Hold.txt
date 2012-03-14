@@ -1,0 +1,11 @@
+>Curse of Death's Hold
+url=http://magiccards.info/query?q=Curse+of+Death%27s+Hold&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Curse+of+Death%27s+Hold
+timing=main
+rarity=R
+type=Enchantment
+converted=5
+cost={3}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

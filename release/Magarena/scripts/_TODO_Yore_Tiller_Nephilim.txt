@@ -1,0 +1,13 @@
+>Yore-Tiller Nephilim
+url=http://magiccards.info/query?q=Yore-Tiller+Nephilim&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Yore-Tiller+Nephilim
+timing=main
+rarity=R
+type=Creature
+subtype=Nephilim
+pt=2/2
+converted=4
+cost={W}{U}{B}{R}
+color=wubr
+
+# TODO -- gen by neoe

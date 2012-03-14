@@ -1,0 +1,10 @@
+>Mana Vault
+url=http://magiccards.info/query?q=Mana+Vault&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mana+Vault
+timing=main
+rarity=R
+type=Artifact
+converted=1
+cost={1}
+
+# TODO -- gen by neoe

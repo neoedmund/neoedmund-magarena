@@ -1,0 +1,11 @@
+>Teferi's Care
+url=http://magiccards.info/query?q=Teferi%27s+Care&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Teferi%27s+Care
+timing=main
+rarity=U
+type=Enchantment
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

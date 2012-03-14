@@ -1,0 +1,11 @@
+>Chronomantic Escape
+url=http://magiccards.info/query?q=Chronomantic+Escape&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Chronomantic+Escape
+timing=main
+rarity=U
+type=Sorcery
+converted=6
+cost={4}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

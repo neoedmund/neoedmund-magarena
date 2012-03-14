@@ -1,0 +1,11 @@
+>Copper Carapace
+url=http://magiccards.info/query?q=Copper+Carapace&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Copper+Carapace
+timing=main
+rarity=C
+type=Artifact
+subtype=Equipment
+converted=1
+cost={1}
+
+# TODO -- gen by neoe

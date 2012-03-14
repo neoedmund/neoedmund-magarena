@@ -1,0 +1,10 @@
+>Reito Lantern
+url=http://magiccards.info/query?q=Reito+Lantern&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Reito+Lantern
+timing=main
+rarity=U
+type=Artifact
+converted=2
+cost={2}
+
+# TODO -- gen by neoe

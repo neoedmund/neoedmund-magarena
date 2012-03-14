@@ -1,0 +1,13 @@
+>Nakaya Shade
+url=http://magiccards.info/query?q=Nakaya+Shade&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Nakaya+Shade
+timing=main
+rarity=U
+type=Creature
+subtype=Shade
+pt=1/1
+converted=2
+cost={1}{B}
+color=b
+
+# TODO -- gen by neoe

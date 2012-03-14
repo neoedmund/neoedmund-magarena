@@ -1,0 +1,13 @@
+>Skittering Skirge
+url=http://magiccards.info/query?q=Skittering+Skirge&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Skittering+Skirge
+timing=main
+rarity=C
+type=Creature
+subtype=Imp
+pt=3/2
+converted=2
+cost={B}{B}
+color=bb
+
+# TODO -- gen by neoe

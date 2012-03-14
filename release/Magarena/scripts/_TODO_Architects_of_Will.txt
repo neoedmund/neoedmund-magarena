@@ -1,0 +1,13 @@
+>Architects of Will
+url=http://magiccards.info/query?q=Architects+of+Will&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Architects+of+Will
+timing=main
+rarity=C
+type=Artifact,Creature
+subtype=Human,Wizard
+pt=3/3
+converted=4
+cost={2}{U}{B}
+color=ub
+
+# TODO -- gen by neoe

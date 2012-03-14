@@ -1,0 +1,13 @@
+>Fa'adiyah Seer
+url=http://magiccards.info/query?q=Fa%27adiyah+Seer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Fa%27adiyah+Seer
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Shaman
+pt=1/1
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

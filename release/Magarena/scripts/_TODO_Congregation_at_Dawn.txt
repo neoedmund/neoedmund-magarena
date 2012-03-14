@@ -1,0 +1,11 @@
+>Congregation at Dawn
+url=http://magiccards.info/query?q=Congregation+at+Dawn&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Congregation+at+Dawn
+timing=main
+rarity=U
+type=Instant
+converted=3
+cost={G}{G}{W}
+color=ggw
+
+# TODO -- gen by neoe

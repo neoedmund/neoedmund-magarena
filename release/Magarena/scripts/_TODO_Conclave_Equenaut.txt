@@ -1,0 +1,13 @@
+>Conclave Equenaut
+url=http://magiccards.info/query?q=Conclave+Equenaut&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Conclave+Equenaut
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Soldier
+pt=3/3
+converted=6
+cost={4}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

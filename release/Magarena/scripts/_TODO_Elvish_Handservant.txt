@@ -1,0 +1,13 @@
+>Elvish Handservant
+url=http://magiccards.info/query?q=Elvish+Handservant&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Elvish+Handservant
+timing=main
+rarity=C
+type=Creature
+subtype=Elf,Warrior
+pt=1/1
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

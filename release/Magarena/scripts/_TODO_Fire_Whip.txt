@@ -1,0 +1,12 @@
+>Fire Whip
+url=http://magiccards.info/query?q=Fire+Whip&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Fire+Whip
+timing=main
+rarity=R
+type=Enchantment
+subtype=Aura
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

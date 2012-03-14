@@ -1,0 +1,13 @@
+>Jade Leech
+url=http://magiccards.info/query?q=Jade+Leech&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Jade+Leech
+timing=main
+rarity=R
+type=Creature
+subtype=Leech
+pt=5/5
+converted=4
+cost={2}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

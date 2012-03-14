@@ -1,0 +1,11 @@
+>Minds Aglow
+url=http://magiccards.info/query?q=Minds+Aglow&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Minds+Aglow
+timing=main
+rarity=R
+type=Sorcery
+converted=1
+cost={U}
+color=u
+
+# TODO -- gen by neoe

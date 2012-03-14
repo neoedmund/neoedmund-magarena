@@ -1,0 +1,11 @@
+>Drafna's Restoration
+url=http://magiccards.info/query?q=Drafna%27s+Restoration&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Drafna%27s+Restoration
+timing=main
+rarity=C
+type=Sorcery
+converted=1
+cost={U}
+color=u
+
+# TODO -- gen by neoe

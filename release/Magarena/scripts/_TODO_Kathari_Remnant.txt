@@ -1,0 +1,13 @@
+>Kathari Remnant
+url=http://magiccards.info/query?q=Kathari+Remnant&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Kathari+Remnant
+timing=main
+rarity=U
+type=Creature
+subtype=Bird,Skeleton
+pt=0/1
+converted=4
+cost={2}{U}{B}
+color=ub
+
+# TODO -- gen by neoe

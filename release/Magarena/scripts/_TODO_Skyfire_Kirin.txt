@@ -1,0 +1,13 @@
+>Skyfire Kirin
+url=http://magiccards.info/query?q=Skyfire+Kirin&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Skyfire+Kirin
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Kirin,Spirit
+pt=3/3
+converted=4
+cost={2}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

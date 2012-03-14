@@ -1,0 +1,11 @@
+>Avacyn's Collar
+url=http://magiccards.info/query?q=Avacyn%27s+Collar&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Avacyn%27s+Collar
+timing=main
+rarity=U
+type=Artifact
+subtype=Equipment
+converted=1
+cost={1}
+
+# TODO -- gen by neoe

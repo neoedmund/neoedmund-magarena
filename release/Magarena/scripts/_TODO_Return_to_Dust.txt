@@ -1,0 +1,11 @@
+>Return to Dust
+url=http://magiccards.info/query?q=Return+to+Dust&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Return+to+Dust
+timing=main
+rarity=U
+type=Instant
+converted=4
+cost={2}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

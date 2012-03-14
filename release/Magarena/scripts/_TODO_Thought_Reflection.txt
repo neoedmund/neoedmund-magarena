@@ -1,0 +1,11 @@
+>Thought Reflection
+url=http://magiccards.info/query?q=Thought+Reflection&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Thought+Reflection
+timing=main
+rarity=R
+type=Enchantment
+converted=7
+cost={4}{U}{U}{U}
+color=uuu
+
+# TODO -- gen by neoe

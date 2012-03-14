@@ -1,0 +1,11 @@
+>Promise of Power
+url=http://magiccards.info/query?q=Promise+of+Power&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Promise+of+Power
+timing=main
+rarity=R
+type=Sorcery
+converted=5
+cost={2}{B}{B}{B}
+color=bbb
+
+# TODO -- gen by neoe

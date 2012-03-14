@@ -1,0 +1,11 @@
+>Stench of Evil
+url=http://magiccards.info/query?q=Stench+of+Evil&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Stench+of+Evil
+timing=main
+rarity=U
+type=Sorcery
+converted=4
+cost={2}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

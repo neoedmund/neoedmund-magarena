@@ -1,0 +1,13 @@
+>Vigilant Martyr
+url=http://magiccards.info/query?q=Vigilant+Martyr&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Vigilant+Martyr
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Cleric
+pt=1/1
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

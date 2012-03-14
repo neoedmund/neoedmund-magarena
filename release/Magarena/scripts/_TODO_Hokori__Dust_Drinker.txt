@@ -1,0 +1,13 @@
+>Hokori, Dust Drinker
+url=http://magiccards.info/query?q=Hokori%2C+Dust+Drinker&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Hokori%2C+Dust+Drinker
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Spirit
+pt=2/2
+converted=4
+cost={2}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

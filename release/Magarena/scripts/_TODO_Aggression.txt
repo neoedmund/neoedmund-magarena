@@ -1,0 +1,12 @@
+>Aggression
+url=http://magiccards.info/query?q=Aggression&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Aggression
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

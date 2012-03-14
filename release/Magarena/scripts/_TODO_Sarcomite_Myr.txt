@@ -1,0 +1,13 @@
+>Sarcomite Myr
+url=http://magiccards.info/query?q=Sarcomite+Myr&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sarcomite+Myr
+timing=main
+rarity=C
+type=Artifact,Creature
+subtype=Myr
+pt=2/1
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

@@ -1,0 +1,10 @@
+>Exotic Orchard
+url=http://magiccards.info/query?q=Exotic+Orchard&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Exotic+Orchard
+timing=main
+rarity=R
+type=Land
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

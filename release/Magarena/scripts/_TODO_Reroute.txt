@@ -1,0 +1,11 @@
+>Reroute
+url=http://magiccards.info/query?q=Reroute&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Reroute
+timing=main
+rarity=U
+type=Instant
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

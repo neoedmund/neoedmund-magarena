@@ -1,0 +1,10 @@
+>Shell of the Last Kappa
+url=http://magiccards.info/query?q=Shell+of+the+Last+Kappa&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Shell+of+the+Last+Kappa
+timing=main
+rarity=R
+type=Legendary,Artifact
+converted=3
+cost={3}
+
+# TODO -- gen by neoe

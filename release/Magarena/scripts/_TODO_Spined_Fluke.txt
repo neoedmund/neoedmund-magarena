@@ -1,0 +1,13 @@
+>Spined Fluke
+url=http://magiccards.info/query?q=Spined+Fluke&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Spined+Fluke
+timing=main
+rarity=U
+type=Creature
+subtype=Worm,Horror
+pt=5/1
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

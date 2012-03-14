@@ -1,0 +1,13 @@
+>Entropic Eidolon
+url=http://magiccards.info/query?q=Entropic+Eidolon&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Entropic+Eidolon
+timing=main
+rarity=C
+type=Creature
+subtype=Spirit
+pt=2/2
+converted=4
+cost={3}{B}
+color=b
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Orochi Leafcaller
+url=http://magiccards.info/query?q=Orochi+Leafcaller&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Orochi+Leafcaller
+timing=main
+rarity=C
+type=Creature
+subtype=Snake,Shaman
+pt=1/1
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

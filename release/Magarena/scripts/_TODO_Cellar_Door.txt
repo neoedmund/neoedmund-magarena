@@ -1,0 +1,10 @@
+>Cellar Door
+url=http://magiccards.info/query?q=Cellar+Door&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Cellar+Door
+timing=main
+rarity=U
+type=Artifact
+converted=2
+cost={2}
+
+# TODO -- gen by neoe

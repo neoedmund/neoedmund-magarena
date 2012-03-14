@@ -1,0 +1,11 @@
+>Ambush
+url=http://magiccards.info/query?q=Ambush&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ambush
+timing=main
+rarity=C
+type=Instant
+converted=4
+cost={3}{R}
+color=r
+
+# TODO -- gen by neoe

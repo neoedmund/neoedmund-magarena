@@ -1,0 +1,13 @@
+>Seedguide Ash
+url=http://magiccards.info/query?q=Seedguide+Ash&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Seedguide+Ash
+timing=main
+rarity=U
+type=Creature
+subtype=Treefolk,Druid
+pt=4/4
+converted=5
+cost={4}{G}
+color=g
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Hankyu
+url=http://magiccards.info/query?q=Hankyu&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Hankyu
+timing=main
+rarity=U
+type=Artifact
+subtype=Equipment
+converted=1
+cost={1}
+
+# TODO -- gen by neoe

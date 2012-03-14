@@ -1,0 +1,11 @@
+>Escape Routes
+url=http://magiccards.info/query?q=Escape+Routes&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Escape+Routes
+timing=main
+rarity=C
+type=Enchantment
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

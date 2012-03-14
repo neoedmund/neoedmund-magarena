@@ -1,0 +1,13 @@
+>Thriss, Nantuko Primus
+url=http://magiccards.info/query?q=Thriss%2C+Nantuko+Primus&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Thriss%2C+Nantuko+Primus
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Insect,Druid
+pt=5/5
+converted=7
+cost={5}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

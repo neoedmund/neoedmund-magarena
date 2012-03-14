@@ -1,0 +1,13 @@
+>Doran, the Siege Tower
+url=http://magiccards.info/query?q=Doran%2C+the+Siege+Tower&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Doran%2C+the+Siege+Tower
+timing=main
+rarity=M
+type=Legendary,Creature
+subtype=Treefolk,Shaman
+pt=0/5
+converted=3
+cost={B}{G}{W}
+color=bgw
+
+# TODO -- gen by neoe

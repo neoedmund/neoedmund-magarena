@@ -1,0 +1,13 @@
+>Resilient Wanderer
+url=http://magiccards.info/query?q=Resilient+Wanderer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Resilient+Wanderer
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Nomad
+pt=2/3
+converted=4
+cost={2}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

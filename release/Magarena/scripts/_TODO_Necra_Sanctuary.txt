@@ -1,0 +1,11 @@
+>Necra Sanctuary
+url=http://magiccards.info/query?q=Necra+Sanctuary&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Necra+Sanctuary
+timing=main
+rarity=U
+type=Enchantment
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

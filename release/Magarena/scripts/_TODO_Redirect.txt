@@ -1,0 +1,11 @@
+>Redirect
+url=http://magiccards.info/query?q=Redirect&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Redirect
+timing=main
+rarity=R
+type=Instant
+converted=2
+cost={U}{U}
+color=uu
+
+# TODO -- gen by neoe

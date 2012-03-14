@@ -1,0 +1,13 @@
+>Deceiver Exarch
+url=http://magiccards.info/query?q=Deceiver+Exarch&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Deceiver+Exarch
+timing=main
+rarity=U
+type=Creature
+subtype=Cleric
+pt=1/4
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

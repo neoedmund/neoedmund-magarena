@@ -1,0 +1,13 @@
+>Soilshaper
+url=http://magiccards.info/query?q=Soilshaper&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Soilshaper
+timing=main
+rarity=U
+type=Creature
+subtype=Spirit
+pt=1/1
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

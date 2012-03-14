@@ -1,0 +1,13 @@
+>Azami, Lady of Scrolls
+url=http://magiccards.info/query?q=Azami%2C+Lady+of+Scrolls&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Azami%2C+Lady+of+Scrolls
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Human,Wizard
+pt=0/2
+converted=5
+cost={2}{U}{U}{U}
+color=uuu
+
+# TODO -- gen by neoe

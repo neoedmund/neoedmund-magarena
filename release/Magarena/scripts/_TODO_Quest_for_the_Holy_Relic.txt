@@ -1,0 +1,11 @@
+>Quest for the Holy Relic
+url=http://magiccards.info/query?q=Quest+for+the+Holy+Relic&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Quest+for+the+Holy+Relic
+timing=main
+rarity=U
+type=Enchantment
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

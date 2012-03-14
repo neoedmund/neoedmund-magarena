@@ -1,0 +1,11 @@
+>Embargo
+url=http://magiccards.info/query?q=Embargo&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Embargo
+timing=main
+rarity=R
+type=Enchantment
+converted=4
+cost={3}{U}
+color=u
+
+# TODO -- gen by neoe

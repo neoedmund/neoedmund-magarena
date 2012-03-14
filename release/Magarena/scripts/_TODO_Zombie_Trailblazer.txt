@@ -1,0 +1,13 @@
+>Zombie Trailblazer
+url=http://magiccards.info/query?q=Zombie+Trailblazer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Zombie+Trailblazer
+timing=main
+rarity=U
+type=Creature
+subtype=Zombie,Scout
+pt=2/2
+converted=3
+cost={B}{B}{B}
+color=bbb
+
+# TODO -- gen by neoe

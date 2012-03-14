@@ -1,0 +1,11 @@
+>Burden of Greed
+url=http://magiccards.info/query?q=Burden+of+Greed&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Burden+of+Greed
+timing=main
+rarity=C
+type=Instant
+converted=4
+cost={3}{B}
+color=b
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Thought Eater
+url=http://magiccards.info/query?q=Thought+Eater&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Thought+Eater
+timing=main
+rarity=U
+type=Creature
+subtype=Beast
+pt=2/2
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

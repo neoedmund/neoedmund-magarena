@@ -1,0 +1,10 @@
+>Fire at Will
+url=http://magiccards.info/query?q=Fire+at+Will&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Fire+at+Will
+timing=main
+rarity=C
+type=Instant
+converted=15
+cost={R/W}{R/W}{R/W}
+
+# TODO -- gen by neoe

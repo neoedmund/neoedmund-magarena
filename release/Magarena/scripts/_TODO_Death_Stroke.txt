@@ -1,0 +1,11 @@
+>Death Stroke
+url=http://magiccards.info/query?q=Death+Stroke&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Death+Stroke
+timing=main
+rarity=C
+type=Sorcery
+converted=2
+cost={B}{B}
+color=bb
+
+# TODO -- gen by neoe

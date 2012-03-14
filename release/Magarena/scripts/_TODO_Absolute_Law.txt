@@ -1,0 +1,11 @@
+>Absolute Law
+url=http://magiccards.info/query?q=Absolute+Law&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Absolute+Law
+timing=main
+rarity=U
+type=Enchantment
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

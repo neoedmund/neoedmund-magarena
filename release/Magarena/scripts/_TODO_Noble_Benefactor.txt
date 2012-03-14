@@ -1,0 +1,13 @@
+>Noble Benefactor
+url=http://magiccards.info/query?q=Noble+Benefactor&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Noble+Benefactor
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Cleric
+pt=2/2
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

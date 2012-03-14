@@ -1,0 +1,11 @@
+>Animal Magnetism
+url=http://magiccards.info/query?q=Animal+Magnetism&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Animal+Magnetism
+timing=main
+rarity=R
+type=Sorcery
+converted=5
+cost={4}{G}
+color=g
+
+# TODO -- gen by neoe

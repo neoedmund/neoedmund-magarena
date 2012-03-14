@@ -1,0 +1,12 @@
+>Thieves' Fortune
+url=http://magiccards.info/query?q=Thieves%27+Fortune&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Thieves%27+Fortune
+timing=main
+rarity=U
+type=Tribal,Instant
+subtype=Rogue
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

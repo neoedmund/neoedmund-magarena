@@ -1,0 +1,13 @@
+>Cheatyface
+url=http://magiccards.info/query?q=Cheatyface&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Cheatyface
+timing=main
+rarity=U
+type=Creature
+subtype=Efreet
+pt=2/2
+converted=3
+cost={U}{U}{U}
+color=uuu
+
+# TODO -- gen by neoe

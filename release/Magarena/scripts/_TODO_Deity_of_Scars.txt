@@ -1,0 +1,12 @@
+>Deity of Scars
+url=http://magiccards.info/query?q=Deity+of+Scars&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Deity+of+Scars
+timing=main
+rarity=R
+type=Creature
+subtype=Spirit,Avatar
+pt=7/7
+converted=25
+cost={B/G}{B/G}{B/G}{B/G}{B/G}
+
+# TODO -- gen by neoe

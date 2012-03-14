@@ -1,0 +1,13 @@
+>Cytospawn Shambler
+url=http://magiccards.info/query?q=Cytospawn+Shambler&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Cytospawn+Shambler
+timing=main
+rarity=C
+type=Creature
+subtype=Elemental,Mutant
+pt=0/0
+converted=7
+cost={6}{G}
+color=g
+
+# TODO -- gen by neoe

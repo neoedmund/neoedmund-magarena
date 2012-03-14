@@ -1,0 +1,10 @@
+>Obelisk of Esper
+url=http://magiccards.info/query?q=Obelisk+of+Esper&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Obelisk+of+Esper
+timing=main
+rarity=C
+type=Artifact
+converted=3
+cost={3}
+
+# TODO -- gen by neoe

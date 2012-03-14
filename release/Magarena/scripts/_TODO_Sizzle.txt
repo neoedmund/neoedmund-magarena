@@ -1,0 +1,11 @@
+>Sizzle
+url=http://magiccards.info/query?q=Sizzle&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sizzle
+timing=main
+rarity=C
+type=Sorcery
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

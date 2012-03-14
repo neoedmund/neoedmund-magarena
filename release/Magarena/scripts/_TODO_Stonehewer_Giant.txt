@@ -1,0 +1,13 @@
+>Stonehewer Giant
+url=http://magiccards.info/query?q=Stonehewer+Giant&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Stonehewer+Giant
+timing=main
+rarity=R
+type=Creature
+subtype=Giant,Warrior
+pt=4/4
+converted=5
+cost={3}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

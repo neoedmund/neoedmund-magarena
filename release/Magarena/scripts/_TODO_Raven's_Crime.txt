@@ -1,0 +1,11 @@
+>Raven's Crime
+url=http://magiccards.info/query?q=Raven%27s+Crime&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Raven%27s+Crime
+timing=main
+rarity=C
+type=Sorcery
+converted=1
+cost={B}
+color=b
+
+# TODO -- gen by neoe

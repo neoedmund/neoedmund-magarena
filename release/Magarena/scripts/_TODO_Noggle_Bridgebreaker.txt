@@ -1,0 +1,12 @@
+>Noggle Bridgebreaker
+url=http://magiccards.info/query?q=Noggle+Bridgebreaker&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Noggle+Bridgebreaker
+timing=main
+rarity=C
+type=Creature
+subtype=Noggle,Rogue
+pt=4/3
+converted=12
+cost={2}{U/R}{U/R}
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Roots of Life
+url=http://magiccards.info/query?q=Roots+of+Life&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Roots+of+Life
+timing=main
+rarity=U
+type=Enchantment
+converted=3
+cost={1}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

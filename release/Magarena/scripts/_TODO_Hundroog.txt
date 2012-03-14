@@ -1,0 +1,13 @@
+>Hundroog
+url=http://magiccards.info/query?q=Hundroog&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Hundroog
+timing=main
+rarity=C
+type=Creature
+subtype=Beast
+pt=4/7
+converted=7
+cost={6}{G}
+color=g
+
+# TODO -- gen by neoe

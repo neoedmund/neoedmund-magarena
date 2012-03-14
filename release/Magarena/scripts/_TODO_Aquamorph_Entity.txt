@@ -1,0 +1,12 @@
+>Aquamorph Entity
+url=http://magiccards.info/query?q=Aquamorph+Entity&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Aquamorph+Entity
+timing=main
+rarity=C
+type=Creature
+subtype=Shapeshifter
+converted=4
+cost={2}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

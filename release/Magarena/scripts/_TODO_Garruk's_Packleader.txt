@@ -1,0 +1,13 @@
+>Garruk's Packleader
+url=http://magiccards.info/query?q=Garruk%27s+Packleader&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Garruk%27s+Packleader
+timing=main
+rarity=U
+type=Creature
+subtype=Beast
+pt=4/4
+converted=5
+cost={4}{G}
+color=g
+
+# TODO -- gen by neoe

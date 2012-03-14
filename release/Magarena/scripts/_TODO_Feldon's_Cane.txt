@@ -1,0 +1,10 @@
+>Feldon's Cane
+url=http://magiccards.info/query?q=Feldon%27s+Cane&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Feldon%27s+Cane
+timing=main
+rarity=R
+type=Artifact
+converted=1
+cost={1}
+
+# TODO -- gen by neoe

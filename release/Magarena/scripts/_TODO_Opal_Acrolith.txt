@@ -1,0 +1,11 @@
+>Opal Acrolith
+url=http://magiccards.info/query?q=Opal+Acrolith&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Opal+Acrolith
+timing=main
+rarity=U
+type=Enchantment
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

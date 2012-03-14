@@ -1,0 +1,13 @@
+>Wandering Goblins
+url=http://magiccards.info/query?q=Wandering+Goblins&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wandering+Goblins
+timing=main
+rarity=C
+type=Creature
+subtype=Goblin,Warrior
+pt=0/3
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Beacon of Tomorrows
+url=http://magiccards.info/query?q=Beacon+of+Tomorrows&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Beacon+of+Tomorrows
+timing=main
+rarity=R
+type=Sorcery
+converted=8
+cost={6}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

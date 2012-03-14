@@ -1,0 +1,11 @@
+>Footbottom Feast
+url=http://magiccards.info/query?q=Footbottom+Feast&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Footbottom+Feast
+timing=main
+rarity=C
+type=Instant
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Sphinx of Uthuun
+url=http://magiccards.info/query?q=Sphinx+of+Uthuun&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sphinx+of+Uthuun
+timing=main
+rarity=R
+type=Creature
+subtype=Sphinx
+pt=5/6
+converted=7
+cost={5}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

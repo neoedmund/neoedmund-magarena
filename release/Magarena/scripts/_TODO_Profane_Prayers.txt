@@ -1,0 +1,11 @@
+>Profane Prayers
+url=http://magiccards.info/query?q=Profane+Prayers&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Profane+Prayers
+timing=main
+rarity=C
+type=Sorcery
+converted=4
+cost={2}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

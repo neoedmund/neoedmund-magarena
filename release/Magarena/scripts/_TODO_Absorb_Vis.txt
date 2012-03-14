@@ -1,0 +1,11 @@
+>Absorb Vis
+url=http://magiccards.info/query?q=Absorb+Vis&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Absorb+Vis
+timing=main
+rarity=C
+type=Sorcery
+converted=7
+cost={6}{B}
+color=b
+
+# TODO -- gen by neoe

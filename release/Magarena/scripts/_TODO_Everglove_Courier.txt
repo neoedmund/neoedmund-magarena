@@ -1,0 +1,13 @@
+>Everglove Courier
+url=http://magiccards.info/query?q=Everglove+Courier&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Everglove+Courier
+timing=main
+rarity=U
+type=Creature
+subtype=Elf
+pt=2/1
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

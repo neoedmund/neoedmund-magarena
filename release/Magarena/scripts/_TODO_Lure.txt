@@ -1,0 +1,12 @@
+>Lure
+url=http://magiccards.info/query?q=Lure&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Lure
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=3
+cost={1}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

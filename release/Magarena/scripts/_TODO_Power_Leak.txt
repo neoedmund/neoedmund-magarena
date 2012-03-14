@@ -1,0 +1,12 @@
+>Power Leak
+url=http://magiccards.info/query?q=Power+Leak&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Power+Leak
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Path of Anger's Flame
+url=http://magiccards.info/query?q=Path+of+Anger%27s+Flame&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Path+of+Anger%27s+Flame
+timing=main
+rarity=C
+type=Instant
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

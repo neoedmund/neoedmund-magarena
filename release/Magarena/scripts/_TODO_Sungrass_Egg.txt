@@ -1,0 +1,10 @@
+>Sungrass Egg
+url=http://magiccards.info/query?q=Sungrass+Egg&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sungrass+Egg
+timing=main
+rarity=U
+type=Artifact
+converted=1
+cost={1}
+
+# TODO -- gen by neoe

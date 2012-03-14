@@ -1,0 +1,13 @@
+>Lys Alana Scarblade
+url=http://magiccards.info/query?q=Lys+Alana+Scarblade&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Lys+Alana+Scarblade
+timing=main
+rarity=U
+type=Creature
+subtype=Elf,Assassin
+pt=1/1
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

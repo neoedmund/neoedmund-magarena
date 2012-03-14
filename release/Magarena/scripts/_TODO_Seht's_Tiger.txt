@@ -1,0 +1,13 @@
+>Seht's Tiger
+url=http://magiccards.info/query?q=Seht%27s+Tiger&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Seht%27s+Tiger
+timing=main
+rarity=R
+type=Creature
+subtype=Cat
+pt=3/3
+converted=4
+cost={2}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

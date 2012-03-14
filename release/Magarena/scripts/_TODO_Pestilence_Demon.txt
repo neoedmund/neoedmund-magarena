@@ -1,0 +1,13 @@
+>Pestilence Demon
+url=http://magiccards.info/query?q=Pestilence+Demon&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Pestilence+Demon
+timing=main
+rarity=R
+type=Creature
+subtype=Demon
+pt=7/6
+converted=8
+cost={5}{B}{B}{B}
+color=bbb
+
+# TODO -- gen by neoe

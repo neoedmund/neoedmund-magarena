@@ -1,0 +1,12 @@
+>Mark of Sakiko
+url=http://magiccards.info/query?q=Mark+of+Sakiko&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mark+of+Sakiko
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

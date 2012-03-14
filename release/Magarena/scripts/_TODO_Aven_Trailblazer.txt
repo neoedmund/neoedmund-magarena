@@ -1,0 +1,12 @@
+>Aven Trailblazer
+url=http://magiccards.info/query?q=Aven+Trailblazer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Aven+Trailblazer
+timing=main
+rarity=C
+type=Creature
+subtype=Bird,Soldier
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

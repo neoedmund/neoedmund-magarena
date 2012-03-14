@@ -1,0 +1,11 @@
+>Uphill Battle
+url=http://magiccards.info/query?q=Uphill+Battle&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Uphill+Battle
+timing=main
+rarity=U
+type=Enchantment
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

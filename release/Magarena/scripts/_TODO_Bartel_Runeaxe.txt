@@ -1,0 +1,13 @@
+>Bartel Runeaxe
+url=http://magiccards.info/query?q=Bartel+Runeaxe&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Bartel+Runeaxe
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Giant,Warrior
+pt=6/5
+converted=6
+cost={3}{B}{R}{G}
+color=brg
+
+# TODO -- gen by neoe

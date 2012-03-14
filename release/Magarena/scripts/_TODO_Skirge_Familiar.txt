@@ -1,0 +1,13 @@
+>Skirge Familiar
+url=http://magiccards.info/query?q=Skirge+Familiar&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Skirge+Familiar
+timing=main
+rarity=U
+type=Creature
+subtype=Imp
+pt=3/2
+converted=5
+cost={4}{B}
+color=b
+
+# TODO -- gen by neoe

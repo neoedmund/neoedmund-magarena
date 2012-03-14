@@ -1,0 +1,11 @@
+>Reality Twist
+url=http://magiccards.info/query?q=Reality+Twist&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Reality+Twist
+timing=main
+rarity=R
+type=Enchantment
+converted=3
+cost={U}{U}{U}
+color=uuu
+
+# TODO -- gen by neoe

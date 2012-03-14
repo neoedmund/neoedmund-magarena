@@ -1,0 +1,13 @@
+>Trench Gorger
+url=http://magiccards.info/query?q=Trench+Gorger&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Trench+Gorger
+timing=main
+rarity=R
+type=Creature
+subtype=Leviathan
+pt=6/6
+converted=8
+cost={6}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

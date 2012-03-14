@@ -1,0 +1,11 @@
+>Viridian Longbow
+url=http://magiccards.info/query?q=Viridian+Longbow&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Viridian+Longbow
+timing=main
+rarity=C
+type=Artifact
+subtype=Equipment
+converted=1
+cost={1}
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Arctic Merfolk
+url=http://magiccards.info/query?q=Arctic+Merfolk&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Arctic+Merfolk
+timing=main
+rarity=C
+type=Creature
+subtype=Merfolk
+pt=1/1
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

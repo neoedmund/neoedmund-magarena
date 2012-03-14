@@ -1,0 +1,13 @@
+>Wiitigo
+url=http://magiccards.info/query?q=Wiitigo&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wiitigo
+timing=main
+rarity=R
+type=Creature
+subtype=Yeti
+pt=0/0
+converted=6
+cost={3}{G}{G}{G}
+color=ggg
+
+# TODO -- gen by neoe

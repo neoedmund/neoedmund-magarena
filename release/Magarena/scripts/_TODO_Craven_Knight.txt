@@ -1,0 +1,13 @@
+>Craven Knight
+url=http://magiccards.info/query?q=Craven+Knight&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Craven+Knight
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Knight
+pt=2/2
+converted=2
+cost={1}{B}
+color=b
+
+# TODO -- gen by neoe

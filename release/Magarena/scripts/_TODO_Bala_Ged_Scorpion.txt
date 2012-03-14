@@ -1,0 +1,13 @@
+>Bala Ged Scorpion
+url=http://magiccards.info/query?q=Bala+Ged+Scorpion&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Bala+Ged+Scorpion
+timing=main
+rarity=C
+type=Creature
+subtype=Scorpion
+pt=2/3
+converted=4
+cost={3}{B}
+color=b
+
+# TODO -- gen by neoe

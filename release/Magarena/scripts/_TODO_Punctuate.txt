@@ -1,0 +1,11 @@
+>Punctuate
+url=http://magiccards.info/query?q=Punctuate&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Punctuate
+timing=main
+rarity=C
+type=Instant
+converted=4
+cost={3}{R}
+color=r
+
+# TODO -- gen by neoe

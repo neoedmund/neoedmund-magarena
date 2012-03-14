@@ -1,0 +1,13 @@
+>Rootwater Shaman
+url=http://magiccards.info/query?q=Rootwater+Shaman&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Rootwater+Shaman
+timing=main
+rarity=R
+type=Creature
+subtype=Merfolk,Shaman
+pt=2/2
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

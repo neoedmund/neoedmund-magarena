@@ -1,0 +1,13 @@
+>Cloudchaser Kestrel
+url=http://magiccards.info/query?q=Cloudchaser+Kestrel&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Cloudchaser+Kestrel
+timing=main
+rarity=C
+type=Creature
+subtype=Bird
+pt=2/2
+converted=3
+cost={1}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

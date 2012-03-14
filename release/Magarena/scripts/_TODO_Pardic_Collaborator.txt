@@ -1,0 +1,13 @@
+>Pardic Collaborator
+url=http://magiccards.info/query?q=Pardic+Collaborator&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Pardic+Collaborator
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Barbarian
+pt=2/2
+converted=4
+cost={3}{R}
+color=r
+
+# TODO -- gen by neoe

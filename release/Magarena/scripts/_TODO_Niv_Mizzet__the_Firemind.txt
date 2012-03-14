@@ -1,0 +1,13 @@
+>Niv-Mizzet, the Firemind
+url=http://magiccards.info/query?q=Niv-Mizzet%2C+the+Firemind&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Niv-Mizzet%2C+the+Firemind
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Dragon,Wizard
+pt=4/4
+converted=6
+cost={2}{U}{U}{R}{R}
+color=uurr
+
+# TODO -- gen by neoe

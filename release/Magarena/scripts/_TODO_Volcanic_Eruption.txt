@@ -1,0 +1,11 @@
+>Volcanic Eruption
+url=http://magiccards.info/query?q=Volcanic+Eruption&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Volcanic+Eruption
+timing=main
+rarity=R
+type=Sorcery
+converted=3
+cost={X}{U}{U}{U}
+color=uuu
+
+# TODO -- gen by neoe

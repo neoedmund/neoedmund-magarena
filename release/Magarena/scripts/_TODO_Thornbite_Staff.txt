@@ -1,0 +1,11 @@
+>Thornbite Staff
+url=http://magiccards.info/query?q=Thornbite+Staff&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Thornbite+Staff
+timing=main
+rarity=U
+type=Tribal,Artifact
+subtype=Shaman,Equipment
+converted=2
+cost={2}
+
+# TODO -- gen by neoe

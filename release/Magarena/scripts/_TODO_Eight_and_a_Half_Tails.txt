@@ -1,0 +1,13 @@
+>Eight-and-a-Half-Tails
+url=http://magiccards.info/query?q=Eight-and-a-Half-Tails&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Eight-and-a-Half-Tails
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Fox,Cleric
+pt=2/2
+converted=2
+cost={W}{W}
+color=ww
+
+# TODO -- gen by neoe

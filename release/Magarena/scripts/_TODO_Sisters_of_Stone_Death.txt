@@ -1,0 +1,13 @@
+>Sisters of Stone Death
+url=http://magiccards.info/query?q=Sisters+of+Stone+Death&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sisters+of+Stone+Death
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Gorgon
+pt=7/5
+converted=8
+cost={4}{B}{B}{G}{G}
+color=bbgg
+
+# TODO -- gen by neoe

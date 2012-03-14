@@ -1,0 +1,11 @@
+>Shelter
+url=http://magiccards.info/query?q=Shelter&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Shelter
+timing=main
+rarity=C
+type=Instant
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

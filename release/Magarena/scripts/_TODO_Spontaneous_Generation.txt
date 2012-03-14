@@ -1,0 +1,11 @@
+>Spontaneous Generation
+url=http://magiccards.info/query?q=Spontaneous+Generation&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Spontaneous+Generation
+timing=main
+rarity=R
+type=Sorcery
+converted=4
+cost={3}{G}
+color=g
+
+# TODO -- gen by neoe

@@ -1,0 +1,12 @@
+>Merseine
+url=http://magiccards.info/query?q=Merseine&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Merseine
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=4
+cost={2}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

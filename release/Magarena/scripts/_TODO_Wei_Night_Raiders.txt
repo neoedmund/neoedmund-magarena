@@ -1,0 +1,13 @@
+>Wei Night Raiders
+url=http://magiccards.info/query?q=Wei+Night+Raiders&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wei+Night+Raiders
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Soldier
+pt=2/2
+converted=4
+cost={2}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

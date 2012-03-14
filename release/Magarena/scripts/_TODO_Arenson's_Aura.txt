@@ -1,0 +1,11 @@
+>Arenson's Aura
+url=http://magiccards.info/query?q=Arenson%27s+Aura&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Arenson%27s+Aura
+timing=main
+rarity=C
+type=Enchantment
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

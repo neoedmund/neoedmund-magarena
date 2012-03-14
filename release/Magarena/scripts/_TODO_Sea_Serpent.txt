@@ -1,0 +1,13 @@
+>Sea Serpent
+url=http://magiccards.info/query?q=Sea+Serpent&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sea+Serpent
+timing=main
+rarity=C
+type=Creature
+subtype=Serpent
+pt=5/5
+converted=6
+cost={5}{U}
+color=u
+
+# TODO -- gen by neoe

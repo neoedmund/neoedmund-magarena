@@ -1,0 +1,11 @@
+>Savannah
+url=http://magiccards.info/query?q=Savannah&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Savannah
+timing=main
+rarity=R
+type=Land
+subtype=Forest,Plains
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

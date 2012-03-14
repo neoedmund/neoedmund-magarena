@@ -1,0 +1,13 @@
+>Lady Orca
+url=http://magiccards.info/query?q=Lady+Orca&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Lady+Orca
+timing=main
+rarity=U
+type=Legendary,Creature
+subtype=Demon
+pt=7/4
+converted=7
+cost={5}{B}{R}
+color=br
+
+# TODO -- gen by neoe

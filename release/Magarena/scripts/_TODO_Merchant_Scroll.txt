@@ -1,0 +1,11 @@
+>Merchant Scroll
+url=http://magiccards.info/query?q=Merchant+Scroll&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Merchant+Scroll
+timing=main
+rarity=C
+type=Sorcery
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

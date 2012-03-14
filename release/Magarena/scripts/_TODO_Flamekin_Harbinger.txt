@@ -1,0 +1,13 @@
+>Flamekin Harbinger
+url=http://magiccards.info/query?q=Flamekin+Harbinger&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Flamekin+Harbinger
+timing=main
+rarity=U
+type=Creature
+subtype=Elemental,Shaman
+pt=1/1
+converted=1
+cost={R}
+color=r
+
+# TODO -- gen by neoe

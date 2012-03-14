@@ -1,0 +1,10 @@
+>Soldevi Excavations
+url=http://magiccards.info/query?q=Soldevi+Excavations&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Soldevi+Excavations
+timing=main
+rarity=R
+type=Land
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

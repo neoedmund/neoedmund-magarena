@@ -1,0 +1,12 @@
+>Hobble
+url=http://magiccards.info/query?q=Hobble&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Hobble
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

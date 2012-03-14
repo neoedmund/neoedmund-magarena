@@ -1,0 +1,12 @@
+>Gaea's Embrace
+url=http://magiccards.info/query?q=Gaea%27s+Embrace&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Gaea%27s+Embrace
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=4
+cost={2}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

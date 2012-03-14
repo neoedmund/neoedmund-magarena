@@ -1,0 +1,12 @@
+>Gravelgill Duo
+url=http://magiccards.info/query?q=Gravelgill+Duo&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Gravelgill+Duo
+timing=main
+rarity=C
+type=Creature
+subtype=Merfolk,Rogue,Warrior
+pt=2/1
+converted=7
+cost={2}{U/B}
+
+# TODO -- gen by neoe

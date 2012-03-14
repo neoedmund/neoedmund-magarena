@@ -1,0 +1,10 @@
+>Obelisk of Jund
+url=http://magiccards.info/query?q=Obelisk+of+Jund&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Obelisk+of+Jund
+timing=main
+rarity=C
+type=Artifact
+converted=3
+cost={3}
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Face of Fear
+url=http://magiccards.info/query?q=Face+of+Fear&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Face+of+Fear
+timing=main
+rarity=U
+type=Creature
+subtype=Horror
+pt=3/4
+converted=6
+cost={5}{B}
+color=b
+
+# TODO -- gen by neoe

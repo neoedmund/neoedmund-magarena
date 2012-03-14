@@ -1,0 +1,12 @@
+>Surge of Thoughtweft
+url=http://magiccards.info/query?q=Surge+of+Thoughtweft&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Surge+of+Thoughtweft
+timing=main
+rarity=C
+type=Tribal,Instant
+subtype=Kithkin
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

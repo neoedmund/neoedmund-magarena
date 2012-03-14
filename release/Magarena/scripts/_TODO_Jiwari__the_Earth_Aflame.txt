@@ -1,0 +1,13 @@
+>Jiwari, the Earth Aflame
+url=http://magiccards.info/query?q=Jiwari%2C+the+Earth+Aflame&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Jiwari%2C+the+Earth+Aflame
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Spirit
+pt=3/3
+converted=5
+cost={3}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

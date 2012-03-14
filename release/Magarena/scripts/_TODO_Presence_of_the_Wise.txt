@@ -1,0 +1,11 @@
+>Presence of the Wise
+url=http://magiccards.info/query?q=Presence+of+the+Wise&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Presence+of+the+Wise
+timing=main
+rarity=U
+type=Sorcery
+converted=4
+cost={2}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

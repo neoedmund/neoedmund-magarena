@@ -1,0 +1,13 @@
+>Wall of Water
+url=http://magiccards.info/query?q=Wall+of+Water&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wall+of+Water
+timing=main
+rarity=U
+type=Creature
+subtype=Wall
+pt=0/5
+converted=3
+cost={1}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

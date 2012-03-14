@@ -1,0 +1,13 @@
+>Striped Bears
+url=http://magiccards.info/query?q=Striped+Bears&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Striped+Bears
+timing=main
+rarity=C
+type=Creature
+subtype=Bear
+pt=2/2
+converted=4
+cost={3}{G}
+color=g
+
+# TODO -- gen by neoe

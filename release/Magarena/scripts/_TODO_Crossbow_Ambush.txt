@@ -1,0 +1,11 @@
+>Crossbow Ambush
+url=http://magiccards.info/query?q=Crossbow+Ambush&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Crossbow+Ambush
+timing=main
+rarity=C
+type=Instant
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Mana Cache
+url=http://magiccards.info/query?q=Mana+Cache&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mana+Cache
+timing=main
+rarity=R
+type=Enchantment
+converted=3
+cost={1}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

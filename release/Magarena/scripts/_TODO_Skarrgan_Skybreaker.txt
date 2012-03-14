@@ -1,0 +1,13 @@
+>Skarrgan Skybreaker
+url=http://magiccards.info/query?q=Skarrgan+Skybreaker&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Skarrgan+Skybreaker
+timing=main
+rarity=U
+type=Creature
+subtype=Giant,Shaman
+pt=3/3
+converted=7
+cost={4}{R}{R}{G}
+color=rrg
+
+# TODO -- gen by neoe

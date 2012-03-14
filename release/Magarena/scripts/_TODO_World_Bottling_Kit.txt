@@ -1,0 +1,10 @@
+>World-Bottling Kit
+url=http://magiccards.info/query?q=World-Bottling+Kit&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=World-Bottling+Kit
+timing=main
+rarity=R
+type=Artifact
+converted=5
+cost={5}
+
+# TODO -- gen by neoe

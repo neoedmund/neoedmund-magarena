@@ -1,0 +1,13 @@
+>Krosan Cloudscraper
+url=http://magiccards.info/query?q=Krosan+Cloudscraper&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Krosan+Cloudscraper
+timing=main
+rarity=R
+type=Creature
+subtype=Beast,Mutant
+pt=13/13
+converted=10
+cost={7}{G}{G}{G}
+color=ggg
+
+# TODO -- gen by neoe

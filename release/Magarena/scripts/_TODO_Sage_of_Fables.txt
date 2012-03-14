@@ -1,0 +1,13 @@
+>Sage of Fables
+url=http://magiccards.info/query?q=Sage+of+Fables&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sage+of+Fables
+timing=main
+rarity=U
+type=Creature
+subtype=Merfolk,Wizard
+pt=2/2
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

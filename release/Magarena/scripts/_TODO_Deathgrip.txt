@@ -1,0 +1,11 @@
+>Deathgrip
+url=http://magiccards.info/query?q=Deathgrip&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Deathgrip
+timing=main
+rarity=U
+type=Enchantment
+converted=2
+cost={B}{B}
+color=bb
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Lost in the Mist
+url=http://magiccards.info/query?q=Lost+in+the+Mist&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Lost+in+the+Mist
+timing=main
+rarity=C
+type=Instant
+converted=5
+cost={3}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

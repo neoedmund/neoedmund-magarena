@@ -1,0 +1,11 @@
+>Resuscitate
+url=http://magiccards.info/query?q=Resuscitate&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Resuscitate
+timing=main
+rarity=U
+type=Instant
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

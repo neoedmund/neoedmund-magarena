@@ -1,0 +1,13 @@
+>Wall of Putrid Flesh
+url=http://magiccards.info/query?q=Wall+of+Putrid+Flesh&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wall+of+Putrid+Flesh
+timing=main
+rarity=U
+type=Creature
+subtype=Wall
+pt=2/4
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

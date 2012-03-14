@@ -1,0 +1,13 @@
+>Spikeshot Goblin
+url=http://magiccards.info/query?q=Spikeshot+Goblin&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Spikeshot+Goblin
+timing=main
+rarity=C
+type=Creature
+subtype=Goblin,Shaman
+pt=1/2
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

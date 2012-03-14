@@ -1,0 +1,11 @@
+>Stand Firm
+url=http://magiccards.info/query?q=Stand+Firm&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Stand+Firm
+timing=main
+rarity=C
+type=Instant
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

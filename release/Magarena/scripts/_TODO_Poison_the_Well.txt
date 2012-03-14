@@ -1,0 +1,10 @@
+>Poison the Well
+url=http://magiccards.info/query?q=Poison+the+Well&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Poison+the+Well
+timing=main
+rarity=C
+type=Sorcery
+converted=12
+cost={2}{B/R}{B/R}
+
+# TODO -- gen by neoe

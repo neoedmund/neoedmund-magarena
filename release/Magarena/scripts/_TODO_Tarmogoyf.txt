@@ -1,0 +1,12 @@
+>Tarmogoyf
+url=http://magiccards.info/query?q=Tarmogoyf&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Tarmogoyf
+timing=main
+rarity=R
+type=Creature
+subtype=Lhurgoyf
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

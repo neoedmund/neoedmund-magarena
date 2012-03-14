@@ -1,0 +1,11 @@
+>Omen
+url=http://magiccards.info/query?q=Omen&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Omen
+timing=main
+rarity=C
+type=Sorcery
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Death Pit Offering
+url=http://magiccards.info/query?q=Death+Pit+Offering&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Death+Pit+Offering
+timing=main
+rarity=R
+type=Enchantment
+converted=4
+cost={2}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

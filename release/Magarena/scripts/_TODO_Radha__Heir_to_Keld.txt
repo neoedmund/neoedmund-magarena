@@ -1,0 +1,13 @@
+>Radha, Heir to Keld
+url=http://magiccards.info/query?q=Radha%2C+Heir+to+Keld&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Radha%2C+Heir+to+Keld
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Elf,Warrior
+pt=2/2
+converted=2
+cost={R}{G}
+color=rg
+
+# TODO -- gen by neoe

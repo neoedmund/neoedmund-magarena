@@ -1,0 +1,13 @@
+>Netter en-Dal
+url=http://magiccards.info/query?q=Netter+en-Dal&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Netter+en-Dal
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Spellshaper
+pt=1/1
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

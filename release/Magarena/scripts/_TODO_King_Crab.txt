@@ -1,0 +1,13 @@
+>King Crab
+url=http://magiccards.info/query?q=King+Crab&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=King+Crab
+timing=main
+rarity=U
+type=Creature
+subtype=Crab
+pt=4/5
+converted=6
+cost={4}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

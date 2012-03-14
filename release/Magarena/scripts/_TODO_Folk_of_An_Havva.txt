@@ -1,0 +1,13 @@
+>Folk of An-Havva
+url=http://magiccards.info/query?q=Folk+of+An-Havva&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Folk+of+An-Havva
+timing=main
+rarity=C
+type=Creature
+subtype=Human
+pt=1/1
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

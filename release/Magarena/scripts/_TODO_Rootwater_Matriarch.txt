@@ -1,0 +1,13 @@
+>Rootwater Matriarch
+url=http://magiccards.info/query?q=Rootwater+Matriarch&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Rootwater+Matriarch
+timing=main
+rarity=R
+type=Creature
+subtype=Merfolk
+pt=2/3
+converted=4
+cost={2}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

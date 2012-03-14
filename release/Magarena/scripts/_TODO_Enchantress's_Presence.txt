@@ -1,0 +1,11 @@
+>Enchantress's Presence
+url=http://magiccards.info/query?q=Enchantress%27s+Presence&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Enchantress%27s+Presence
+timing=main
+rarity=R
+type=Enchantment
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

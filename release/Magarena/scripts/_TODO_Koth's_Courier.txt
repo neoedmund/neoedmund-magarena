@@ -1,0 +1,13 @@
+>Koth's Courier
+url=http://magiccards.info/query?q=Koth%27s+Courier&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Koth%27s+Courier
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Rogue
+pt=2/3
+converted=3
+cost={1}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

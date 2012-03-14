@@ -1,0 +1,11 @@
+>Ertai's Meddling
+url=http://magiccards.info/query?q=Ertai%27s+Meddling&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ertai%27s+Meddling
+timing=main
+rarity=R
+type=Instant
+converted=1
+cost={X}{U}
+color=u
+
+# TODO -- gen by neoe

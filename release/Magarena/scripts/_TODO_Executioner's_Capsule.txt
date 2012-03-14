@@ -1,0 +1,11 @@
+>Executioner's Capsule
+url=http://magiccards.info/query?q=Executioner%27s+Capsule&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Executioner%27s+Capsule
+timing=main
+rarity=C
+type=Artifact
+converted=1
+cost={B}
+color=b
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Autochthon Wurm
+url=http://magiccards.info/query?q=Autochthon+Wurm&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Autochthon+Wurm
+timing=main
+rarity=R
+type=Creature
+subtype=Wurm
+pt=9/14
+converted=15
+cost={10}{G}{G}{G}{W}{W}
+color=gggww
+
+# TODO -- gen by neoe

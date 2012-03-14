@@ -1,0 +1,13 @@
+>Deepfire Elemental
+url=http://magiccards.info/query?q=Deepfire+Elemental&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Deepfire+Elemental
+timing=main
+rarity=U
+type=Creature
+subtype=Elemental
+pt=4/4
+converted=6
+cost={4}{B}{R}
+color=br
+
+# TODO -- gen by neoe

@@ -1,0 +1,12 @@
+>Genju of the Realm
+url=http://magiccards.info/query?q=Genju+of+the+Realm&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Genju+of+the+Realm
+timing=main
+rarity=R
+type=Legendary,Enchantment
+subtype=Aura
+converted=5
+cost={W}{U}{B}{R}{G}
+color=wubrg
+
+# TODO -- gen by neoe

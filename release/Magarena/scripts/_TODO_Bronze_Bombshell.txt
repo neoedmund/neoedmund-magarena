@@ -1,0 +1,12 @@
+>Bronze Bombshell
+url=http://magiccards.info/query?q=Bronze+Bombshell&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Bronze+Bombshell
+timing=main
+rarity=R
+type=Artifact,Creature
+subtype=Construct
+pt=4/1
+converted=4
+cost={4}
+
+# TODO -- gen by neoe

@@ -1,0 +1,12 @@
+>Sangrite Backlash
+url=http://magiccards.info/query?q=Sangrite+Backlash&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sangrite+Backlash
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=6
+cost={B/G}{R}
+color=r
+
+# TODO -- gen by neoe

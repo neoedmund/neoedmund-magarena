@@ -1,0 +1,13 @@
+>Longhorn Firebeast
+url=http://magiccards.info/query?q=Longhorn+Firebeast&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Longhorn+Firebeast
+timing=main
+rarity=C
+type=Creature
+subtype=Elemental,Ox,Beast
+pt=3/2
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

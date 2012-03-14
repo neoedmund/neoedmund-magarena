@@ -1,0 +1,13 @@
+>Pyreheart Wolf
+url=http://magiccards.info/query?q=Pyreheart+Wolf&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Pyreheart+Wolf
+timing=main
+rarity=U
+type=Creature
+subtype=Wolf
+pt=1/1
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

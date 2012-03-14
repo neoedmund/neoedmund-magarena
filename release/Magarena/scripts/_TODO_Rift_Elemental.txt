@@ -1,0 +1,13 @@
+>Rift Elemental
+url=http://magiccards.info/query?q=Rift+Elemental&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Rift+Elemental
+timing=main
+rarity=C
+type=Creature
+subtype=Elemental
+pt=1/1
+converted=1
+cost={R}
+color=r
+
+# TODO -- gen by neoe

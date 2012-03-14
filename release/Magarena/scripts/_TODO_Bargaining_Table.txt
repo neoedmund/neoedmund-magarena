@@ -1,0 +1,10 @@
+>Bargaining Table
+url=http://magiccards.info/query?q=Bargaining+Table&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Bargaining+Table
+timing=main
+rarity=R
+type=Artifact
+converted=5
+cost={5}
+
+# TODO -- gen by neoe

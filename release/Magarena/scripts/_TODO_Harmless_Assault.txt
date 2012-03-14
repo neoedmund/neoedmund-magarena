@@ -1,0 +1,11 @@
+>Harmless Assault
+url=http://magiccards.info/query?q=Harmless+Assault&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Harmless+Assault
+timing=main
+rarity=C
+type=Instant
+converted=4
+cost={2}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

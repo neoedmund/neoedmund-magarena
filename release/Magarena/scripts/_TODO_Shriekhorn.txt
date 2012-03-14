@@ -1,0 +1,10 @@
+>Shriekhorn
+url=http://magiccards.info/query?q=Shriekhorn&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Shriekhorn
+timing=main
+rarity=C
+type=Artifact
+converted=1
+cost={1}
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Island Fish Jasconius
+url=http://magiccards.info/query?q=Island+Fish+Jasconius&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Island+Fish+Jasconius
+timing=main
+rarity=U
+type=Creature
+subtype=Fish
+pt=6/8
+converted=7
+cost={4}{U}{U}{U}
+color=uuu
+
+# TODO -- gen by neoe

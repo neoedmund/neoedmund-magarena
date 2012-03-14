@@ -1,0 +1,11 @@
+>Return of the Nightstalkers
+url=http://magiccards.info/query?q=Return+of+the+Nightstalkers&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Return+of+the+Nightstalkers
+timing=main
+rarity=R
+type=Sorcery
+converted=7
+cost={5}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

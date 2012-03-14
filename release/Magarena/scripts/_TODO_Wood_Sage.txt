@@ -1,0 +1,13 @@
+>Wood Sage
+url=http://magiccards.info/query?q=Wood+Sage&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wood+Sage
+timing=main
+rarity=R
+type=Creature
+subtype=Human,Druid
+pt=1/1
+converted=2
+cost={G}{U}
+color=gu
+
+# TODO -- gen by neoe

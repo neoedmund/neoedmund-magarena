@@ -1,0 +1,13 @@
+>Dandan
+url=http://magiccards.info/query?q=Dandan&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dandan
+timing=main
+rarity=R
+type=Creature
+subtype=Fish
+pt=4/1
+converted=2
+cost={U}{U}
+color=uu
+
+# TODO -- gen by neoe

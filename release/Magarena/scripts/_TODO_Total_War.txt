@@ -1,0 +1,11 @@
+>Total War
+url=http://magiccards.info/query?q=Total+War&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Total+War
+timing=main
+rarity=R
+type=Enchantment
+converted=4
+cost={3}{R}
+color=r
+
+# TODO -- gen by neoe

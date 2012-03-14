@@ -1,0 +1,13 @@
+>Overeager Apprentice
+url=http://magiccards.info/query?q=Overeager+Apprentice&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Overeager+Apprentice
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Minion
+pt=1/2
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

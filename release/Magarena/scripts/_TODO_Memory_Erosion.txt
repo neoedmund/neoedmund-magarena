@@ -1,0 +1,11 @@
+>Memory Erosion
+url=http://magiccards.info/query?q=Memory+Erosion&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Memory+Erosion
+timing=main
+rarity=R
+type=Enchantment
+converted=3
+cost={1}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

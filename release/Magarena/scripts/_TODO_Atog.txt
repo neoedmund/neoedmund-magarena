@@ -1,0 +1,13 @@
+>Atog
+url=http://magiccards.info/query?q=Atog&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Atog
+timing=main
+rarity=C
+type=Creature
+subtype=Atog
+pt=1/2
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

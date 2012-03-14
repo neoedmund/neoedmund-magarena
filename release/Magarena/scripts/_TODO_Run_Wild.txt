@@ -1,0 +1,11 @@
+>Run Wild
+url=http://magiccards.info/query?q=Run+Wild&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Run+Wild
+timing=main
+rarity=U
+type=Instant
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Spore Cloud
+url=http://magiccards.info/query?q=Spore+Cloud&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Spore+Cloud
+timing=main
+rarity=C
+type=Instant
+converted=3
+cost={1}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

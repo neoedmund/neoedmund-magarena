@@ -1,0 +1,13 @@
+>Goblin Archaeologist
+url=http://magiccards.info/query?q=Goblin+Archaeologist&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Goblin+Archaeologist
+timing=main
+rarity=U
+type=Creature
+subtype=Goblin,Artificer
+pt=1/2
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

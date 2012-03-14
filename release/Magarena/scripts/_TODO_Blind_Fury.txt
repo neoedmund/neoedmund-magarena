@@ -1,0 +1,11 @@
+>Blind Fury
+url=http://magiccards.info/query?q=Blind+Fury&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Blind+Fury
+timing=main
+rarity=U
+type=Instant
+converted=4
+cost={2}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

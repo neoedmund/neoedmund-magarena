@@ -1,0 +1,13 @@
+>Sunastian Falconer
+url=http://magiccards.info/query?q=Sunastian+Falconer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sunastian+Falconer
+timing=main
+rarity=U
+type=Legendary,Creature
+subtype=Human,Shaman
+pt=4/4
+converted=5
+cost={3}{R}{G}
+color=rg
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Skittish Valesk
+url=http://magiccards.info/query?q=Skittish+Valesk&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Skittish+Valesk
+timing=main
+rarity=U
+type=Creature
+subtype=Beast
+pt=5/5
+converted=7
+cost={6}{R}
+color=r
+
+# TODO -- gen by neoe

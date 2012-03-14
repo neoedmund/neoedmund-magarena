@@ -1,0 +1,11 @@
+>Phyrexian Reclamation
+url=http://magiccards.info/query?q=Phyrexian+Reclamation&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Phyrexian+Reclamation
+timing=main
+rarity=U
+type=Enchantment
+converted=1
+cost={B}
+color=b
+
+# TODO -- gen by neoe

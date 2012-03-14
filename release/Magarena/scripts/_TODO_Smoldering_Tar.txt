@@ -1,0 +1,11 @@
+>Smoldering Tar
+url=http://magiccards.info/query?q=Smoldering+Tar&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Smoldering+Tar
+timing=main
+rarity=U
+type=Enchantment
+converted=4
+cost={2}{B}{R}
+color=br
+
+# TODO -- gen by neoe

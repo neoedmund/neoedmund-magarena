@@ -1,0 +1,11 @@
+>Recurring Insight
+url=http://magiccards.info/query?q=Recurring+Insight&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Recurring+Insight
+timing=main
+rarity=R
+type=Sorcery
+converted=6
+cost={4}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

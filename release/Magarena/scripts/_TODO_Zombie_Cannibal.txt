@@ -1,0 +1,13 @@
+>Zombie Cannibal
+url=http://magiccards.info/query?q=Zombie+Cannibal&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Zombie+Cannibal
+timing=main
+rarity=C
+type=Creature
+subtype=Zombie
+pt=1/1
+converted=1
+cost={B}
+color=b
+
+# TODO -- gen by neoe

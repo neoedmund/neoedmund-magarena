@@ -1,0 +1,11 @@
+>Hum of the Radix
+url=http://magiccards.info/query?q=Hum+of+the+Radix&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Hum+of+the+Radix
+timing=main
+rarity=R
+type=Enchantment
+converted=4
+cost={2}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

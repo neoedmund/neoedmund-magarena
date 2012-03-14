@@ -1,0 +1,13 @@
+>Telekinetic Sliver
+url=http://magiccards.info/query?q=Telekinetic+Sliver&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Telekinetic+Sliver
+timing=main
+rarity=U
+type=Creature
+subtype=Sliver
+pt=2/2
+converted=4
+cost={2}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Zektar Shrine Expedition
+url=http://magiccards.info/query?q=Zektar+Shrine+Expedition&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Zektar+Shrine+Expedition
+timing=main
+rarity=C
+type=Enchantment
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

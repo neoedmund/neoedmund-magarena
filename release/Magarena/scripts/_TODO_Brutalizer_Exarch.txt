@@ -1,0 +1,13 @@
+>Brutalizer Exarch
+url=http://magiccards.info/query?q=Brutalizer+Exarch&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Brutalizer+Exarch
+timing=main
+rarity=U
+type=Creature
+subtype=Cleric
+pt=3/3
+converted=6
+cost={5}{G}
+color=g
+
+# TODO -- gen by neoe

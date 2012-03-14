@@ -1,0 +1,11 @@
+>Overload
+url=http://magiccards.info/query?q=Overload&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Overload
+timing=main
+rarity=C
+type=Instant
+converted=1
+cost={R}
+color=r
+
+# TODO -- gen by neoe

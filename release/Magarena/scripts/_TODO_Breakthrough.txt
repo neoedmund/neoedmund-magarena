@@ -1,0 +1,11 @@
+>Breakthrough
+url=http://magiccards.info/query?q=Breakthrough&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Breakthrough
+timing=main
+rarity=U
+type=Sorcery
+converted=1
+cost={X}{U}
+color=u
+
+# TODO -- gen by neoe

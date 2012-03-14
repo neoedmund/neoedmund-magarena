@@ -1,0 +1,11 @@
+>Sunder from Within
+url=http://magiccards.info/query?q=Sunder+from+Within&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sunder+from+Within
+timing=main
+rarity=U
+type=Sorcery
+converted=4
+cost={2}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Altar Golem
+url=http://magiccards.info/query?q=Altar+Golem&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Altar+Golem
+timing=main
+rarity=R
+type=Artifact,Creature
+subtype=Golem
+converted=7
+cost={7}
+
+# TODO -- gen by neoe

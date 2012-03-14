@@ -1,0 +1,13 @@
+>AEtherplasm
+url=http://magiccards.info/query?q=AEtherplasm&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=AEtherplasm
+timing=main
+rarity=U
+type=Creature
+subtype=Illusion
+pt=1/1
+converted=4
+cost={2}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

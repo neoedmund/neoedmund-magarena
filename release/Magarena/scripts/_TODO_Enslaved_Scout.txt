@@ -1,0 +1,13 @@
+>Enslaved Scout
+url=http://magiccards.info/query?q=Enslaved+Scout&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Enslaved+Scout
+timing=main
+rarity=C
+type=Creature
+subtype=Goblin,Scout
+pt=2/2
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

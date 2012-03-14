@@ -1,0 +1,13 @@
+>Braids, Cabal Minion
+url=http://magiccards.info/query?q=Braids%2C+Cabal+Minion&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Braids%2C+Cabal+Minion
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Human,Minion
+pt=2/2
+converted=4
+cost={2}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

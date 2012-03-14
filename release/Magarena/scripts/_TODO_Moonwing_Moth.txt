@@ -1,0 +1,13 @@
+>Moonwing Moth
+url=http://magiccards.info/query?q=Moonwing+Moth&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Moonwing+Moth
+timing=main
+rarity=C
+type=Creature
+subtype=Insect
+pt=2/1
+converted=3
+cost={1}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

@@ -1,0 +1,10 @@
+>Skull Catapult
+url=http://magiccards.info/query?q=Skull+Catapult&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Skull+Catapult
+timing=main
+rarity=U
+type=Artifact
+converted=4
+cost={4}
+
+# TODO -- gen by neoe

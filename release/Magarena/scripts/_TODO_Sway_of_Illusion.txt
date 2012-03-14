@@ -1,0 +1,11 @@
+>Sway of Illusion
+url=http://magiccards.info/query?q=Sway+of+Illusion&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sway+of+Illusion
+timing=main
+rarity=U
+type=Instant
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

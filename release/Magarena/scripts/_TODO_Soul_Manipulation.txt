@@ -1,0 +1,11 @@
+>Soul Manipulation
+url=http://magiccards.info/query?q=Soul+Manipulation&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Soul+Manipulation
+timing=main
+rarity=C
+type=Instant
+converted=3
+cost={1}{U}{B}
+color=ub
+
+# TODO -- gen by neoe

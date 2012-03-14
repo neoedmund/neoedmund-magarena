@@ -1,0 +1,13 @@
+>Wormfang Newt
+url=http://magiccards.info/query?q=Wormfang+Newt&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wormfang+Newt
+timing=main
+rarity=C
+type=Creature
+subtype=Nightmare,Salamander,Beast
+pt=2/2
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Wormfang Crab
+url=http://magiccards.info/query?q=Wormfang+Crab&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wormfang+Crab
+timing=main
+rarity=U
+type=Creature
+subtype=Nightmare,Crab
+pt=3/6
+converted=4
+cost={3}{U}
+color=u
+
+# TODO -- gen by neoe

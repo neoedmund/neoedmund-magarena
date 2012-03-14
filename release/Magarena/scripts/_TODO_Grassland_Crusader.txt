@@ -1,0 +1,13 @@
+>Grassland Crusader
+url=http://magiccards.info/query?q=Grassland+Crusader&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Grassland+Crusader
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Cleric,Soldier
+pt=2/4
+converted=6
+cost={5}{W}
+color=w
+
+# TODO -- gen by neoe

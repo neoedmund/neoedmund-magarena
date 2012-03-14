@@ -1,0 +1,11 @@
+>Krovikan Rot
+url=http://magiccards.info/query?q=Krovikan+Rot&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Krovikan+Rot
+timing=main
+rarity=U
+type=Instant
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

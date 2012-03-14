@@ -1,0 +1,12 @@
+>Feedback
+url=http://magiccards.info/query?q=Feedback&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Feedback
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

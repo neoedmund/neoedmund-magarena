@@ -1,0 +1,11 @@
+>Volrath's Gardens
+url=http://magiccards.info/query?q=Volrath%27s+Gardens&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Volrath%27s+Gardens
+timing=main
+rarity=R
+type=Enchantment
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

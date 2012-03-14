@@ -1,0 +1,13 @@
+>Serpent Assassin
+url=http://magiccards.info/query?q=Serpent+Assassin&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Serpent+Assassin
+timing=main
+rarity=R
+type=Creature
+subtype=Snake,Assassin
+pt=2/2
+converted=5
+cost={3}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Abbey Gargoyles
+url=http://magiccards.info/query?q=Abbey+Gargoyles&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Abbey+Gargoyles
+timing=main
+rarity=U
+type=Creature
+subtype=Gargoyle
+pt=3/4
+converted=5
+cost={2}{W}{W}{W}
+color=www
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Syphon Soul
+url=http://magiccards.info/query?q=Syphon+Soul&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Syphon+Soul
+timing=main
+rarity=C
+type=Sorcery
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

@@ -1,0 +1,12 @@
+>Juggernaut
+url=http://magiccards.info/query?q=Juggernaut&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Juggernaut
+timing=main
+rarity=U
+type=Artifact,Creature
+subtype=Juggernaut
+pt=5/3
+converted=4
+cost={4}
+
+# TODO -- gen by neoe

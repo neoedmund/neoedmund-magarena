@@ -1,0 +1,13 @@
+>Pious Kitsune
+url=http://magiccards.info/query?q=Pious+Kitsune&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Pious+Kitsune
+timing=main
+rarity=C
+type=Creature
+subtype=Fox,Cleric
+pt=1/2
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

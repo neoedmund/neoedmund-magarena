@@ -1,0 +1,12 @@
+>Claws of Valakut
+url=http://magiccards.info/query?q=Claws+of+Valakut&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Claws+of+Valakut
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=3
+cost={1}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

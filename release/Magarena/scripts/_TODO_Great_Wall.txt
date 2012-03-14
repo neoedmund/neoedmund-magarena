@@ -1,0 +1,11 @@
+>Great Wall
+url=http://magiccards.info/query?q=Great+Wall&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Great+Wall
+timing=main
+rarity=U
+type=Enchantment
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

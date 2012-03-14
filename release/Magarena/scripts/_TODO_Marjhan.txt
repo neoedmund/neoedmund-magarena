@@ -1,0 +1,13 @@
+>Marjhan
+url=http://magiccards.info/query?q=Marjhan&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Marjhan
+timing=main
+rarity=U
+type=Creature
+subtype=Leviathan
+pt=8/8
+converted=7
+cost={5}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Thelon's Curse
+url=http://magiccards.info/query?q=Thelon%27s+Curse&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Thelon%27s+Curse
+timing=main
+rarity=U
+type=Enchantment
+converted=2
+cost={G}{G}
+color=gg
+
+# TODO -- gen by neoe

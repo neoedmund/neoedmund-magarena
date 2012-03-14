@@ -1,0 +1,13 @@
+>Borderland Ranger
+url=http://magiccards.info/query?q=Borderland+Ranger&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Borderland+Ranger
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Scout
+pt=2/2
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

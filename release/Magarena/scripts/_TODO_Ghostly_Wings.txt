@@ -1,0 +1,12 @@
+>Ghostly Wings
+url=http://magiccards.info/query?q=Ghostly+Wings&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ghostly+Wings
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

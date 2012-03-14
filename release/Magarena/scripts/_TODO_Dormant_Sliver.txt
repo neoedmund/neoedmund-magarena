@@ -1,0 +1,13 @@
+>Dormant Sliver
+url=http://magiccards.info/query?q=Dormant+Sliver&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dormant+Sliver
+timing=main
+rarity=U
+type=Creature
+subtype=Sliver
+pt=2/2
+converted=4
+cost={2}{G}{U}
+color=gu
+
+# TODO -- gen by neoe

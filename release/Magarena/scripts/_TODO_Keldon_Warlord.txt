@@ -1,0 +1,12 @@
+>Keldon Warlord
+url=http://magiccards.info/query?q=Keldon+Warlord&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Keldon+Warlord
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Barbarian
+converted=4
+cost={2}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

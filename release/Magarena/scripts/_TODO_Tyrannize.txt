@@ -1,0 +1,10 @@
+>Tyrannize
+url=http://magiccards.info/query?q=Tyrannize&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Tyrannize
+timing=main
+rarity=R
+type=Sorcery
+converted=13
+cost={3}{B/R}{B/R}
+
+# TODO -- gen by neoe

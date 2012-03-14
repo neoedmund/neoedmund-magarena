@@ -1,0 +1,13 @@
+>Sea Drake
+url=http://magiccards.info/query?q=Sea+Drake&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sea+Drake
+timing=main
+rarity=U
+type=Creature
+subtype=Drake
+pt=4/3
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

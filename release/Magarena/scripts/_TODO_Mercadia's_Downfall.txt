@@ -1,0 +1,11 @@
+>Mercadia's Downfall
+url=http://magiccards.info/query?q=Mercadia%27s+Downfall&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mercadia%27s+Downfall
+timing=main
+rarity=U
+type=Instant
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Sky Swallower
+url=http://magiccards.info/query?q=Sky+Swallower&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sky+Swallower
+timing=main
+rarity=R
+type=Creature
+subtype=Leviathan
+pt=8/8
+converted=5
+cost={3}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

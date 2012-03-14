@@ -1,0 +1,12 @@
+>Prison Term
+url=http://magiccards.info/query?q=Prison+Term&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Prison+Term
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=3
+cost={1}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

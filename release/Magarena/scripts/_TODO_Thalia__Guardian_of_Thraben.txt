@@ -1,0 +1,13 @@
+>Thalia, Guardian of Thraben
+url=http://magiccards.info/query?q=Thalia%2C+Guardian+of+Thraben&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Thalia%2C+Guardian+of+Thraben
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Human,Soldier
+pt=2/1
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

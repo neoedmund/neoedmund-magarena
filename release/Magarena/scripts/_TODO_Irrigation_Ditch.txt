@@ -1,0 +1,10 @@
+>Irrigation Ditch
+url=http://magiccards.info/query?q=Irrigation+Ditch&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Irrigation+Ditch
+timing=main
+rarity=C
+type=Land
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

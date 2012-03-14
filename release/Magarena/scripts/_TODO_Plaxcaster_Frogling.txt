@@ -1,0 +1,13 @@
+>Plaxcaster Frogling
+url=http://magiccards.info/query?q=Plaxcaster+Frogling&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Plaxcaster+Frogling
+timing=main
+rarity=U
+type=Creature
+subtype=Frog,Mutant
+pt=0/0
+converted=3
+cost={1}{G}{U}
+color=gu
+
+# TODO -- gen by neoe

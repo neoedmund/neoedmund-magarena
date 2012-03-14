@@ -1,0 +1,13 @@
+>Willbender
+url=http://magiccards.info/query?q=Willbender&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Willbender
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Wizard
+pt=1/2
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

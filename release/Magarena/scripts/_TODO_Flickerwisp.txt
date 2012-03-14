@@ -1,0 +1,13 @@
+>Flickerwisp
+url=http://magiccards.info/query?q=Flickerwisp&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Flickerwisp
+timing=main
+rarity=U
+type=Creature
+subtype=Elemental
+pt=3/1
+converted=3
+cost={1}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

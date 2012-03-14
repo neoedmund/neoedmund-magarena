@@ -1,0 +1,13 @@
+>Lightning Serpent
+url=http://magiccards.info/query?q=Lightning+Serpent&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Lightning+Serpent
+timing=main
+rarity=R
+type=Creature
+subtype=Elemental,Serpent
+pt=2/1
+converted=1
+cost={X}{R}
+color=r
+
+# TODO -- gen by neoe

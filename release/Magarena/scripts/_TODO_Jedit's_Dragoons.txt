@@ -1,0 +1,13 @@
+>Jedit's Dragoons
+url=http://magiccards.info/query?q=Jedit%27s+Dragoons&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Jedit%27s+Dragoons
+timing=main
+rarity=C
+type=Creature
+subtype=Cat,Soldier
+pt=2/5
+converted=6
+cost={5}{W}
+color=w
+
+# TODO -- gen by neoe

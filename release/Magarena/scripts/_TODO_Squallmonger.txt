@@ -1,0 +1,13 @@
+>Squallmonger
+url=http://magiccards.info/query?q=Squallmonger&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Squallmonger
+timing=main
+rarity=U
+type=Creature
+subtype=Monger
+pt=3/3
+converted=4
+cost={3}{G}
+color=g
+
+# TODO -- gen by neoe

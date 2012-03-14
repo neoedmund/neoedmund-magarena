@@ -1,0 +1,12 @@
+>Steal Enchantment
+url=http://magiccards.info/query?q=Steal+Enchantment&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Steal+Enchantment
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=2
+cost={U}{U}
+color=uu
+
+# TODO -- gen by neoe

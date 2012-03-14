@@ -1,0 +1,13 @@
+>White Shield Crusader
+url=http://magiccards.info/query?q=White+Shield+Crusader&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=White+Shield+Crusader
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Knight
+pt=2/1
+converted=2
+cost={W}{W}
+color=ww
+
+# TODO -- gen by neoe

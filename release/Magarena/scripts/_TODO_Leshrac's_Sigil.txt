@@ -1,0 +1,11 @@
+>Leshrac's Sigil
+url=http://magiccards.info/query?q=Leshrac%27s+Sigil&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Leshrac%27s+Sigil
+timing=main
+rarity=U
+type=Enchantment
+converted=2
+cost={B}{B}
+color=bb
+
+# TODO -- gen by neoe

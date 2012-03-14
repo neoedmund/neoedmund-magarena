@@ -1,0 +1,13 @@
+>Mausoleum Turnkey
+url=http://magiccards.info/query?q=Mausoleum+Turnkey&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mausoleum+Turnkey
+timing=main
+rarity=U
+type=Creature
+subtype=Ogre,Rogue
+pt=3/2
+converted=4
+cost={3}{B}
+color=b
+
+# TODO -- gen by neoe

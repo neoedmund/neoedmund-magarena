@@ -1,0 +1,11 @@
+>Gift of the Gargantuan
+url=http://magiccards.info/query?q=Gift+of+the+Gargantuan&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Gift+of+the+Gargantuan
+timing=main
+rarity=C
+type=Sorcery
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

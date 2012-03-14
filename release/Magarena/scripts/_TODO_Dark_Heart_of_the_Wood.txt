@@ -1,0 +1,11 @@
+>Dark Heart of the Wood
+url=http://magiccards.info/query?q=Dark+Heart+of+the+Wood&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dark+Heart+of+the+Wood
+timing=main
+rarity=U
+type=Enchantment
+converted=2
+cost={B}{G}
+color=bg
+
+# TODO -- gen by neoe

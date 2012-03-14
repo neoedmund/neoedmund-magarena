@@ -1,0 +1,13 @@
+>Safehold Sentry
+url=http://magiccards.info/query?q=Safehold+Sentry&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Safehold+Sentry
+timing=main
+rarity=C
+type=Creature
+subtype=Elf,Warrior
+pt=2/2
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

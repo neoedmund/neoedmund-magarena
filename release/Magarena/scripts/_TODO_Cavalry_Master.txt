@@ -1,0 +1,13 @@
+>Cavalry Master
+url=http://magiccards.info/query?q=Cavalry+Master&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Cavalry+Master
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Knight
+pt=3/3
+converted=4
+cost={2}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

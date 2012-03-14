@@ -1,0 +1,13 @@
+>Centaur Archer
+url=http://magiccards.info/query?q=Centaur+Archer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Centaur+Archer
+timing=main
+rarity=U
+type=Creature
+subtype=Centaur,Archer
+pt=3/2
+converted=3
+cost={1}{R}{G}
+color=rg
+
+# TODO -- gen by neoe

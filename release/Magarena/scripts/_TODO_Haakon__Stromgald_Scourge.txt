@@ -1,0 +1,13 @@
+>Haakon, Stromgald Scourge
+url=http://magiccards.info/query?q=Haakon%2C+Stromgald+Scourge&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Haakon%2C+Stromgald+Scourge
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Zombie,Knight
+pt=3/3
+converted=3
+cost={1}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

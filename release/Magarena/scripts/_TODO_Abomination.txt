@@ -1,0 +1,13 @@
+>Abomination
+url=http://magiccards.info/query?q=Abomination&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Abomination
+timing=main
+rarity=U
+type=Creature
+subtype=Horror
+pt=2/6
+converted=5
+cost={3}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

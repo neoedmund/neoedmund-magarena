@@ -1,0 +1,12 @@
+>Quillspike
+url=http://magiccards.info/query?q=Quillspike&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Quillspike
+timing=main
+rarity=U
+type=Creature
+subtype=Beast
+pt=1/1
+converted=7
+cost={2}{B/G}
+
+# TODO -- gen by neoe

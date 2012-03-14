@@ -1,0 +1,12 @@
+>Caribou Range
+url=http://magiccards.info/query?q=Caribou+Range&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Caribou+Range
+timing=main
+rarity=R
+type=Enchantment
+subtype=Aura
+converted=4
+cost={2}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

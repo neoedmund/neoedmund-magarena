@@ -1,0 +1,11 @@
+>Vorrac Battlehorns
+url=http://magiccards.info/query?q=Vorrac+Battlehorns&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Vorrac+Battlehorns
+timing=main
+rarity=C
+type=Artifact
+subtype=Equipment
+converted=2
+cost={2}
+
+# TODO -- gen by neoe

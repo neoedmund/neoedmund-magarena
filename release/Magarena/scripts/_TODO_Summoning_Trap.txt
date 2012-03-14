@@ -1,0 +1,11 @@
+>Summoning Trap
+url=http://magiccards.info/query?q=Summoning+Trap&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Summoning+Trap
+timing=main
+rarity=R
+type=Instant
+converted=6
+cost={4}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

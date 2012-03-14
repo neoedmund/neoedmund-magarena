@@ -1,0 +1,13 @@
+>Vertigo Spawn
+url=http://magiccards.info/query?q=Vertigo+Spawn&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Vertigo+Spawn
+timing=main
+rarity=U
+type=Creature
+subtype=Illusion
+pt=0/3
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

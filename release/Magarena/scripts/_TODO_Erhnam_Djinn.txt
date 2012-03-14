@@ -1,0 +1,13 @@
+>Erhnam Djinn
+url=http://magiccards.info/query?q=Erhnam+Djinn&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Erhnam+Djinn
+timing=main
+rarity=C
+type=Creature
+subtype=Djinn
+pt=4/5
+converted=4
+cost={3}{G}
+color=g
+
+# TODO -- gen by neoe

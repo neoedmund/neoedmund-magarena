@@ -1,0 +1,13 @@
+>Boldwyr Intimidator
+url=http://magiccards.info/query?q=Boldwyr+Intimidator&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Boldwyr+Intimidator
+timing=main
+rarity=U
+type=Creature
+subtype=Giant,Warrior
+pt=5/5
+converted=7
+cost={5}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

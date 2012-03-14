@@ -1,0 +1,11 @@
+>Orim's Thunder
+url=http://magiccards.info/query?q=Orim%27s+Thunder&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Orim%27s+Thunder
+timing=main
+rarity=C
+type=Instant
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

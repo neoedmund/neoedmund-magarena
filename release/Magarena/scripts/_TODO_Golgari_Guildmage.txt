@@ -1,0 +1,12 @@
+>Golgari Guildmage
+url=http://magiccards.info/query?q=Golgari+Guildmage&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Golgari+Guildmage
+timing=main
+rarity=U
+type=Creature
+subtype=Elf,Shaman
+pt=2/2
+converted=10
+cost={B/G}{B/G}
+
+# TODO -- gen by neoe

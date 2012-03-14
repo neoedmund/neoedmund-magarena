@@ -1,0 +1,13 @@
+>Droning Bureaucrats
+url=http://magiccards.info/query?q=Droning+Bureaucrats&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Droning+Bureaucrats
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Advisor
+pt=1/4
+converted=4
+cost={3}{W}
+color=w
+
+# TODO -- gen by neoe

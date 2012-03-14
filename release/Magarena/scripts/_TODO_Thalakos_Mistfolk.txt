@@ -1,0 +1,13 @@
+>Thalakos Mistfolk
+url=http://magiccards.info/query?q=Thalakos+Mistfolk&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Thalakos+Mistfolk
+timing=main
+rarity=C
+type=Creature
+subtype=Thalakos,Illusion
+pt=2/1
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

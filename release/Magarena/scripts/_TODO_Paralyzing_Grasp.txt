@@ -1,0 +1,12 @@
+>Paralyzing Grasp
+url=http://magiccards.info/query?q=Paralyzing+Grasp&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Paralyzing+Grasp
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

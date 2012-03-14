@@ -1,0 +1,12 @@
+>Blightsteel Colossus
+url=http://magiccards.info/query?q=Blightsteel+Colossus&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Blightsteel+Colossus
+timing=main
+rarity=M
+type=Artifact,Creature
+subtype=Golem
+pt=11/11
+converted=12
+cost={12}
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Full Moon's Rise
+url=http://magiccards.info/query?q=Full+Moon%27s+Rise&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Full+Moon%27s+Rise
+timing=main
+rarity=U
+type=Enchantment
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

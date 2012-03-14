@@ -1,0 +1,11 @@
+>Vigor Mortis
+url=http://magiccards.info/query?q=Vigor+Mortis&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Vigor+Mortis
+timing=main
+rarity=U
+type=Sorcery
+converted=4
+cost={2}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

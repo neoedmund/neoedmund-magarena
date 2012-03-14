@@ -1,0 +1,12 @@
+>Demonic Appetite
+url=http://magiccards.info/query?q=Demonic+Appetite&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Demonic+Appetite
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=1
+cost={B}
+color=b
+
+# TODO -- gen by neoe

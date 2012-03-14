@@ -1,0 +1,10 @@
+>Barren Moor
+url=http://magiccards.info/query?q=Barren+Moor&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Barren+Moor
+timing=main
+rarity=C
+type=Land
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

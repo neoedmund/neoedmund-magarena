@@ -1,0 +1,13 @@
+>Treefolk Harbinger
+url=http://magiccards.info/query?q=Treefolk+Harbinger&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Treefolk+Harbinger
+timing=main
+rarity=U
+type=Creature
+subtype=Treefolk,Druid
+pt=0/3
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

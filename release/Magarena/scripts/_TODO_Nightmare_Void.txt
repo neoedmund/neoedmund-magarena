@@ -1,0 +1,11 @@
+>Nightmare Void
+url=http://magiccards.info/query?q=Nightmare+Void&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Nightmare+Void
+timing=main
+rarity=U
+type=Sorcery
+converted=4
+cost={3}{B}
+color=b
+
+# TODO -- gen by neoe

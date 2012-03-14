@@ -1,0 +1,11 @@
+>Crippling Fatigue
+url=http://magiccards.info/query?q=Crippling+Fatigue&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Crippling+Fatigue
+timing=main
+rarity=C
+type=Sorcery
+converted=3
+cost={1}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

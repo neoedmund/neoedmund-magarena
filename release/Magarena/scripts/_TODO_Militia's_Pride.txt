@@ -1,0 +1,12 @@
+>Militia's Pride
+url=http://magiccards.info/query?q=Militia%27s+Pride&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Militia%27s+Pride
+timing=main
+rarity=R
+type=Tribal,Enchantment
+subtype=Kithkin
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

@@ -1,0 +1,12 @@
+>Funeral March
+url=http://magiccards.info/query?q=Funeral+March&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Funeral+March
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=3
+cost={1}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Markov Warlord
+url=http://magiccards.info/query?q=Markov+Warlord&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Markov+Warlord
+timing=main
+rarity=U
+type=Creature
+subtype=Vampire,Warrior
+pt=4/4
+converted=6
+cost={5}{R}
+color=r
+
+# TODO -- gen by neoe

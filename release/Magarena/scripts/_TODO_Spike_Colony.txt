@@ -1,0 +1,13 @@
+>Spike Colony
+url=http://magiccards.info/query?q=Spike+Colony&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Spike+Colony
+timing=main
+rarity=C
+type=Creature
+subtype=Spike
+pt=0/0
+converted=5
+cost={4}{G}
+color=g
+
+# TODO -- gen by neoe

@@ -1,0 +1,12 @@
+>Myr Sire
+url=http://magiccards.info/query?q=Myr+Sire&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Myr+Sire
+timing=main
+rarity=C
+type=Artifact,Creature
+subtype=Myr
+pt=1/1
+converted=2
+cost={2}
+
+# TODO -- gen by neoe

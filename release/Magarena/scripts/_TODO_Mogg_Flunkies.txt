@@ -1,0 +1,13 @@
+>Mogg Flunkies
+url=http://magiccards.info/query?q=Mogg+Flunkies&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mogg+Flunkies
+timing=main
+rarity=C
+type=Creature
+subtype=Goblin
+pt=3/3
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

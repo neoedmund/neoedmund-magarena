@@ -1,0 +1,13 @@
+>Death's-Head Buzzard
+url=http://magiccards.info/query?q=Death%27s-Head+Buzzard&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Death%27s-Head+Buzzard
+timing=main
+rarity=C
+type=Creature
+subtype=Bird
+pt=2/1
+converted=3
+cost={1}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

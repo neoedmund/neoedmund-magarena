@@ -1,0 +1,13 @@
+>Benalish Emissary
+url=http://magiccards.info/query?q=Benalish+Emissary&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Benalish+Emissary
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Wizard
+pt=1/4
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

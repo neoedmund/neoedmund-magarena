@@ -1,0 +1,13 @@
+>Waterspout Djinn
+url=http://magiccards.info/query?q=Waterspout+Djinn&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Waterspout+Djinn
+timing=main
+rarity=U
+type=Creature
+subtype=Djinn
+pt=4/4
+converted=4
+cost={2}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

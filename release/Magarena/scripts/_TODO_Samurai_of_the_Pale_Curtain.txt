@@ -1,0 +1,13 @@
+>Samurai of the Pale Curtain
+url=http://magiccards.info/query?q=Samurai+of+the+Pale+Curtain&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Samurai+of+the+Pale+Curtain
+timing=main
+rarity=U
+type=Creature
+subtype=Fox,Samurai
+pt=2/2
+converted=2
+cost={W}{W}
+color=ww
+
+# TODO -- gen by neoe

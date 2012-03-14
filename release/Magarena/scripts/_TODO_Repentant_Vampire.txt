@@ -1,0 +1,13 @@
+>Repentant Vampire
+url=http://magiccards.info/query?q=Repentant+Vampire&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Repentant+Vampire
+timing=main
+rarity=R
+type=Creature
+subtype=Vampire
+pt=3/3
+converted=5
+cost={3}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

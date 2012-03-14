@@ -1,0 +1,11 @@
+>Reconstruction
+url=http://magiccards.info/query?q=Reconstruction&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Reconstruction
+timing=main
+rarity=C
+type=Sorcery
+converted=1
+cost={U}
+color=u
+
+# TODO -- gen by neoe

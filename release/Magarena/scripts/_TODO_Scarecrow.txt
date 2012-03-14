@@ -1,0 +1,12 @@
+>Scarecrow
+url=http://magiccards.info/query?q=Scarecrow&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Scarecrow
+timing=main
+rarity=U
+type=Artifact,Creature
+subtype=Scarecrow
+pt=2/2
+converted=5
+cost={5}
+
+# TODO -- gen by neoe

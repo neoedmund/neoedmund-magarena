@@ -1,0 +1,11 @@
+>Touch of Vitae
+url=http://magiccards.info/query?q=Touch+of+Vitae&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Touch+of+Vitae
+timing=main
+rarity=U
+type=Instant
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

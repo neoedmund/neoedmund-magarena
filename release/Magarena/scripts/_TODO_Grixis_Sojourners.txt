@@ -1,0 +1,13 @@
+>Grixis Sojourners
+url=http://magiccards.info/query?q=Grixis+Sojourners&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Grixis+Sojourners
+timing=main
+rarity=C
+type=Creature
+subtype=Zombie,Ogre
+pt=4/3
+converted=4
+cost={1}{U}{B}{R}
+color=ubr
+
+# TODO -- gen by neoe

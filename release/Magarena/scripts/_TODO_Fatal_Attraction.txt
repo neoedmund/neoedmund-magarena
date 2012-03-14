@@ -1,0 +1,12 @@
+>Fatal Attraction
+url=http://magiccards.info/query?q=Fatal+Attraction&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Fatal+Attraction
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

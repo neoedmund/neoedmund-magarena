@@ -1,0 +1,13 @@
+>Greatbow Doyen
+url=http://magiccards.info/query?q=Greatbow+Doyen&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Greatbow+Doyen
+timing=main
+rarity=R
+type=Creature
+subtype=Elf,Archer
+pt=2/4
+converted=5
+cost={4}{G}
+color=g
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Bird Maiden
+url=http://magiccards.info/query?q=Bird+Maiden&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Bird+Maiden
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Bird
+pt=1/2
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

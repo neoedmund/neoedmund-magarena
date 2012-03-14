@@ -1,0 +1,12 @@
+>Vigilance
+url=http://magiccards.info/query?q=Vigilance&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Vigilance
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

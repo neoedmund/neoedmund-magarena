@@ -1,0 +1,13 @@
+>Michiko Konda, Truth Seeker
+url=http://magiccards.info/query?q=Michiko+Konda%2C+Truth+Seeker&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Michiko+Konda%2C+Truth+Seeker
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Human,Advisor
+pt=2/2
+converted=4
+cost={3}{W}
+color=w
+
+# TODO -- gen by neoe

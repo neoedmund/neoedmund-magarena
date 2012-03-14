@@ -1,0 +1,10 @@
+>Vitu-Ghazi, the City-Tree
+url=http://magiccards.info/query?q=Vitu-Ghazi%2C+the+City-Tree&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Vitu-Ghazi%2C+the+City-Tree
+timing=main
+rarity=U
+type=Land
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

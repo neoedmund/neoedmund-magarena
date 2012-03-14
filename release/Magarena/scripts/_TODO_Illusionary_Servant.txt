@@ -1,0 +1,13 @@
+>Illusionary Servant
+url=http://magiccards.info/query?q=Illusionary+Servant&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Illusionary+Servant
+timing=main
+rarity=C
+type=Creature
+subtype=Illusion
+pt=3/4
+converted=3
+cost={1}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

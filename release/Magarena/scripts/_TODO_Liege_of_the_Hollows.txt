@@ -1,0 +1,13 @@
+>Liege of the Hollows
+url=http://magiccards.info/query?q=Liege+of+the+Hollows&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Liege+of+the+Hollows
+timing=main
+rarity=R
+type=Creature
+subtype=Spirit
+pt=3/4
+converted=4
+cost={2}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

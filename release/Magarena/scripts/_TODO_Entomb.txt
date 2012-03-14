@@ -1,0 +1,11 @@
+>Entomb
+url=http://magiccards.info/query?q=Entomb&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Entomb
+timing=main
+rarity=R
+type=Instant
+converted=1
+cost={B}
+color=b
+
+# TODO -- gen by neoe

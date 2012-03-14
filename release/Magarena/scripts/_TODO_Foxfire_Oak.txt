@@ -1,0 +1,13 @@
+>Foxfire Oak
+url=http://magiccards.info/query?q=Foxfire+Oak&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Foxfire+Oak
+timing=main
+rarity=C
+type=Creature
+subtype=Treefolk,Shaman
+pt=3/6
+converted=6
+cost={5}{G}
+color=g
+
+# TODO -- gen by neoe

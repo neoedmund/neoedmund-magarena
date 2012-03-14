@@ -1,0 +1,12 @@
+>Azorius Guildmage
+url=http://magiccards.info/query?q=Azorius+Guildmage&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Azorius+Guildmage
+timing=main
+rarity=U
+type=Creature
+subtype=Vedalken,Wizard
+pt=2/2
+converted=10
+cost={W/U}{W/U}
+
+# TODO -- gen by neoe

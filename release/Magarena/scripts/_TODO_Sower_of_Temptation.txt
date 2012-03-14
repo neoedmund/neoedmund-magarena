@@ -1,0 +1,13 @@
+>Sower of Temptation
+url=http://magiccards.info/query?q=Sower+of+Temptation&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sower+of+Temptation
+timing=main
+rarity=R
+type=Creature
+subtype=Faerie,Wizard
+pt=2/2
+converted=4
+cost={2}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

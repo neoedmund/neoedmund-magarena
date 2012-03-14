@@ -1,0 +1,13 @@
+>Electric Eel
+url=http://magiccards.info/query?q=Electric+Eel&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Electric+Eel
+timing=main
+rarity=U
+type=Creature
+subtype=Fish
+pt=1/1
+converted=1
+cost={U}
+color=u
+
+# TODO -- gen by neoe

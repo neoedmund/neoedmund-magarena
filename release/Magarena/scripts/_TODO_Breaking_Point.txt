@@ -1,0 +1,11 @@
+>Breaking Point
+url=http://magiccards.info/query?q=Breaking+Point&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Breaking+Point
+timing=main
+rarity=R
+type=Sorcery
+converted=3
+cost={1}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

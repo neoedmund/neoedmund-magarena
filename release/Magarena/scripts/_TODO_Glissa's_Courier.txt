@@ -1,0 +1,13 @@
+>Glissa's Courier
+url=http://magiccards.info/query?q=Glissa%27s+Courier&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Glissa%27s+Courier
+timing=main
+rarity=C
+type=Creature
+subtype=Horror
+pt=2/3
+converted=3
+cost={1}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

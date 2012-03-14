@@ -1,0 +1,11 @@
+>Spider Spawning
+url=http://magiccards.info/query?q=Spider+Spawning&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Spider+Spawning
+timing=main
+rarity=U
+type=Sorcery
+converted=5
+cost={4}{G}
+color=g
+
+# TODO -- gen by neoe

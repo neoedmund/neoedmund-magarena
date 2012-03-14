@@ -1,0 +1,11 @@
+>Sea Kings' Blessing
+url=http://magiccards.info/query?q=Sea+Kings%27+Blessing&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sea+Kings%27+Blessing
+timing=main
+rarity=U
+type=Instant
+converted=1
+cost={U}
+color=u
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Three Wishes
+url=http://magiccards.info/query?q=Three+Wishes&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Three+Wishes
+timing=main
+rarity=R
+type=Instant
+converted=3
+cost={1}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

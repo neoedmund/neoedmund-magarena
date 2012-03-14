@@ -1,0 +1,11 @@
+>Parallel Evolution
+url=http://magiccards.info/query?q=Parallel+Evolution&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Parallel+Evolution
+timing=main
+rarity=R
+type=Sorcery
+converted=5
+cost={3}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

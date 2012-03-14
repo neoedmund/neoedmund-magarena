@@ -1,0 +1,13 @@
+>Charnelhoard Wurm
+url=http://magiccards.info/query?q=Charnelhoard+Wurm&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Charnelhoard+Wurm
+timing=main
+rarity=R
+type=Creature
+subtype=Wurm
+pt=6/6
+converted=7
+cost={4}{B}{R}{G}
+color=brg
+
+# TODO -- gen by neoe

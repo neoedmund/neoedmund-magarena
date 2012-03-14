@@ -1,0 +1,13 @@
+>Joraga Treespeaker
+url=http://magiccards.info/query?q=Joraga+Treespeaker&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Joraga+Treespeaker
+timing=main
+rarity=U
+type=Creature
+subtype=Elf,Druid
+pt=1/1
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

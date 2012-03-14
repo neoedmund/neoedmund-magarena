@@ -1,0 +1,13 @@
+>Lotus Cobra
+url=http://magiccards.info/query?q=Lotus+Cobra&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Lotus+Cobra
+timing=main
+rarity=M
+type=Creature
+subtype=Snake
+pt=2/1
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

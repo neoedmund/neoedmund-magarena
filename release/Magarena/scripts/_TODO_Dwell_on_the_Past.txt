@@ -1,0 +1,11 @@
+>Dwell on the Past
+url=http://magiccards.info/query?q=Dwell+on+the+Past&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dwell+on+the+Past
+timing=main
+rarity=U
+type=Sorcery
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

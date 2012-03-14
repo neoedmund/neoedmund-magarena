@@ -1,0 +1,13 @@
+>Noble Vestige
+url=http://magiccards.info/query?q=Noble+Vestige&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Noble+Vestige
+timing=main
+rarity=C
+type=Creature
+subtype=Spirit
+pt=1/2
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

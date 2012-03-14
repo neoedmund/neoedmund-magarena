@@ -1,0 +1,11 @@
+>Strip Bare
+url=http://magiccards.info/query?q=Strip+Bare&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Strip+Bare
+timing=main
+rarity=C
+type=Instant
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

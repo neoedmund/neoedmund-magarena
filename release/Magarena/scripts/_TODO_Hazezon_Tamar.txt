@@ -1,0 +1,13 @@
+>Hazezon Tamar
+url=http://magiccards.info/query?q=Hazezon+Tamar&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Hazezon+Tamar
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Human,Warrior
+pt=2/4
+converted=7
+cost={4}{R}{G}{W}
+color=rgw
+
+# TODO -- gen by neoe

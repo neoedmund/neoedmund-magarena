@@ -1,0 +1,11 @@
+>Aura Flux
+url=http://magiccards.info/query?q=Aura+Flux&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Aura+Flux
+timing=main
+rarity=C
+type=Enchantment
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

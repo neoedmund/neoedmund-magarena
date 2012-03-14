@@ -1,0 +1,11 @@
+>Twisted Justice
+url=http://magiccards.info/query?q=Twisted+Justice&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Twisted+Justice
+timing=main
+rarity=U
+type=Sorcery
+converted=6
+cost={4}{U}{B}
+color=ub
+
+# TODO -- gen by neoe

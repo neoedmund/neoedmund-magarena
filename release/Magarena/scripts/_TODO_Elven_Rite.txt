@@ -1,0 +1,11 @@
+>Elven Rite
+url=http://magiccards.info/query?q=Elven+Rite&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Elven+Rite
+timing=main
+rarity=U
+type=Sorcery
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

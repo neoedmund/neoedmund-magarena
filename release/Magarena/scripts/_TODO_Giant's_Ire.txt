@@ -1,0 +1,12 @@
+>Giant's Ire
+url=http://magiccards.info/query?q=Giant%27s+Ire&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Giant%27s+Ire
+timing=main
+rarity=C
+type=Tribal,Sorcery
+subtype=Giant
+converted=4
+cost={3}{R}
+color=r
+
+# TODO -- gen by neoe

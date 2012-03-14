@@ -1,0 +1,12 @@
+>Enslave
+url=http://magiccards.info/query?q=Enslave&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Enslave
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=6
+cost={4}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

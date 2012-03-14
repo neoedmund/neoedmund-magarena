@@ -1,0 +1,13 @@
+>Kor Outfitter
+url=http://magiccards.info/query?q=Kor+Outfitter&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Kor+Outfitter
+timing=main
+rarity=C
+type=Creature
+subtype=Kor,Soldier
+pt=2/2
+converted=2
+cost={W}{W}
+color=ww
+
+# TODO -- gen by neoe

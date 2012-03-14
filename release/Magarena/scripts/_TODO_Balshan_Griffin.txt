@@ -1,0 +1,13 @@
+>Balshan Griffin
+url=http://magiccards.info/query?q=Balshan+Griffin&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Balshan+Griffin
+timing=main
+rarity=U
+type=Creature
+subtype=Griffin
+pt=3/2
+converted=5
+cost={3}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

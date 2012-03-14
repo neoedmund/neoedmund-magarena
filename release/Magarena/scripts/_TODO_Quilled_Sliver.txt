@@ -1,0 +1,13 @@
+>Quilled Sliver
+url=http://magiccards.info/query?q=Quilled+Sliver&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Quilled+Sliver
+timing=main
+rarity=U
+type=Creature
+subtype=Sliver
+pt=1/1
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Ebon Drake
+url=http://magiccards.info/query?q=Ebon+Drake&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ebon+Drake
+timing=main
+rarity=U
+type=Creature
+subtype=Drake
+pt=3/3
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

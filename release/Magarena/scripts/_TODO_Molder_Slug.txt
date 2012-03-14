@@ -1,0 +1,13 @@
+>Molder Slug
+url=http://magiccards.info/query?q=Molder+Slug&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Molder+Slug
+timing=main
+rarity=R
+type=Creature
+subtype=Slug,Beast
+pt=4/6
+converted=5
+cost={3}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

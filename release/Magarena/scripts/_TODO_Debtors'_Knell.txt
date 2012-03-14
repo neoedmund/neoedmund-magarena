@@ -1,0 +1,10 @@
+>Debtors' Knell
+url=http://magiccards.info/query?q=Debtors%27+Knell&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Debtors%27+Knell
+timing=main
+rarity=R
+type=Enchantment
+converted=19
+cost={4}{W/B}{W/B}{W/B}
+
+# TODO -- gen by neoe

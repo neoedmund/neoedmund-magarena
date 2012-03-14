@@ -1,0 +1,13 @@
+>Rakeclaw Gargantuan
+url=http://magiccards.info/query?q=Rakeclaw+Gargantuan&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Rakeclaw+Gargantuan
+timing=main
+rarity=C
+type=Creature
+subtype=Beast
+pt=5/3
+converted=5
+cost={2}{R}{G}{W}
+color=rgw
+
+# TODO -- gen by neoe

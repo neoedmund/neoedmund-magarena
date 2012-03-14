@@ -1,0 +1,13 @@
+>Beast Walkers
+url=http://magiccards.info/query?q=Beast+Walkers&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Beast+Walkers
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Beast,Soldier
+pt=2/2
+converted=3
+cost={1}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

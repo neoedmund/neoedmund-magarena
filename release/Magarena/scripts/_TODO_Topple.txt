@@ -1,0 +1,11 @@
+>Topple
+url=http://magiccards.info/query?q=Topple&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Topple
+timing=main
+rarity=C
+type=Sorcery
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

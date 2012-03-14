@@ -1,0 +1,13 @@
+>Warren-Scourge Elf
+url=http://magiccards.info/query?q=Warren-Scourge+Elf&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Warren-Scourge+Elf
+timing=main
+rarity=C
+type=Creature
+subtype=Elf,Warrior
+pt=1/1
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

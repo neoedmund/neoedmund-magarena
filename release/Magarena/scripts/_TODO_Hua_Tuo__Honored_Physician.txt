@@ -1,0 +1,13 @@
+>Hua Tuo, Honored Physician
+url=http://magiccards.info/query?q=Hua+Tuo%2C+Honored+Physician&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Hua+Tuo%2C+Honored+Physician
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Human
+pt=1/2
+converted=3
+cost={1}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

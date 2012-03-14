@@ -1,0 +1,11 @@
+>Exclusion Ritual
+url=http://magiccards.info/query?q=Exclusion+Ritual&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Exclusion+Ritual
+timing=main
+rarity=U
+type=Enchantment
+converted=6
+cost={4}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Spitting Spider
+url=http://magiccards.info/query?q=Spitting+Spider&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Spitting+Spider
+timing=main
+rarity=U
+type=Creature
+subtype=Spider
+pt=3/5
+converted=5
+cost={3}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

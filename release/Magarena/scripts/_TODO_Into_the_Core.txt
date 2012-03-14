@@ -1,0 +1,11 @@
+>Into the Core
+url=http://magiccards.info/query?q=Into+the+Core&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Into+the+Core
+timing=main
+rarity=U
+type=Instant
+converted=4
+cost={2}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

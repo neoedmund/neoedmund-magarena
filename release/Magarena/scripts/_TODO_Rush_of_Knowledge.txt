@@ -1,0 +1,11 @@
+>Rush of Knowledge
+url=http://magiccards.info/query?q=Rush+of+Knowledge&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Rush+of+Knowledge
+timing=main
+rarity=C
+type=Sorcery
+converted=5
+cost={4}{U}
+color=u
+
+# TODO -- gen by neoe

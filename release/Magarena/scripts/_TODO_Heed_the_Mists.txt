@@ -1,0 +1,11 @@
+>Heed the Mists
+url=http://magiccards.info/query?q=Heed+the+Mists&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Heed+the+Mists
+timing=main
+rarity=U
+type=Sorcery
+converted=5
+cost={3}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

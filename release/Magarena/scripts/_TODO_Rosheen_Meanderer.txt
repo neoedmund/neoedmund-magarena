@@ -1,0 +1,12 @@
+>Rosheen Meanderer
+url=http://magiccards.info/query?q=Rosheen+Meanderer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Rosheen+Meanderer
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Giant,Shaman
+pt=4/4
+converted=8
+cost={3}{R/G}
+
+# TODO -- gen by neoe

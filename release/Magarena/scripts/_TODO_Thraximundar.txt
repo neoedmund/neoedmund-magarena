@@ -1,0 +1,13 @@
+>Thraximundar
+url=http://magiccards.info/query?q=Thraximundar&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Thraximundar
+timing=main
+rarity=M
+type=Legendary,Creature
+subtype=Zombie,Assassin
+pt=6/6
+converted=7
+cost={4}{U}{B}{R}
+color=ubr
+
+# TODO -- gen by neoe

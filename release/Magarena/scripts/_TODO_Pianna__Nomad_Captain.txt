@@ -1,0 +1,13 @@
+>Pianna, Nomad Captain
+url=http://magiccards.info/query?q=Pianna%2C+Nomad+Captain&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Pianna%2C+Nomad+Captain
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Human,Nomad
+pt=2/2
+converted=3
+cost={1}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

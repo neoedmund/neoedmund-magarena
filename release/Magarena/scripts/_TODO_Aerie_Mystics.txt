@@ -1,0 +1,13 @@
+>Aerie Mystics
+url=http://magiccards.info/query?q=Aerie+Mystics&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Aerie+Mystics
+timing=main
+rarity=U
+type=Creature
+subtype=Bird,Wizard
+pt=3/3
+converted=5
+cost={4}{W}
+color=w
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Mindlash Sliver
+url=http://magiccards.info/query?q=Mindlash+Sliver&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mindlash+Sliver
+timing=main
+rarity=C
+type=Creature
+subtype=Sliver
+pt=1/1
+converted=1
+cost={B}
+color=b
+
+# TODO -- gen by neoe

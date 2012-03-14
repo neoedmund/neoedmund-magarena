@@ -1,0 +1,10 @@
+>Jabari's Banner
+url=http://magiccards.info/query?q=Jabari%27s+Banner&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Jabari%27s+Banner
+timing=main
+rarity=U
+type=Artifact
+converted=2
+cost={2}
+
+# TODO -- gen by neoe

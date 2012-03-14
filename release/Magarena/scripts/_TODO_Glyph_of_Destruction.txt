@@ -1,0 +1,11 @@
+>Glyph of Destruction
+url=http://magiccards.info/query?q=Glyph+of+Destruction&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Glyph+of+Destruction
+timing=main
+rarity=C
+type=Instant
+converted=1
+cost={R}
+color=r
+
+# TODO -- gen by neoe

@@ -1,0 +1,10 @@
+>Shrine of Piercing Vision
+url=http://magiccards.info/query?q=Shrine+of+Piercing+Vision&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Shrine+of+Piercing+Vision
+timing=main
+rarity=U
+type=Artifact
+converted=2
+cost={2}
+
+# TODO -- gen by neoe

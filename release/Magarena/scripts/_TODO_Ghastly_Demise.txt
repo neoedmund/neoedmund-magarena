@@ -1,0 +1,11 @@
+>Ghastly Demise
+url=http://magiccards.info/query?q=Ghastly+Demise&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ghastly+Demise
+timing=main
+rarity=C
+type=Instant
+converted=1
+cost={B}
+color=b
+
+# TODO -- gen by neoe

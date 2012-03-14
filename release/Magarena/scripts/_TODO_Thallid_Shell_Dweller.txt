@@ -1,0 +1,13 @@
+>Thallid Shell-Dweller
+url=http://magiccards.info/query?q=Thallid+Shell-Dweller&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Thallid+Shell-Dweller
+timing=main
+rarity=C
+type=Creature
+subtype=Fungus
+pt=0/5
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

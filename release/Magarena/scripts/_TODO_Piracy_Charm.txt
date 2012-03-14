@@ -1,0 +1,11 @@
+>Piracy Charm
+url=http://magiccards.info/query?q=Piracy+Charm&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Piracy+Charm
+timing=main
+rarity=C
+type=Instant
+converted=1
+cost={U}
+color=u
+
+# TODO -- gen by neoe

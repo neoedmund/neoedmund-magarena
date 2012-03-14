@@ -1,0 +1,13 @@
+>Bringer of the Blue Dawn
+url=http://magiccards.info/query?q=Bringer+of+the+Blue+Dawn&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Bringer+of+the+Blue+Dawn
+timing=main
+rarity=R
+type=Creature
+subtype=Bringer
+pt=5/5
+converted=9
+cost={7}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

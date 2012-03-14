@@ -1,0 +1,13 @@
+>Wall of Roots
+url=http://magiccards.info/query?q=Wall+of+Roots&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wall+of+Roots
+timing=main
+rarity=C
+type=Creature
+subtype=Plant,Wall
+pt=0/5
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

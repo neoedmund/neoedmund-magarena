@@ -1,0 +1,11 @@
+>Geth's Verdict
+url=http://magiccards.info/query?q=Geth%27s+Verdict&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Geth%27s+Verdict
+timing=main
+rarity=C
+type=Instant
+converted=2
+cost={B}{B}
+color=bb
+
+# TODO -- gen by neoe

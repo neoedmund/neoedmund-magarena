@@ -1,0 +1,13 @@
+>Lost Auramancers
+url=http://magiccards.info/query?q=Lost+Auramancers&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Lost+Auramancers
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Wizard
+pt=3/3
+converted=4
+cost={2}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

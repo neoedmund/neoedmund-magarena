@@ -1,0 +1,12 @@
+>Avatar of Me
+url=http://magiccards.info/query?q=Avatar+of+Me&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Avatar+of+Me
+timing=main
+rarity=R
+type=Creature
+subtype=Avatar
+converted=4
+cost={2}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

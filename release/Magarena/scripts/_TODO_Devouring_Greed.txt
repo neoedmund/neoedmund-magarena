@@ -1,0 +1,11 @@
+>Devouring Greed
+url=http://magiccards.info/query?q=Devouring+Greed&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Devouring+Greed
+timing=main
+rarity=C
+type=Sorcery
+converted=4
+cost={2}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

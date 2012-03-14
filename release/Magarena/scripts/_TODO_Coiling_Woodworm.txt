@@ -1,0 +1,12 @@
+>Coiling Woodworm
+url=http://magiccards.info/query?q=Coiling+Woodworm&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Coiling+Woodworm
+timing=main
+rarity=U
+type=Creature
+subtype=Insect,Worm
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

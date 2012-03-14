@@ -1,0 +1,13 @@
+>Ivy Dancer
+url=http://magiccards.info/query?q=Ivy+Dancer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ivy+Dancer
+timing=main
+rarity=U
+type=Creature
+subtype=Dryad,Shaman
+pt=1/2
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

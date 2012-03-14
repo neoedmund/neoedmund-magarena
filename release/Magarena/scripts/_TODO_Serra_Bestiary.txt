@@ -1,0 +1,12 @@
+>Serra Bestiary
+url=http://magiccards.info/query?q=Serra+Bestiary&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Serra+Bestiary
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=2
+cost={W}{W}
+color=ww
+
+# TODO -- gen by neoe

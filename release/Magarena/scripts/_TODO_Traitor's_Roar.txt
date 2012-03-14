@@ -1,0 +1,10 @@
+>Traitor's Roar
+url=http://magiccards.info/query?q=Traitor%27s+Roar&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Traitor%27s+Roar
+timing=main
+rarity=C
+type=Sorcery
+converted=9
+cost={4}{B/R}
+
+# TODO -- gen by neoe

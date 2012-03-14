@@ -1,0 +1,13 @@
+>Nullmage Advocate
+url=http://magiccards.info/query?q=Nullmage+Advocate&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Nullmage+Advocate
+timing=main
+rarity=C
+type=Creature
+subtype=Insect,Druid
+pt=2/3
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

@@ -1,0 +1,12 @@
+>Complex Automaton
+url=http://magiccards.info/query?q=Complex+Automaton&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Complex+Automaton
+timing=main
+rarity=R
+type=Artifact,Creature
+subtype=Golem
+pt=4/4
+converted=4
+cost={4}
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Goblin Chirurgeon
+url=http://magiccards.info/query?q=Goblin+Chirurgeon&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Goblin+Chirurgeon
+timing=main
+rarity=C
+type=Creature
+subtype=Goblin,Shaman
+pt=0/2
+converted=1
+cost={R}
+color=r
+
+# TODO -- gen by neoe

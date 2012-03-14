@@ -1,0 +1,13 @@
+>Reef Pirates
+url=http://magiccards.info/query?q=Reef+Pirates&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Reef+Pirates
+timing=main
+rarity=C
+type=Creature
+subtype=Zombie,Pirate
+pt=2/2
+converted=3
+cost={1}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

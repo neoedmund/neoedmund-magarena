@@ -1,0 +1,13 @@
+>Errant Doomsayers
+url=http://magiccards.info/query?q=Errant+Doomsayers&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Errant+Doomsayers
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Rebel
+pt=1/1
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

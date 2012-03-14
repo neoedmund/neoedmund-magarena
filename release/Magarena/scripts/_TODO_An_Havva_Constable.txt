@@ -1,0 +1,12 @@
+>An-Havva Constable
+url=http://magiccards.info/query?q=An-Havva+Constable&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=An-Havva+Constable
+timing=main
+rarity=U
+type=Creature
+subtype=Human
+converted=3
+cost={1}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

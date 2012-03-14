@@ -1,0 +1,11 @@
+>Scapeshift
+url=http://magiccards.info/query?q=Scapeshift&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Scapeshift
+timing=main
+rarity=R
+type=Sorcery
+converted=4
+cost={2}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

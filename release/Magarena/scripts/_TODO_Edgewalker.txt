@@ -1,0 +1,13 @@
+>Edgewalker
+url=http://magiccards.info/query?q=Edgewalker&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Edgewalker
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Cleric
+pt=2/2
+converted=3
+cost={1}{W}{B}
+color=wb
+
+# TODO -- gen by neoe

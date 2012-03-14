@@ -1,0 +1,11 @@
+>Green Sun's Zenith
+url=http://magiccards.info/query?q=Green+Sun%27s+Zenith&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Green+Sun%27s+Zenith
+timing=main
+rarity=R
+type=Sorcery
+converted=1
+cost={X}{G}
+color=g
+
+# TODO -- gen by neoe

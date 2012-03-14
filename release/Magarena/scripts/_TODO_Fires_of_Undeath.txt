@@ -1,0 +1,11 @@
+>Fires of Undeath
+url=http://magiccards.info/query?q=Fires+of+Undeath&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Fires+of+Undeath
+timing=main
+rarity=C
+type=Instant
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Vedalken Dismisser
+url=http://magiccards.info/query?q=Vedalken+Dismisser&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Vedalken+Dismisser
+timing=main
+rarity=C
+type=Creature
+subtype=Vedalken,Wizard
+pt=2/2
+converted=6
+cost={5}{U}
+color=u
+
+# TODO -- gen by neoe

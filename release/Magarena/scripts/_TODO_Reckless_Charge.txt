@@ -1,0 +1,11 @@
+>Reckless Charge
+url=http://magiccards.info/query?q=Reckless+Charge&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Reckless+Charge
+timing=main
+rarity=C
+type=Sorcery
+converted=1
+cost={R}
+color=r
+
+# TODO -- gen by neoe

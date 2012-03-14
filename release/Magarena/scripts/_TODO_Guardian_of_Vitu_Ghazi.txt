@@ -1,0 +1,13 @@
+>Guardian of Vitu-Ghazi
+url=http://magiccards.info/query?q=Guardian+of+Vitu-Ghazi&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Guardian+of+Vitu-Ghazi
+timing=main
+rarity=C
+type=Creature
+subtype=Elemental
+pt=4/7
+converted=8
+cost={6}{G}{W}
+color=gw
+
+# TODO -- gen by neoe

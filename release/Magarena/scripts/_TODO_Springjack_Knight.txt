@@ -1,0 +1,13 @@
+>Springjack Knight
+url=http://magiccards.info/query?q=Springjack+Knight&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Springjack+Knight
+timing=main
+rarity=C
+type=Creature
+subtype=Kithkin,Knight
+pt=2/1
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Orcish Farmer
+url=http://magiccards.info/query?q=Orcish+Farmer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Orcish+Farmer
+timing=main
+rarity=C
+type=Creature
+subtype=Orc
+pt=2/2
+converted=3
+cost={1}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

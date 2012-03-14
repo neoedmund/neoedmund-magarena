@@ -1,0 +1,13 @@
+>Sustainer of the Realm
+url=http://magiccards.info/query?q=Sustainer+of+the+Realm&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sustainer+of+the+Realm
+timing=main
+rarity=U
+type=Creature
+subtype=Angel
+pt=2/3
+converted=4
+cost={2}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

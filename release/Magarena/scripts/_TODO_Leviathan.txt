@@ -1,0 +1,13 @@
+>Leviathan
+url=http://magiccards.info/query?q=Leviathan&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Leviathan
+timing=main
+rarity=R
+type=Creature
+subtype=Leviathan
+pt=10/10
+converted=9
+cost={5}{U}{U}{U}{U}
+color=uuuu
+
+# TODO -- gen by neoe

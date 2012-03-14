@@ -1,0 +1,13 @@
+>Spitting Slug
+url=http://magiccards.info/query?q=Spitting+Slug&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Spitting+Slug
+timing=main
+rarity=R
+type=Creature
+subtype=Slug
+pt=2/4
+converted=3
+cost={1}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Moonring Island
+url=http://magiccards.info/query?q=Moonring+Island&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Moonring+Island
+timing=main
+rarity=U
+type=Land
+subtype=Island
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

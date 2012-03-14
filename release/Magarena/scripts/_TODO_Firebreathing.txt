@@ -1,0 +1,12 @@
+>Firebreathing
+url=http://magiccards.info/query?q=Firebreathing&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Firebreathing
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=1
+cost={R}
+color=r
+
+# TODO -- gen by neoe

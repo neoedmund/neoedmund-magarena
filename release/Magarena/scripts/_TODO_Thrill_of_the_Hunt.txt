@@ -1,0 +1,11 @@
+>Thrill of the Hunt
+url=http://magiccards.info/query?q=Thrill+of+the+Hunt&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Thrill+of+the+Hunt
+timing=main
+rarity=C
+type=Instant
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

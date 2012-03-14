@@ -1,0 +1,10 @@
+>Firespout
+url=http://magiccards.info/query?q=Firespout&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Firespout
+timing=main
+rarity=U
+type=Sorcery
+converted=7
+cost={2}{R/G}
+
+# TODO -- gen by neoe

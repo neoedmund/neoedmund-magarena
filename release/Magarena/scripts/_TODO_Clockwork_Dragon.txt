@@ -1,0 +1,12 @@
+>Clockwork Dragon
+url=http://magiccards.info/query?q=Clockwork+Dragon&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Clockwork+Dragon
+timing=main
+rarity=R
+type=Artifact,Creature
+subtype=Dragon
+pt=0/0
+converted=7
+cost={7}
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Verdigris
+url=http://magiccards.info/query?q=Verdigris&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Verdigris
+timing=main
+rarity=U
+type=Instant
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Dismantle
+url=http://magiccards.info/query?q=Dismantle&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dismantle
+timing=main
+rarity=U
+type=Sorcery
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

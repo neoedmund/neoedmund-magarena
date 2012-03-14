@@ -1,0 +1,13 @@
+>Master Decoy
+url=http://magiccards.info/query?q=Master+Decoy&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Master+Decoy
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Soldier
+pt=1/2
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

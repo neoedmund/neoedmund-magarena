@@ -1,0 +1,11 @@
+>Light of Sanction
+url=http://magiccards.info/query?q=Light+of+Sanction&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Light+of+Sanction
+timing=main
+rarity=R
+type=Enchantment
+converted=3
+cost={1}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

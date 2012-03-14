@@ -1,0 +1,12 @@
+>Venser's Sliver
+url=http://magiccards.info/query?q=Venser%27s+Sliver&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Venser%27s+Sliver
+timing=main
+rarity=C
+type=Artifact,Creature
+subtype=Sliver
+pt=3/3
+converted=5
+cost={5}
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Thopter Foundry
+url=http://magiccards.info/query?q=Thopter+Foundry&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Thopter+Foundry
+timing=main
+rarity=U
+type=Artifact
+converted=6
+cost={W/B}{U}
+color=u
+
+# TODO -- gen by neoe

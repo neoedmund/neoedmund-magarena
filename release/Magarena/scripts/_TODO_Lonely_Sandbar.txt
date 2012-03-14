@@ -1,0 +1,10 @@
+>Lonely Sandbar
+url=http://magiccards.info/query?q=Lonely+Sandbar&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Lonely+Sandbar
+timing=main
+rarity=C
+type=Land
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

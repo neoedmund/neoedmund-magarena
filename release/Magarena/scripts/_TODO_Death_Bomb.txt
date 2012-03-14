@@ -1,0 +1,11 @@
+>Death Bomb
+url=http://magiccards.info/query?q=Death+Bomb&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Death+Bomb
+timing=main
+rarity=C
+type=Instant
+converted=4
+cost={3}{B}
+color=b
+
+# TODO -- gen by neoe

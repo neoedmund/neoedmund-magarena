@@ -1,0 +1,13 @@
+>Glissa Sunseeker
+url=http://magiccards.info/query?q=Glissa+Sunseeker&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Glissa+Sunseeker
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Elf
+pt=3/2
+converted=4
+cost={2}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

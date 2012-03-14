@@ -1,0 +1,10 @@
+>Postmortem Lunge
+url=http://magiccards.info/query?q=Postmortem+Lunge&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Postmortem+Lunge
+timing=main
+rarity=U
+type=Sorcery
+converted=1
+cost={X}{B}
+
+# TODO -- gen by neoe

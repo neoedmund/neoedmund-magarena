@@ -1,0 +1,13 @@
+>Akki Underminer
+url=http://magiccards.info/query?q=Akki+Underminer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Akki+Underminer
+timing=main
+rarity=U
+type=Creature
+subtype=Goblin,Rogue,Shaman
+pt=1/1
+converted=4
+cost={3}{R}
+color=r
+
+# TODO -- gen by neoe

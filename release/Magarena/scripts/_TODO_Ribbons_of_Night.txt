@@ -1,0 +1,11 @@
+>Ribbons of Night
+url=http://magiccards.info/query?q=Ribbons+of+Night&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ribbons+of+Night
+timing=main
+rarity=U
+type=Sorcery
+converted=5
+cost={4}{B}
+color=b
+
+# TODO -- gen by neoe

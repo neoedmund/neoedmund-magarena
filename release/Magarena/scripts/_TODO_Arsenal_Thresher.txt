@@ -1,0 +1,13 @@
+>Arsenal Thresher
+url=http://magiccards.info/query?q=Arsenal+Thresher&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Arsenal+Thresher
+timing=main
+rarity=C
+type=Artifact,Creature
+subtype=Construct
+pt=2/2
+converted=8
+cost={2}{W/B}{U}
+color=u
+
+# TODO -- gen by neoe

@@ -1,0 +1,10 @@
+>Lion's Eye Diamond
+url=http://magiccards.info/query?q=Lion%27s+Eye+Diamond&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Lion%27s+Eye+Diamond
+timing=main
+rarity=R
+type=Artifact
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

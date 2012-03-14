@@ -1,0 +1,11 @@
+>An-Zerrin Ruins
+url=http://magiccards.info/query?q=An-Zerrin+Ruins&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=An-Zerrin+Ruins
+timing=main
+rarity=U
+type=Enchantment
+converted=4
+cost={2}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

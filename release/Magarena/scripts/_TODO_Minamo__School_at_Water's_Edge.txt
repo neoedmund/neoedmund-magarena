@@ -1,0 +1,10 @@
+>Minamo, School at Water's Edge
+url=http://magiccards.info/query?q=Minamo%2C+School+at+Water%27s+Edge&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Minamo%2C+School+at+Water%27s+Edge
+timing=main
+rarity=R
+type=Legendary,Land
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

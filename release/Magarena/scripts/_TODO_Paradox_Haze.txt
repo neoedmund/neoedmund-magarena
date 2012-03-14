@@ -1,0 +1,12 @@
+>Paradox Haze
+url=http://magiccards.info/query?q=Paradox+Haze&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Paradox+Haze
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

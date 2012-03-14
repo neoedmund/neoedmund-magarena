@@ -1,0 +1,13 @@
+>Goblin Grenadiers
+url=http://magiccards.info/query?q=Goblin+Grenadiers&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Goblin+Grenadiers
+timing=main
+rarity=U
+type=Creature
+subtype=Goblin
+pt=2/2
+converted=4
+cost={3}{R}
+color=r
+
+# TODO -- gen by neoe

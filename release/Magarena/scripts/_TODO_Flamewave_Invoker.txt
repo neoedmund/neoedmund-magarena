@@ -1,0 +1,13 @@
+>Flamewave Invoker
+url=http://magiccards.info/query?q=Flamewave+Invoker&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Flamewave+Invoker
+timing=main
+rarity=U
+type=Creature
+subtype=Goblin,Mutant
+pt=2/2
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

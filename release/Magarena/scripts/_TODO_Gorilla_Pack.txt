@@ -1,0 +1,13 @@
+>Gorilla Pack
+url=http://magiccards.info/query?q=Gorilla+Pack&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Gorilla+Pack
+timing=main
+rarity=C
+type=Creature
+subtype=Ape
+pt=3/3
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Emissary of Despair
+url=http://magiccards.info/query?q=Emissary+of+Despair&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Emissary+of+Despair
+timing=main
+rarity=U
+type=Creature
+subtype=Spirit
+pt=2/1
+converted=3
+cost={1}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

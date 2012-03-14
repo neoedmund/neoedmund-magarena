@@ -1,0 +1,11 @@
+>Standardize
+url=http://magiccards.info/query?q=Standardize&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Standardize
+timing=main
+rarity=R
+type=Instant
+converted=2
+cost={U}{U}
+color=uu
+
+# TODO -- gen by neoe

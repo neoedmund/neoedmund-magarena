@@ -1,0 +1,13 @@
+>Ursine Fylgja
+url=http://magiccards.info/query?q=Ursine+Fylgja&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ursine+Fylgja
+timing=main
+rarity=U
+type=Creature
+subtype=Spirit,Bear
+pt=3/3
+converted=5
+cost={4}{W}
+color=w
+
+# TODO -- gen by neoe

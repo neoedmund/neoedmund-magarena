@@ -1,0 +1,11 @@
+>Apocalypse
+url=http://magiccards.info/query?q=Apocalypse&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Apocalypse
+timing=main
+rarity=R
+type=Sorcery
+converted=5
+cost={2}{R}{R}{R}
+color=rrr
+
+# TODO -- gen by neoe

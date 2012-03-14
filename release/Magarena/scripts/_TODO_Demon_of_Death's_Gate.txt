@@ -1,0 +1,13 @@
+>Demon of Death's Gate
+url=http://magiccards.info/query?q=Demon+of+Death%27s+Gate&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Demon+of+Death%27s+Gate
+timing=main
+rarity=M
+type=Creature
+subtype=Demon
+pt=9/9
+converted=9
+cost={6}{B}{B}{B}
+color=bbb
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Minamo Scrollkeeper
+url=http://magiccards.info/query?q=Minamo+Scrollkeeper&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Minamo+Scrollkeeper
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Wizard
+pt=2/3
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

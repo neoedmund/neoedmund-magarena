@@ -1,0 +1,13 @@
+>Crash of Rhinos
+url=http://magiccards.info/query?q=Crash+of+Rhinos&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Crash+of+Rhinos
+timing=main
+rarity=C
+type=Creature
+subtype=Rhino
+pt=8/4
+converted=8
+cost={6}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

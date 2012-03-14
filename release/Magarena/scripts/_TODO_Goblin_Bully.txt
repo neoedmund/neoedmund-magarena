@@ -1,0 +1,13 @@
+>Goblin Bully
+url=http://magiccards.info/query?q=Goblin+Bully&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Goblin+Bully
+timing=main
+rarity=C
+type=Creature
+subtype=Goblin
+pt=2/1
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

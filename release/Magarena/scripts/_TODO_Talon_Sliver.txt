@@ -1,0 +1,13 @@
+>Talon Sliver
+url=http://magiccards.info/query?q=Talon+Sliver&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Talon+Sliver
+timing=main
+rarity=C
+type=Creature
+subtype=Sliver
+pt=1/1
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Snow-Covered Swamp
+url=http://magiccards.info/query?q=Snow-Covered+Swamp&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Snow-Covered+Swamp
+timing=main
+rarity=C
+type=Basic,Snow,Land
+subtype=Swamp
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

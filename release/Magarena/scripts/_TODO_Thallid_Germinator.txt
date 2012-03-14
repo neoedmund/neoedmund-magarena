@@ -1,0 +1,13 @@
+>Thallid Germinator
+url=http://magiccards.info/query?q=Thallid+Germinator&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Thallid+Germinator
+timing=main
+rarity=C
+type=Creature
+subtype=Fungus
+pt=2/2
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

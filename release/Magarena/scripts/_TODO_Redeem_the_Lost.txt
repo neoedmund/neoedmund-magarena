@@ -1,0 +1,11 @@
+>Redeem the Lost
+url=http://magiccards.info/query?q=Redeem+the+Lost&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Redeem+the+Lost
+timing=main
+rarity=U
+type=Instant
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

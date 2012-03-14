@@ -1,0 +1,12 @@
+>Groundling Pouncer
+url=http://magiccards.info/query?q=Groundling+Pouncer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Groundling+Pouncer
+timing=main
+rarity=U
+type=Creature
+subtype=Faerie
+pt=2/1
+converted=6
+cost={1}{G/U}
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Nacatl Hunt-Pride
+url=http://magiccards.info/query?q=Nacatl+Hunt-Pride&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Nacatl+Hunt-Pride
+timing=main
+rarity=U
+type=Creature
+subtype=Cat,Warrior
+pt=5/4
+converted=6
+cost={5}{W}
+color=w
+
+# TODO -- gen by neoe

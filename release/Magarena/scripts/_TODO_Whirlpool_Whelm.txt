@@ -1,0 +1,11 @@
+>Whirlpool Whelm
+url=http://magiccards.info/query?q=Whirlpool+Whelm&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Whirlpool+Whelm
+timing=main
+rarity=C
+type=Instant
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

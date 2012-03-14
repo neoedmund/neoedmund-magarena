@@ -1,0 +1,11 @@
+>Suffer the Past
+url=http://magiccards.info/query?q=Suffer+the+Past&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Suffer+the+Past
+timing=main
+rarity=U
+type=Instant
+converted=1
+cost={X}{B}
+color=b
+
+# TODO -- gen by neoe

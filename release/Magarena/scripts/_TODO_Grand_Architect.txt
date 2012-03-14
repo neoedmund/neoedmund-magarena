@@ -1,0 +1,13 @@
+>Grand Architect
+url=http://magiccards.info/query?q=Grand+Architect&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Grand+Architect
+timing=main
+rarity=R
+type=Creature
+subtype=Vedalken,Artificer
+pt=1/3
+converted=3
+cost={1}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

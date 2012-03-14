@@ -1,0 +1,13 @@
+>Ertai, the Corrupted
+url=http://magiccards.info/query?q=Ertai%2C+the+Corrupted&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ertai%2C+the+Corrupted
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Human,Wizard
+pt=3/4
+converted=5
+cost={2}{W}{U}{B}
+color=wub
+
+# TODO -- gen by neoe

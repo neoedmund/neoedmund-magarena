@@ -1,0 +1,11 @@
+>Shoving Match
+url=http://magiccards.info/query?q=Shoving+Match&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Shoving+Match
+timing=main
+rarity=U
+type=Instant
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

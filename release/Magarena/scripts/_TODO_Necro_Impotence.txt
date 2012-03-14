@@ -1,0 +1,11 @@
+>Necro-Impotence
+url=http://magiccards.info/query?q=Necro-Impotence&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Necro-Impotence
+timing=main
+rarity=R
+type=Enchantment
+converted=3
+cost={B}{B}{B}
+color=bbb
+
+# TODO -- gen by neoe

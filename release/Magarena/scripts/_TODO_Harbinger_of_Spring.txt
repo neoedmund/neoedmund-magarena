@@ -1,0 +1,13 @@
+>Harbinger of Spring
+url=http://magiccards.info/query?q=Harbinger+of+Spring&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Harbinger+of+Spring
+timing=main
+rarity=C
+type=Creature
+subtype=Spirit
+pt=2/1
+converted=5
+cost={4}{G}
+color=g
+
+# TODO -- gen by neoe

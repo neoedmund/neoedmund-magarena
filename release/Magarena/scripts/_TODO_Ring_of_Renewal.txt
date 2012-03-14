@@ -1,0 +1,10 @@
+>Ring of Renewal
+url=http://magiccards.info/query?q=Ring+of+Renewal&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ring+of+Renewal
+timing=main
+rarity=U
+type=Artifact
+converted=5
+cost={5}
+
+# TODO -- gen by neoe

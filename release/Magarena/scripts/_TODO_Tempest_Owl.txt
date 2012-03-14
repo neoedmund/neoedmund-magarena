@@ -1,0 +1,13 @@
+>Tempest Owl
+url=http://magiccards.info/query?q=Tempest+Owl&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Tempest+Owl
+timing=main
+rarity=C
+type=Creature
+subtype=Bird
+pt=1/2
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

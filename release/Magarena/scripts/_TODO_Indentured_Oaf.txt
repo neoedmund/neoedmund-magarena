@@ -1,0 +1,13 @@
+>Indentured Oaf
+url=http://magiccards.info/query?q=Indentured+Oaf&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Indentured+Oaf
+timing=main
+rarity=U
+type=Creature
+subtype=Ogre,Warrior
+pt=4/3
+converted=4
+cost={3}{R}
+color=r
+
+# TODO -- gen by neoe

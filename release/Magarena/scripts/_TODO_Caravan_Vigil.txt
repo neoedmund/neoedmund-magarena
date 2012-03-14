@@ -1,0 +1,11 @@
+>Caravan Vigil
+url=http://magiccards.info/query?q=Caravan+Vigil&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Caravan+Vigil
+timing=main
+rarity=C
+type=Sorcery
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

@@ -1,0 +1,10 @@
+>Ghost Town
+url=http://magiccards.info/query?q=Ghost+Town&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ghost+Town
+timing=main
+rarity=U
+type=Land
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

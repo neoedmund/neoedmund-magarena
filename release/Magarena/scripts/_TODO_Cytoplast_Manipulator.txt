@@ -1,0 +1,13 @@
+>Cytoplast Manipulator
+url=http://magiccards.info/query?q=Cytoplast+Manipulator&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Cytoplast+Manipulator
+timing=main
+rarity=R
+type=Creature
+subtype=Human,Wizard,Mutant
+pt=0/0
+converted=4
+cost={2}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

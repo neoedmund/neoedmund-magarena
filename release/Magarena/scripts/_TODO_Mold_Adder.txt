@@ -1,0 +1,13 @@
+>Mold Adder
+url=http://magiccards.info/query?q=Mold+Adder&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mold+Adder
+timing=main
+rarity=U
+type=Creature
+subtype=Fungus,Snake
+pt=1/1
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

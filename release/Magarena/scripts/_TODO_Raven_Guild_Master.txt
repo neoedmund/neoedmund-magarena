@@ -1,0 +1,13 @@
+>Raven Guild Master
+url=http://magiccards.info/query?q=Raven+Guild+Master&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Raven+Guild+Master
+timing=main
+rarity=R
+type=Creature
+subtype=Human,Wizard,Mutant
+pt=1/1
+converted=3
+cost={1}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

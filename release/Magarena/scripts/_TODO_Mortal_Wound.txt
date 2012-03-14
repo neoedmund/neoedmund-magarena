@@ -1,0 +1,12 @@
+>Mortal Wound
+url=http://magiccards.info/query?q=Mortal+Wound&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mortal+Wound
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

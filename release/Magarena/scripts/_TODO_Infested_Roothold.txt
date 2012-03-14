@@ -1,0 +1,13 @@
+>Infested Roothold
+url=http://magiccards.info/query?q=Infested+Roothold&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Infested+Roothold
+timing=main
+rarity=U
+type=Creature
+subtype=Wall
+pt=0/3
+converted=5
+cost={4}{G}
+color=g
+
+# TODO -- gen by neoe

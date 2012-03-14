@@ -1,0 +1,11 @@
+>Verdant Succession
+url=http://magiccards.info/query?q=Verdant+Succession&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Verdant+Succession
+timing=main
+rarity=R
+type=Enchantment
+converted=5
+cost={4}{G}
+color=g
+
+# TODO -- gen by neoe

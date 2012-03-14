@@ -1,0 +1,11 @@
+>Veteran's Armaments
+url=http://magiccards.info/query?q=Veteran%27s+Armaments&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Veteran%27s+Armaments
+timing=main
+rarity=U
+type=Tribal,Artifact
+subtype=Soldier,Equipment
+converted=2
+cost={2}
+
+# TODO -- gen by neoe

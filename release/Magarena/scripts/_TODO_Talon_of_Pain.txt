@@ -1,0 +1,10 @@
+>Talon of Pain
+url=http://magiccards.info/query?q=Talon+of+Pain&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Talon+of+Pain
+timing=main
+rarity=U
+type=Artifact
+converted=4
+cost={4}
+
+# TODO -- gen by neoe

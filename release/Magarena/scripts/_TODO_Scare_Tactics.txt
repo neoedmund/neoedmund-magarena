@@ -1,0 +1,11 @@
+>Scare Tactics
+url=http://magiccards.info/query?q=Scare+Tactics&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Scare+Tactics
+timing=main
+rarity=C
+type=Instant
+converted=1
+cost={B}
+color=b
+
+# TODO -- gen by neoe

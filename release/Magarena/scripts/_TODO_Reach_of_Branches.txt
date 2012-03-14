@@ -1,0 +1,12 @@
+>Reach of Branches
+url=http://magiccards.info/query?q=Reach+of+Branches&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Reach+of+Branches
+timing=main
+rarity=R
+type=Tribal,Instant
+subtype=Treefolk
+converted=5
+cost={4}{G}
+color=g
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Leeching Bite
+url=http://magiccards.info/query?q=Leeching+Bite&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Leeching+Bite
+timing=main
+rarity=C
+type=Instant
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

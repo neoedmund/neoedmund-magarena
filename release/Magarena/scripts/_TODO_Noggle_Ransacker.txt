@@ -1,0 +1,12 @@
+>Noggle Ransacker
+url=http://magiccards.info/query?q=Noggle+Ransacker&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Noggle+Ransacker
+timing=main
+rarity=U
+type=Creature
+subtype=Noggle,Rogue
+pt=2/1
+converted=7
+cost={2}{U/R}
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Part Water
+url=http://magiccards.info/query?q=Part+Water&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Part+Water
+timing=main
+rarity=U
+type=Sorcery
+converted=2
+cost={X}{X}{U}
+color=u
+
+# TODO -- gen by neoe

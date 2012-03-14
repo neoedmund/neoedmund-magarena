@@ -1,0 +1,11 @@
+>Doubling Chant
+url=http://magiccards.info/query?q=Doubling+Chant&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Doubling+Chant
+timing=main
+rarity=R
+type=Sorcery
+converted=6
+cost={5}{G}
+color=g
+
+# TODO -- gen by neoe

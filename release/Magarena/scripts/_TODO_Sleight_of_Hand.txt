@@ -1,0 +1,11 @@
+>Sleight of Hand
+url=http://magiccards.info/query?q=Sleight+of+Hand&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sleight+of+Hand
+timing=main
+rarity=C
+type=Sorcery
+converted=1
+cost={U}
+color=u
+
+# TODO -- gen by neoe

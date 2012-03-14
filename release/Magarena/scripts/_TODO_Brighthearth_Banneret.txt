@@ -1,0 +1,13 @@
+>Brighthearth Banneret
+url=http://magiccards.info/query?q=Brighthearth+Banneret&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Brighthearth+Banneret
+timing=main
+rarity=C
+type=Creature
+subtype=Elemental,Warrior
+pt=1/1
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

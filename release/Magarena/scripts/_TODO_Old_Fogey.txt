@@ -1,0 +1,13 @@
+>Old Fogey
+url=http://magiccards.info/query?q=Old+Fogey&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Old+Fogey
+timing=main
+rarity=R
+type=Creature
+subtype=Dinosaur
+pt=7/7
+converted=2
+cost={G}{G}
+color=gg
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Vodalian Mage
+url=http://magiccards.info/query?q=Vodalian+Mage&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Vodalian+Mage
+timing=main
+rarity=C
+type=Creature
+subtype=Merfolk,Wizard
+pt=1/1
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

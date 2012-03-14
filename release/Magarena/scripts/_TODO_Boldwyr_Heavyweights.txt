@@ -1,0 +1,13 @@
+>Boldwyr Heavyweights
+url=http://magiccards.info/query?q=Boldwyr+Heavyweights&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Boldwyr+Heavyweights
+timing=main
+rarity=R
+type=Creature
+subtype=Giant,Warrior
+pt=8/8
+converted=4
+cost={2}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

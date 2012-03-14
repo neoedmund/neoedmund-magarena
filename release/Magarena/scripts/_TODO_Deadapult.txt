@@ -1,0 +1,11 @@
+>Deadapult
+url=http://magiccards.info/query?q=Deadapult&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Deadapult
+timing=main
+rarity=R
+type=Enchantment
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

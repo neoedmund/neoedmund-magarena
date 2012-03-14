@@ -1,0 +1,11 @@
+>Identity Crisis
+url=http://magiccards.info/query?q=Identity+Crisis&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Identity+Crisis
+timing=main
+rarity=R
+type=Sorcery
+converted=6
+cost={2}{W}{W}{B}{B}
+color=wwbb
+
+# TODO -- gen by neoe

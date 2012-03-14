@@ -1,0 +1,11 @@
+>Stronghold Discipline
+url=http://magiccards.info/query?q=Stronghold+Discipline&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Stronghold+Discipline
+timing=main
+rarity=U
+type=Sorcery
+converted=4
+cost={2}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

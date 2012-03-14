@@ -1,0 +1,12 @@
+>Stupefying Touch
+url=http://magiccards.info/query?q=Stupefying+Touch&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Stupefying+Touch
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

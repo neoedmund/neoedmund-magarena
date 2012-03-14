@@ -1,0 +1,11 @@
+>Quicksilver Geyser
+url=http://magiccards.info/query?q=Quicksilver+Geyser&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Quicksilver+Geyser
+timing=main
+rarity=C
+type=Instant
+converted=5
+cost={4}{U}
+color=u
+
+# TODO -- gen by neoe

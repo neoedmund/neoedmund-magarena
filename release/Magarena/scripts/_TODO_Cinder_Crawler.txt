@@ -1,0 +1,13 @@
+>Cinder Crawler
+url=http://magiccards.info/query?q=Cinder+Crawler&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Cinder+Crawler
+timing=main
+rarity=C
+type=Creature
+subtype=Salamander
+pt=1/2
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

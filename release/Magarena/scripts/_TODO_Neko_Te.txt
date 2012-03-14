@@ -1,0 +1,11 @@
+>Neko-Te
+url=http://magiccards.info/query?q=Neko-Te&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Neko-Te
+timing=main
+rarity=R
+type=Artifact
+subtype=Equipment
+converted=3
+cost={3}
+
+# TODO -- gen by neoe

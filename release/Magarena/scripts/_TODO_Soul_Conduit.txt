@@ -1,0 +1,10 @@
+>Soul Conduit
+url=http://magiccards.info/query?q=Soul+Conduit&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Soul+Conduit
+timing=main
+rarity=R
+type=Artifact
+converted=6
+cost={6}
+
+# TODO -- gen by neoe

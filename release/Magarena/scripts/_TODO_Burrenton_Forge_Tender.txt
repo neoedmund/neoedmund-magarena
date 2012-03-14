@@ -1,0 +1,13 @@
+>Burrenton Forge-Tender
+url=http://magiccards.info/query?q=Burrenton+Forge-Tender&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Burrenton+Forge-Tender
+timing=main
+rarity=U
+type=Creature
+subtype=Kithkin,Wizard
+pt=1/1
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

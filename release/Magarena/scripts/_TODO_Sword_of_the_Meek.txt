@@ -1,0 +1,11 @@
+>Sword of the Meek
+url=http://magiccards.info/query?q=Sword+of+the+Meek&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sword+of+the+Meek
+timing=main
+rarity=U
+type=Artifact
+subtype=Equipment
+converted=2
+cost={2}
+
+# TODO -- gen by neoe

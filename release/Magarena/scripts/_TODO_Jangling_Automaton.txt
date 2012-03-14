@@ -1,0 +1,12 @@
+>Jangling Automaton
+url=http://magiccards.info/query?q=Jangling+Automaton&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Jangling+Automaton
+timing=main
+rarity=C
+type=Artifact,Creature
+subtype=Construct
+pt=3/2
+converted=3
+cost={3}
+
+# TODO -- gen by neoe

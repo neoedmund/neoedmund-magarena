@@ -1,0 +1,11 @@
+>Touch of Invisibility
+url=http://magiccards.info/query?q=Touch+of+Invisibility&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Touch+of+Invisibility
+timing=main
+rarity=C
+type=Sorcery
+converted=4
+cost={3}{U}
+color=u
+
+# TODO -- gen by neoe

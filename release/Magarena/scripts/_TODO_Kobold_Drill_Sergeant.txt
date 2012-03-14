@@ -1,0 +1,13 @@
+>Kobold Drill Sergeant
+url=http://magiccards.info/query?q=Kobold+Drill+Sergeant&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Kobold+Drill+Sergeant
+timing=main
+rarity=U
+type=Creature
+subtype=Kobold,Soldier
+pt=1/2
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

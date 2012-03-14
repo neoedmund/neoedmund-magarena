@@ -1,0 +1,13 @@
+>Village Elder
+url=http://magiccards.info/query?q=Village+Elder&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Village+Elder
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Druid
+pt=1/1
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

@@ -1,0 +1,12 @@
+>Crib Swap
+url=http://magiccards.info/query?q=Crib+Swap&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Crib+Swap
+timing=main
+rarity=U
+type=Tribal,Instant
+subtype=Shapeshifter
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

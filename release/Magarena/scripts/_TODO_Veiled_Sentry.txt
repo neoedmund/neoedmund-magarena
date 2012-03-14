@@ -1,0 +1,11 @@
+>Veiled Sentry
+url=http://magiccards.info/query?q=Veiled+Sentry&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Veiled+Sentry
+timing=main
+rarity=U
+type=Enchantment
+converted=1
+cost={U}
+color=u
+
+# TODO -- gen by neoe

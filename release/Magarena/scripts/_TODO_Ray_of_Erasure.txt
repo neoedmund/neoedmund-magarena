@@ -1,0 +1,11 @@
+>Ray of Erasure
+url=http://magiccards.info/query?q=Ray+of+Erasure&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ray+of+Erasure
+timing=main
+rarity=C
+type=Instant
+converted=1
+cost={U}
+color=u
+
+# TODO -- gen by neoe

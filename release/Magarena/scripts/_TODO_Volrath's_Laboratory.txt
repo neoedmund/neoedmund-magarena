@@ -1,0 +1,10 @@
+>Volrath's Laboratory
+url=http://magiccards.info/query?q=Volrath%27s+Laboratory&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Volrath%27s+Laboratory
+timing=main
+rarity=R
+type=Artifact
+converted=5
+cost={5}
+
+# TODO -- gen by neoe

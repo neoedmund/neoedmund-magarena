@@ -1,0 +1,13 @@
+>Wall of Shards
+url=http://magiccards.info/query?q=Wall+of+Shards&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wall+of+Shards
+timing=main
+rarity=U
+type=Creature
+subtype=Wall
+pt=1/8
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

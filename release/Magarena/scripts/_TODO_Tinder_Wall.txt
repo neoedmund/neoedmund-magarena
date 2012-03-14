@@ -1,0 +1,13 @@
+>Tinder Wall
+url=http://magiccards.info/query?q=Tinder+Wall&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Tinder+Wall
+timing=main
+rarity=C
+type=Creature
+subtype=Plant,Wall
+pt=0/3
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

@@ -1,0 +1,10 @@
+>Jade Statue
+url=http://magiccards.info/query?q=Jade+Statue&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Jade+Statue
+timing=main
+rarity=R
+type=Artifact
+converted=4
+cost={4}
+
+# TODO -- gen by neoe

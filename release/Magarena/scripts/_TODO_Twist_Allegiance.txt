@@ -1,0 +1,11 @@
+>Twist Allegiance
+url=http://magiccards.info/query?q=Twist+Allegiance&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Twist+Allegiance
+timing=main
+rarity=R
+type=Sorcery
+converted=7
+cost={6}{R}
+color=r
+
+# TODO -- gen by neoe

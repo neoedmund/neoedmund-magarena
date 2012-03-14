@@ -1,0 +1,11 @@
+>Renewing Touch
+url=http://magiccards.info/query?q=Renewing+Touch&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Renewing+Touch
+timing=main
+rarity=U
+type=Sorcery
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

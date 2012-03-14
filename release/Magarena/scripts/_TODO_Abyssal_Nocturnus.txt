@@ -1,0 +1,13 @@
+>Abyssal Nocturnus
+url=http://magiccards.info/query?q=Abyssal+Nocturnus&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Abyssal+Nocturnus
+timing=main
+rarity=R
+type=Creature
+subtype=Horror
+pt=2/2
+converted=3
+cost={1}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

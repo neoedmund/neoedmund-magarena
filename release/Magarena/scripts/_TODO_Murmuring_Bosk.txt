@@ -1,0 +1,11 @@
+>Murmuring Bosk
+url=http://magiccards.info/query?q=Murmuring+Bosk&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Murmuring+Bosk
+timing=main
+rarity=R
+type=Land
+subtype=Forest
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

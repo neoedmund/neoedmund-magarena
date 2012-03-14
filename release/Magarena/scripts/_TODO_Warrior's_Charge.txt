@@ -1,0 +1,11 @@
+>Warrior's Charge
+url=http://magiccards.info/query?q=Warrior%27s+Charge&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Warrior%27s+Charge
+timing=main
+rarity=C
+type=Sorcery
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

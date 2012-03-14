@@ -1,0 +1,11 @@
+>Bamboozle
+url=http://magiccards.info/query?q=Bamboozle&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Bamboozle
+timing=main
+rarity=U
+type=Sorcery
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Despoil
+url=http://magiccards.info/query?q=Despoil&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Despoil
+timing=main
+rarity=C
+type=Sorcery
+converted=4
+cost={3}{B}
+color=b
+
+# TODO -- gen by neoe

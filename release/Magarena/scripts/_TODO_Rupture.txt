@@ -1,0 +1,11 @@
+>Rupture
+url=http://magiccards.info/query?q=Rupture&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Rupture
+timing=main
+rarity=U
+type=Sorcery
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

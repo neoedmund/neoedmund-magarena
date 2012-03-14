@@ -1,0 +1,13 @@
+>Mogg Jailer
+url=http://magiccards.info/query?q=Mogg+Jailer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mogg+Jailer
+timing=main
+rarity=U
+type=Creature
+subtype=Goblin
+pt=2/2
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

@@ -1,0 +1,12 @@
+>Power of Fire
+url=http://magiccards.info/query?q=Power+of+Fire&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Power+of+Fire
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

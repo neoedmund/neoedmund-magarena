@@ -1,0 +1,13 @@
+>Branchsnap Lorian
+url=http://magiccards.info/query?q=Branchsnap+Lorian&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Branchsnap+Lorian
+timing=main
+rarity=U
+type=Creature
+subtype=Beast
+pt=4/1
+converted=3
+cost={1}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

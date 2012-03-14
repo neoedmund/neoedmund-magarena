@@ -1,0 +1,10 @@
+>Cloud Key
+url=http://magiccards.info/query?q=Cloud+Key&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Cloud+Key
+timing=main
+rarity=R
+type=Artifact
+converted=3
+cost={3}
+
+# TODO -- gen by neoe

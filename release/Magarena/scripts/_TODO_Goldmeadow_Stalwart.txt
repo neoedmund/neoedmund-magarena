@@ -1,0 +1,13 @@
+>Goldmeadow Stalwart
+url=http://magiccards.info/query?q=Goldmeadow+Stalwart&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Goldmeadow+Stalwart
+timing=main
+rarity=U
+type=Creature
+subtype=Kithkin,Soldier
+pt=2/2
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

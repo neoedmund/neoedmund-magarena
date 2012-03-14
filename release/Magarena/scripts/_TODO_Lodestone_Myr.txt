@@ -1,0 +1,12 @@
+>Lodestone Myr
+url=http://magiccards.info/query?q=Lodestone+Myr&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Lodestone+Myr
+timing=main
+rarity=R
+type=Artifact,Creature
+subtype=Myr
+pt=2/2
+converted=4
+cost={4}
+
+# TODO -- gen by neoe

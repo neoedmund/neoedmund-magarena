@@ -1,0 +1,11 @@
+>Acorn Harvest
+url=http://magiccards.info/query?q=Acorn+Harvest&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Acorn+Harvest
+timing=main
+rarity=C
+type=Sorcery
+converted=4
+cost={3}{G}
+color=g
+
+# TODO -- gen by neoe

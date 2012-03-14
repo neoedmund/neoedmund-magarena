@@ -1,0 +1,12 @@
+>Lunar Avenger
+url=http://magiccards.info/query?q=Lunar+Avenger&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Lunar+Avenger
+timing=main
+rarity=U
+type=Artifact,Creature
+subtype=Golem
+pt=2/2
+converted=7
+cost={7}
+
+# TODO -- gen by neoe

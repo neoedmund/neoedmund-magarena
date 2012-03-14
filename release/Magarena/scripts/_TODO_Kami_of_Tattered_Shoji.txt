@@ -1,0 +1,13 @@
+>Kami of Tattered Shoji
+url=http://magiccards.info/query?q=Kami+of+Tattered+Shoji&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Kami+of+Tattered+Shoji
+timing=main
+rarity=C
+type=Creature
+subtype=Spirit
+pt=2/5
+converted=5
+cost={4}{W}
+color=w
+
+# TODO -- gen by neoe

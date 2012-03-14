@@ -1,0 +1,11 @@
+>Clarion Ultimatum
+url=http://magiccards.info/query?q=Clarion+Ultimatum&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Clarion+Ultimatum
+timing=main
+rarity=R
+type=Sorcery
+converted=7
+cost={G}{G}{W}{W}{W}{U}{U}
+color=ggwwwuu
+
+# TODO -- gen by neoe

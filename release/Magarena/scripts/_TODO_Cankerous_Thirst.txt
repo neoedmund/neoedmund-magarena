@@ -1,0 +1,10 @@
+>Cankerous Thirst
+url=http://magiccards.info/query?q=Cankerous+Thirst&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Cankerous+Thirst
+timing=main
+rarity=U
+type=Instant
+converted=8
+cost={3}{B/G}
+
+# TODO -- gen by neoe

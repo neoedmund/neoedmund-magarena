@@ -1,0 +1,13 @@
+>Basal Thrull
+url=http://magiccards.info/query?q=Basal+Thrull&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Basal+Thrull
+timing=main
+rarity=C
+type=Creature
+subtype=Thrull
+pt=1/2
+converted=2
+cost={B}{B}
+color=bb
+
+# TODO -- gen by neoe

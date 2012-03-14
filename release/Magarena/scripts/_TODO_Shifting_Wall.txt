@@ -1,0 +1,12 @@
+>Shifting Wall
+url=http://magiccards.info/query?q=Shifting+Wall&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Shifting+Wall
+timing=main
+rarity=U
+type=Artifact,Creature
+subtype=Wall
+pt=0/0
+converted=0
+cost={X}{0}
+
+# TODO -- gen by neoe

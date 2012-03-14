@@ -1,0 +1,12 @@
+>Green Ward
+url=http://magiccards.info/query?q=Green+Ward&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Green+Ward
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

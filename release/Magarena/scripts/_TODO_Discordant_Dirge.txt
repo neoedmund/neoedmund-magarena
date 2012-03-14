@@ -1,0 +1,11 @@
+>Discordant Dirge
+url=http://magiccards.info/query?q=Discordant+Dirge&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Discordant+Dirge
+timing=main
+rarity=R
+type=Enchantment
+converted=5
+cost={3}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

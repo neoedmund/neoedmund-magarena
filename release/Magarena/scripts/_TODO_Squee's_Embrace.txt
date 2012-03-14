@@ -1,0 +1,12 @@
+>Squee's Embrace
+url=http://magiccards.info/query?q=Squee%27s+Embrace&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Squee%27s+Embrace
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=2
+cost={R}{W}
+color=rw
+
+# TODO -- gen by neoe

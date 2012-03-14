@@ -1,0 +1,11 @@
+>Desperate Research
+url=http://magiccards.info/query?q=Desperate+Research&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Desperate+Research
+timing=main
+rarity=R
+type=Sorcery
+converted=2
+cost={1}{B}
+color=b
+
+# TODO -- gen by neoe

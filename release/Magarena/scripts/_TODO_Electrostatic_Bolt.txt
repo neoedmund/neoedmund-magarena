@@ -1,0 +1,11 @@
+>Electrostatic Bolt
+url=http://magiccards.info/query?q=Electrostatic+Bolt&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Electrostatic+Bolt
+timing=main
+rarity=C
+type=Instant
+converted=1
+cost={R}
+color=r
+
+# TODO -- gen by neoe

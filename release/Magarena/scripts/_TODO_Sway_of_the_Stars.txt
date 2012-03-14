@@ -1,0 +1,11 @@
+>Sway of the Stars
+url=http://magiccards.info/query?q=Sway+of+the+Stars&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sway+of+the+Stars
+timing=main
+rarity=R
+type=Sorcery
+converted=10
+cost={8}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

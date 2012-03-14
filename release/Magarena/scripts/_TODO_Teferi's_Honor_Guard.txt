@@ -1,0 +1,13 @@
+>Teferi's Honor Guard
+url=http://magiccards.info/query?q=Teferi%27s+Honor+Guard&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Teferi%27s+Honor+Guard
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Knight
+pt=2/2
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

@@ -1,0 +1,10 @@
+>Fate Transfer
+url=http://magiccards.info/query?q=Fate+Transfer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Fate+Transfer
+timing=main
+rarity=C
+type=Instant
+converted=6
+cost={1}{U/B}
+
+# TODO -- gen by neoe

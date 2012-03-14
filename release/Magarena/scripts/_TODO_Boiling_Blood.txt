@@ -1,0 +1,11 @@
+>Boiling Blood
+url=http://magiccards.info/query?q=Boiling+Blood&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Boiling+Blood
+timing=main
+rarity=C
+type=Instant
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

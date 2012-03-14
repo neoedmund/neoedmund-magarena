@@ -1,0 +1,13 @@
+>Meadowboon
+url=http://magiccards.info/query?q=Meadowboon&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Meadowboon
+timing=main
+rarity=U
+type=Creature
+subtype=Elemental
+pt=3/3
+converted=4
+cost={2}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

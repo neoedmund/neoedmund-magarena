@@ -1,0 +1,13 @@
+>Deepwood Elder
+url=http://magiccards.info/query?q=Deepwood+Elder&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Deepwood+Elder
+timing=main
+rarity=R
+type=Creature
+subtype=Dryad,Spellshaper
+pt=2/2
+converted=2
+cost={G}{G}
+color=gg
+
+# TODO -- gen by neoe

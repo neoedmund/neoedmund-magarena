@@ -1,0 +1,13 @@
+>Deadshot Minotaur
+url=http://magiccards.info/query?q=Deadshot+Minotaur&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Deadshot+Minotaur
+timing=main
+rarity=C
+type=Creature
+subtype=Minotaur
+pt=3/4
+converted=5
+cost={3}{R}{G}
+color=rg
+
+# TODO -- gen by neoe

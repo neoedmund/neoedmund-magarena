@@ -1,0 +1,12 @@
+>Coma Veil
+url=http://magiccards.info/query?q=Coma+Veil&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Coma+Veil
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=5
+cost={4}{U}
+color=u
+
+# TODO -- gen by neoe

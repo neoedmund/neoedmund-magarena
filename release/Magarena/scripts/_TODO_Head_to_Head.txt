@@ -1,0 +1,11 @@
+>Head to Head
+url=http://magiccards.info/query?q=Head+to+Head&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Head+to+Head
+timing=main
+rarity=U
+type=Instant
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

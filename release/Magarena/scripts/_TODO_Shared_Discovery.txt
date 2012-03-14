@@ -1,0 +1,11 @@
+>Shared Discovery
+url=http://magiccards.info/query?q=Shared+Discovery&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Shared+Discovery
+timing=main
+rarity=C
+type=Sorcery
+converted=1
+cost={U}
+color=u
+
+# TODO -- gen by neoe

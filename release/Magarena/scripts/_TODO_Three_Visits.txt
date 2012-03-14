@@ -1,0 +1,11 @@
+>Three Visits
+url=http://magiccards.info/query?q=Three+Visits&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Three+Visits
+timing=main
+rarity=C
+type=Sorcery
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Worldheart Phoenix
+url=http://magiccards.info/query?q=Worldheart+Phoenix&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Worldheart+Phoenix
+timing=main
+rarity=R
+type=Creature
+subtype=Phoenix
+pt=2/2
+converted=4
+cost={3}{R}
+color=r
+
+# TODO -- gen by neoe

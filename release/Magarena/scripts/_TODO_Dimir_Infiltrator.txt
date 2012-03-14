@@ -1,0 +1,13 @@
+>Dimir Infiltrator
+url=http://magiccards.info/query?q=Dimir+Infiltrator&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dimir+Infiltrator
+timing=main
+rarity=C
+type=Creature
+subtype=Spirit
+pt=1/3
+converted=2
+cost={U}{B}
+color=ub
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Dream Stalker
+url=http://magiccards.info/query?q=Dream+Stalker&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dream+Stalker
+timing=main
+rarity=C
+type=Creature
+subtype=Illusion
+pt=1/5
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

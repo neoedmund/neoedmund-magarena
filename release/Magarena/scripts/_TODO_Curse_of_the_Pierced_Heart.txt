@@ -1,0 +1,11 @@
+>Curse of the Pierced Heart
+url=http://magiccards.info/query?q=Curse+of+the+Pierced+Heart&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Curse+of+the+Pierced+Heart
+timing=main
+rarity=C
+type=Enchantment
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

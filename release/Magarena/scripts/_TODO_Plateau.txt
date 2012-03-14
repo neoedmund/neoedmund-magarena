@@ -1,0 +1,11 @@
+>Plateau
+url=http://magiccards.info/query?q=Plateau&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Plateau
+timing=main
+rarity=R
+type=Land
+subtype=Mountain,Plains
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

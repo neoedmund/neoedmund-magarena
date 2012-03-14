@@ -1,0 +1,13 @@
+>Kavu Howler
+url=http://magiccards.info/query?q=Kavu+Howler&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Kavu+Howler
+timing=main
+rarity=U
+type=Creature
+subtype=Kavu
+pt=4/5
+converted=6
+cost={4}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

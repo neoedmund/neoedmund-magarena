@@ -1,0 +1,11 @@
+>Scepter of Fugue
+url=http://magiccards.info/query?q=Scepter+of+Fugue&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Scepter+of+Fugue
+timing=main
+rarity=R
+type=Artifact
+converted=2
+cost={B}{B}
+color=bb
+
+# TODO -- gen by neoe

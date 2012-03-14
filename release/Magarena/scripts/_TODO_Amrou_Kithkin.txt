@@ -1,0 +1,13 @@
+>Amrou Kithkin
+url=http://magiccards.info/query?q=Amrou+Kithkin&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Amrou+Kithkin
+timing=main
+rarity=C
+type=Creature
+subtype=Kithkin
+pt=1/1
+converted=2
+cost={W}{W}
+color=ww
+
+# TODO -- gen by neoe

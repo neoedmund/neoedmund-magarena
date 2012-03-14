@@ -1,0 +1,13 @@
+>Pradesh Gypsies
+url=http://magiccards.info/query?q=Pradesh+Gypsies&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Pradesh+Gypsies
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Nomad
+pt=1/1
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

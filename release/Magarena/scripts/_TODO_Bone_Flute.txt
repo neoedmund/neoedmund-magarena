@@ -1,0 +1,10 @@
+>Bone Flute
+url=http://magiccards.info/query?q=Bone+Flute&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Bone+Flute
+timing=main
+rarity=U
+type=Artifact
+converted=3
+cost={3}
+
+# TODO -- gen by neoe

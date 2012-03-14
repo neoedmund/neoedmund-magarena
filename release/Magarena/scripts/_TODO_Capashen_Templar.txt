@@ -1,0 +1,13 @@
+>Capashen Templar
+url=http://magiccards.info/query?q=Capashen+Templar&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Capashen+Templar
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Knight
+pt=2/2
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

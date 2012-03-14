@@ -1,0 +1,11 @@
+>Empty City Ruse
+url=http://magiccards.info/query?q=Empty+City+Ruse&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Empty+City+Ruse
+timing=main
+rarity=U
+type=Sorcery
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

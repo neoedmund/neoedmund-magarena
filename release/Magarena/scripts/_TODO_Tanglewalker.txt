@@ -1,0 +1,13 @@
+>Tanglewalker
+url=http://magiccards.info/query?q=Tanglewalker&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Tanglewalker
+timing=main
+rarity=U
+type=Creature
+subtype=Dryad
+pt=2/2
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

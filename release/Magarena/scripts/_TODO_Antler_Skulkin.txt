@@ -1,0 +1,12 @@
+>Antler Skulkin
+url=http://magiccards.info/query?q=Antler+Skulkin&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Antler+Skulkin
+timing=main
+rarity=C
+type=Artifact,Creature
+subtype=Scarecrow
+pt=3/3
+converted=5
+cost={5}
+
+# TODO -- gen by neoe

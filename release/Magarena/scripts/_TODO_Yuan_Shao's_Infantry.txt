@@ -1,0 +1,13 @@
+>Yuan Shao's Infantry
+url=http://magiccards.info/query?q=Yuan+Shao%27s+Infantry&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Yuan+Shao%27s+Infantry
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Soldier
+pt=2/2
+converted=4
+cost={3}{R}
+color=r
+
+# TODO -- gen by neoe

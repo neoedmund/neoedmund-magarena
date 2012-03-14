@@ -1,0 +1,11 @@
+>Festering Evil
+url=http://magiccards.info/query?q=Festering+Evil&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Festering+Evil
+timing=main
+rarity=U
+type=Enchantment
+converted=5
+cost={3}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

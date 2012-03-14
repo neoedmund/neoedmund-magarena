@@ -1,0 +1,11 @@
+>Balance of Power
+url=http://magiccards.info/query?q=Balance+of+Power&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Balance+of+Power
+timing=main
+rarity=R
+type=Sorcery
+converted=5
+cost={3}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

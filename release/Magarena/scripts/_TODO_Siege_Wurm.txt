@@ -1,0 +1,13 @@
+>Siege Wurm
+url=http://magiccards.info/query?q=Siege+Wurm&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Siege+Wurm
+timing=main
+rarity=C
+type=Creature
+subtype=Wurm
+pt=5/5
+converted=7
+cost={5}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Elven Palisade
+url=http://magiccards.info/query?q=Elven+Palisade&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Elven+Palisade
+timing=main
+rarity=U
+type=Enchantment
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

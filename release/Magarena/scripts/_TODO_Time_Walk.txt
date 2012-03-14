@@ -1,0 +1,11 @@
+>Time Walk
+url=http://magiccards.info/query?q=Time+Walk&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Time+Walk
+timing=main
+rarity=R
+type=Sorcery
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

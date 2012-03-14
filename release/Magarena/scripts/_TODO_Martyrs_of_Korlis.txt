@@ -1,0 +1,13 @@
+>Martyrs of Korlis
+url=http://magiccards.info/query?q=Martyrs+of+Korlis&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Martyrs+of+Korlis
+timing=main
+rarity=U
+type=Creature
+subtype=Human
+pt=1/6
+converted=5
+cost={3}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Scars of the Veteran
+url=http://magiccards.info/query?q=Scars+of+the+Veteran&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Scars+of+the+Veteran
+timing=main
+rarity=U
+type=Instant
+converted=5
+cost={4}{W}
+color=w
+
+# TODO -- gen by neoe

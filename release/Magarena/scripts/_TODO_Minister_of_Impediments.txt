@@ -1,0 +1,12 @@
+>Minister of Impediments
+url=http://magiccards.info/query?q=Minister+of+Impediments&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Minister+of+Impediments
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Advisor
+pt=1/1
+converted=7
+cost={2}{W/U}
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Jedit Ojanen of Efrava
+url=http://magiccards.info/query?q=Jedit+Ojanen+of+Efrava&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Jedit+Ojanen+of+Efrava
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Cat,Warrior
+pt=5/5
+converted=6
+cost={3}{G}{G}{G}
+color=ggg
+
+# TODO -- gen by neoe

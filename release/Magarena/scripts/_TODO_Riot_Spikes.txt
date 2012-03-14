@@ -1,0 +1,11 @@
+>Riot Spikes
+url=http://magiccards.info/query?q=Riot+Spikes&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Riot+Spikes
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=5
+cost={B/R}
+
+# TODO -- gen by neoe

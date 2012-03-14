@@ -1,0 +1,11 @@
+>Burning Inquiry
+url=http://magiccards.info/query?q=Burning+Inquiry&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Burning+Inquiry
+timing=main
+rarity=C
+type=Sorcery
+converted=1
+cost={R}
+color=r
+
+# TODO -- gen by neoe

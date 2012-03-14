@@ -1,0 +1,12 @@
+>Presence of Gond
+url=http://magiccards.info/query?q=Presence+of+Gond&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Presence+of+Gond
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

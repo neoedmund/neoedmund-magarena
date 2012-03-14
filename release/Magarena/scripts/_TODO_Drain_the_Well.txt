@@ -1,0 +1,10 @@
+>Drain the Well
+url=http://magiccards.info/query?q=Drain+the+Well&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Drain+the+Well
+timing=main
+rarity=C
+type=Sorcery
+converted=12
+cost={2}{B/G}{B/G}
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Cateran Kidnappers
+url=http://magiccards.info/query?q=Cateran+Kidnappers&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Cateran+Kidnappers
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Mercenary
+pt=4/2
+converted=4
+cost={2}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Zuo Ci, the Mocking Sage
+url=http://magiccards.info/query?q=Zuo+Ci%2C+the+Mocking+Sage&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Zuo+Ci%2C+the+Mocking+Sage
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Human,Advisor
+pt=1/2
+converted=3
+cost={1}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

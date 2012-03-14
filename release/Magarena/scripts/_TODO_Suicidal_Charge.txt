@@ -1,0 +1,11 @@
+>Suicidal Charge
+url=http://magiccards.info/query?q=Suicidal+Charge&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Suicidal+Charge
+timing=main
+rarity=C
+type=Enchantment
+converted=5
+cost={3}{B}{R}
+color=br
+
+# TODO -- gen by neoe

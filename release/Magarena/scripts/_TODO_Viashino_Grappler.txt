@@ -1,0 +1,13 @@
+>Viashino Grappler
+url=http://magiccards.info/query?q=Viashino+Grappler&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Viashino+Grappler
+timing=main
+rarity=C
+type=Creature
+subtype=Viashino
+pt=3/1
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

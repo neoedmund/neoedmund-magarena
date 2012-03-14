@@ -1,0 +1,12 @@
+>Lust for War
+url=http://magiccards.info/query?q=Lust+for+War&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Lust+for+War
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

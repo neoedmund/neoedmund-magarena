@@ -1,0 +1,13 @@
+>Teroh's Vanguard
+url=http://magiccards.info/query?q=Teroh%27s+Vanguard&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Teroh%27s+Vanguard
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Nomad
+pt=2/3
+converted=4
+cost={3}{W}
+color=w
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Yavimaya Scion
+url=http://magiccards.info/query?q=Yavimaya+Scion&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Yavimaya+Scion
+timing=main
+rarity=C
+type=Creature
+subtype=Treefolk
+pt=4/4
+converted=5
+cost={4}{G}
+color=g
+
+# TODO -- gen by neoe

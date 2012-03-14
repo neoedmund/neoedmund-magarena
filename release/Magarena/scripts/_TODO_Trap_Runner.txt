@@ -1,0 +1,13 @@
+>Trap Runner
+url=http://magiccards.info/query?q=Trap+Runner&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Trap+Runner
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Soldier
+pt=2/3
+converted=4
+cost={2}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

@@ -1,0 +1,12 @@
+>Saberclaw Golem
+url=http://magiccards.info/query?q=Saberclaw+Golem&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Saberclaw+Golem
+timing=main
+rarity=C
+type=Artifact,Creature
+subtype=Golem
+pt=4/2
+converted=5
+cost={5}
+
+# TODO -- gen by neoe

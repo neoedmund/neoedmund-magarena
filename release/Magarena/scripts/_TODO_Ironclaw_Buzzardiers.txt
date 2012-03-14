@@ -1,0 +1,13 @@
+>Ironclaw Buzzardiers
+url=http://magiccards.info/query?q=Ironclaw+Buzzardiers&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ironclaw+Buzzardiers
+timing=main
+rarity=C
+type=Creature
+subtype=Orc,Scout
+pt=2/2
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

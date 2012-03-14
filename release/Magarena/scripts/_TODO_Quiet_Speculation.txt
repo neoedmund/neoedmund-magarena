@@ -1,0 +1,11 @@
+>Quiet Speculation
+url=http://magiccards.info/query?q=Quiet+Speculation&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Quiet+Speculation
+timing=main
+rarity=U
+type=Sorcery
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

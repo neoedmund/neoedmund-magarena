@@ -1,0 +1,11 @@
+>Sunlance
+url=http://magiccards.info/query?q=Sunlance&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sunlance
+timing=main
+rarity=C
+type=Sorcery
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

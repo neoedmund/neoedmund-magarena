@@ -1,0 +1,13 @@
+>Degavolver
+url=http://magiccards.info/query?q=Degavolver&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Degavolver
+timing=main
+rarity=R
+type=Creature
+subtype=Volver
+pt=1/1
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

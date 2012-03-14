@@ -1,0 +1,12 @@
+>Dryad Arbor
+url=http://magiccards.info/query?q=Dryad+Arbor&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dryad+Arbor
+timing=main
+rarity=U
+type=Land,Creature
+subtype=Forest,Dryad
+pt=1/1
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

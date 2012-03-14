@@ -1,0 +1,11 @@
+>Stench of Decay
+url=http://magiccards.info/query?q=Stench+of+Decay&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Stench+of+Decay
+timing=main
+rarity=C
+type=Instant
+converted=3
+cost={1}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

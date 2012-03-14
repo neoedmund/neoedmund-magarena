@@ -1,0 +1,13 @@
+>Wall of Light
+url=http://magiccards.info/query?q=Wall+of+Light&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wall+of+Light
+timing=main
+rarity=U
+type=Creature
+subtype=Wall
+pt=1/5
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

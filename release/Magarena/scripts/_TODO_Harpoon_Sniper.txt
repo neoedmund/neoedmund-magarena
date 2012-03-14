@@ -1,0 +1,13 @@
+>Harpoon Sniper
+url=http://magiccards.info/query?q=Harpoon+Sniper&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Harpoon+Sniper
+timing=main
+rarity=U
+type=Creature
+subtype=Merfolk,Archer
+pt=2/2
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

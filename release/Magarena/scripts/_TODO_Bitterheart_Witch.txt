@@ -1,0 +1,13 @@
+>Bitterheart Witch
+url=http://magiccards.info/query?q=Bitterheart+Witch&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Bitterheart+Witch
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Shaman
+pt=1/2
+converted=5
+cost={4}{B}
+color=b
+
+# TODO -- gen by neoe

@@ -1,0 +1,10 @@
+>Ark of Blight
+url=http://magiccards.info/query?q=Ark+of+Blight&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ark+of+Blight
+timing=main
+rarity=U
+type=Artifact
+converted=2
+cost={2}
+
+# TODO -- gen by neoe

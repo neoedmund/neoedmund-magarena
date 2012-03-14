@@ -1,0 +1,12 @@
+>Clockwork Beetle
+url=http://magiccards.info/query?q=Clockwork+Beetle&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Clockwork+Beetle
+timing=main
+rarity=C
+type=Artifact,Creature
+subtype=Insect
+pt=0/0
+converted=1
+cost={1}
+
+# TODO -- gen by neoe

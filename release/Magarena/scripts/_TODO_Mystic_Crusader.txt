@@ -1,0 +1,13 @@
+>Mystic Crusader
+url=http://magiccards.info/query?q=Mystic+Crusader&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mystic+Crusader
+timing=main
+rarity=R
+type=Creature
+subtype=Human,Nomad,Mystic
+pt=2/1
+converted=3
+cost={1}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

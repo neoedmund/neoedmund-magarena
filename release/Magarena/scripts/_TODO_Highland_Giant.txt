@@ -1,0 +1,13 @@
+>Highland Giant
+url=http://magiccards.info/query?q=Highland+Giant&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Highland+Giant
+timing=main
+rarity=C
+type=Creature
+subtype=Giant
+pt=3/4
+converted=4
+cost={2}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

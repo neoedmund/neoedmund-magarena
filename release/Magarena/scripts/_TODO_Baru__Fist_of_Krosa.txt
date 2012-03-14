@@ -1,0 +1,13 @@
+>Baru, Fist of Krosa
+url=http://magiccards.info/query?q=Baru%2C+Fist+of+Krosa&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Baru%2C+Fist+of+Krosa
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Human,Druid
+pt=4/4
+converted=5
+cost={3}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

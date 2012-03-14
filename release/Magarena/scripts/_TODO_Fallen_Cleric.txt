@@ -1,0 +1,13 @@
+>Fallen Cleric
+url=http://magiccards.info/query?q=Fallen+Cleric&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Fallen+Cleric
+timing=main
+rarity=C
+type=Creature
+subtype=Zombie,Cleric
+pt=4/2
+converted=5
+cost={4}{B}
+color=b
+
+# TODO -- gen by neoe

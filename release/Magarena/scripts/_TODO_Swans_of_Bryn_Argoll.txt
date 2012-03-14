@@ -1,0 +1,12 @@
+>Swans of Bryn Argoll
+url=http://magiccards.info/query?q=Swans+of+Bryn+Argoll&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Swans+of+Bryn+Argoll
+timing=main
+rarity=R
+type=Creature
+subtype=Bird,Spirit
+pt=4/3
+converted=12
+cost={2}{W/U}{W/U}
+
+# TODO -- gen by neoe

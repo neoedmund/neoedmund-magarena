@@ -1,0 +1,13 @@
+>Llanowar Mentor
+url=http://magiccards.info/query?q=Llanowar+Mentor&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Llanowar+Mentor
+timing=main
+rarity=U
+type=Creature
+subtype=Elf,Spellshaper
+pt=1/1
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Jolrael, Empress of Beasts
+url=http://magiccards.info/query?q=Jolrael%2C+Empress+of+Beasts&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Jolrael%2C+Empress+of+Beasts
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Human,Spellshaper
+pt=3/3
+converted=5
+cost={3}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Aven Fogbringer
+url=http://magiccards.info/query?q=Aven+Fogbringer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Aven+Fogbringer
+timing=main
+rarity=C
+type=Creature
+subtype=Bird,Wizard
+pt=2/1
+converted=4
+cost={3}{U}
+color=u
+
+# TODO -- gen by neoe

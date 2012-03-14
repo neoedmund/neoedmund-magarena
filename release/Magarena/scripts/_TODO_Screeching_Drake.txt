@@ -1,0 +1,13 @@
+>Screeching Drake
+url=http://magiccards.info/query?q=Screeching+Drake&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Screeching+Drake
+timing=main
+rarity=C
+type=Creature
+subtype=Drake
+pt=2/2
+converted=4
+cost={3}{U}
+color=u
+
+# TODO -- gen by neoe

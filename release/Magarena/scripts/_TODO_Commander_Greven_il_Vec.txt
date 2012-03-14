@@ -1,0 +1,13 @@
+>Commander Greven il-Vec
+url=http://magiccards.info/query?q=Commander+Greven+il-Vec&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Commander+Greven+il-Vec
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Human,Warrior
+pt=7/5
+converted=6
+cost={3}{B}{B}{B}
+color=bbb
+
+# TODO -- gen by neoe

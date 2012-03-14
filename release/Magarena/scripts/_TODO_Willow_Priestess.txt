@@ -1,0 +1,13 @@
+>Willow Priestess
+url=http://magiccards.info/query?q=Willow+Priestess&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Willow+Priestess
+timing=main
+rarity=U
+type=Creature
+subtype=Faerie,Druid
+pt=2/2
+converted=4
+cost={2}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Dawnglare Invoker
+url=http://magiccards.info/query?q=Dawnglare+Invoker&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dawnglare+Invoker
+timing=main
+rarity=C
+type=Creature
+subtype=Kor,Wizard
+pt=2/1
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

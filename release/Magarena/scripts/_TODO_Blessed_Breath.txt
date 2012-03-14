@@ -1,0 +1,11 @@
+>Blessed Breath
+url=http://magiccards.info/query?q=Blessed+Breath&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Blessed+Breath
+timing=main
+rarity=C
+type=Instant
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

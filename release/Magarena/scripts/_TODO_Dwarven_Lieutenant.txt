@@ -1,0 +1,13 @@
+>Dwarven Lieutenant
+url=http://magiccards.info/query?q=Dwarven+Lieutenant&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dwarven+Lieutenant
+timing=main
+rarity=U
+type=Creature
+subtype=Dwarf,Soldier
+pt=1/2
+converted=2
+cost={R}{R}
+color=rr
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Gallowbraid
+url=http://magiccards.info/query?q=Gallowbraid&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Gallowbraid
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Horror
+pt=5/5
+converted=5
+cost={3}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

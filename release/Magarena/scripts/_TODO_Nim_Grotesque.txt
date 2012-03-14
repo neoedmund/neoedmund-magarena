@@ -1,0 +1,13 @@
+>Nim Grotesque
+url=http://magiccards.info/query?q=Nim+Grotesque&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Nim+Grotesque
+timing=main
+rarity=U
+type=Creature
+subtype=Zombie
+pt=3/6
+converted=7
+cost={6}{B}
+color=b
+
+# TODO -- gen by neoe

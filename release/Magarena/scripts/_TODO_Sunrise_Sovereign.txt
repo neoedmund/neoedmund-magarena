@@ -1,0 +1,13 @@
+>Sunrise Sovereign
+url=http://magiccards.info/query?q=Sunrise+Sovereign&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sunrise+Sovereign
+timing=main
+rarity=R
+type=Creature
+subtype=Giant,Warrior
+pt=5/5
+converted=6
+cost={5}{R}
+color=r
+
+# TODO -- gen by neoe

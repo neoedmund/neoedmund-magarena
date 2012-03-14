@@ -1,0 +1,13 @@
+>Karrthus, Tyrant of Jund
+url=http://magiccards.info/query?q=Karrthus%2C+Tyrant+of+Jund&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Karrthus%2C+Tyrant+of+Jund
+timing=main
+rarity=M
+type=Legendary,Creature
+subtype=Dragon
+pt=7/7
+converted=7
+cost={4}{B}{R}{G}
+color=brg
+
+# TODO -- gen by neoe

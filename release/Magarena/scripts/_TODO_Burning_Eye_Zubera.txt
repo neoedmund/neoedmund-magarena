@@ -1,0 +1,13 @@
+>Burning-Eye Zubera
+url=http://magiccards.info/query?q=Burning-Eye+Zubera&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Burning-Eye+Zubera
+timing=main
+rarity=U
+type=Creature
+subtype=Zubera,Spirit
+pt=3/3
+converted=4
+cost={2}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

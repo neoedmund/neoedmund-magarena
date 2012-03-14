@@ -1,0 +1,10 @@
+>Chimeric Coils
+url=http://magiccards.info/query?q=Chimeric+Coils&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Chimeric+Coils
+timing=main
+rarity=U
+type=Artifact
+converted=1
+cost={1}
+
+# TODO -- gen by neoe

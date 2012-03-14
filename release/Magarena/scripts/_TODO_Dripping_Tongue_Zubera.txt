@@ -1,0 +1,13 @@
+>Dripping-Tongue Zubera
+url=http://magiccards.info/query?q=Dripping-Tongue+Zubera&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dripping-Tongue+Zubera
+timing=main
+rarity=C
+type=Creature
+subtype=Zubera,Spirit
+pt=1/2
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

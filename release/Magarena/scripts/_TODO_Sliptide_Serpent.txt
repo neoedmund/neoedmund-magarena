@@ -1,0 +1,13 @@
+>Sliptide Serpent
+url=http://magiccards.info/query?q=Sliptide+Serpent&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sliptide+Serpent
+timing=main
+rarity=R
+type=Creature
+subtype=Serpent
+pt=4/4
+converted=6
+cost={4}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

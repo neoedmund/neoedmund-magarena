@@ -1,0 +1,12 @@
+>Etched Oracle
+url=http://magiccards.info/query?q=Etched+Oracle&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Etched+Oracle
+timing=main
+rarity=U
+type=Artifact,Creature
+subtype=Wizard
+pt=0/0
+converted=4
+cost={4}
+
+# TODO -- gen by neoe

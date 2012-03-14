@@ -1,0 +1,13 @@
+>Rishadan Airship
+url=http://magiccards.info/query?q=Rishadan+Airship&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Rishadan+Airship
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Pirate
+pt=3/1
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

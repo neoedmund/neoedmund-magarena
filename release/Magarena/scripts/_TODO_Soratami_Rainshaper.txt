@@ -1,0 +1,13 @@
+>Soratami Rainshaper
+url=http://magiccards.info/query?q=Soratami+Rainshaper&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Soratami+Rainshaper
+timing=main
+rarity=C
+type=Creature
+subtype=Moonfolk,Wizard
+pt=2/1
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

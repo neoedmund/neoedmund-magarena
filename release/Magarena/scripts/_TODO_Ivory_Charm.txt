@@ -1,0 +1,11 @@
+>Ivory Charm
+url=http://magiccards.info/query?q=Ivory+Charm&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ivory+Charm
+timing=main
+rarity=C
+type=Instant
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

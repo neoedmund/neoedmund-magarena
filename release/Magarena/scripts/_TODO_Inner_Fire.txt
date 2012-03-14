@@ -1,0 +1,11 @@
+>Inner Fire
+url=http://magiccards.info/query?q=Inner+Fire&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Inner+Fire
+timing=main
+rarity=C
+type=Sorcery
+converted=4
+cost={3}{R}
+color=r
+
+# TODO -- gen by neoe

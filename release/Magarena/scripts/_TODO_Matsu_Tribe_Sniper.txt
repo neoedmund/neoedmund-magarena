@@ -1,0 +1,13 @@
+>Matsu-Tribe Sniper
+url=http://magiccards.info/query?q=Matsu-Tribe+Sniper&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Matsu-Tribe+Sniper
+timing=main
+rarity=C
+type=Creature
+subtype=Snake,Warrior,Archer
+pt=1/1
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

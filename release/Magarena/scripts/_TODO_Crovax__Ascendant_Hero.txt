@@ -1,0 +1,13 @@
+>Crovax, Ascendant Hero
+url=http://magiccards.info/query?q=Crovax%2C+Ascendant+Hero&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Crovax%2C+Ascendant+Hero
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Human
+pt=4/4
+converted=6
+cost={4}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

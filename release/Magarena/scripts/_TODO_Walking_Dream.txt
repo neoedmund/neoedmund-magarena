@@ -1,0 +1,13 @@
+>Walking Dream
+url=http://magiccards.info/query?q=Walking+Dream&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Walking+Dream
+timing=main
+rarity=U
+type=Creature
+subtype=Illusion
+pt=3/3
+converted=4
+cost={3}{U}
+color=u
+
+# TODO -- gen by neoe

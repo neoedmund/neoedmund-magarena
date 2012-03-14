@@ -1,0 +1,12 @@
+>Dehydration
+url=http://magiccards.info/query?q=Dehydration&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dehydration
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=4
+cost={3}{U}
+color=u
+
+# TODO -- gen by neoe

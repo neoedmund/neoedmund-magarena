@@ -1,0 +1,13 @@
+>Flamekin Spitfire
+url=http://magiccards.info/query?q=Flamekin+Spitfire&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Flamekin+Spitfire
+timing=main
+rarity=U
+type=Creature
+subtype=Elemental,Shaman
+pt=1/1
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

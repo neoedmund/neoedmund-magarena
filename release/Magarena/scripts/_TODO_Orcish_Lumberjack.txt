@@ -1,0 +1,13 @@
+>Orcish Lumberjack
+url=http://magiccards.info/query?q=Orcish+Lumberjack&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Orcish+Lumberjack
+timing=main
+rarity=C
+type=Creature
+subtype=Orc
+pt=1/1
+converted=1
+cost={R}
+color=r
+
+# TODO -- gen by neoe

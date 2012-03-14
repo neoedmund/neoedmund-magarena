@@ -1,0 +1,13 @@
+>Kitsune Loreweaver
+url=http://magiccards.info/query?q=Kitsune+Loreweaver&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Kitsune+Loreweaver
+timing=main
+rarity=C
+type=Creature
+subtype=Fox,Cleric
+pt=2/1
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

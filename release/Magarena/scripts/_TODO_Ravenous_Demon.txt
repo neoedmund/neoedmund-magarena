@@ -1,0 +1,13 @@
+>Ravenous Demon
+url=http://magiccards.info/query?q=Ravenous+Demon&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ravenous+Demon
+timing=main
+rarity=R
+type=Creature
+subtype=Demon
+pt=4/4
+converted=5
+cost={3}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

@@ -1,0 +1,12 @@
+>Shrewd Hatchling
+url=http://magiccards.info/query?q=Shrewd+Hatchling&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Shrewd+Hatchling
+timing=main
+rarity=U
+type=Creature
+subtype=Elemental
+pt=6/6
+converted=8
+cost={3}{U/R}
+
+# TODO -- gen by neoe

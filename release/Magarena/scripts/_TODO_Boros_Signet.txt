@@ -1,0 +1,10 @@
+>Boros Signet
+url=http://magiccards.info/query?q=Boros+Signet&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Boros+Signet
+timing=main
+rarity=C
+type=Artifact
+converted=2
+cost={2}
+
+# TODO -- gen by neoe

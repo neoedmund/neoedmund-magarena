@@ -1,0 +1,12 @@
+>Puresight Merrow
+url=http://magiccards.info/query?q=Puresight+Merrow&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Puresight+Merrow
+timing=main
+rarity=U
+type=Creature
+subtype=Merfolk,Wizard
+pt=2/2
+converted=10
+cost={W/U}{W/U}
+
+# TODO -- gen by neoe

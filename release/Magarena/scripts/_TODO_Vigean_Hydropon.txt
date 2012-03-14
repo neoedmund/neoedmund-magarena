@@ -1,0 +1,13 @@
+>Vigean Hydropon
+url=http://magiccards.info/query?q=Vigean+Hydropon&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Vigean+Hydropon
+timing=main
+rarity=C
+type=Creature
+subtype=Plant,Mutant
+pt=0/0
+converted=3
+cost={1}{G}{U}
+color=gu
+
+# TODO -- gen by neoe

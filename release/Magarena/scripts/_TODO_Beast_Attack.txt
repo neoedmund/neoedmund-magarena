@@ -1,0 +1,11 @@
+>Beast Attack
+url=http://magiccards.info/query?q=Beast+Attack&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Beast+Attack
+timing=main
+rarity=U
+type=Instant
+converted=5
+cost={2}{G}{G}{G}
+color=ggg
+
+# TODO -- gen by neoe

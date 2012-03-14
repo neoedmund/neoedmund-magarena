@@ -1,0 +1,13 @@
+>Somber Hoverguard
+url=http://magiccards.info/query?q=Somber+Hoverguard&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Somber+Hoverguard
+timing=main
+rarity=C
+type=Creature
+subtype=Drone
+pt=3/2
+converted=6
+cost={5}{U}
+color=u
+
+# TODO -- gen by neoe

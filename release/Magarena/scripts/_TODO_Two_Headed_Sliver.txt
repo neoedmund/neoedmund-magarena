@@ -1,0 +1,13 @@
+>Two-Headed Sliver
+url=http://magiccards.info/query?q=Two-Headed+Sliver&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Two-Headed+Sliver
+timing=main
+rarity=C
+type=Creature
+subtype=Sliver
+pt=1/1
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

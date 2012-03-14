@@ -1,0 +1,11 @@
+>Tidal Surge
+url=http://magiccards.info/query?q=Tidal+Surge&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Tidal+Surge
+timing=main
+rarity=C
+type=Sorcery
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

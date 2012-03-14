@@ -1,0 +1,13 @@
+>Whirlpool Warrior
+url=http://magiccards.info/query?q=Whirlpool+Warrior&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Whirlpool+Warrior
+timing=main
+rarity=R
+type=Creature
+subtype=Merfolk,Warrior
+pt=2/2
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

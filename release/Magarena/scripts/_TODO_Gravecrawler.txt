@@ -1,0 +1,13 @@
+>Gravecrawler
+url=http://magiccards.info/query?q=Gravecrawler&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Gravecrawler
+timing=main
+rarity=R
+type=Creature
+subtype=Zombie
+pt=2/1
+converted=1
+cost={B}
+color=b
+
+# TODO -- gen by neoe
