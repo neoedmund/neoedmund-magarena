@@ -1,0 +1,11 @@
+>Cremate
+url=http://magiccards.info/query?q=Cremate&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Cremate
+timing=main
+rarity=C
+type=Instant
+converted=1
+cost={B}
+color=b
+
+# TODO -- gen by neoe

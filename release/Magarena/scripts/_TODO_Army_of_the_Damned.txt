@@ -1,0 +1,11 @@
+>Army of the Damned
+url=http://magiccards.info/query?q=Army+of+the+Damned&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Army+of+the+Damned
+timing=main
+rarity=M
+type=Sorcery
+converted=8
+cost={5}{B}{B}{B}
+color=bbb
+
+# TODO -- gen by neoe

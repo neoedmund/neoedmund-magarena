@@ -1,0 +1,11 @@
+>Thermokarst
+url=http://magiccards.info/query?q=Thermokarst&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Thermokarst
+timing=main
+rarity=U
+type=Sorcery
+converted=3
+cost={1}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

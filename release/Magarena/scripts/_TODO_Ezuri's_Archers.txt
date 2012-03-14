@@ -1,0 +1,13 @@
+>Ezuri's Archers
+url=http://magiccards.info/query?q=Ezuri%27s+Archers&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ezuri%27s+Archers
+timing=main
+rarity=C
+type=Creature
+subtype=Elf,Archer
+pt=1/2
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

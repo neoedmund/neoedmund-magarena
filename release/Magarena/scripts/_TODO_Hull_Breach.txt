@@ -1,0 +1,11 @@
+>Hull Breach
+url=http://magiccards.info/query?q=Hull+Breach&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Hull+Breach
+timing=main
+rarity=C
+type=Sorcery
+converted=2
+cost={R}{G}
+color=rg
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Troubled Healer
+url=http://magiccards.info/query?q=Troubled+Healer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Troubled+Healer
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Cleric
+pt=1/2
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

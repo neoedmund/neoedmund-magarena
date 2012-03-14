@@ -1,0 +1,13 @@
+>Emrakul's Hatcher
+url=http://magiccards.info/query?q=Emrakul%27s+Hatcher&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Emrakul%27s+Hatcher
+timing=main
+rarity=C
+type=Creature
+subtype=Eldrazi,Drone
+pt=3/3
+converted=5
+cost={4}{R}
+color=r
+
+# TODO -- gen by neoe

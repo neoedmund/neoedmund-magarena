@@ -1,0 +1,13 @@
+>Ogre Gatecrasher
+url=http://magiccards.info/query?q=Ogre+Gatecrasher&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ogre+Gatecrasher
+timing=main
+rarity=C
+type=Creature
+subtype=Ogre,Rogue
+pt=3/3
+converted=4
+cost={3}{R}
+color=r
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Skirsdag High Priest
+url=http://magiccards.info/query?q=Skirsdag+High+Priest&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Skirsdag+High+Priest
+timing=main
+rarity=R
+type=Creature
+subtype=Human,Cleric
+pt=1/2
+converted=2
+cost={1}{B}
+color=b
+
+# TODO -- gen by neoe

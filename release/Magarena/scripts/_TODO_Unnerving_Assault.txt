@@ -1,0 +1,10 @@
+>Unnerving Assault
+url=http://magiccards.info/query?q=Unnerving+Assault&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Unnerving+Assault
+timing=main
+rarity=U
+type=Instant
+converted=7
+cost={2}{U/R}
+
+# TODO -- gen by neoe

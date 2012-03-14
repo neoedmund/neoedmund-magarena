@@ -1,0 +1,11 @@
+>Endure
+url=http://magiccards.info/query?q=Endure&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Endure
+timing=main
+rarity=U
+type=Instant
+converted=5
+cost={3}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

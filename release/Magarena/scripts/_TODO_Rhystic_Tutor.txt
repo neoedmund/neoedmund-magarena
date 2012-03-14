@@ -1,0 +1,11 @@
+>Rhystic Tutor
+url=http://magiccards.info/query?q=Rhystic+Tutor&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Rhystic+Tutor
+timing=main
+rarity=R
+type=Sorcery
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

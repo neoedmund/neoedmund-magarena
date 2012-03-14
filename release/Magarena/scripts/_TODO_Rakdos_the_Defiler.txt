@@ -1,0 +1,13 @@
+>Rakdos the Defiler
+url=http://magiccards.info/query?q=Rakdos+the+Defiler&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Rakdos+the+Defiler
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Demon
+pt=7/6
+converted=6
+cost={2}{B}{B}{R}{R}
+color=bbrr
+
+# TODO -- gen by neoe

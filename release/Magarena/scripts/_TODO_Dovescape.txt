@@ -1,0 +1,10 @@
+>Dovescape
+url=http://magiccards.info/query?q=Dovescape&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dovescape
+timing=main
+rarity=R
+type=Enchantment
+converted=18
+cost={3}{W/U}{W/U}{W/U}
+
+# TODO -- gen by neoe

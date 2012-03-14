@@ -1,0 +1,13 @@
+>Kavu Runner
+url=http://magiccards.info/query?q=Kavu+Runner&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Kavu+Runner
+timing=main
+rarity=U
+type=Creature
+subtype=Kavu
+pt=3/3
+converted=4
+cost={3}{R}
+color=r
+
+# TODO -- gen by neoe

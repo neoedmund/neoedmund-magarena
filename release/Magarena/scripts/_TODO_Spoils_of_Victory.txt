@@ -1,0 +1,11 @@
+>Spoils of Victory
+url=http://magiccards.info/query?q=Spoils+of+Victory&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Spoils+of+Victory
+timing=main
+rarity=U
+type=Sorcery
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

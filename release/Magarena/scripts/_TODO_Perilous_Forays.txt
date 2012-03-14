@@ -1,0 +1,11 @@
+>Perilous Forays
+url=http://magiccards.info/query?q=Perilous+Forays&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Perilous+Forays
+timing=main
+rarity=U
+type=Enchantment
+converted=5
+cost={3}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

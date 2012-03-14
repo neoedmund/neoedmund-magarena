@@ -1,0 +1,13 @@
+>Whip Sergeant
+url=http://magiccards.info/query?q=Whip+Sergeant&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Whip+Sergeant
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Soldier
+pt=2/1
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Martyr's Cause
+url=http://magiccards.info/query?q=Martyr%27s+Cause&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Martyr%27s+Cause
+timing=main
+rarity=U
+type=Enchantment
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

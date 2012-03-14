@@ -1,0 +1,12 @@
+>Barbed Field
+url=http://magiccards.info/query?q=Barbed+Field&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Barbed+Field
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=4
+cost={2}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

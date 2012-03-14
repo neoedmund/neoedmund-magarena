@@ -1,0 +1,13 @@
+>Vaevictis Asmadi
+url=http://magiccards.info/query?q=Vaevictis+Asmadi&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Vaevictis+Asmadi
+timing=main
+rarity=U
+type=Legendary,Creature
+subtype=Elder,Dragon
+pt=7/7
+converted=8
+cost={2}{B}{B}{R}{R}{G}{G}
+color=bbrrgg
+
+# TODO -- gen by neoe

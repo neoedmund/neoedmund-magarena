@@ -1,0 +1,13 @@
+>Ore Gorger
+url=http://magiccards.info/query?q=Ore+Gorger&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ore+Gorger
+timing=main
+rarity=U
+type=Creature
+subtype=Spirit
+pt=3/1
+converted=5
+cost={3}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

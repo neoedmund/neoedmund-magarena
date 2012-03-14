@@ -1,0 +1,13 @@
+>Arashi, the Sky Asunder
+url=http://magiccards.info/query?q=Arashi%2C+the+Sky+Asunder&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Arashi%2C+the+Sky+Asunder
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Spirit
+pt=5/5
+converted=5
+cost={3}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

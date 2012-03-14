@@ -1,0 +1,11 @@
+>Blinding Light
+url=http://magiccards.info/query?q=Blinding+Light&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Blinding+Light
+timing=main
+rarity=R
+type=Sorcery
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

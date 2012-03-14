@@ -1,0 +1,12 @@
+>Midnight Covenant
+url=http://magiccards.info/query?q=Midnight+Covenant&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Midnight+Covenant
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=2
+cost={1}{B}
+color=b
+
+# TODO -- gen by neoe

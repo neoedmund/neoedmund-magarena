@@ -1,0 +1,11 @@
+>Wildfield Borderpost
+url=http://magiccards.info/query?q=Wildfield+Borderpost&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wildfield+Borderpost
+timing=main
+rarity=C
+type=Artifact
+converted=3
+cost={1}{G}{W}
+color=gw
+
+# TODO -- gen by neoe

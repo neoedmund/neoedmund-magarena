@@ -1,0 +1,13 @@
+>Greater Morphling
+url=http://magiccards.info/query?q=Greater+Morphling&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Greater+Morphling
+timing=main
+rarity=R
+type=Creature
+subtype=Shapeshifter
+pt=5/5
+converted=8
+cost={6}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

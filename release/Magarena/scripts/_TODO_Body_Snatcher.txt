@@ -1,0 +1,13 @@
+>Body Snatcher
+url=http://magiccards.info/query?q=Body+Snatcher&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Body+Snatcher
+timing=main
+rarity=R
+type=Creature
+subtype=Minion
+pt=2/2
+converted=4
+cost={2}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

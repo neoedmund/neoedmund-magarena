@@ -1,0 +1,13 @@
+>Militant Monk
+url=http://magiccards.info/query?q=Militant+Monk&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Militant+Monk
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Monk,Cleric
+pt=2/1
+converted=3
+cost={1}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

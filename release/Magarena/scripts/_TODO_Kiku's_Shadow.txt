@@ -1,0 +1,11 @@
+>Kiku's Shadow
+url=http://magiccards.info/query?q=Kiku%27s+Shadow&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Kiku%27s+Shadow
+timing=main
+rarity=U
+type=Sorcery
+converted=2
+cost={B}{B}
+color=bb
+
+# TODO -- gen by neoe

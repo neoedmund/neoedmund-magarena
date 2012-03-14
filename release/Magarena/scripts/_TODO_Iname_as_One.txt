@@ -1,0 +1,13 @@
+>Iname as One
+url=http://magiccards.info/query?q=Iname+as+One&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Iname+as+One
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Spirit
+pt=8/8
+converted=12
+cost={8}{B}{B}{G}{G}
+color=bbgg
+
+# TODO -- gen by neoe

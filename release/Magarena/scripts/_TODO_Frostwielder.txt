@@ -1,0 +1,13 @@
+>Frostwielder
+url=http://magiccards.info/query?q=Frostwielder&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Frostwielder
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Shaman
+pt=1/2
+converted=4
+cost={2}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

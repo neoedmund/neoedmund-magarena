@@ -1,0 +1,11 @@
+>Bounty of the Hunt
+url=http://magiccards.info/query?q=Bounty+of+the+Hunt&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Bounty+of+the+Hunt
+timing=main
+rarity=U
+type=Instant
+converted=5
+cost={3}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

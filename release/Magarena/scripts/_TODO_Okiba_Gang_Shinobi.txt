@@ -1,0 +1,13 @@
+>Okiba-Gang Shinobi
+url=http://magiccards.info/query?q=Okiba-Gang+Shinobi&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Okiba-Gang+Shinobi
+timing=main
+rarity=C
+type=Creature
+subtype=Rat,Ninja
+pt=3/2
+converted=5
+cost={3}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Deepchannel Mentor
+url=http://magiccards.info/query?q=Deepchannel+Mentor&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Deepchannel+Mentor
+timing=main
+rarity=U
+type=Creature
+subtype=Merfolk,Rogue
+pt=2/2
+converted=6
+cost={5}{U}
+color=u
+
+# TODO -- gen by neoe

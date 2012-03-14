@@ -1,0 +1,13 @@
+>Tel-Jilad Outrider
+url=http://magiccards.info/query?q=Tel-Jilad+Outrider&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Tel-Jilad+Outrider
+timing=main
+rarity=C
+type=Creature
+subtype=Elf,Warrior
+pt=3/1
+converted=4
+cost={3}{G}
+color=g
+
+# TODO -- gen by neoe

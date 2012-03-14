@@ -1,0 +1,12 @@
+>Multani's Harmony
+url=http://magiccards.info/query?q=Multani%27s+Harmony&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Multani%27s+Harmony
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

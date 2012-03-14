@@ -1,0 +1,13 @@
+>Wingbeat Warrior
+url=http://magiccards.info/query?q=Wingbeat+Warrior&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wingbeat+Warrior
+timing=main
+rarity=C
+type=Creature
+subtype=Bird,Soldier,Warrior
+pt=2/1
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

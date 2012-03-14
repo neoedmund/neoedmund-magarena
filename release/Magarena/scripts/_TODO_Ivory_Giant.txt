@@ -1,0 +1,13 @@
+>Ivory Giant
+url=http://magiccards.info/query?q=Ivory+Giant&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ivory+Giant
+timing=main
+rarity=C
+type=Creature
+subtype=Giant
+pt=3/4
+converted=7
+cost={5}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

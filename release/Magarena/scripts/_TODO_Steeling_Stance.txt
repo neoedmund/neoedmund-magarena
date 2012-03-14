@@ -1,0 +1,11 @@
+>Steeling Stance
+url=http://magiccards.info/query?q=Steeling+Stance&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Steeling+Stance
+timing=main
+rarity=C
+type=Instant
+converted=3
+cost={1}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

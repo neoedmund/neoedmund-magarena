@@ -1,0 +1,11 @@
+>Mana Drain
+url=http://magiccards.info/query?q=Mana+Drain&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mana+Drain
+timing=main
+rarity=U
+type=Instant
+converted=2
+cost={U}{U}
+color=uu
+
+# TODO -- gen by neoe

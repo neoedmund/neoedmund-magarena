@@ -1,0 +1,11 @@
+>In the Eye of Chaos
+url=http://magiccards.info/query?q=In+the+Eye+of+Chaos&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=In+the+Eye+of+Chaos
+timing=main
+rarity=R
+type=Enchantment
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

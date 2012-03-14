@@ -1,0 +1,13 @@
+>Cephalid Looter
+url=http://magiccards.info/query?q=Cephalid+Looter&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Cephalid+Looter
+timing=main
+rarity=C
+type=Creature
+subtype=Cephalid,Rogue
+pt=2/1
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

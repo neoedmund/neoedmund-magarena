@@ -1,0 +1,11 @@
+>Quest for the Goblin Lord
+url=http://magiccards.info/query?q=Quest+for+the+Goblin+Lord&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Quest+for+the+Goblin+Lord
+timing=main
+rarity=U
+type=Enchantment
+converted=1
+cost={R}
+color=r
+
+# TODO -- gen by neoe

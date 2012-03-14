@@ -1,0 +1,12 @@
+>Faith's Fetters
+url=http://magiccards.info/query?q=Faith%27s+Fetters&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Faith%27s+Fetters
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=4
+cost={3}{W}
+color=w
+
+# TODO -- gen by neoe

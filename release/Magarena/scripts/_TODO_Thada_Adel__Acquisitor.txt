@@ -1,0 +1,13 @@
+>Thada Adel, Acquisitor
+url=http://magiccards.info/query?q=Thada+Adel%2C+Acquisitor&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Thada+Adel%2C+Acquisitor
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Merfolk,Rogue
+pt=2/2
+converted=3
+cost={1}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Blazing Effigy
+url=http://magiccards.info/query?q=Blazing+Effigy&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Blazing+Effigy
+timing=main
+rarity=C
+type=Creature
+subtype=Elemental
+pt=0/3
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

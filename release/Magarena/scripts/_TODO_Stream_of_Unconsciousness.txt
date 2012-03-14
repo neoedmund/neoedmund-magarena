@@ -1,0 +1,12 @@
+>Stream of Unconsciousness
+url=http://magiccards.info/query?q=Stream+of+Unconsciousness&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Stream+of+Unconsciousness
+timing=main
+rarity=C
+type=Tribal,Instant
+subtype=Wizard
+converted=1
+cost={U}
+color=u
+
+# TODO -- gen by neoe

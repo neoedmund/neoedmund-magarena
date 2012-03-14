@@ -1,0 +1,11 @@
+>Curse of Bloodletting
+url=http://magiccards.info/query?q=Curse+of+Bloodletting&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Curse+of+Bloodletting
+timing=main
+rarity=R
+type=Enchantment
+converted=5
+cost={3}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

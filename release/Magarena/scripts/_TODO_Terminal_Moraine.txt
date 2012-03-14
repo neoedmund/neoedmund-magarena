@@ -1,0 +1,10 @@
+>Terminal Moraine
+url=http://magiccards.info/query?q=Terminal+Moraine&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Terminal+Moraine
+timing=main
+rarity=U
+type=Land
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

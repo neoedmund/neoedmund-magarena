@@ -1,0 +1,11 @@
+>Fold into AEther
+url=http://magiccards.info/query?q=Fold+into+AEther&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Fold+into+AEther
+timing=main
+rarity=U
+type=Instant
+converted=4
+cost={2}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

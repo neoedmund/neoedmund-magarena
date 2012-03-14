@@ -1,0 +1,11 @@
+>Guardian Angel
+url=http://magiccards.info/query?q=Guardian+Angel&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Guardian+Angel
+timing=main
+rarity=C
+type=Instant
+converted=1
+cost={X}{W}
+color=w
+
+# TODO -- gen by neoe

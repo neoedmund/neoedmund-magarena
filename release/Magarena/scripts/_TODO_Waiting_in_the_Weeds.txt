@@ -1,0 +1,11 @@
+>Waiting in the Weeds
+url=http://magiccards.info/query?q=Waiting+in+the+Weeds&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Waiting+in+the+Weeds
+timing=main
+rarity=R
+type=Sorcery
+converted=3
+cost={1}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

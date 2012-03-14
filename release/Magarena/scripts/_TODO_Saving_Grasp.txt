@@ -1,0 +1,11 @@
+>Saving Grasp
+url=http://magiccards.info/query?q=Saving+Grasp&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Saving+Grasp
+timing=main
+rarity=C
+type=Instant
+converted=1
+cost={U}
+color=u
+
+# TODO -- gen by neoe

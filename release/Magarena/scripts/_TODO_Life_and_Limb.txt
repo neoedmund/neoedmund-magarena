@@ -1,0 +1,11 @@
+>Life and Limb
+url=http://magiccards.info/query?q=Life+and+Limb&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Life+and+Limb
+timing=main
+rarity=R
+type=Enchantment
+converted=4
+cost={3}{G}
+color=g
+
+# TODO -- gen by neoe

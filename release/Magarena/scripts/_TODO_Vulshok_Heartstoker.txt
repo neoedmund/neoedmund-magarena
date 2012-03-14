@@ -1,0 +1,13 @@
+>Vulshok Heartstoker
+url=http://magiccards.info/query?q=Vulshok+Heartstoker&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Vulshok+Heartstoker
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Shaman
+pt=2/2
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

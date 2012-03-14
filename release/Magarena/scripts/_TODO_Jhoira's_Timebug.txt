@@ -1,0 +1,12 @@
+>Jhoira's Timebug
+url=http://magiccards.info/query?q=Jhoira%27s+Timebug&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Jhoira%27s+Timebug
+timing=main
+rarity=C
+type=Artifact,Creature
+subtype=Insect
+pt=1/2
+converted=2
+cost={2}
+
+# TODO -- gen by neoe

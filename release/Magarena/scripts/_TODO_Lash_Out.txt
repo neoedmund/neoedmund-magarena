@@ -1,0 +1,11 @@
+>Lash Out
+url=http://magiccards.info/query?q=Lash+Out&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Lash+Out
+timing=main
+rarity=C
+type=Instant
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

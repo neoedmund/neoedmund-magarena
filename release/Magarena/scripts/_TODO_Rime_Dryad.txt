@@ -1,0 +1,13 @@
+>Rime Dryad
+url=http://magiccards.info/query?q=Rime+Dryad&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Rime+Dryad
+timing=main
+rarity=C
+type=Creature
+subtype=Dryad
+pt=1/2
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

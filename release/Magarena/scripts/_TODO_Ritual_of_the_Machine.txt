@@ -1,0 +1,11 @@
+>Ritual of the Machine
+url=http://magiccards.info/query?q=Ritual+of+the+Machine&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ritual+of+the+Machine
+timing=main
+rarity=R
+type=Sorcery
+converted=4
+cost={2}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

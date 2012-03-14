@@ -1,0 +1,11 @@
+>Builder's Bane
+url=http://magiccards.info/query?q=Builder%27s+Bane&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Builder%27s+Bane
+timing=main
+rarity=C
+type=Sorcery
+converted=2
+cost={X}{X}{R}
+color=r
+
+# TODO -- gen by neoe

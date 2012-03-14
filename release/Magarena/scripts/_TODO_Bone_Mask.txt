@@ -1,0 +1,10 @@
+>Bone Mask
+url=http://magiccards.info/query?q=Bone+Mask&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Bone+Mask
+timing=main
+rarity=R
+type=Artifact
+converted=4
+cost={4}
+
+# TODO -- gen by neoe

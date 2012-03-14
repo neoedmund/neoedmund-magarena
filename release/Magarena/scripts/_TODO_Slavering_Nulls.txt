@@ -1,0 +1,13 @@
+>Slavering Nulls
+url=http://magiccards.info/query?q=Slavering+Nulls&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Slavering+Nulls
+timing=main
+rarity=U
+type=Creature
+subtype=Goblin,Zombie
+pt=2/1
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

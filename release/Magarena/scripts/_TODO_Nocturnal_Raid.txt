@@ -1,0 +1,11 @@
+>Nocturnal Raid
+url=http://magiccards.info/query?q=Nocturnal+Raid&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Nocturnal+Raid
+timing=main
+rarity=U
+type=Instant
+converted=4
+cost={2}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

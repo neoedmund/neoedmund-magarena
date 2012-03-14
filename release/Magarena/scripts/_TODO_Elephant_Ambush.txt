@@ -1,0 +1,11 @@
+>Elephant Ambush
+url=http://magiccards.info/query?q=Elephant+Ambush&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Elephant+Ambush
+timing=main
+rarity=C
+type=Instant
+converted=4
+cost={2}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

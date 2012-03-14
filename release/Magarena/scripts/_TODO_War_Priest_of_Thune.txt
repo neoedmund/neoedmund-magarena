@@ -1,0 +1,13 @@
+>War Priest of Thune
+url=http://magiccards.info/query?q=War+Priest+of+Thune&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=War+Priest+of+Thune
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Cleric
+pt=2/2
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

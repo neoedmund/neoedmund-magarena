@@ -1,0 +1,11 @@
+>Tromp the Domains
+url=http://magiccards.info/query?q=Tromp+the+Domains&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Tromp+the+Domains
+timing=main
+rarity=U
+type=Sorcery
+converted=6
+cost={5}{G}
+color=g
+
+# TODO -- gen by neoe

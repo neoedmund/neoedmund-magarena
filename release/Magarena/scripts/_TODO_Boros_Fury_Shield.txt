@@ -1,0 +1,11 @@
+>Boros Fury-Shield
+url=http://magiccards.info/query?q=Boros+Fury-Shield&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Boros+Fury-Shield
+timing=main
+rarity=C
+type=Instant
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

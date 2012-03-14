@@ -1,0 +1,11 @@
+>New Frontiers
+url=http://magiccards.info/query?q=New+Frontiers&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=New+Frontiers
+timing=main
+rarity=R
+type=Sorcery
+converted=1
+cost={X}{G}
+color=g
+
+# TODO -- gen by neoe

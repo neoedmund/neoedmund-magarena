@@ -1,0 +1,12 @@
+>Hexplate Golem
+url=http://magiccards.info/query?q=Hexplate+Golem&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Hexplate+Golem
+timing=main
+rarity=C
+type=Artifact,Creature
+subtype=Golem
+pt=5/7
+converted=7
+cost={7}
+
+# TODO -- gen by neoe

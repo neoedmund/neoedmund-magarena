@@ -1,0 +1,13 @@
+>Grand Arbiter Augustin IV
+url=http://magiccards.info/query?q=Grand+Arbiter+Augustin+IV&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Grand+Arbiter+Augustin+IV
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Human,Advisor
+pt=2/3
+converted=4
+cost={2}{W}{U}
+color=wu
+
+# TODO -- gen by neoe

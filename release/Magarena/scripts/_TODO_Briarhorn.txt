@@ -1,0 +1,13 @@
+>Briarhorn
+url=http://magiccards.info/query?q=Briarhorn&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Briarhorn
+timing=main
+rarity=U
+type=Creature
+subtype=Elemental
+pt=3/3
+converted=4
+cost={3}{G}
+color=g
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Nomad Decoy
+url=http://magiccards.info/query?q=Nomad+Decoy&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Nomad+Decoy
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Nomad
+pt=1/2
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

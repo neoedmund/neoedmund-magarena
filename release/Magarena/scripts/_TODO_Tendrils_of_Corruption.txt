@@ -1,0 +1,11 @@
+>Tendrils of Corruption
+url=http://magiccards.info/query?q=Tendrils+of+Corruption&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Tendrils+of+Corruption
+timing=main
+rarity=C
+type=Instant
+converted=4
+cost={3}{B}
+color=b
+
+# TODO -- gen by neoe

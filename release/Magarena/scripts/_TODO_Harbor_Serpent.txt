@@ -1,0 +1,13 @@
+>Harbor Serpent
+url=http://magiccards.info/query?q=Harbor+Serpent&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Harbor+Serpent
+timing=main
+rarity=C
+type=Creature
+subtype=Serpent
+pt=5/5
+converted=6
+cost={4}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

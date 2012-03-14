@@ -1,0 +1,10 @@
+>Memory Plunder
+url=http://magiccards.info/query?q=Memory+Plunder&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Memory+Plunder
+timing=main
+rarity=R
+type=Instant
+converted=20
+cost={U/B}{U/B}{U/B}{U/B}
+
+# TODO -- gen by neoe

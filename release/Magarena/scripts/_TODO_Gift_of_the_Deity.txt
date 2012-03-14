@@ -1,0 +1,11 @@
+>Gift of the Deity
+url=http://magiccards.info/query?q=Gift+of+the+Deity&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Gift+of+the+Deity
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=9
+cost={4}{B/G}
+
+# TODO -- gen by neoe

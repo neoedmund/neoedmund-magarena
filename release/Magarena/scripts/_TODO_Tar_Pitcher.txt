@@ -1,0 +1,13 @@
+>Tar Pitcher
+url=http://magiccards.info/query?q=Tar+Pitcher&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Tar+Pitcher
+timing=main
+rarity=U
+type=Creature
+subtype=Goblin,Shaman
+pt=2/2
+converted=4
+cost={3}{R}
+color=r
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Shahrazad
+url=http://magiccards.info/query?q=Shahrazad&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Shahrazad
+timing=main
+rarity=U
+type=Sorcery
+converted=2
+cost={W}{W}
+color=ww
+
+# TODO -- gen by neoe

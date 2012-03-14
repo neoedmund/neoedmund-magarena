@@ -1,0 +1,13 @@
+>Quillmane Baku
+url=http://magiccards.info/query?q=Quillmane+Baku&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Quillmane+Baku
+timing=main
+rarity=C
+type=Creature
+subtype=Spirit
+pt=3/3
+converted=5
+cost={4}{U}
+color=u
+
+# TODO -- gen by neoe

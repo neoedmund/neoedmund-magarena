@@ -1,0 +1,12 @@
+>Enatu Golem
+url=http://magiccards.info/query?q=Enatu+Golem&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Enatu+Golem
+timing=main
+rarity=U
+type=Artifact,Creature
+subtype=Golem
+pt=3/5
+converted=6
+cost={6}
+
+# TODO -- gen by neoe

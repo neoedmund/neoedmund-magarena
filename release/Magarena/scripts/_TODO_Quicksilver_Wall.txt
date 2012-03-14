@@ -1,0 +1,13 @@
+>Quicksilver Wall
+url=http://magiccards.info/query?q=Quicksilver+Wall&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Quicksilver+Wall
+timing=main
+rarity=U
+type=Creature
+subtype=Wall
+pt=1/6
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Soul Snuffers
+url=http://magiccards.info/query?q=Soul+Snuffers&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Soul+Snuffers
+timing=main
+rarity=U
+type=Creature
+subtype=Elemental,Shaman
+pt=3/3
+converted=4
+cost={2}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Slipstream Serpent
+url=http://magiccards.info/query?q=Slipstream+Serpent&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Slipstream+Serpent
+timing=main
+rarity=C
+type=Creature
+subtype=Serpent
+pt=6/6
+converted=8
+cost={7}{U}
+color=u
+
+# TODO -- gen by neoe

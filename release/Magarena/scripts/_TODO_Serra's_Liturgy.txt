@@ -1,0 +1,11 @@
+>Serra's Liturgy
+url=http://magiccards.info/query?q=Serra%27s+Liturgy&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Serra%27s+Liturgy
+timing=main
+rarity=R
+type=Enchantment
+converted=4
+cost={2}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

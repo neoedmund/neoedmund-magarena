@@ -1,0 +1,13 @@
+>Thermopod
+url=http://magiccards.info/query?q=Thermopod&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Thermopod
+timing=main
+rarity=C
+type=Creature
+subtype=Slug
+pt=4/3
+converted=5
+cost={4}{R}
+color=r
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Wall of Hope
+url=http://magiccards.info/query?q=Wall+of+Hope&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wall+of+Hope
+timing=main
+rarity=C
+type=Creature
+subtype=Wall
+pt=0/3
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

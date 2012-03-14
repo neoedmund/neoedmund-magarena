@@ -1,0 +1,13 @@
+>Deepwood Legate
+url=http://magiccards.info/query?q=Deepwood+Legate&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Deepwood+Legate
+timing=main
+rarity=U
+type=Creature
+subtype=Shade
+pt=1/1
+converted=4
+cost={3}{B}
+color=b
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Runed Stalactite
+url=http://magiccards.info/query?q=Runed+Stalactite&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Runed+Stalactite
+timing=main
+rarity=C
+type=Artifact
+subtype=Equipment
+converted=1
+cost={1}
+
+# TODO -- gen by neoe

@@ -1,0 +1,10 @@
+>Chariot of the Sun
+url=http://magiccards.info/query?q=Chariot+of+the+Sun&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Chariot+of+the+Sun
+timing=main
+rarity=U
+type=Artifact
+converted=3
+cost={3}
+
+# TODO -- gen by neoe

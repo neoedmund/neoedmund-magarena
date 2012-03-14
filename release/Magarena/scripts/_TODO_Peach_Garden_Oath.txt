@@ -1,0 +1,11 @@
+>Peach Garden Oath
+url=http://magiccards.info/query?q=Peach+Garden+Oath&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Peach+Garden+Oath
+timing=main
+rarity=U
+type=Sorcery
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

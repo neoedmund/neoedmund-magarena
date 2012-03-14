@@ -1,0 +1,13 @@
+>Tel-Jilad Chosen
+url=http://magiccards.info/query?q=Tel-Jilad+Chosen&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Tel-Jilad+Chosen
+timing=main
+rarity=C
+type=Creature
+subtype=Elf,Warrior
+pt=2/1
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Gloryscale Viashino
+url=http://magiccards.info/query?q=Gloryscale+Viashino&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Gloryscale+Viashino
+timing=main
+rarity=U
+type=Creature
+subtype=Viashino,Soldier
+pt=3/3
+converted=4
+cost={1}{R}{G}{W}
+color=rgw
+
+# TODO -- gen by neoe

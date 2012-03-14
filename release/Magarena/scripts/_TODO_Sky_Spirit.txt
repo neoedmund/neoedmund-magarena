@@ -1,0 +1,13 @@
+>Sky Spirit
+url=http://magiccards.info/query?q=Sky+Spirit&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sky+Spirit
+timing=main
+rarity=U
+type=Creature
+subtype=Spirit
+pt=2/2
+converted=3
+cost={1}{W}{U}
+color=wu
+
+# TODO -- gen by neoe

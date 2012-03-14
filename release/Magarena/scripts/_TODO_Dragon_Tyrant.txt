@@ -1,0 +1,13 @@
+>Dragon Tyrant
+url=http://magiccards.info/query?q=Dragon+Tyrant&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dragon+Tyrant
+timing=main
+rarity=R
+type=Creature
+subtype=Dragon
+pt=6/6
+converted=10
+cost={8}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

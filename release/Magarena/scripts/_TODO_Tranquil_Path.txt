@@ -1,0 +1,11 @@
+>Tranquil Path
+url=http://magiccards.info/query?q=Tranquil+Path&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Tranquil+Path
+timing=main
+rarity=C
+type=Sorcery
+converted=5
+cost={4}{G}
+color=g
+
+# TODO -- gen by neoe

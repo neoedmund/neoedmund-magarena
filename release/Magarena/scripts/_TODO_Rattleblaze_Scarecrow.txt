@@ -1,0 +1,12 @@
+>Rattleblaze Scarecrow
+url=http://magiccards.info/query?q=Rattleblaze+Scarecrow&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Rattleblaze+Scarecrow
+timing=main
+rarity=C
+type=Artifact,Creature
+subtype=Scarecrow
+pt=5/3
+converted=6
+cost={6}
+
+# TODO -- gen by neoe

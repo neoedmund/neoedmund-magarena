@@ -1,0 +1,12 @@
+>Glacial Plating
+url=http://magiccards.info/query?q=Glacial+Plating&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Glacial+Plating
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=4
+cost={2}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

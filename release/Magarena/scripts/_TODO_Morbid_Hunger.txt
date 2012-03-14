@@ -1,0 +1,11 @@
+>Morbid Hunger
+url=http://magiccards.info/query?q=Morbid+Hunger&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Morbid+Hunger
+timing=main
+rarity=C
+type=Sorcery
+converted=6
+cost={4}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

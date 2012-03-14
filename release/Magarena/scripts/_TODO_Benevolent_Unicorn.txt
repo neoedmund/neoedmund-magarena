@@ -1,0 +1,13 @@
+>Benevolent Unicorn
+url=http://magiccards.info/query?q=Benevolent+Unicorn&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Benevolent+Unicorn
+timing=main
+rarity=C
+type=Creature
+subtype=Unicorn
+pt=1/2
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

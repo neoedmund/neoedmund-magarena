@@ -1,0 +1,13 @@
+>Morgue Toad
+url=http://magiccards.info/query?q=Morgue+Toad&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Morgue+Toad
+timing=main
+rarity=C
+type=Creature
+subtype=Frog
+pt=2/2
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

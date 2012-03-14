@@ -1,0 +1,13 @@
+>Ghave, Guru of Spores
+url=http://magiccards.info/query?q=Ghave%2C+Guru+of+Spores&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ghave%2C+Guru+of+Spores
+timing=main
+rarity=M
+type=Legendary,Creature
+subtype=Fungus,Shaman
+pt=0/0
+converted=5
+cost={2}{B}{G}{W}
+color=bgw
+
+# TODO -- gen by neoe

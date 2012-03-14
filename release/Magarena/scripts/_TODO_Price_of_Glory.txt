@@ -1,0 +1,11 @@
+>Price of Glory
+url=http://magiccards.info/query?q=Price+of+Glory&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Price+of+Glory
+timing=main
+rarity=U
+type=Enchantment
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

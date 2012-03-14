@@ -1,0 +1,12 @@
+>Odious Trow
+url=http://magiccards.info/query?q=Odious+Trow&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Odious+Trow
+timing=main
+rarity=C
+type=Creature
+subtype=Troll
+pt=1/1
+converted=5
+cost={B/G}
+
+# TODO -- gen by neoe

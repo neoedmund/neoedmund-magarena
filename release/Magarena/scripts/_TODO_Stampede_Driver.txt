@@ -1,0 +1,13 @@
+>Stampede Driver
+url=http://magiccards.info/query?q=Stampede+Driver&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Stampede+Driver
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Spellshaper
+pt=1/1
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Shrieking Specter
+url=http://magiccards.info/query?q=Shrieking+Specter&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Shrieking+Specter
+timing=main
+rarity=U
+type=Creature
+subtype=Specter
+pt=2/2
+converted=6
+cost={5}{B}
+color=b
+
+# TODO -- gen by neoe

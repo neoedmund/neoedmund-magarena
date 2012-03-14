@@ -1,0 +1,11 @@
+>Familiar Ground
+url=http://magiccards.info/query?q=Familiar+Ground&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Familiar+Ground
+timing=main
+rarity=U
+type=Enchantment
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

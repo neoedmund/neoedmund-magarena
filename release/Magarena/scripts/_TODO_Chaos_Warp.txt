@@ -1,0 +1,11 @@
+>Chaos Warp
+url=http://magiccards.info/query?q=Chaos+Warp&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Chaos+Warp
+timing=main
+rarity=R
+type=Instant
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

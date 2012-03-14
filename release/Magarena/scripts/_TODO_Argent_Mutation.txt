@@ -1,0 +1,11 @@
+>Argent Mutation
+url=http://magiccards.info/query?q=Argent+Mutation&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Argent+Mutation
+timing=main
+rarity=U
+type=Instant
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

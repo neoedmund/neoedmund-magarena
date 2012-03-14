@@ -1,0 +1,10 @@
+>Icatian Store
+url=http://magiccards.info/query?q=Icatian+Store&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Icatian+Store
+timing=main
+rarity=R
+type=Land
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

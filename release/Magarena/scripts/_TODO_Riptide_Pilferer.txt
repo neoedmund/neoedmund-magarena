@@ -1,0 +1,13 @@
+>Riptide Pilferer
+url=http://magiccards.info/query?q=Riptide+Pilferer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Riptide+Pilferer
+timing=main
+rarity=U
+type=Creature
+subtype=Merfolk,Rogue
+pt=1/1
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

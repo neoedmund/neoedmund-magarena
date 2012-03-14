@@ -1,0 +1,11 @@
+>Mystic Remora
+url=http://magiccards.info/query?q=Mystic+Remora&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mystic+Remora
+timing=main
+rarity=C
+type=Enchantment
+converted=1
+cost={U}
+color=u
+
+# TODO -- gen by neoe

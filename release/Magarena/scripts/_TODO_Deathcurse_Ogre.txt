@@ -1,0 +1,13 @@
+>Deathcurse Ogre
+url=http://magiccards.info/query?q=Deathcurse+Ogre&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Deathcurse+Ogre
+timing=main
+rarity=C
+type=Creature
+subtype=Ogre,Warrior
+pt=3/3
+converted=6
+cost={5}{B}
+color=b
+
+# TODO -- gen by neoe

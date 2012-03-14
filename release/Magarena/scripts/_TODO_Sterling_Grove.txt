@@ -1,0 +1,11 @@
+>Sterling Grove
+url=http://magiccards.info/query?q=Sterling+Grove&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sterling+Grove
+timing=main
+rarity=U
+type=Enchantment
+converted=2
+cost={G}{W}
+color=gw
+
+# TODO -- gen by neoe

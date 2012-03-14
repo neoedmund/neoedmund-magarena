@@ -1,0 +1,13 @@
+>Wirewood Hivemaster
+url=http://magiccards.info/query?q=Wirewood+Hivemaster&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wirewood+Hivemaster
+timing=main
+rarity=U
+type=Creature
+subtype=Elf
+pt=1/1
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

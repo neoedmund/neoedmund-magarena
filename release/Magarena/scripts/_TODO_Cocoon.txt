@@ -1,0 +1,12 @@
+>Cocoon
+url=http://magiccards.info/query?q=Cocoon&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Cocoon
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

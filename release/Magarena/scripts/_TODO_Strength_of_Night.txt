@@ -1,0 +1,11 @@
+>Strength of Night
+url=http://magiccards.info/query?q=Strength+of+Night&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Strength+of+Night
+timing=main
+rarity=C
+type=Instant
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

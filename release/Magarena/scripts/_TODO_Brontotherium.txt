@@ -1,0 +1,13 @@
+>Brontotherium
+url=http://magiccards.info/query?q=Brontotherium&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Brontotherium
+timing=main
+rarity=U
+type=Creature
+subtype=Beast
+pt=5/3
+converted=6
+cost={4}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

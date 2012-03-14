@@ -1,0 +1,11 @@
+>Esper Charm
+url=http://magiccards.info/query?q=Esper+Charm&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Esper+Charm
+timing=main
+rarity=U
+type=Instant
+converted=3
+cost={W}{U}{B}
+color=wub
+
+# TODO -- gen by neoe

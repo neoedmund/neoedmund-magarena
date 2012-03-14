@@ -1,0 +1,10 @@
+>Shizo, Death's Storehouse
+url=http://magiccards.info/query?q=Shizo%2C+Death%27s+Storehouse&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Shizo%2C+Death%27s+Storehouse
+timing=main
+rarity=R
+type=Legendary,Land
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

@@ -1,0 +1,10 @@
+>Secluded Steppe
+url=http://magiccards.info/query?q=Secluded+Steppe&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Secluded+Steppe
+timing=main
+rarity=C
+type=Land
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

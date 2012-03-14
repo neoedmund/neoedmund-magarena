@@ -1,0 +1,12 @@
+>Eyeblight's Ending
+url=http://magiccards.info/query?q=Eyeblight%27s+Ending&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Eyeblight%27s+Ending
+timing=main
+rarity=C
+type=Tribal,Instant
+subtype=Elf
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

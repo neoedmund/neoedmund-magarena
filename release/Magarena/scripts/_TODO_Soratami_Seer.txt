@@ -1,0 +1,13 @@
+>Soratami Seer
+url=http://magiccards.info/query?q=Soratami+Seer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Soratami+Seer
+timing=main
+rarity=U
+type=Creature
+subtype=Moonfolk,Wizard
+pt=2/3
+converted=5
+cost={4}{U}
+color=u
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Deathcoil Wurm
+url=http://magiccards.info/query?q=Deathcoil+Wurm&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Deathcoil+Wurm
+timing=main
+rarity=R
+type=Creature
+subtype=Wurm
+pt=7/6
+converted=8
+cost={6}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

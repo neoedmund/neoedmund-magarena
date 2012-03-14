@@ -1,0 +1,12 @@
+>Rebellion of the Flamekin
+url=http://magiccards.info/query?q=Rebellion+of+the+Flamekin&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Rebellion+of+the+Flamekin
+timing=main
+rarity=U
+type=Tribal,Enchantment
+subtype=Elemental
+converted=4
+cost={3}{R}
+color=r
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Corrupt
+url=http://magiccards.info/query?q=Corrupt&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Corrupt
+timing=main
+rarity=U
+type=Sorcery
+converted=6
+cost={5}{B}
+color=b
+
+# TODO -- gen by neoe

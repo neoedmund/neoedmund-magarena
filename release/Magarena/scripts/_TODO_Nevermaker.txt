@@ -1,0 +1,13 @@
+>Nevermaker
+url=http://magiccards.info/query?q=Nevermaker&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Nevermaker
+timing=main
+rarity=U
+type=Creature
+subtype=Elemental
+pt=2/3
+converted=4
+cost={3}{U}
+color=u
+
+# TODO -- gen by neoe

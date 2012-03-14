@@ -1,0 +1,12 @@
+>Tahngarth's Rage
+url=http://magiccards.info/query?q=Tahngarth%27s+Rage&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Tahngarth%27s+Rage
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=1
+cost={R}
+color=r
+
+# TODO -- gen by neoe

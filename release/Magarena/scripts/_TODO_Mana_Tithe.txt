@@ -1,0 +1,11 @@
+>Mana Tithe
+url=http://magiccards.info/query?q=Mana+Tithe&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mana+Tithe
+timing=main
+rarity=C
+type=Instant
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Kitsune Palliator
+url=http://magiccards.info/query?q=Kitsune+Palliator&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Kitsune+Palliator
+timing=main
+rarity=U
+type=Creature
+subtype=Fox,Cleric
+pt=0/2
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

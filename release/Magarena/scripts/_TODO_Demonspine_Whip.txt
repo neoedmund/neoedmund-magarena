@@ -1,0 +1,12 @@
+>Demonspine Whip
+url=http://magiccards.info/query?q=Demonspine+Whip&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Demonspine+Whip
+timing=main
+rarity=U
+type=Artifact
+subtype=Equipment
+converted=2
+cost={B}{R}
+color=br
+
+# TODO -- gen by neoe

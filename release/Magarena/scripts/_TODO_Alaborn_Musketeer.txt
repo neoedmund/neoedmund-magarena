@@ -1,0 +1,13 @@
+>Alaborn Musketeer
+url=http://magiccards.info/query?q=Alaborn+Musketeer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Alaborn+Musketeer
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Soldier
+pt=2/1
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

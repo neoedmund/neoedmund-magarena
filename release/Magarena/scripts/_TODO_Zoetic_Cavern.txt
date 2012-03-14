@@ -1,0 +1,10 @@
+>Zoetic Cavern
+url=http://magiccards.info/query?q=Zoetic+Cavern&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Zoetic+Cavern
+timing=main
+rarity=U
+type=Land
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

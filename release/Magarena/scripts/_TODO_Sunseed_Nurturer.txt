@@ -1,0 +1,13 @@
+>Sunseed Nurturer
+url=http://magiccards.info/query?q=Sunseed+Nurturer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sunseed+Nurturer
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Druid,Wizard
+pt=1/1
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

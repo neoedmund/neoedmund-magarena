@@ -1,0 +1,13 @@
+>Scornful AEther-Lich
+url=http://magiccards.info/query?q=Scornful+AEther-Lich&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Scornful+AEther-Lich
+timing=main
+rarity=U
+type=Artifact,Creature
+subtype=Zombie,Wizard
+pt=2/4
+converted=4
+cost={3}{U}
+color=u
+
+# TODO -- gen by neoe

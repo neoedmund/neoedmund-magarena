@@ -1,0 +1,13 @@
+>Wormfang Behemoth
+url=http://magiccards.info/query?q=Wormfang+Behemoth&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wormfang+Behemoth
+timing=main
+rarity=R
+type=Creature
+subtype=Nightmare,Fish,Beast
+pt=5/5
+converted=5
+cost={3}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

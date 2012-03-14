@@ -1,0 +1,13 @@
+>Benthic Djinn
+url=http://magiccards.info/query?q=Benthic+Djinn&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Benthic+Djinn
+timing=main
+rarity=R
+type=Creature
+subtype=Djinn
+pt=5/3
+converted=4
+cost={2}{U}{B}
+color=ub
+
+# TODO -- gen by neoe

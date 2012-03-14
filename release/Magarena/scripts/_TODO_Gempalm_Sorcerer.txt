@@ -1,0 +1,13 @@
+>Gempalm Sorcerer
+url=http://magiccards.info/query?q=Gempalm+Sorcerer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Gempalm+Sorcerer
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Wizard
+pt=2/2
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

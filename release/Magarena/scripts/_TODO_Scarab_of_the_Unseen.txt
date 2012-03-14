@@ -1,0 +1,10 @@
+>Scarab of the Unseen
+url=http://magiccards.info/query?q=Scarab+of+the+Unseen&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Scarab+of+the+Unseen
+timing=main
+rarity=U
+type=Artifact
+converted=2
+cost={2}
+
+# TODO -- gen by neoe

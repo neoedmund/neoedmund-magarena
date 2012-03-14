@@ -1,0 +1,11 @@
+>Boil
+url=http://magiccards.info/query?q=Boil&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Boil
+timing=main
+rarity=U
+type=Instant
+converted=4
+cost={3}{R}
+color=r
+
+# TODO -- gen by neoe

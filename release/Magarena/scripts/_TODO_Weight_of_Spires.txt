@@ -1,0 +1,11 @@
+>Weight of Spires
+url=http://magiccards.info/query?q=Weight+of+Spires&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Weight+of+Spires
+timing=main
+rarity=U
+type=Instant
+converted=1
+cost={R}
+color=r
+
+# TODO -- gen by neoe

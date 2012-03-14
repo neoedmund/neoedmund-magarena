@@ -1,0 +1,11 @@
+>Sylvan Scrying
+url=http://magiccards.info/query?q=Sylvan+Scrying&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sylvan+Scrying
+timing=main
+rarity=U
+type=Sorcery
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

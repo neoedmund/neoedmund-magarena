@@ -1,0 +1,13 @@
+>Glintwing Invoker
+url=http://magiccards.info/query?q=Glintwing+Invoker&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Glintwing+Invoker
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Wizard,Mutant
+pt=3/3
+converted=5
+cost={4}{U}
+color=u
+
+# TODO -- gen by neoe

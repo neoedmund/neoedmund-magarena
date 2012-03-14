@@ -1,0 +1,11 @@
+>Specter's Wail
+url=http://magiccards.info/query?q=Specter%27s+Wail&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Specter%27s+Wail
+timing=main
+rarity=C
+type=Sorcery
+converted=2
+cost={1}{B}
+color=b
+
+# TODO -- gen by neoe

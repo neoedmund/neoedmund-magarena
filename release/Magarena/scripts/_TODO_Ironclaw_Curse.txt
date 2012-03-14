@@ -1,0 +1,12 @@
+>Ironclaw Curse
+url=http://magiccards.info/query?q=Ironclaw+Curse&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ironclaw+Curse
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=1
+cost={R}
+color=r
+
+# TODO -- gen by neoe

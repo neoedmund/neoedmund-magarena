@@ -1,0 +1,13 @@
+>Delraich
+url=http://magiccards.info/query?q=Delraich&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Delraich
+timing=main
+rarity=R
+type=Creature
+subtype=Horror
+pt=6/6
+converted=7
+cost={6}{B}
+color=b
+
+# TODO -- gen by neoe

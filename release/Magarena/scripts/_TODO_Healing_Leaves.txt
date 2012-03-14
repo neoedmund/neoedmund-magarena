@@ -1,0 +1,11 @@
+>Healing Leaves
+url=http://magiccards.info/query?q=Healing+Leaves&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Healing+Leaves
+timing=main
+rarity=C
+type=Instant
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

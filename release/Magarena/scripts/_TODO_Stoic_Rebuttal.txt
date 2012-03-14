@@ -1,0 +1,11 @@
+>Stoic Rebuttal
+url=http://magiccards.info/query?q=Stoic+Rebuttal&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Stoic+Rebuttal
+timing=main
+rarity=C
+type=Instant
+converted=3
+cost={1}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

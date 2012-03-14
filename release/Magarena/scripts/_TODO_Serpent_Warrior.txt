@@ -1,0 +1,13 @@
+>Serpent Warrior
+url=http://magiccards.info/query?q=Serpent+Warrior&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Serpent+Warrior
+timing=main
+rarity=C
+type=Creature
+subtype=Snake,Warrior
+pt=3/3
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

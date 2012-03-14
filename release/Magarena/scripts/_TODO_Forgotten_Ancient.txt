@@ -1,0 +1,13 @@
+>Forgotten Ancient
+url=http://magiccards.info/query?q=Forgotten+Ancient&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Forgotten+Ancient
+timing=main
+rarity=R
+type=Creature
+subtype=Elemental
+pt=0/3
+converted=4
+cost={3}{G}
+color=g
+
+# TODO -- gen by neoe

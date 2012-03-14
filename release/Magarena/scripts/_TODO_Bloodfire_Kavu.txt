@@ -1,0 +1,13 @@
+>Bloodfire Kavu
+url=http://magiccards.info/query?q=Bloodfire+Kavu&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Bloodfire+Kavu
+timing=main
+rarity=U
+type=Creature
+subtype=Kavu
+pt=2/2
+converted=4
+cost={2}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

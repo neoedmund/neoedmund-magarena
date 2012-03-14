@@ -1,0 +1,11 @@
+>Lightning Dart
+url=http://magiccards.info/query?q=Lightning+Dart&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Lightning+Dart
+timing=main
+rarity=U
+type=Instant
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

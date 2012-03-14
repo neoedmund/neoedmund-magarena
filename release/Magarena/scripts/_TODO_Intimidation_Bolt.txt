@@ -1,0 +1,11 @@
+>Intimidation Bolt
+url=http://magiccards.info/query?q=Intimidation+Bolt&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Intimidation+Bolt
+timing=main
+rarity=U
+type=Instant
+converted=3
+cost={1}{R}{W}
+color=rw
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Meishin, the Mind Cage
+url=http://magiccards.info/query?q=Meishin%2C+the+Mind+Cage&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Meishin%2C+the+Mind+Cage
+timing=main
+rarity=R
+type=Legendary,Enchantment
+converted=7
+cost={4}{U}{U}{U}
+color=uuu
+
+# TODO -- gen by neoe

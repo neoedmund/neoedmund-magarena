@@ -1,0 +1,11 @@
+>Early Frost
+url=http://magiccards.info/query?q=Early+Frost&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Early+Frost
+timing=main
+rarity=C
+type=Instant
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

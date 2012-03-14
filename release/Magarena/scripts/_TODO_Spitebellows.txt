@@ -1,0 +1,13 @@
+>Spitebellows
+url=http://magiccards.info/query?q=Spitebellows&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Spitebellows
+timing=main
+rarity=U
+type=Creature
+subtype=Elemental
+pt=6/1
+converted=6
+cost={5}{R}
+color=r
+
+# TODO -- gen by neoe

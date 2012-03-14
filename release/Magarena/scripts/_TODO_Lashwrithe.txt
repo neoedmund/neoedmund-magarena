@@ -1,0 +1,11 @@
+>Lashwrithe
+url=http://magiccards.info/query?q=Lashwrithe&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Lashwrithe
+timing=main
+rarity=R
+type=Artifact
+subtype=Equipment
+converted=4
+cost={4}
+
+# TODO -- gen by neoe

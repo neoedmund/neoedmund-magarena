@@ -1,0 +1,13 @@
+>Voice of All
+url=http://magiccards.info/query?q=Voice+of+All&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Voice+of+All
+timing=main
+rarity=R
+type=Creature
+subtype=Angel
+pt=2/2
+converted=4
+cost={2}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

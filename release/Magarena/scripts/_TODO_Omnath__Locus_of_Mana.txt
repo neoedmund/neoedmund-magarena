@@ -1,0 +1,13 @@
+>Omnath, Locus of Mana
+url=http://magiccards.info/query?q=Omnath%2C+Locus+of+Mana&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Omnath%2C+Locus+of+Mana
+timing=main
+rarity=M
+type=Legendary,Creature
+subtype=Elemental
+pt=1/1
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

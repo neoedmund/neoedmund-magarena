@@ -1,0 +1,11 @@
+>Scourge of the Nobilis
+url=http://magiccards.info/query?q=Scourge+of+the+Nobilis&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Scourge+of+the+Nobilis
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=7
+cost={2}{R/W}
+
+# TODO -- gen by neoe

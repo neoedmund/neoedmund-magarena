@@ -1,0 +1,12 @@
+>Magefire Wings
+url=http://magiccards.info/query?q=Magefire+Wings&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Magefire+Wings
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=2
+cost={U}{R}
+color=ur
+
+# TODO -- gen by neoe

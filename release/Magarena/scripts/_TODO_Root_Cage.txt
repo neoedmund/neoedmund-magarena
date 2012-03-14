@@ -1,0 +1,11 @@
+>Root Cage
+url=http://magiccards.info/query?q=Root+Cage&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Root+Cage
+timing=main
+rarity=U
+type=Enchantment
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

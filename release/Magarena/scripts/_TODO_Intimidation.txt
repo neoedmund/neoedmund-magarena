@@ -1,0 +1,11 @@
+>Intimidation
+url=http://magiccards.info/query?q=Intimidation&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Intimidation
+timing=main
+rarity=U
+type=Enchantment
+converted=5
+cost={2}{B}{B}{B}
+color=bbb
+
+# TODO -- gen by neoe

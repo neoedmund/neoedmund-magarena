@@ -1,0 +1,13 @@
+>Jhovall Rider
+url=http://magiccards.info/query?q=Jhovall+Rider&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Jhovall+Rider
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Rebel
+pt=3/3
+converted=5
+cost={4}{W}
+color=w
+
+# TODO -- gen by neoe

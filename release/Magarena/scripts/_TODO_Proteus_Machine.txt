@@ -1,0 +1,12 @@
+>Proteus Machine
+url=http://magiccards.info/query?q=Proteus+Machine&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Proteus+Machine
+timing=main
+rarity=U
+type=Artifact,Creature
+subtype=Shapeshifter
+pt=2/2
+converted=3
+cost={3}
+
+# TODO -- gen by neoe

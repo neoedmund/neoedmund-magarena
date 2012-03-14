@@ -1,0 +1,12 @@
+>Medicine Runner
+url=http://magiccards.info/query?q=Medicine+Runner&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Medicine+Runner
+timing=main
+rarity=C
+type=Creature
+subtype=Elf,Cleric
+pt=2/1
+converted=6
+cost={1}{G/W}
+
+# TODO -- gen by neoe

@@ -1,0 +1,12 @@
+>Wistful Selkie
+url=http://magiccards.info/query?q=Wistful+Selkie&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wistful+Selkie
+timing=main
+rarity=U
+type=Creature
+subtype=Merfolk,Wizard
+pt=2/2
+converted=15
+cost={G/U}{G/U}{G/U}
+
+# TODO -- gen by neoe

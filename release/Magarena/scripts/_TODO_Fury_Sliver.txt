@@ -1,0 +1,13 @@
+>Fury Sliver
+url=http://magiccards.info/query?q=Fury+Sliver&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Fury+Sliver
+timing=main
+rarity=U
+type=Creature
+subtype=Sliver
+pt=3/3
+converted=6
+cost={5}{R}
+color=r
+
+# TODO -- gen by neoe

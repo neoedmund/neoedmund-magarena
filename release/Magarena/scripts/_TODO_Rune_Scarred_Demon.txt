@@ -1,0 +1,13 @@
+>Rune-Scarred Demon
+url=http://magiccards.info/query?q=Rune-Scarred+Demon&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Rune-Scarred+Demon
+timing=main
+rarity=R
+type=Creature
+subtype=Demon
+pt=6/6
+converted=7
+cost={5}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

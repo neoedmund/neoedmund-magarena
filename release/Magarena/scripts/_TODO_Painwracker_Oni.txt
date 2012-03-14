@@ -1,0 +1,13 @@
+>Painwracker Oni
+url=http://magiccards.info/query?q=Painwracker+Oni&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Painwracker+Oni
+timing=main
+rarity=U
+type=Creature
+subtype=Demon,Spirit
+pt=5/4
+converted=5
+cost={3}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

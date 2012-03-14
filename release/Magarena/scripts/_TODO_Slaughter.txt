@@ -1,0 +1,11 @@
+>Slaughter
+url=http://magiccards.info/query?q=Slaughter&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Slaughter
+timing=main
+rarity=U
+type=Instant
+converted=4
+cost={2}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

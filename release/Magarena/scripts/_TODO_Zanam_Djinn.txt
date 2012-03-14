@@ -1,0 +1,13 @@
+>Zanam Djinn
+url=http://magiccards.info/query?q=Zanam+Djinn&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Zanam+Djinn
+timing=main
+rarity=U
+type=Creature
+subtype=Djinn
+pt=5/6
+converted=6
+cost={5}{U}
+color=u
+
+# TODO -- gen by neoe

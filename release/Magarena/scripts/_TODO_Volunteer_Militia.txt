@@ -1,0 +1,13 @@
+>Volunteer Militia
+url=http://magiccards.info/query?q=Volunteer+Militia&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Volunteer+Militia
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Soldier
+pt=1/2
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

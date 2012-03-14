@@ -1,0 +1,13 @@
+>Skittish Kavu
+url=http://magiccards.info/query?q=Skittish+Kavu&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Skittish+Kavu
+timing=main
+rarity=U
+type=Creature
+subtype=Kavu
+pt=1/1
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

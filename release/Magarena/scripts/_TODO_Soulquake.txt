@@ -1,0 +1,11 @@
+>Soulquake
+url=http://magiccards.info/query?q=Soulquake&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Soulquake
+timing=main
+rarity=R
+type=Sorcery
+converted=7
+cost={3}{U}{U}{B}{B}
+color=uubb
+
+# TODO -- gen by neoe

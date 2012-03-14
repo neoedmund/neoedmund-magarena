@@ -1,0 +1,10 @@
+>Tawnos's Weaponry
+url=http://magiccards.info/query?q=Tawnos%27s+Weaponry&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Tawnos%27s+Weaponry
+timing=main
+rarity=U
+type=Artifact
+converted=2
+cost={2}
+
+# TODO -- gen by neoe

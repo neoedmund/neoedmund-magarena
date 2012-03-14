@@ -1,0 +1,11 @@
+>Praetor's Grasp
+url=http://magiccards.info/query?q=Praetor%27s+Grasp&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Praetor%27s+Grasp
+timing=main
+rarity=R
+type=Sorcery
+converted=3
+cost={1}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

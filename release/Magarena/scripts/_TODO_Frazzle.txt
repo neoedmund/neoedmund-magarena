@@ -1,0 +1,11 @@
+>Frazzle
+url=http://magiccards.info/query?q=Frazzle&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Frazzle
+timing=main
+rarity=U
+type=Instant
+converted=4
+cost={3}{U}
+color=u
+
+# TODO -- gen by neoe

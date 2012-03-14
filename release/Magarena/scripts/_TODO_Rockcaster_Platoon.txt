@@ -1,0 +1,13 @@
+>Rockcaster Platoon
+url=http://magiccards.info/query?q=Rockcaster+Platoon&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Rockcaster+Platoon
+timing=main
+rarity=U
+type=Creature
+subtype=Rhino,Soldier
+pt=5/7
+converted=7
+cost={5}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

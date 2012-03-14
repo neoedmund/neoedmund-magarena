@@ -1,0 +1,11 @@
+>Flowstone Slide
+url=http://magiccards.info/query?q=Flowstone+Slide&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Flowstone+Slide
+timing=main
+rarity=R
+type=Sorcery
+converted=4
+cost={X}{2}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

@@ -1,0 +1,10 @@
+>Glasses of Urza
+url=http://magiccards.info/query?q=Glasses+of+Urza&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Glasses+of+Urza
+timing=main
+rarity=U
+type=Artifact
+converted=1
+cost={1}
+
+# TODO -- gen by neoe

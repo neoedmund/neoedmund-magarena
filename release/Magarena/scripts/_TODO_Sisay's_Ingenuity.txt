@@ -1,0 +1,12 @@
+>Sisay's Ingenuity
+url=http://magiccards.info/query?q=Sisay%27s+Ingenuity&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sisay%27s+Ingenuity
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=1
+cost={U}
+color=u
+
+# TODO -- gen by neoe

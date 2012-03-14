@@ -1,0 +1,13 @@
+>Krosan Groundshaker
+url=http://magiccards.info/query?q=Krosan+Groundshaker&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Krosan+Groundshaker
+timing=main
+rarity=U
+type=Creature
+subtype=Beast
+pt=6/6
+converted=7
+cost={4}{G}{G}{G}
+color=ggg
+
+# TODO -- gen by neoe

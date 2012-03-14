@@ -1,0 +1,10 @@
+>Thalakos Lowlands
+url=http://magiccards.info/query?q=Thalakos+Lowlands&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Thalakos+Lowlands
+timing=main
+rarity=U
+type=Land
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

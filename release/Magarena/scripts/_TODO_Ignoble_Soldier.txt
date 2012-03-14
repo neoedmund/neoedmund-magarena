@@ -1,0 +1,13 @@
+>Ignoble Soldier
+url=http://magiccards.info/query?q=Ignoble+Soldier&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ignoble+Soldier
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Soldier
+pt=3/1
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

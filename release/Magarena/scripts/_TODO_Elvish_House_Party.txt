@@ -1,0 +1,12 @@
+>Elvish House Party
+url=http://magiccards.info/query?q=Elvish+House+Party&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Elvish+House+Party
+timing=main
+rarity=U
+type=Creature
+subtype=Elf,Rogue
+converted=6
+cost={4}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

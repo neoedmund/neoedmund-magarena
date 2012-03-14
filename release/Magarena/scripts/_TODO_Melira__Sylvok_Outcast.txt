@@ -1,0 +1,13 @@
+>Melira, Sylvok Outcast
+url=http://magiccards.info/query?q=Melira%2C+Sylvok+Outcast&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Melira%2C+Sylvok+Outcast
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Human,Scout
+pt=2/2
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

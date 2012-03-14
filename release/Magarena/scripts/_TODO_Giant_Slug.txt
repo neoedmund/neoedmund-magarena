@@ -1,0 +1,13 @@
+>Giant Slug
+url=http://magiccards.info/query?q=Giant+Slug&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Giant+Slug
+timing=main
+rarity=C
+type=Creature
+subtype=Slug
+pt=1/1
+converted=2
+cost={1}{B}
+color=b
+
+# TODO -- gen by neoe

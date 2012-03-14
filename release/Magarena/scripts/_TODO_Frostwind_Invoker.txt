@@ -1,0 +1,13 @@
+>Frostwind Invoker
+url=http://magiccards.info/query?q=Frostwind+Invoker&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Frostwind+Invoker
+timing=main
+rarity=C
+type=Creature
+subtype=Merfolk,Wizard
+pt=3/3
+converted=5
+cost={4}{U}
+color=u
+
+# TODO -- gen by neoe

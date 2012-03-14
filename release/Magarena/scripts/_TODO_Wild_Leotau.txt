@@ -1,0 +1,13 @@
+>Wild Leotau
+url=http://magiccards.info/query?q=Wild+Leotau&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wild+Leotau
+timing=main
+rarity=C
+type=Creature
+subtype=Cat
+pt=5/4
+converted=4
+cost={2}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

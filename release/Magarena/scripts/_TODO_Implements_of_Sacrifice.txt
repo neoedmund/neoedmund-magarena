@@ -1,0 +1,10 @@
+>Implements of Sacrifice
+url=http://magiccards.info/query?q=Implements+of+Sacrifice&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Implements+of+Sacrifice
+timing=main
+rarity=U
+type=Artifact
+converted=2
+cost={2}
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Magnetic Mountain
+url=http://magiccards.info/query?q=Magnetic+Mountain&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Magnetic+Mountain
+timing=main
+rarity=U
+type=Enchantment
+converted=3
+cost={1}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

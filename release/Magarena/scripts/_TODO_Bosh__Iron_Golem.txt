@@ -1,0 +1,12 @@
+>Bosh, Iron Golem
+url=http://magiccards.info/query?q=Bosh%2C+Iron+Golem&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Bosh%2C+Iron+Golem
+timing=main
+rarity=R
+type=Legendary,Artifact,Creature
+subtype=Golem
+pt=6/7
+converted=8
+cost={8}
+
+# TODO -- gen by neoe

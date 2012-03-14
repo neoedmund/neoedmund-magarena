@@ -1,0 +1,11 @@
+>Chain Lightning
+url=http://magiccards.info/query?q=Chain+Lightning&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Chain+Lightning
+timing=main
+rarity=C
+type=Sorcery
+converted=1
+cost={R}
+color=r
+
+# TODO -- gen by neoe

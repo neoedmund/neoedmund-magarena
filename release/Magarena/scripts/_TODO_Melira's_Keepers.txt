@@ -1,0 +1,13 @@
+>Melira's Keepers
+url=http://magiccards.info/query?q=Melira%27s+Keepers&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Melira%27s+Keepers
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Warrior
+pt=4/4
+converted=5
+cost={4}{G}
+color=g
+
+# TODO -- gen by neoe

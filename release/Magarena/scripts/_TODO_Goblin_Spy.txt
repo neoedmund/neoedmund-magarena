@@ -1,0 +1,13 @@
+>Goblin Spy
+url=http://magiccards.info/query?q=Goblin+Spy&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Goblin+Spy
+timing=main
+rarity=U
+type=Creature
+subtype=Goblin,Rogue
+pt=1/1
+converted=1
+cost={R}
+color=r
+
+# TODO -- gen by neoe

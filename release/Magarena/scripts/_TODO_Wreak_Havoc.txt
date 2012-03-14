@@ -1,0 +1,11 @@
+>Wreak Havoc
+url=http://magiccards.info/query?q=Wreak+Havoc&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wreak+Havoc
+timing=main
+rarity=U
+type=Sorcery
+converted=4
+cost={2}{R}{G}
+color=rg
+
+# TODO -- gen by neoe

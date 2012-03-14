@@ -1,0 +1,13 @@
+>Quicksilver Dragon
+url=http://magiccards.info/query?q=Quicksilver+Dragon&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Quicksilver+Dragon
+timing=main
+rarity=R
+type=Creature
+subtype=Dragon
+pt=5/5
+converted=6
+cost={4}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

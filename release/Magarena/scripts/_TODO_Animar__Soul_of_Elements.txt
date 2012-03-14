@@ -1,0 +1,13 @@
+>Animar, Soul of Elements
+url=http://magiccards.info/query?q=Animar%2C+Soul+of+Elements&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Animar%2C+Soul+of+Elements
+timing=main
+rarity=M
+type=Legendary,Creature
+subtype=Elemental
+pt=1/1
+converted=3
+cost={U}{R}{G}
+color=urg
+
+# TODO -- gen by neoe

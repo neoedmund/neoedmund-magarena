@@ -1,0 +1,13 @@
+>Macetail Hystrodon
+url=http://magiccards.info/query?q=Macetail+Hystrodon&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Macetail+Hystrodon
+timing=main
+rarity=C
+type=Creature
+subtype=Beast
+pt=4/4
+converted=7
+cost={6}{R}
+color=r
+
+# TODO -- gen by neoe

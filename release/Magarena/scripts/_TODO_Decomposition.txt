@@ -1,0 +1,12 @@
+>Decomposition
+url=http://magiccards.info/query?q=Decomposition&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Decomposition
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

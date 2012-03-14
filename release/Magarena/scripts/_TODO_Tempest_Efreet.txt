@@ -1,0 +1,13 @@
+>Tempest Efreet
+url=http://magiccards.info/query?q=Tempest+Efreet&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Tempest+Efreet
+timing=main
+rarity=R
+type=Creature
+subtype=Efreet
+pt=3/3
+converted=4
+cost={1}{R}{R}{R}
+color=rrr
+
+# TODO -- gen by neoe

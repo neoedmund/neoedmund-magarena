@@ -1,0 +1,13 @@
+>Gabriel Angelfire
+url=http://magiccards.info/query?q=Gabriel+Angelfire&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Gabriel+Angelfire
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Angel
+pt=4/4
+converted=7
+cost={3}{G}{G}{W}{W}
+color=ggww
+
+# TODO -- gen by neoe

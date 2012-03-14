@@ -1,0 +1,11 @@
+>Healer's Headdress
+url=http://magiccards.info/query?q=Healer%27s+Headdress&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Healer%27s+Headdress
+timing=main
+rarity=C
+type=Artifact
+subtype=Equipment
+converted=2
+cost={2}
+
+# TODO -- gen by neoe

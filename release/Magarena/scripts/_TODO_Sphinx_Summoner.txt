@@ -1,0 +1,13 @@
+>Sphinx Summoner
+url=http://magiccards.info/query?q=Sphinx+Summoner&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sphinx+Summoner
+timing=main
+rarity=R
+type=Artifact,Creature
+subtype=Sphinx
+pt=3/3
+converted=5
+cost={3}{U}{B}
+color=ub
+
+# TODO -- gen by neoe

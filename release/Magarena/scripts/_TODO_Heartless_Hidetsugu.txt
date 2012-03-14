@@ -1,0 +1,13 @@
+>Heartless Hidetsugu
+url=http://magiccards.info/query?q=Heartless+Hidetsugu&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Heartless+Hidetsugu
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Ogre,Shaman
+pt=4/3
+converted=5
+cost={3}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Teferi's Realm
+url=http://magiccards.info/query?q=Teferi%27s+Realm&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Teferi%27s+Realm
+timing=main
+rarity=R
+type=Enchantment
+converted=3
+cost={1}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

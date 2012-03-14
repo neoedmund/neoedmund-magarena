@@ -1,0 +1,10 @@
+>Telim'Tor's Darts
+url=http://magiccards.info/query?q=Telim%27Tor%27s+Darts&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Telim%27Tor%27s+Darts
+timing=main
+rarity=U
+type=Artifact
+converted=2
+cost={2}
+
+# TODO -- gen by neoe

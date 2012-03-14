@@ -1,0 +1,12 @@
+>Augury Adept
+url=http://magiccards.info/query?q=Augury+Adept&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Augury+Adept
+timing=main
+rarity=R
+type=Creature
+subtype=Kithkin,Wizard
+pt=2/2
+converted=11
+cost={1}{W/U}{W/U}
+
+# TODO -- gen by neoe

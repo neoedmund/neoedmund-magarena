@@ -1,0 +1,13 @@
+>Shoreline Ranger
+url=http://magiccards.info/query?q=Shoreline+Ranger&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Shoreline+Ranger
+timing=main
+rarity=C
+type=Creature
+subtype=Bird,Soldier
+pt=3/4
+converted=6
+cost={5}{U}
+color=u
+
+# TODO -- gen by neoe

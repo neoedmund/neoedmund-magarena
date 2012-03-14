@@ -1,0 +1,11 @@
+>Psychotic Episode
+url=http://magiccards.info/query?q=Psychotic+Episode&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Psychotic+Episode
+timing=main
+rarity=C
+type=Sorcery
+converted=3
+cost={1}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Predatory Advantage
+url=http://magiccards.info/query?q=Predatory+Advantage&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Predatory+Advantage
+timing=main
+rarity=R
+type=Enchantment
+converted=5
+cost={3}{R}{G}
+color=rg
+
+# TODO -- gen by neoe

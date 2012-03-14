@@ -1,0 +1,13 @@
+>Lady Sun
+url=http://magiccards.info/query?q=Lady+Sun&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Lady+Sun
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Human,Advisor
+pt=1/1
+converted=3
+cost={1}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

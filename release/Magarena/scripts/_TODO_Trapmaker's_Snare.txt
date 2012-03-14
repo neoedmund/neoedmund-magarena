@@ -1,0 +1,11 @@
+>Trapmaker's Snare
+url=http://magiccards.info/query?q=Trapmaker%27s+Snare&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Trapmaker%27s+Snare
+timing=main
+rarity=U
+type=Instant
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

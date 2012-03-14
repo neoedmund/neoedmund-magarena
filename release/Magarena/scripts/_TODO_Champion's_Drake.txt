@@ -1,0 +1,13 @@
+>Champion's Drake
+url=http://magiccards.info/query?q=Champion%27s+Drake&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Champion%27s+Drake
+timing=main
+rarity=C
+type=Creature
+subtype=Drake
+pt=1/1
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Magma Giant
+url=http://magiccards.info/query?q=Magma+Giant&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Magma+Giant
+timing=main
+rarity=R
+type=Creature
+subtype=Giant
+pt=5/5
+converted=7
+cost={5}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

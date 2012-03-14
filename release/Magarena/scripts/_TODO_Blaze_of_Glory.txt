@@ -1,0 +1,11 @@
+>Blaze of Glory
+url=http://magiccards.info/query?q=Blaze+of+Glory&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Blaze+of+Glory
+timing=main
+rarity=R
+type=Instant
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

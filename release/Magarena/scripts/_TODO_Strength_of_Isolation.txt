@@ -1,0 +1,12 @@
+>Strength of Isolation
+url=http://magiccards.info/query?q=Strength+of+Isolation&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Strength+of+Isolation
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

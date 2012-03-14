@@ -1,0 +1,13 @@
+>Balduvian Conjurer
+url=http://magiccards.info/query?q=Balduvian+Conjurer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Balduvian+Conjurer
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Wizard
+pt=0/2
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

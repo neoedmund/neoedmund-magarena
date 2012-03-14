@@ -1,0 +1,13 @@
+>Blade Sliver
+url=http://magiccards.info/query?q=Blade+Sliver&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Blade+Sliver
+timing=main
+rarity=U
+type=Creature
+subtype=Sliver
+pt=2/2
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

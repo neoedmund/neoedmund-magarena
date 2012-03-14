@@ -1,0 +1,11 @@
+>Colfenor's Plans
+url=http://magiccards.info/query?q=Colfenor%27s+Plans&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Colfenor%27s+Plans
+timing=main
+rarity=R
+type=Enchantment
+converted=4
+cost={2}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

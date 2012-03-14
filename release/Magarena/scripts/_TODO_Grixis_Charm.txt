@@ -1,0 +1,11 @@
+>Grixis Charm
+url=http://magiccards.info/query?q=Grixis+Charm&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Grixis+Charm
+timing=main
+rarity=U
+type=Instant
+converted=3
+cost={U}{B}{R}
+color=ubr
+
+# TODO -- gen by neoe

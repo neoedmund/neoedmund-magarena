@@ -1,0 +1,12 @@
+>Wizard Replica
+url=http://magiccards.info/query?q=Wizard+Replica&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wizard+Replica
+timing=main
+rarity=C
+type=Artifact,Creature
+subtype=Wizard
+pt=1/3
+converted=3
+cost={3}
+
+# TODO -- gen by neoe

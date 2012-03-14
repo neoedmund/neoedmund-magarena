@@ -1,0 +1,11 @@
+>Manipulate Fate
+url=http://magiccards.info/query?q=Manipulate+Fate&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Manipulate+Fate
+timing=main
+rarity=U
+type=Sorcery
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

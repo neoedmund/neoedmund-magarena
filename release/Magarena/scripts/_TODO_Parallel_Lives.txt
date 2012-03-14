@@ -1,0 +1,11 @@
+>Parallel Lives
+url=http://magiccards.info/query?q=Parallel+Lives&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Parallel+Lives
+timing=main
+rarity=R
+type=Enchantment
+converted=4
+cost={3}{G}
+color=g
+
+# TODO -- gen by neoe

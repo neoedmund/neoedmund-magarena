@@ -1,0 +1,13 @@
+>Fleshgrafter
+url=http://magiccards.info/query?q=Fleshgrafter&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Fleshgrafter
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Warrior
+pt=2/2
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

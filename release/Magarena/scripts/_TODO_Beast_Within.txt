@@ -1,0 +1,11 @@
+>Beast Within
+url=http://magiccards.info/query?q=Beast+Within&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Beast+Within
+timing=main
+rarity=U
+type=Instant
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

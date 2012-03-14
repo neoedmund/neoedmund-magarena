@@ -1,0 +1,13 @@
+>Broodhatch Nantuko
+url=http://magiccards.info/query?q=Broodhatch+Nantuko&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Broodhatch+Nantuko
+timing=main
+rarity=U
+type=Creature
+subtype=Insect,Druid
+pt=1/1
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

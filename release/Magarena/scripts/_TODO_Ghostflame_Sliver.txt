@@ -1,0 +1,13 @@
+>Ghostflame Sliver
+url=http://magiccards.info/query?q=Ghostflame+Sliver&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ghostflame+Sliver
+timing=main
+rarity=U
+type=Creature
+subtype=Sliver
+pt=2/2
+converted=2
+cost={B}{R}
+color=br
+
+# TODO -- gen by neoe

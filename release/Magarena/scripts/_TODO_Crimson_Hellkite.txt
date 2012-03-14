@@ -1,0 +1,13 @@
+>Crimson Hellkite
+url=http://magiccards.info/query?q=Crimson+Hellkite&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Crimson+Hellkite
+timing=main
+rarity=R
+type=Creature
+subtype=Dragon
+pt=6/6
+converted=9
+cost={6}{R}{R}{R}
+color=rrr
+
+# TODO -- gen by neoe

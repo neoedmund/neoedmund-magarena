@@ -1,0 +1,11 @@
+>Choice of Damnations
+url=http://magiccards.info/query?q=Choice+of+Damnations&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Choice+of+Damnations
+timing=main
+rarity=R
+type=Sorcery
+converted=6
+cost={5}{B}
+color=b
+
+# TODO -- gen by neoe

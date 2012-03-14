@@ -1,0 +1,13 @@
+>The Wretched
+url=http://magiccards.info/query?q=The+Wretched&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=The+Wretched
+timing=main
+rarity=U
+type=Creature
+subtype=Demon
+pt=2/5
+converted=5
+cost={3}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

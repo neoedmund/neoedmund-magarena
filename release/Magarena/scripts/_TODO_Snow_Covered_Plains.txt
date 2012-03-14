@@ -1,0 +1,11 @@
+>Snow-Covered Plains
+url=http://magiccards.info/query?q=Snow-Covered+Plains&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Snow-Covered+Plains
+timing=main
+rarity=C
+type=Basic,Snow,Land
+subtype=Plains
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

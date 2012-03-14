@@ -1,0 +1,11 @@
+>Form of the Dragon
+url=http://magiccards.info/query?q=Form+of+the+Dragon&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Form+of+the+Dragon
+timing=main
+rarity=R
+type=Enchantment
+converted=7
+cost={4}{R}{R}{R}
+color=rrr
+
+# TODO -- gen by neoe

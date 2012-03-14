@@ -1,0 +1,11 @@
+>Malevolent Awakening
+url=http://magiccards.info/query?q=Malevolent+Awakening&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Malevolent+Awakening
+timing=main
+rarity=U
+type=Enchantment
+converted=3
+cost={1}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

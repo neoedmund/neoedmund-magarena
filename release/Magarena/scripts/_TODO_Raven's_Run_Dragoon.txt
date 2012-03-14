@@ -1,0 +1,12 @@
+>Raven's Run Dragoon
+url=http://magiccards.info/query?q=Raven%27s+Run+Dragoon&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Raven%27s+Run+Dragoon
+timing=main
+rarity=C
+type=Creature
+subtype=Elf,Knight
+pt=3/3
+converted=12
+cost={2}{G/W}{G/W}
+
+# TODO -- gen by neoe

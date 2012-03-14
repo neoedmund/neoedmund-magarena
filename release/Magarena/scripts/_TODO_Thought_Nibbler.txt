@@ -1,0 +1,13 @@
+>Thought Nibbler
+url=http://magiccards.info/query?q=Thought+Nibbler&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Thought+Nibbler
+timing=main
+rarity=C
+type=Creature
+subtype=Beast
+pt=1/1
+converted=1
+cost={U}
+color=u
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Quicksilver Behemoth
+url=http://magiccards.info/query?q=Quicksilver+Behemoth&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Quicksilver+Behemoth
+timing=main
+rarity=C
+type=Creature
+subtype=Beast
+pt=4/5
+converted=7
+cost={6}{U}
+color=u
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Boreal Griffin
+url=http://magiccards.info/query?q=Boreal+Griffin&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Boreal+Griffin
+timing=main
+rarity=C
+type=Creature
+subtype=Griffin
+pt=3/2
+converted=5
+cost={3}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

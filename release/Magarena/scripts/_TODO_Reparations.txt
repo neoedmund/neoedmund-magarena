@@ -1,0 +1,11 @@
+>Reparations
+url=http://magiccards.info/query?q=Reparations&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Reparations
+timing=main
+rarity=R
+type=Enchantment
+converted=3
+cost={1}{W}{U}
+color=wu
+
+# TODO -- gen by neoe

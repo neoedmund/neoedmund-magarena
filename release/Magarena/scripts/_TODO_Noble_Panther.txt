@@ -1,0 +1,13 @@
+>Noble Panther
+url=http://magiccards.info/query?q=Noble+Panther&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Noble+Panther
+timing=main
+rarity=R
+type=Creature
+subtype=Cat
+pt=3/3
+converted=3
+cost={1}{G}{W}
+color=gw
+
+# TODO -- gen by neoe

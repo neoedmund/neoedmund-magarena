@@ -1,0 +1,11 @@
+>Surreal Memoir
+url=http://magiccards.info/query?q=Surreal+Memoir&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Surreal+Memoir
+timing=main
+rarity=U
+type=Sorcery
+converted=4
+cost={3}{R}
+color=r
+
+# TODO -- gen by neoe

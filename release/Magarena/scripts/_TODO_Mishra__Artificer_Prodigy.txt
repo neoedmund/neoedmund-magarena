@@ -1,0 +1,13 @@
+>Mishra, Artificer Prodigy
+url=http://magiccards.info/query?q=Mishra%2C+Artificer+Prodigy&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mishra%2C+Artificer+Prodigy
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Human,Artificer
+pt=4/4
+converted=4
+cost={1}{U}{B}{R}
+color=ubr
+
+# TODO -- gen by neoe

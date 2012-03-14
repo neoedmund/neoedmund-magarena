@@ -1,0 +1,11 @@
+>No Quarter
+url=http://magiccards.info/query?q=No+Quarter&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=No+Quarter
+timing=main
+rarity=R
+type=Enchantment
+converted=4
+cost={3}{R}
+color=r
+
+# TODO -- gen by neoe

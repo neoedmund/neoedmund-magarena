@@ -1,0 +1,13 @@
+>Gorilla Shaman
+url=http://magiccards.info/query?q=Gorilla+Shaman&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Gorilla+Shaman
+timing=main
+rarity=C
+type=Creature
+subtype=Ape,Shaman
+pt=1/1
+converted=1
+cost={R}
+color=r
+
+# TODO -- gen by neoe

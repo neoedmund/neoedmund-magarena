@@ -1,0 +1,13 @@
+>Renegade Doppelganger
+url=http://magiccards.info/query?q=Renegade+Doppelganger&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Renegade+Doppelganger
+timing=main
+rarity=R
+type=Creature
+subtype=Shapeshifter
+pt=0/1
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

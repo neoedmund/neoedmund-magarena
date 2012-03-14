@@ -1,0 +1,10 @@
+>Worm Harvest
+url=http://magiccards.info/query?q=Worm+Harvest&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Worm+Harvest
+timing=main
+rarity=R
+type=Sorcery
+converted=17
+cost={2}{B/G}{B/G}{B/G}
+
+# TODO -- gen by neoe

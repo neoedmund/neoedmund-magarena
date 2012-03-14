@@ -1,0 +1,11 @@
+>Seismic Shudder
+url=http://magiccards.info/query?q=Seismic+Shudder&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Seismic+Shudder
+timing=main
+rarity=C
+type=Instant
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

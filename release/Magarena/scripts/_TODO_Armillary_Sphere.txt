@@ -1,0 +1,10 @@
+>Armillary Sphere
+url=http://magiccards.info/query?q=Armillary+Sphere&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Armillary+Sphere
+timing=main
+rarity=C
+type=Artifact
+converted=2
+cost={2}
+
+# TODO -- gen by neoe

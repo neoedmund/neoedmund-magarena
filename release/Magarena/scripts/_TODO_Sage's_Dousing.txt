@@ -1,0 +1,12 @@
+>Sage's Dousing
+url=http://magiccards.info/query?q=Sage%27s+Dousing&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sage%27s+Dousing
+timing=main
+rarity=U
+type=Tribal,Instant
+subtype=Wizard
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

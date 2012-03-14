@@ -1,0 +1,13 @@
+>Wall of Deceit
+url=http://magiccards.info/query?q=Wall+of+Deceit&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wall+of+Deceit
+timing=main
+rarity=U
+type=Creature
+subtype=Wall
+pt=0/5
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

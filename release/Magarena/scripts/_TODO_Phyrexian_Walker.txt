@@ -1,0 +1,12 @@
+>Phyrexian Walker
+url=http://magiccards.info/query?q=Phyrexian+Walker&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Phyrexian+Walker
+timing=main
+rarity=C
+type=Artifact,Creature
+subtype=Construct
+pt=0/3
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

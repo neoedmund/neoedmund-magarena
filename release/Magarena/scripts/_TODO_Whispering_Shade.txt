@@ -1,0 +1,13 @@
+>Whispering Shade
+url=http://magiccards.info/query?q=Whispering+Shade&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Whispering+Shade
+timing=main
+rarity=C
+type=Creature
+subtype=Shade
+pt=1/1
+converted=4
+cost={3}{B}
+color=b
+
+# TODO -- gen by neoe

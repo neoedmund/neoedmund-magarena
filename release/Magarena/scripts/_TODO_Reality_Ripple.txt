@@ -1,0 +1,11 @@
+>Reality Ripple
+url=http://magiccards.info/query?q=Reality+Ripple&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Reality+Ripple
+timing=main
+rarity=C
+type=Instant
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Skaab Ruinator
+url=http://magiccards.info/query?q=Skaab+Ruinator&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Skaab+Ruinator
+timing=main
+rarity=M
+type=Creature
+subtype=Zombie,Horror
+pt=5/6
+converted=3
+cost={1}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

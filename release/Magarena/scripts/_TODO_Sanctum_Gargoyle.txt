@@ -1,0 +1,13 @@
+>Sanctum Gargoyle
+url=http://magiccards.info/query?q=Sanctum+Gargoyle&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sanctum+Gargoyle
+timing=main
+rarity=C
+type=Artifact,Creature
+subtype=Gargoyle
+pt=2/3
+converted=4
+cost={3}{W}
+color=w
+
+# TODO -- gen by neoe

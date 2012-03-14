@@ -1,0 +1,11 @@
+>Force Void
+url=http://magiccards.info/query?q=Force+Void&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Force+Void
+timing=main
+rarity=U
+type=Instant
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

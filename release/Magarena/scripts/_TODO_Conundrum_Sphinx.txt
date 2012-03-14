@@ -1,0 +1,13 @@
+>Conundrum Sphinx
+url=http://magiccards.info/query?q=Conundrum+Sphinx&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Conundrum+Sphinx
+timing=main
+rarity=R
+type=Creature
+subtype=Sphinx
+pt=4/4
+converted=4
+cost={2}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

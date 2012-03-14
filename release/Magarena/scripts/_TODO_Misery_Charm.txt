@@ -1,0 +1,11 @@
+>Misery Charm
+url=http://magiccards.info/query?q=Misery+Charm&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Misery+Charm
+timing=main
+rarity=C
+type=Instant
+converted=1
+cost={B}
+color=b
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Oust
+url=http://magiccards.info/query?q=Oust&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Oust
+timing=main
+rarity=U
+type=Sorcery
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

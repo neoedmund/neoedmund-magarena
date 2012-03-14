@@ -1,0 +1,11 @@
+>Timecrafting
+url=http://magiccards.info/query?q=Timecrafting&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Timecrafting
+timing=main
+rarity=U
+type=Instant
+converted=1
+cost={X}{R}
+color=r
+
+# TODO -- gen by neoe

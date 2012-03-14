@@ -1,0 +1,11 @@
+>Savage Offensive
+url=http://magiccards.info/query?q=Savage+Offensive&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Savage+Offensive
+timing=main
+rarity=C
+type=Sorcery
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

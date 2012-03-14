@@ -1,0 +1,11 @@
+>Temporary Truce
+url=http://magiccards.info/query?q=Temporary+Truce&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Temporary+Truce
+timing=main
+rarity=R
+type=Sorcery
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

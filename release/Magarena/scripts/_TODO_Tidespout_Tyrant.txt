@@ -1,0 +1,13 @@
+>Tidespout Tyrant
+url=http://magiccards.info/query?q=Tidespout+Tyrant&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Tidespout+Tyrant
+timing=main
+rarity=R
+type=Creature
+subtype=Djinn
+pt=5/5
+converted=8
+cost={5}{U}{U}{U}
+color=uuu
+
+# TODO -- gen by neoe

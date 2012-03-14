@@ -1,0 +1,12 @@
+>Watchdog
+url=http://magiccards.info/query?q=Watchdog&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Watchdog
+timing=main
+rarity=U
+type=Artifact,Creature
+subtype=Hound
+pt=1/2
+converted=3
+cost={3}
+
+# TODO -- gen by neoe

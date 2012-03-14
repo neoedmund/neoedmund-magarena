@@ -1,0 +1,12 @@
+>Soaring Hope
+url=http://magiccards.info/query?q=Soaring+Hope&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Soaring+Hope
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=5
+cost={4}{W}
+color=w
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Soul Stair Expedition
+url=http://magiccards.info/query?q=Soul+Stair+Expedition&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Soul+Stair+Expedition
+timing=main
+rarity=C
+type=Enchantment
+converted=1
+cost={B}
+color=b
+
+# TODO -- gen by neoe

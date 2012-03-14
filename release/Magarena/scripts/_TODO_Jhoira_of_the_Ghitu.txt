@@ -1,0 +1,13 @@
+>Jhoira of the Ghitu
+url=http://magiccards.info/query?q=Jhoira+of+the+Ghitu&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Jhoira+of+the+Ghitu
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Human,Wizard
+pt=2/2
+converted=3
+cost={1}{U}{R}
+color=ur
+
+# TODO -- gen by neoe

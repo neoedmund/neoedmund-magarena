@@ -1,0 +1,13 @@
+>Dread Warlock
+url=http://magiccards.info/query?q=Dread+Warlock&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dread+Warlock
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Wizard
+pt=2/2
+converted=3
+cost={1}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Sir Shandlar of Eberyn
+url=http://magiccards.info/query?q=Sir+Shandlar+of+Eberyn&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sir+Shandlar+of+Eberyn
+timing=main
+rarity=U
+type=Legendary,Creature
+subtype=Human,Knight
+pt=4/7
+converted=6
+cost={4}{G}{W}
+color=gw
+
+# TODO -- gen by neoe

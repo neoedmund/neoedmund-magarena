@@ -1,0 +1,11 @@
+>Manriki-Gusari
+url=http://magiccards.info/query?q=Manriki-Gusari&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Manriki-Gusari
+timing=main
+rarity=U
+type=Artifact
+subtype=Equipment
+converted=2
+cost={2}
+
+# TODO -- gen by neoe

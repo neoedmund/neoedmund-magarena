@@ -1,0 +1,13 @@
+>Retromancer
+url=http://magiccards.info/query?q=Retromancer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Retromancer
+timing=main
+rarity=C
+type=Creature
+subtype=Viashino,Shaman
+pt=3/3
+converted=4
+cost={2}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

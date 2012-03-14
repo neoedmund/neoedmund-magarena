@@ -1,0 +1,13 @@
+>Priest of Gix
+url=http://magiccards.info/query?q=Priest+of+Gix&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Priest+of+Gix
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Cleric,Minion
+pt=2/1
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

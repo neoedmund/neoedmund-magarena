@@ -1,0 +1,11 @@
+>Wild Might
+url=http://magiccards.info/query?q=Wild+Might&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wild+Might
+timing=main
+rarity=C
+type=Instant
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

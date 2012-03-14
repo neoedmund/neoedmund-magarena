@@ -1,0 +1,11 @@
+>Carpet of Flowers
+url=http://magiccards.info/query?q=Carpet+of+Flowers&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Carpet+of+Flowers
+timing=main
+rarity=U
+type=Enchantment
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

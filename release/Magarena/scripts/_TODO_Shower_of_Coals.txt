@@ -1,0 +1,11 @@
+>Shower of Coals
+url=http://magiccards.info/query?q=Shower+of+Coals&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Shower+of+Coals
+timing=main
+rarity=U
+type=Sorcery
+converted=5
+cost={3}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

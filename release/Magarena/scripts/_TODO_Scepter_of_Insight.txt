@@ -1,0 +1,11 @@
+>Scepter of Insight
+url=http://magiccards.info/query?q=Scepter+of+Insight&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Scepter+of+Insight
+timing=main
+rarity=R
+type=Artifact
+converted=3
+cost={1}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

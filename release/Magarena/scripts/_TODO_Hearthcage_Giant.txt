@@ -1,0 +1,13 @@
+>Hearthcage Giant
+url=http://magiccards.info/query?q=Hearthcage+Giant&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Hearthcage+Giant
+timing=main
+rarity=U
+type=Creature
+subtype=Giant,Warrior
+pt=5/5
+converted=8
+cost={6}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

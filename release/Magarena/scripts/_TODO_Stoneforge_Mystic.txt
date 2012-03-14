@@ -1,0 +1,13 @@
+>Stoneforge Mystic
+url=http://magiccards.info/query?q=Stoneforge+Mystic&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Stoneforge+Mystic
+timing=main
+rarity=R
+type=Creature
+subtype=Kor,Artificer
+pt=1/2
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

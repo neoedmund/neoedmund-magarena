@@ -1,0 +1,13 @@
+>Enemy of the Guildpact
+url=http://magiccards.info/query?q=Enemy+of+the+Guildpact&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Enemy+of+the+Guildpact
+timing=main
+rarity=C
+type=Creature
+subtype=Spirit
+pt=4/2
+converted=5
+cost={4}{B}
+color=b
+
+# TODO -- gen by neoe

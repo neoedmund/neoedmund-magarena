@@ -1,0 +1,11 @@
+>Sunken City
+url=http://magiccards.info/query?q=Sunken+City&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sunken+City
+timing=main
+rarity=C
+type=Enchantment
+converted=2
+cost={U}{U}
+color=uu
+
+# TODO -- gen by neoe

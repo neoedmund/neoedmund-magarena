@@ -1,0 +1,11 @@
+>Infernal Contract
+url=http://magiccards.info/query?q=Infernal+Contract&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Infernal+Contract
+timing=main
+rarity=R
+type=Sorcery
+converted=3
+cost={B}{B}{B}
+color=bbb
+
+# TODO -- gen by neoe

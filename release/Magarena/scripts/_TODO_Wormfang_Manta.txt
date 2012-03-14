@@ -1,0 +1,13 @@
+>Wormfang Manta
+url=http://magiccards.info/query?q=Wormfang+Manta&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wormfang+Manta
+timing=main
+rarity=R
+type=Creature
+subtype=Nightmare,Fish,Beast
+pt=6/1
+converted=7
+cost={5}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

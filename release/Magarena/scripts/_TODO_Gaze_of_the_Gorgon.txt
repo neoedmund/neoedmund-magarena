@@ -1,0 +1,10 @@
+>Gaze of the Gorgon
+url=http://magiccards.info/query?q=Gaze+of+the+Gorgon&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Gaze+of+the+Gorgon
+timing=main
+rarity=C
+type=Instant
+converted=8
+cost={3}{B/G}
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Deep Spawn
+url=http://magiccards.info/query?q=Deep+Spawn&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Deep+Spawn
+timing=main
+rarity=U
+type=Creature
+subtype=Homarid
+pt=6/6
+converted=8
+cost={5}{U}{U}{U}
+color=uuu
+
+# TODO -- gen by neoe

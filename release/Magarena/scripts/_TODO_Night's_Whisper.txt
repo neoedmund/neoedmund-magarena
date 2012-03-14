@@ -1,0 +1,11 @@
+>Night's Whisper
+url=http://magiccards.info/query?q=Night%27s+Whisper&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Night%27s+Whisper
+timing=main
+rarity=U
+type=Sorcery
+converted=2
+cost={1}{B}
+color=b
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Plagued Rusalka
+url=http://magiccards.info/query?q=Plagued+Rusalka&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Plagued+Rusalka
+timing=main
+rarity=U
+type=Creature
+subtype=Spirit
+pt=1/1
+converted=1
+cost={B}
+color=b
+
+# TODO -- gen by neoe

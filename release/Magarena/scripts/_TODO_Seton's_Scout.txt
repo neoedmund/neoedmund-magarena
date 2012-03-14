@@ -1,0 +1,13 @@
+>Seton's Scout
+url=http://magiccards.info/query?q=Seton%27s+Scout&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Seton%27s+Scout
+timing=main
+rarity=U
+type=Creature
+subtype=Centaur,Druid,Scout,Archer
+pt=2/1
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Phantatog
+url=http://magiccards.info/query?q=Phantatog&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Phantatog
+timing=main
+rarity=U
+type=Creature
+subtype=Atog
+pt=1/2
+converted=3
+cost={1}{W}{U}
+color=wu
+
+# TODO -- gen by neoe

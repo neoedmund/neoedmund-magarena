@@ -1,0 +1,11 @@
+>Lavalanche
+url=http://magiccards.info/query?q=Lavalanche&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Lavalanche
+timing=main
+rarity=R
+type=Sorcery
+converted=3
+cost={X}{B}{R}{G}
+color=brg
+
+# TODO -- gen by neoe

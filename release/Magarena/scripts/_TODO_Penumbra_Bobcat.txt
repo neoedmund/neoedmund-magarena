@@ -1,0 +1,13 @@
+>Penumbra Bobcat
+url=http://magiccards.info/query?q=Penumbra+Bobcat&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Penumbra+Bobcat
+timing=main
+rarity=C
+type=Creature
+subtype=Cat
+pt=2/1
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

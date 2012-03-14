@@ -1,0 +1,11 @@
+>Devouring Light
+url=http://magiccards.info/query?q=Devouring+Light&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Devouring+Light
+timing=main
+rarity=U
+type=Instant
+converted=3
+cost={1}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

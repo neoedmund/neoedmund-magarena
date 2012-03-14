@@ -1,0 +1,10 @@
+>Heart of Yavimaya
+url=http://magiccards.info/query?q=Heart+of+Yavimaya&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Heart+of+Yavimaya
+timing=main
+rarity=R
+type=Land
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

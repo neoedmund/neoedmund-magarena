@@ -1,0 +1,11 @@
+>Reflect Damage
+url=http://magiccards.info/query?q=Reflect+Damage&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Reflect+Damage
+timing=main
+rarity=R
+type=Instant
+converted=5
+cost={3}{R}{W}
+color=rw
+
+# TODO -- gen by neoe

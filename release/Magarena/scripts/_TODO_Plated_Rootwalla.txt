@@ -1,0 +1,13 @@
+>Plated Rootwalla
+url=http://magiccards.info/query?q=Plated+Rootwalla&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Plated+Rootwalla
+timing=main
+rarity=C
+type=Creature
+subtype=Lizard
+pt=3/3
+converted=5
+cost={4}{G}
+color=g
+
+# TODO -- gen by neoe

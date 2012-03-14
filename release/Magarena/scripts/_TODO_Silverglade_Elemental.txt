@@ -1,0 +1,13 @@
+>Silverglade Elemental
+url=http://magiccards.info/query?q=Silverglade+Elemental&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Silverglade+Elemental
+timing=main
+rarity=C
+type=Creature
+subtype=Elemental
+pt=4/4
+converted=5
+cost={4}{G}
+color=g
+
+# TODO -- gen by neoe

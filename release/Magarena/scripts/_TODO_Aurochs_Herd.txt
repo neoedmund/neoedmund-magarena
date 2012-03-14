@@ -1,0 +1,13 @@
+>Aurochs Herd
+url=http://magiccards.info/query?q=Aurochs+Herd&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Aurochs+Herd
+timing=main
+rarity=C
+type=Creature
+subtype=Aurochs
+pt=4/4
+converted=6
+cost={5}{G}
+color=g
+
+# TODO -- gen by neoe

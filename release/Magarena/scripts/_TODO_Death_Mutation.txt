@@ -1,0 +1,11 @@
+>Death Mutation
+url=http://magiccards.info/query?q=Death+Mutation&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Death+Mutation
+timing=main
+rarity=U
+type=Sorcery
+converted=8
+cost={6}{B}{G}
+color=bg
+
+# TODO -- gen by neoe

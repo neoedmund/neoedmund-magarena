@@ -1,0 +1,13 @@
+>Renegade Warlord
+url=http://magiccards.info/query?q=Renegade+Warlord&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Renegade+Warlord
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Warrior
+pt=3/3
+converted=5
+cost={4}{R}
+color=r
+
+# TODO -- gen by neoe

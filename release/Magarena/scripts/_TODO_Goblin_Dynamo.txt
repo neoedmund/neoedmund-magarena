@@ -1,0 +1,13 @@
+>Goblin Dynamo
+url=http://magiccards.info/query?q=Goblin+Dynamo&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Goblin+Dynamo
+timing=main
+rarity=U
+type=Creature
+subtype=Goblin,Mutant
+pt=4/4
+converted=7
+cost={5}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Dwarven Patrol
+url=http://magiccards.info/query?q=Dwarven+Patrol&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dwarven+Patrol
+timing=main
+rarity=U
+type=Creature
+subtype=Dwarf
+pt=4/2
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

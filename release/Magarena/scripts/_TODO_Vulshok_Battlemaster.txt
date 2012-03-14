@@ -1,0 +1,13 @@
+>Vulshok Battlemaster
+url=http://magiccards.info/query?q=Vulshok+Battlemaster&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Vulshok+Battlemaster
+timing=main
+rarity=R
+type=Creature
+subtype=Human,Warrior
+pt=2/2
+converted=5
+cost={4}{R}
+color=r
+
+# TODO -- gen by neoe

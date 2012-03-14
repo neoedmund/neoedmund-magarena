@@ -1,0 +1,13 @@
+>Mother of Runes
+url=http://magiccards.info/query?q=Mother+of+Runes&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mother+of+Runes
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Cleric
+pt=1/1
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

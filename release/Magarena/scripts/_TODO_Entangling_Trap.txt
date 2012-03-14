@@ -1,0 +1,11 @@
+>Entangling Trap
+url=http://magiccards.info/query?q=Entangling+Trap&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Entangling+Trap
+timing=main
+rarity=U
+type=Enchantment
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

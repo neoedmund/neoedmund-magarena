@@ -1,0 +1,13 @@
+>Kentaro, the Smiling Cat
+url=http://magiccards.info/query?q=Kentaro%2C+the+Smiling+Cat&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Kentaro%2C+the+Smiling+Cat
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Human,Samurai
+pt=2/1
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

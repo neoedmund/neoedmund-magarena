@@ -1,0 +1,13 @@
+>Lich Lord of Unx
+url=http://magiccards.info/query?q=Lich+Lord+of+Unx&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Lich+Lord+of+Unx
+timing=main
+rarity=R
+type=Creature
+subtype=Zombie,Wizard
+pt=2/2
+converted=3
+cost={1}{U}{B}
+color=ub
+
+# TODO -- gen by neoe

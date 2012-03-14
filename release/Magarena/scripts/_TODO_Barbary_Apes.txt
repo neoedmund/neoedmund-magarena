@@ -1,0 +1,13 @@
+>Barbary Apes
+url=http://magiccards.info/query?q=Barbary+Apes&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Barbary+Apes
+timing=main
+rarity=C
+type=Creature
+subtype=Ape
+pt=2/2
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

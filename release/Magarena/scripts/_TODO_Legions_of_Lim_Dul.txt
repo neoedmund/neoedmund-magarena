@@ -1,0 +1,13 @@
+>Legions of Lim-Dul
+url=http://magiccards.info/query?q=Legions+of+Lim-Dul&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Legions+of+Lim-Dul
+timing=main
+rarity=C
+type=Creature
+subtype=Zombie
+pt=2/3
+converted=3
+cost={1}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

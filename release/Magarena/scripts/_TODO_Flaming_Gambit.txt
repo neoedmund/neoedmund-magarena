@@ -1,0 +1,11 @@
+>Flaming Gambit
+url=http://magiccards.info/query?q=Flaming+Gambit&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Flaming+Gambit
+timing=main
+rarity=U
+type=Instant
+converted=1
+cost={X}{R}
+color=r
+
+# TODO -- gen by neoe

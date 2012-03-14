@@ -1,0 +1,11 @@
+>Sonic Burst
+url=http://magiccards.info/query?q=Sonic+Burst&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sonic+Burst
+timing=main
+rarity=C
+type=Instant
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

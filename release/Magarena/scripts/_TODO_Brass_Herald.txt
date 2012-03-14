@@ -1,0 +1,12 @@
+>Brass Herald
+url=http://magiccards.info/query?q=Brass+Herald&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Brass+Herald
+timing=main
+rarity=R
+type=Artifact,Creature
+subtype=Golem
+pt=2/2
+converted=6
+cost={6}
+
+# TODO -- gen by neoe

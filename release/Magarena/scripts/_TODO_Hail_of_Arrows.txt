@@ -1,0 +1,11 @@
+>Hail of Arrows
+url=http://magiccards.info/query?q=Hail+of+Arrows&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Hail+of+Arrows
+timing=main
+rarity=U
+type=Instant
+converted=1
+cost={X}{W}
+color=w
+
+# TODO -- gen by neoe

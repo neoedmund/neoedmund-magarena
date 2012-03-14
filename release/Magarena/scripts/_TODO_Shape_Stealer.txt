@@ -1,0 +1,13 @@
+>Shape Stealer
+url=http://magiccards.info/query?q=Shape+Stealer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Shape+Stealer
+timing=main
+rarity=U
+type=Creature
+subtype=Shapeshifter,Spirit
+pt=1/1
+converted=2
+cost={U}{U}
+color=uu
+
+# TODO -- gen by neoe

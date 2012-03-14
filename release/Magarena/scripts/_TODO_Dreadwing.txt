@@ -1,0 +1,13 @@
+>Dreadwing
+url=http://magiccards.info/query?q=Dreadwing&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dreadwing
+timing=main
+rarity=U
+type=Creature
+subtype=Zombie
+pt=1/1
+converted=1
+cost={B}
+color=b
+
+# TODO -- gen by neoe

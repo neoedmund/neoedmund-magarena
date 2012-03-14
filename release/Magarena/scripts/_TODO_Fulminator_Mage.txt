@@ -1,0 +1,12 @@
+>Fulminator Mage
+url=http://magiccards.info/query?q=Fulminator+Mage&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Fulminator+Mage
+timing=main
+rarity=R
+type=Creature
+subtype=Elemental,Shaman
+pt=2/2
+converted=11
+cost={1}{B/R}{B/R}
+
+# TODO -- gen by neoe

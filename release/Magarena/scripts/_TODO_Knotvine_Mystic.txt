@@ -1,0 +1,13 @@
+>Knotvine Mystic
+url=http://magiccards.info/query?q=Knotvine+Mystic&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Knotvine+Mystic
+timing=main
+rarity=U
+type=Creature
+subtype=Elf,Druid
+pt=2/2
+converted=3
+cost={R}{G}{W}
+color=rgw
+
+# TODO -- gen by neoe

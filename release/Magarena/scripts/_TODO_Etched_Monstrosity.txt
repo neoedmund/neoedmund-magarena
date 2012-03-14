@@ -1,0 +1,12 @@
+>Etched Monstrosity
+url=http://magiccards.info/query?q=Etched+Monstrosity&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Etched+Monstrosity
+timing=main
+rarity=M
+type=Artifact,Creature
+subtype=Golem
+pt=10/10
+converted=5
+cost={5}
+
+# TODO -- gen by neoe

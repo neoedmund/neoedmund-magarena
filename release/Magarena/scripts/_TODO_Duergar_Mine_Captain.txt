@@ -1,0 +1,12 @@
+>Duergar Mine-Captain
+url=http://magiccards.info/query?q=Duergar+Mine-Captain&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Duergar+Mine-Captain
+timing=main
+rarity=U
+type=Creature
+subtype=Dwarf,Soldier
+pt=2/1
+converted=7
+cost={2}{R/W}
+
+# TODO -- gen by neoe

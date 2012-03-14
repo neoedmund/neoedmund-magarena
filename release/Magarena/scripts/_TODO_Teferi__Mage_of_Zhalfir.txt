@@ -1,0 +1,13 @@
+>Teferi, Mage of Zhalfir
+url=http://magiccards.info/query?q=Teferi%2C+Mage+of+Zhalfir&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Teferi%2C+Mage+of+Zhalfir
+timing=main
+rarity=M
+type=Legendary,Creature
+subtype=Human,Wizard
+pt=3/4
+converted=5
+cost={2}{U}{U}{U}
+color=uuu
+
+# TODO -- gen by neoe

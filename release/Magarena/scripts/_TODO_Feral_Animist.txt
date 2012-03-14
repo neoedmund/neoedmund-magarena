@@ -1,0 +1,13 @@
+>Feral Animist
+url=http://magiccards.info/query?q=Feral+Animist&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Feral+Animist
+timing=main
+rarity=U
+type=Creature
+subtype=Goblin,Shaman
+pt=2/1
+converted=3
+cost={1}{R}{G}
+color=rg
+
+# TODO -- gen by neoe

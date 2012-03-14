@@ -1,0 +1,13 @@
+>Lorthos, the Tidemaker
+url=http://magiccards.info/query?q=Lorthos%2C+the+Tidemaker&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Lorthos%2C+the+Tidemaker
+timing=main
+rarity=M
+type=Legendary,Creature
+subtype=Octopus
+pt=8/8
+converted=8
+cost={5}{U}{U}{U}
+color=uuu
+
+# TODO -- gen by neoe

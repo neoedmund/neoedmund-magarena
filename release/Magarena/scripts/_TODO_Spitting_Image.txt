@@ -1,0 +1,10 @@
+>Spitting Image
+url=http://magiccards.info/query?q=Spitting+Image&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Spitting+Image
+timing=main
+rarity=R
+type=Sorcery
+converted=14
+cost={4}{G/U}{G/U}
+
+# TODO -- gen by neoe

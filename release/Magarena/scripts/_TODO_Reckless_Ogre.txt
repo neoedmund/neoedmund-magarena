@@ -1,0 +1,13 @@
+>Reckless Ogre
+url=http://magiccards.info/query?q=Reckless+Ogre&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Reckless+Ogre
+timing=main
+rarity=C
+type=Creature
+subtype=Ogre
+pt=3/2
+converted=4
+cost={3}{R}
+color=r
+
+# TODO -- gen by neoe

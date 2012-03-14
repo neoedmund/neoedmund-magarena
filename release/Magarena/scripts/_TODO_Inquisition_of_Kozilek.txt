@@ -1,0 +1,11 @@
+>Inquisition of Kozilek
+url=http://magiccards.info/query?q=Inquisition+of+Kozilek&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Inquisition+of+Kozilek
+timing=main
+rarity=U
+type=Sorcery
+converted=1
+cost={B}
+color=b
+
+# TODO -- gen by neoe

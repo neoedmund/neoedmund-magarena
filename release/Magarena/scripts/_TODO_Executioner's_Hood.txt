@@ -1,0 +1,11 @@
+>Executioner's Hood
+url=http://magiccards.info/query?q=Executioner%27s+Hood&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Executioner%27s+Hood
+timing=main
+rarity=C
+type=Artifact
+subtype=Equipment
+converted=2
+cost={2}
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Loxodon Peacekeeper
+url=http://magiccards.info/query?q=Loxodon+Peacekeeper&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Loxodon+Peacekeeper
+timing=main
+rarity=R
+type=Creature
+subtype=Elephant,Soldier
+pt=4/4
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

@@ -1,0 +1,10 @@
+>Windbrisk Heights
+url=http://magiccards.info/query?q=Windbrisk+Heights&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Windbrisk+Heights
+timing=main
+rarity=R
+type=Land
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

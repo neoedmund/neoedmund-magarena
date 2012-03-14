@@ -1,0 +1,13 @@
+>Talas Researcher
+url=http://magiccards.info/query?q=Talas+Researcher&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Talas+Researcher
+timing=main
+rarity=R
+type=Creature
+subtype=Human,Pirate,Wizard
+pt=1/1
+converted=5
+cost={4}{U}
+color=u
+
+# TODO -- gen by neoe

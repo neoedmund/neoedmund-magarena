@@ -1,0 +1,13 @@
+>Merfolk Raiders
+url=http://magiccards.info/query?q=Merfolk+Raiders&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Merfolk+Raiders
+timing=main
+rarity=C
+type=Creature
+subtype=Merfolk,Soldier
+pt=2/3
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

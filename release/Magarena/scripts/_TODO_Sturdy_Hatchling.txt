@@ -1,0 +1,12 @@
+>Sturdy Hatchling
+url=http://magiccards.info/query?q=Sturdy+Hatchling&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sturdy+Hatchling
+timing=main
+rarity=U
+type=Creature
+subtype=Elemental
+pt=6/6
+converted=8
+cost={3}{G/U}
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Masako the Humorless
+url=http://magiccards.info/query?q=Masako+the+Humorless&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Masako+the+Humorless
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Human,Advisor
+pt=2/1
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

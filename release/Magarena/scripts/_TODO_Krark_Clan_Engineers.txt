@@ -1,0 +1,13 @@
+>Krark-Clan Engineers
+url=http://magiccards.info/query?q=Krark-Clan+Engineers&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Krark-Clan+Engineers
+timing=main
+rarity=U
+type=Creature
+subtype=Goblin,Artificer
+pt=2/2
+converted=4
+cost={3}{R}
+color=r
+
+# TODO -- gen by neoe

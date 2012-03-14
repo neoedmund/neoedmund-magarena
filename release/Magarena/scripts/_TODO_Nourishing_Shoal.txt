@@ -1,0 +1,11 @@
+>Nourishing Shoal
+url=http://magiccards.info/query?q=Nourishing+Shoal&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Nourishing+Shoal
+timing=main
+rarity=R
+type=Instant
+converted=2
+cost={X}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

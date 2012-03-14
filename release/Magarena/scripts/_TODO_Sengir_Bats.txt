@@ -1,0 +1,13 @@
+>Sengir Bats
+url=http://magiccards.info/query?q=Sengir+Bats&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sengir+Bats
+timing=main
+rarity=C
+type=Creature
+subtype=Bat
+pt=1/2
+converted=3
+cost={1}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

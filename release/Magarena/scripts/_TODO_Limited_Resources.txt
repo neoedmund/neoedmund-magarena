@@ -1,0 +1,11 @@
+>Limited Resources
+url=http://magiccards.info/query?q=Limited+Resources&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Limited+Resources
+timing=main
+rarity=R
+type=Enchantment
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

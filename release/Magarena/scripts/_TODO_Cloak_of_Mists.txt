@@ -1,0 +1,12 @@
+>Cloak of Mists
+url=http://magiccards.info/query?q=Cloak+of+Mists&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Cloak+of+Mists
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

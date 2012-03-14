@@ -1,0 +1,13 @@
+>Capricious Efreet
+url=http://magiccards.info/query?q=Capricious+Efreet&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Capricious+Efreet
+timing=main
+rarity=R
+type=Creature
+subtype=Efreet
+pt=6/4
+converted=6
+cost={4}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

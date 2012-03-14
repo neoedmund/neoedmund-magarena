@@ -1,0 +1,13 @@
+>Mistform Wakecaster
+url=http://magiccards.info/query?q=Mistform+Wakecaster&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mistform+Wakecaster
+timing=main
+rarity=U
+type=Creature
+subtype=Illusion
+pt=2/3
+converted=5
+cost={4}{U}
+color=u
+
+# TODO -- gen by neoe

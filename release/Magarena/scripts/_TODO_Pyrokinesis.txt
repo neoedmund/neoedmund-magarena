@@ -1,0 +1,11 @@
+>Pyrokinesis
+url=http://magiccards.info/query?q=Pyrokinesis&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Pyrokinesis
+timing=main
+rarity=U
+type=Instant
+converted=6
+cost={4}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

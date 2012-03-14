@@ -1,0 +1,13 @@
+>Cabal Slaver
+url=http://magiccards.info/query?q=Cabal+Slaver&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Cabal+Slaver
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Cleric
+pt=2/1
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

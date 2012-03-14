@@ -1,0 +1,12 @@
+>Noggle Bandit
+url=http://magiccards.info/query?q=Noggle+Bandit&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Noggle+Bandit
+timing=main
+rarity=C
+type=Creature
+subtype=Noggle,Rogue
+pt=2/2
+converted=11
+cost={1}{U/R}{U/R}
+
+# TODO -- gen by neoe

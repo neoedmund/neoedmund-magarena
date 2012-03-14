@@ -1,0 +1,13 @@
+>Child of Alara
+url=http://magiccards.info/query?q=Child+of+Alara&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Child+of+Alara
+timing=main
+rarity=M
+type=Legendary,Creature
+subtype=Avatar
+pt=6/6
+converted=5
+cost={W}{U}{B}{R}{G}
+color=wubrg
+
+# TODO -- gen by neoe

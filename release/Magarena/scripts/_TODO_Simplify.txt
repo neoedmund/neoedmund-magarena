@@ -1,0 +1,11 @@
+>Simplify
+url=http://magiccards.info/query?q=Simplify&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Simplify
+timing=main
+rarity=C
+type=Sorcery
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Burn Trail
+url=http://magiccards.info/query?q=Burn+Trail&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Burn+Trail
+timing=main
+rarity=C
+type=Sorcery
+converted=4
+cost={3}{R}
+color=r
+
+# TODO -- gen by neoe

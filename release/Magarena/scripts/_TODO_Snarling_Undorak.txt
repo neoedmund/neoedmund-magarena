@@ -1,0 +1,13 @@
+>Snarling Undorak
+url=http://magiccards.info/query?q=Snarling+Undorak&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Snarling+Undorak
+timing=main
+rarity=C
+type=Creature
+subtype=Beast
+pt=3/3
+converted=4
+cost={2}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

@@ -1,0 +1,12 @@
+>Kozilek, Butcher of Truth
+url=http://magiccards.info/query?q=Kozilek%2C+Butcher+of+Truth&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Kozilek%2C+Butcher+of+Truth
+timing=main
+rarity=M
+type=Legendary,Creature
+subtype=Eldrazi
+pt=12/12
+converted=10
+cost={10}
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Lu Su, Wu Advisor
+url=http://magiccards.info/query?q=Lu+Su%2C+Wu+Advisor&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Lu+Su%2C+Wu+Advisor
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Human,Advisor
+pt=1/2
+converted=5
+cost={3}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

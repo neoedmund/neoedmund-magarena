@@ -1,0 +1,13 @@
+>Reef Shaman
+url=http://magiccards.info/query?q=Reef+Shaman&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Reef+Shaman
+timing=main
+rarity=C
+type=Creature
+subtype=Merfolk,Shaman
+pt=0/2
+converted=1
+cost={U}
+color=u
+
+# TODO -- gen by neoe

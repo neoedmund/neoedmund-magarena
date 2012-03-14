@@ -1,0 +1,11 @@
+>Gift of Estates
+url=http://magiccards.info/query?q=Gift+of+Estates&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Gift+of+Estates
+timing=main
+rarity=U
+type=Sorcery
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

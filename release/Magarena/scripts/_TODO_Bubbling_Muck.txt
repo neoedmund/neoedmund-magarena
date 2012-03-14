@@ -1,0 +1,11 @@
+>Bubbling Muck
+url=http://magiccards.info/query?q=Bubbling+Muck&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Bubbling+Muck
+timing=main
+rarity=C
+type=Sorcery
+converted=1
+cost={B}
+color=b
+
+# TODO -- gen by neoe

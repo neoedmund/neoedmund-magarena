@@ -1,0 +1,13 @@
+>Bone Shaman
+url=http://magiccards.info/query?q=Bone+Shaman&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Bone+Shaman
+timing=main
+rarity=C
+type=Creature
+subtype=Giant,Shaman
+pt=3/3
+converted=4
+cost={2}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

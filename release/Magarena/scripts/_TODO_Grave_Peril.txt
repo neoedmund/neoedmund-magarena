@@ -1,0 +1,11 @@
+>Grave Peril
+url=http://magiccards.info/query?q=Grave+Peril&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Grave+Peril
+timing=main
+rarity=C
+type=Enchantment
+converted=2
+cost={1}{B}
+color=b
+
+# TODO -- gen by neoe

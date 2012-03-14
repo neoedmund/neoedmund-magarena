@@ -1,0 +1,13 @@
+>Windreaper Falcon
+url=http://magiccards.info/query?q=Windreaper+Falcon&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Windreaper+Falcon
+timing=main
+rarity=U
+type=Creature
+subtype=Bird
+pt=1/1
+converted=3
+cost={1}{R}{G}
+color=rg
+
+# TODO -- gen by neoe

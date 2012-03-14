@@ -1,0 +1,13 @@
+>Stormblood Berserker
+url=http://magiccards.info/query?q=Stormblood+Berserker&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Stormblood+Berserker
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Berserker
+pt=1/1
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

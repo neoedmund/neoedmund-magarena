@@ -1,0 +1,13 @@
+>Penumbra Spider
+url=http://magiccards.info/query?q=Penumbra+Spider&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Penumbra+Spider
+timing=main
+rarity=C
+type=Creature
+subtype=Spider
+pt=2/4
+converted=4
+cost={2}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

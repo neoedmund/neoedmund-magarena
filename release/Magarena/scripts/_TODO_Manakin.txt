@@ -1,0 +1,12 @@
+>Manakin
+url=http://magiccards.info/query?q=Manakin&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Manakin
+timing=main
+rarity=C
+type=Artifact,Creature
+subtype=Construct
+pt=1/1
+converted=2
+cost={2}
+
+# TODO -- gen by neoe

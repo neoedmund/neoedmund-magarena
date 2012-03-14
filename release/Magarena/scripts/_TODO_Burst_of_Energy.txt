@@ -1,0 +1,11 @@
+>Burst of Energy
+url=http://magiccards.info/query?q=Burst+of+Energy&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Burst+of+Energy
+timing=main
+rarity=C
+type=Instant
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

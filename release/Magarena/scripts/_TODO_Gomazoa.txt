@@ -1,0 +1,13 @@
+>Gomazoa
+url=http://magiccards.info/query?q=Gomazoa&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Gomazoa
+timing=main
+rarity=U
+type=Creature
+subtype=Jellyfish
+pt=0/3
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

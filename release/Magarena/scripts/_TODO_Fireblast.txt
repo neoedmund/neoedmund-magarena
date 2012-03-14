@@ -1,0 +1,11 @@
+>Fireblast
+url=http://magiccards.info/query?q=Fireblast&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Fireblast
+timing=main
+rarity=C
+type=Instant
+converted=6
+cost={4}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Elvish Archdruid
+url=http://magiccards.info/query?q=Elvish+Archdruid&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Elvish+Archdruid
+timing=main
+rarity=R
+type=Creature
+subtype=Elf,Druid
+pt=2/2
+converted=3
+cost={1}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

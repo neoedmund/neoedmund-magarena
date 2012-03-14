@@ -1,0 +1,10 @@
+>Carnage Altar
+url=http://magiccards.info/query?q=Carnage+Altar&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Carnage+Altar
+timing=main
+rarity=U
+type=Artifact
+converted=2
+cost={2}
+
+# TODO -- gen by neoe

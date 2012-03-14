@@ -1,0 +1,13 @@
+>Rushwood Elemental
+url=http://magiccards.info/query?q=Rushwood+Elemental&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Rushwood+Elemental
+timing=main
+rarity=R
+type=Creature
+subtype=Elemental
+pt=4/4
+converted=5
+cost={G}{G}{G}{G}{G}
+color=ggggg
+
+# TODO -- gen by neoe

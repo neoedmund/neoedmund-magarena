@@ -1,0 +1,11 @@
+>Laquatus's Creativity
+url=http://magiccards.info/query?q=Laquatus%27s+Creativity&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Laquatus%27s+Creativity
+timing=main
+rarity=U
+type=Sorcery
+converted=5
+cost={4}{U}
+color=u
+
+# TODO -- gen by neoe

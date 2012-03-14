@@ -1,0 +1,13 @@
+>Poisonbelly Ogre
+url=http://magiccards.info/query?q=Poisonbelly+Ogre&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Poisonbelly+Ogre
+timing=main
+rarity=C
+type=Creature
+subtype=Ogre,Warrior
+pt=3/3
+converted=5
+cost={4}{B}
+color=b
+
+# TODO -- gen by neoe

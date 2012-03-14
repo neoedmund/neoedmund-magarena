@@ -1,0 +1,11 @@
+>Skyscribing
+url=http://magiccards.info/query?q=Skyscribing&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Skyscribing
+timing=main
+rarity=U
+type=Sorcery
+converted=2
+cost={X}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

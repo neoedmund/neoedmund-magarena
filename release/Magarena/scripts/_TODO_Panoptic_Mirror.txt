@@ -1,0 +1,10 @@
+>Panoptic Mirror
+url=http://magiccards.info/query?q=Panoptic+Mirror&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Panoptic+Mirror
+timing=main
+rarity=R
+type=Artifact
+converted=5
+cost={5}
+
+# TODO -- gen by neoe

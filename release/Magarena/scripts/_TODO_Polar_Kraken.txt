@@ -1,0 +1,13 @@
+>Polar Kraken
+url=http://magiccards.info/query?q=Polar+Kraken&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Polar+Kraken
+timing=main
+rarity=R
+type=Creature
+subtype=Kraken
+pt=11/11
+converted=11
+cost={8}{U}{U}{U}
+color=uuu
+
+# TODO -- gen by neoe

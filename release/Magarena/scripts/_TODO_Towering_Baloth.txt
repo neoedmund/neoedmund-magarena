@@ -1,0 +1,13 @@
+>Towering Baloth
+url=http://magiccards.info/query?q=Towering+Baloth&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Towering+Baloth
+timing=main
+rarity=U
+type=Creature
+subtype=Beast
+pt=7/6
+converted=8
+cost={6}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

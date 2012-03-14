@@ -1,0 +1,13 @@
+>Ramosian Lieutenant
+url=http://magiccards.info/query?q=Ramosian+Lieutenant&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ramosian+Lieutenant
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Rebel
+pt=1/2
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Mistform Dreamer
+url=http://magiccards.info/query?q=Mistform+Dreamer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mistform+Dreamer
+timing=main
+rarity=C
+type=Creature
+subtype=Illusion
+pt=2/1
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

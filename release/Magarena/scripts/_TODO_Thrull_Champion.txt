@@ -1,0 +1,13 @@
+>Thrull Champion
+url=http://magiccards.info/query?q=Thrull+Champion&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Thrull+Champion
+timing=main
+rarity=U
+type=Creature
+subtype=Thrull
+pt=2/2
+converted=5
+cost={4}{B}
+color=b
+
+# TODO -- gen by neoe

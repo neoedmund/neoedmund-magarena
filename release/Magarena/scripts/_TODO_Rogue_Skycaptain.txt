@@ -1,0 +1,13 @@
+>Rogue Skycaptain
+url=http://magiccards.info/query?q=Rogue+Skycaptain&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Rogue+Skycaptain
+timing=main
+rarity=R
+type=Creature
+subtype=Human,Rogue,Mercenary
+pt=3/4
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Brackwater Elemental
+url=http://magiccards.info/query?q=Brackwater+Elemental&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Brackwater+Elemental
+timing=main
+rarity=C
+type=Creature
+subtype=Elemental
+pt=4/4
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

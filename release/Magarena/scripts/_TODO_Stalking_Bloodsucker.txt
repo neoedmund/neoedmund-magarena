@@ -1,0 +1,13 @@
+>Stalking Bloodsucker
+url=http://magiccards.info/query?q=Stalking+Bloodsucker&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Stalking+Bloodsucker
+timing=main
+rarity=R
+type=Creature
+subtype=Vampire
+pt=4/4
+converted=6
+cost={4}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

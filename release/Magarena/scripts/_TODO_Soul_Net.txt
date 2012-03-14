@@ -1,0 +1,10 @@
+>Soul Net
+url=http://magiccards.info/query?q=Soul+Net&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Soul+Net
+timing=main
+rarity=U
+type=Artifact
+converted=1
+cost={1}
+
+# TODO -- gen by neoe

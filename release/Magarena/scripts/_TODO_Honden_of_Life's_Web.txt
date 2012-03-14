@@ -1,0 +1,12 @@
+>Honden of Life's Web
+url=http://magiccards.info/query?q=Honden+of+Life%27s+Web&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Honden+of+Life%27s+Web
+timing=main
+rarity=U
+type=Legendary,Enchantment
+subtype=Shrine
+converted=5
+cost={4}{G}
+color=g
+
+# TODO -- gen by neoe

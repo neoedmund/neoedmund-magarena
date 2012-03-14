@@ -1,0 +1,13 @@
+>Shore Snapper
+url=http://magiccards.info/query?q=Shore+Snapper&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Shore+Snapper
+timing=main
+rarity=C
+type=Creature
+subtype=Beast
+pt=2/2
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

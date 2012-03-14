@@ -1,0 +1,11 @@
+>Piracy
+url=http://magiccards.info/query?q=Piracy&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Piracy
+timing=main
+rarity=R
+type=Sorcery
+converted=2
+cost={U}{U}
+color=uu
+
+# TODO -- gen by neoe

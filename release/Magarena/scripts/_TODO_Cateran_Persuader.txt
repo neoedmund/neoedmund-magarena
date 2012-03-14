@@ -1,0 +1,13 @@
+>Cateran Persuader
+url=http://magiccards.info/query?q=Cateran+Persuader&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Cateran+Persuader
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Mercenary
+pt=2/1
+converted=2
+cost={B}{B}
+color=bb
+
+# TODO -- gen by neoe

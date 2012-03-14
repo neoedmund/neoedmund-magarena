@@ -1,0 +1,12 @@
+>Talons of Falkenrath
+url=http://magiccards.info/query?q=Talons+of+Falkenrath&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Talons+of+Falkenrath
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

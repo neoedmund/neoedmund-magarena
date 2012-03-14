@@ -1,0 +1,13 @@
+>Goliath Beetle
+url=http://magiccards.info/query?q=Goliath+Beetle&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Goliath+Beetle
+timing=main
+rarity=C
+type=Creature
+subtype=Insect
+pt=3/1
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

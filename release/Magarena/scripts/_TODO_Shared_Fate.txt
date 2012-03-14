@@ -1,0 +1,11 @@
+>Shared Fate
+url=http://magiccards.info/query?q=Shared+Fate&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Shared+Fate
+timing=main
+rarity=R
+type=Enchantment
+converted=5
+cost={4}{U}
+color=u
+
+# TODO -- gen by neoe

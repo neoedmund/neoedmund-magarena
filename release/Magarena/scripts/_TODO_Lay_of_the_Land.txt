@@ -1,0 +1,11 @@
+>Lay of the Land
+url=http://magiccards.info/query?q=Lay+of+the+Land&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Lay+of+the+Land
+timing=main
+rarity=C
+type=Sorcery
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

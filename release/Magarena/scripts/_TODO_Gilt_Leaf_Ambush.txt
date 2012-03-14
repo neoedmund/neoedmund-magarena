@@ -1,0 +1,12 @@
+>Gilt-Leaf Ambush
+url=http://magiccards.info/query?q=Gilt-Leaf+Ambush&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Gilt-Leaf+Ambush
+timing=main
+rarity=C
+type=Tribal,Instant
+subtype=Elf
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

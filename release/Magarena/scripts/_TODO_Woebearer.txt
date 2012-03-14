@@ -1,0 +1,13 @@
+>Woebearer
+url=http://magiccards.info/query?q=Woebearer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Woebearer
+timing=main
+rarity=U
+type=Creature
+subtype=Zombie
+pt=2/3
+converted=5
+cost={4}{B}
+color=b
+
+# TODO -- gen by neoe

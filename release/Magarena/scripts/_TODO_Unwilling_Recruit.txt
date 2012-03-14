@@ -1,0 +1,11 @@
+>Unwilling Recruit
+url=http://magiccards.info/query?q=Unwilling+Recruit&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Unwilling+Recruit
+timing=main
+rarity=U
+type=Sorcery
+converted=3
+cost={X}{R}{R}{R}
+color=rrr
+
+# TODO -- gen by neoe

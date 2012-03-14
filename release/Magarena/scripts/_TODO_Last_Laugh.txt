@@ -1,0 +1,11 @@
+>Last Laugh
+url=http://magiccards.info/query?q=Last+Laugh&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Last+Laugh
+timing=main
+rarity=R
+type=Enchantment
+converted=4
+cost={2}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

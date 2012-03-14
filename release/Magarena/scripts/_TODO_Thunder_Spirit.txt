@@ -1,0 +1,13 @@
+>Thunder Spirit
+url=http://magiccards.info/query?q=Thunder+Spirit&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Thunder+Spirit
+timing=main
+rarity=R
+type=Creature
+subtype=Elemental,Spirit
+pt=2/2
+converted=3
+cost={1}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Ambassador Laquatus
+url=http://magiccards.info/query?q=Ambassador+Laquatus&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ambassador+Laquatus
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Merfolk,Wizard
+pt=1/3
+converted=3
+cost={1}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

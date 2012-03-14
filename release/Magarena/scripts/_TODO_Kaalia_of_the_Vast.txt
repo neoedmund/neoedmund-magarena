@@ -1,0 +1,13 @@
+>Kaalia of the Vast
+url=http://magiccards.info/query?q=Kaalia+of+the+Vast&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Kaalia+of+the+Vast
+timing=main
+rarity=M
+type=Legendary,Creature
+subtype=Human,Cleric
+pt=2/2
+converted=4
+cost={1}{W}{B}{R}
+color=wbr
+
+# TODO -- gen by neoe

@@ -1,0 +1,10 @@
+>Geth's Grimoire
+url=http://magiccards.info/query?q=Geth%27s+Grimoire&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Geth%27s+Grimoire
+timing=main
+rarity=U
+type=Artifact
+converted=4
+cost={4}
+
+# TODO -- gen by neoe

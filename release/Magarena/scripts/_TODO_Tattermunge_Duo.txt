@@ -1,0 +1,12 @@
+>Tattermunge Duo
+url=http://magiccards.info/query?q=Tattermunge+Duo&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Tattermunge+Duo
+timing=main
+rarity=C
+type=Creature
+subtype=Goblin,Warrior,Shaman
+pt=2/3
+converted=7
+cost={2}{R/G}
+
+# TODO -- gen by neoe

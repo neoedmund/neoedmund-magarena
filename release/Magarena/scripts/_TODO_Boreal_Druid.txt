@@ -1,0 +1,13 @@
+>Boreal Druid
+url=http://magiccards.info/query?q=Boreal+Druid&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Boreal+Druid
+timing=main
+rarity=C
+type=Creature
+subtype=Elf,Druid
+pt=1/1
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

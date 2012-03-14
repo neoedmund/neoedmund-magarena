@@ -1,0 +1,11 @@
+>Stormcaller's Boon
+url=http://magiccards.info/query?q=Stormcaller%27s+Boon&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Stormcaller%27s+Boon
+timing=main
+rarity=C
+type=Enchantment
+converted=4
+cost={2}{W}{U}
+color=wu
+
+# TODO -- gen by neoe

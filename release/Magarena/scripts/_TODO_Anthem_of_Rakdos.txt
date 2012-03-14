@@ -1,0 +1,11 @@
+>Anthem of Rakdos
+url=http://magiccards.info/query?q=Anthem+of+Rakdos&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Anthem+of+Rakdos
+timing=main
+rarity=R
+type=Enchantment
+converted=5
+cost={2}{B}{R}{R}
+color=brr
+
+# TODO -- gen by neoe

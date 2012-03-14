@@ -1,0 +1,11 @@
+>Ardent Plea
+url=http://magiccards.info/query?q=Ardent+Plea&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ardent+Plea
+timing=main
+rarity=U
+type=Enchantment
+converted=3
+cost={1}{W}{U}
+color=wu
+
+# TODO -- gen by neoe

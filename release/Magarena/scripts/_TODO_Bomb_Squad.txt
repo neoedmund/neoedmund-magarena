@@ -1,0 +1,13 @@
+>Bomb Squad
+url=http://magiccards.info/query?q=Bomb+Squad&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Bomb+Squad
+timing=main
+rarity=R
+type=Creature
+subtype=Dwarf
+pt=1/1
+converted=4
+cost={3}{R}
+color=r
+
+# TODO -- gen by neoe

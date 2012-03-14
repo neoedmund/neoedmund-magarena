@@ -1,0 +1,13 @@
+>Lady Zhurong, Warrior Queen
+url=http://magiccards.info/query?q=Lady+Zhurong%2C+Warrior+Queen&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Lady+Zhurong%2C+Warrior+Queen
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Human,Soldier,Warrior
+pt=4/3
+converted=5
+cost={4}{G}
+color=g
+
+# TODO -- gen by neoe

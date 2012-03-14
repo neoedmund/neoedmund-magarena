@@ -1,0 +1,12 @@
+>Caller of the Hunt
+url=http://magiccards.info/query?q=Caller+of+the+Hunt&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Caller+of+the+Hunt
+timing=main
+rarity=R
+type=Creature
+subtype=Human
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Crossbow Infantry
+url=http://magiccards.info/query?q=Crossbow+Infantry&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Crossbow+Infantry
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Soldier,Archer
+pt=1/1
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

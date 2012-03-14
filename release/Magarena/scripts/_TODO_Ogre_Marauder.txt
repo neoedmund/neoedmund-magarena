@@ -1,0 +1,13 @@
+>Ogre Marauder
+url=http://magiccards.info/query?q=Ogre+Marauder&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ogre+Marauder
+timing=main
+rarity=U
+type=Creature
+subtype=Ogre,Warrior
+pt=3/1
+converted=3
+cost={1}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

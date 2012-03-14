@@ -1,0 +1,10 @@
+>Izzet Signet
+url=http://magiccards.info/query?q=Izzet+Signet&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Izzet+Signet
+timing=main
+rarity=C
+type=Artifact
+converted=2
+cost={2}
+
+# TODO -- gen by neoe

@@ -1,0 +1,12 @@
+>Phyrexian Colossus
+url=http://magiccards.info/query?q=Phyrexian+Colossus&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Phyrexian+Colossus
+timing=main
+rarity=R
+type=Artifact,Creature
+subtype=Golem
+pt=8/8
+converted=7
+cost={7}
+
+# TODO -- gen by neoe

@@ -1,0 +1,10 @@
+>Shivan Oasis
+url=http://magiccards.info/query?q=Shivan+Oasis&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Shivan+Oasis
+timing=main
+rarity=U
+type=Land
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Krosan Wayfarer
+url=http://magiccards.info/query?q=Krosan+Wayfarer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Krosan+Wayfarer
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Druid
+pt=1/1
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

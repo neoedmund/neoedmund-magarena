@@ -1,0 +1,10 @@
+>Abandoned Outpost
+url=http://magiccards.info/query?q=Abandoned+Outpost&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Abandoned+Outpost
+timing=main
+rarity=C
+type=Land
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

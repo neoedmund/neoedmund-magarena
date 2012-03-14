@@ -1,0 +1,11 @@
+>Bone Splinters
+url=http://magiccards.info/query?q=Bone+Splinters&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Bone+Splinters
+timing=main
+rarity=C
+type=Sorcery
+converted=1
+cost={B}
+color=b
+
+# TODO -- gen by neoe

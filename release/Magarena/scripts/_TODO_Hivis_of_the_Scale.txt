@@ -1,0 +1,13 @@
+>Hivis of the Scale
+url=http://magiccards.info/query?q=Hivis+of+the+Scale&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Hivis+of+the+Scale
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Viashino,Shaman
+pt=3/4
+converted=5
+cost={3}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

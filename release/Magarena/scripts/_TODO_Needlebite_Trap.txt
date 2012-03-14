@@ -1,0 +1,11 @@
+>Needlebite Trap
+url=http://magiccards.info/query?q=Needlebite+Trap&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Needlebite+Trap
+timing=main
+rarity=U
+type=Instant
+converted=7
+cost={5}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

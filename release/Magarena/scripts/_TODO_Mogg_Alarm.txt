@@ -1,0 +1,11 @@
+>Mogg Alarm
+url=http://magiccards.info/query?q=Mogg+Alarm&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mogg+Alarm
+timing=main
+rarity=U
+type=Sorcery
+converted=3
+cost={1}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

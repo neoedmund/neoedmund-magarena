@@ -1,0 +1,11 @@
+>Mind Slash
+url=http://magiccards.info/query?q=Mind+Slash&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mind+Slash
+timing=main
+rarity=U
+type=Enchantment
+converted=3
+cost={1}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

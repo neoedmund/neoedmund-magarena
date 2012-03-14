@@ -1,0 +1,10 @@
+>Fountain of Youth
+url=http://magiccards.info/query?q=Fountain+of+Youth&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Fountain+of+Youth
+timing=main
+rarity=U
+type=Artifact
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

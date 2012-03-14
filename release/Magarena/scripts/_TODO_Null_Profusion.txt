@@ -1,0 +1,11 @@
+>Null Profusion
+url=http://magiccards.info/query?q=Null+Profusion&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Null+Profusion
+timing=main
+rarity=R
+type=Enchantment
+converted=6
+cost={4}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

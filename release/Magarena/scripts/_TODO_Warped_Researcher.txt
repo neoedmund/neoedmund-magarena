@@ -1,0 +1,13 @@
+>Warped Researcher
+url=http://magiccards.info/query?q=Warped+Researcher&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Warped+Researcher
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Wizard,Mutant
+pt=3/4
+converted=5
+cost={4}{U}
+color=u
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Urge to Feed
+url=http://magiccards.info/query?q=Urge+to+Feed&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Urge+to+Feed
+timing=main
+rarity=U
+type=Instant
+converted=2
+cost={B}{B}
+color=bb
+
+# TODO -- gen by neoe

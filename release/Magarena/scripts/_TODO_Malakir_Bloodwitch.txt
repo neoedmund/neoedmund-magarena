@@ -1,0 +1,13 @@
+>Malakir Bloodwitch
+url=http://magiccards.info/query?q=Malakir+Bloodwitch&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Malakir+Bloodwitch
+timing=main
+rarity=R
+type=Creature
+subtype=Vampire,Shaman
+pt=4/4
+converted=5
+cost={3}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

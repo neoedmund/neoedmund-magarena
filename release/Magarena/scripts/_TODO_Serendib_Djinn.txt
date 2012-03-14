@@ -1,0 +1,13 @@
+>Serendib Djinn
+url=http://magiccards.info/query?q=Serendib+Djinn&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Serendib+Djinn
+timing=main
+rarity=U
+type=Creature
+subtype=Djinn
+pt=5/6
+converted=4
+cost={2}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

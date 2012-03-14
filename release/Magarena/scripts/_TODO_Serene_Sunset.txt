@@ -1,0 +1,11 @@
+>Serene Sunset
+url=http://magiccards.info/query?q=Serene+Sunset&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Serene+Sunset
+timing=main
+rarity=U
+type=Instant
+converted=1
+cost={X}{G}
+color=g
+
+# TODO -- gen by neoe

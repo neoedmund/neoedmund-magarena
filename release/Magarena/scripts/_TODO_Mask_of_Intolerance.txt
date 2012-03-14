@@ -1,0 +1,10 @@
+>Mask of Intolerance
+url=http://magiccards.info/query?q=Mask+of+Intolerance&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mask+of+Intolerance
+timing=main
+rarity=R
+type=Artifact
+converted=2
+cost={2}
+
+# TODO -- gen by neoe

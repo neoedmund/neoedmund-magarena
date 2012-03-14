@@ -1,0 +1,13 @@
+>Dwarven Demolition Team
+url=http://magiccards.info/query?q=Dwarven+Demolition+Team&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dwarven+Demolition+Team
+timing=main
+rarity=U
+type=Creature
+subtype=Dwarf
+pt=1/1
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

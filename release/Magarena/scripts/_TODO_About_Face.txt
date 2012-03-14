@@ -1,0 +1,11 @@
+>About Face
+url=http://magiccards.info/query?q=About+Face&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=About+Face
+timing=main
+rarity=C
+type=Instant
+converted=1
+cost={R}
+color=r
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Dwarven Pony
+url=http://magiccards.info/query?q=Dwarven+Pony&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dwarven+Pony
+timing=main
+rarity=U
+type=Creature
+subtype=Horse
+pt=1/1
+converted=1
+cost={R}
+color=r
+
+# TODO -- gen by neoe

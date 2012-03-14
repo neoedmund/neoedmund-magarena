@@ -1,0 +1,11 @@
+>Tribute to the Wild
+url=http://magiccards.info/query?q=Tribute+to+the+Wild&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Tribute+to+the+Wild
+timing=main
+rarity=U
+type=Instant
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

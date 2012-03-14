@@ -1,0 +1,13 @@
+>Hornet Harasser
+url=http://magiccards.info/query?q=Hornet+Harasser&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Hornet+Harasser
+timing=main
+rarity=C
+type=Creature
+subtype=Goblin,Shaman
+pt=2/2
+converted=4
+cost={2}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

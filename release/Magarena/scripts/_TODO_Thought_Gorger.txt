@@ -1,0 +1,13 @@
+>Thought Gorger
+url=http://magiccards.info/query?q=Thought+Gorger&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Thought+Gorger
+timing=main
+rarity=R
+type=Creature
+subtype=Horror
+pt=2/2
+converted=4
+cost={2}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

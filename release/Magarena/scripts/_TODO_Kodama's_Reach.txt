@@ -1,0 +1,11 @@
+>Kodama's Reach
+url=http://magiccards.info/query?q=Kodama%27s+Reach&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Kodama%27s+Reach
+timing=main
+rarity=C
+type=Sorcery
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

@@ -1,0 +1,12 @@
+>Crowd of Cinders
+url=http://magiccards.info/query?q=Crowd+of+Cinders&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Crowd+of+Cinders
+timing=main
+rarity=U
+type=Creature
+subtype=Elemental
+converted=4
+cost={3}{B}
+color=b
+
+# TODO -- gen by neoe

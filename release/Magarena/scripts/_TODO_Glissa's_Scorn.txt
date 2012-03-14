@@ -1,0 +1,11 @@
+>Glissa's Scorn
+url=http://magiccards.info/query?q=Glissa%27s+Scorn&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Glissa%27s+Scorn
+timing=main
+rarity=C
+type=Instant
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

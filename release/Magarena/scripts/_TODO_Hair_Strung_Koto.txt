@@ -1,0 +1,10 @@
+>Hair-Strung Koto
+url=http://magiccards.info/query?q=Hair-Strung+Koto&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Hair-Strung+Koto
+timing=main
+rarity=R
+type=Artifact
+converted=6
+cost={6}
+
+# TODO -- gen by neoe

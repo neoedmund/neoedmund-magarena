@@ -1,0 +1,11 @@
+>Muddle the Mixture
+url=http://magiccards.info/query?q=Muddle+the+Mixture&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Muddle+the+Mixture
+timing=main
+rarity=C
+type=Instant
+converted=2
+cost={U}{U}
+color=uu
+
+# TODO -- gen by neoe

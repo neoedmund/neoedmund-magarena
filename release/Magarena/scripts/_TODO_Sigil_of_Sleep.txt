@@ -1,0 +1,12 @@
+>Sigil of Sleep
+url=http://magiccards.info/query?q=Sigil+of+Sleep&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sigil+of+Sleep
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=1
+cost={U}
+color=u
+
+# TODO -- gen by neoe

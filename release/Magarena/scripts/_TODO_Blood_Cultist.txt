@@ -1,0 +1,13 @@
+>Blood Cultist
+url=http://magiccards.info/query?q=Blood+Cultist&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Blood+Cultist
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Wizard
+pt=1/1
+converted=3
+cost={1}{B}{R}
+color=br
+
+# TODO -- gen by neoe

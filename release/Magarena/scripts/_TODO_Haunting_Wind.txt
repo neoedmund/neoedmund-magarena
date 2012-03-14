@@ -1,0 +1,11 @@
+>Haunting Wind
+url=http://magiccards.info/query?q=Haunting+Wind&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Haunting+Wind
+timing=main
+rarity=U
+type=Enchantment
+converted=4
+cost={3}{B}
+color=b
+
+# TODO -- gen by neoe

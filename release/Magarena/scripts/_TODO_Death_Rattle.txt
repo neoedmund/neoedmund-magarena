@@ -1,0 +1,11 @@
+>Death Rattle
+url=http://magiccards.info/query?q=Death+Rattle&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Death+Rattle
+timing=main
+rarity=C
+type=Instant
+converted=6
+cost={5}{B}
+color=b
+
+# TODO -- gen by neoe

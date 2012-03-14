@@ -1,0 +1,11 @@
+>Kaervek's Purge
+url=http://magiccards.info/query?q=Kaervek%27s+Purge&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Kaervek%27s+Purge
+timing=main
+rarity=U
+type=Sorcery
+converted=2
+cost={X}{B}{R}
+color=br
+
+# TODO -- gen by neoe

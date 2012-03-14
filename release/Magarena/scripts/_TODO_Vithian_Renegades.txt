@@ -1,0 +1,13 @@
+>Vithian Renegades
+url=http://magiccards.info/query?q=Vithian+Renegades&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Vithian+Renegades
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Shaman
+pt=3/2
+converted=3
+cost={1}{R}{G}
+color=rg
+
+# TODO -- gen by neoe

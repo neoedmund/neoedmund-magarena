@@ -1,0 +1,11 @@
+>Martyr's Cry
+url=http://magiccards.info/query?q=Martyr%27s+Cry&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Martyr%27s+Cry
+timing=main
+rarity=U
+type=Sorcery
+converted=2
+cost={W}{W}
+color=ww
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Geralf's Mindcrusher
+url=http://magiccards.info/query?q=Geralf%27s+Mindcrusher&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Geralf%27s+Mindcrusher
+timing=main
+rarity=R
+type=Creature
+subtype=Zombie,Horror
+pt=5/5
+converted=6
+cost={4}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

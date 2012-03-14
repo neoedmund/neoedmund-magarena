@@ -1,0 +1,11 @@
+>Artificial Evolution
+url=http://magiccards.info/query?q=Artificial+Evolution&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Artificial+Evolution
+timing=main
+rarity=R
+type=Instant
+converted=1
+cost={U}
+color=u
+
+# TODO -- gen by neoe

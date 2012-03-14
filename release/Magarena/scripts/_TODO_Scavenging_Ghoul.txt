@@ -1,0 +1,13 @@
+>Scavenging Ghoul
+url=http://magiccards.info/query?q=Scavenging+Ghoul&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Scavenging+Ghoul
+timing=main
+rarity=U
+type=Creature
+subtype=Zombie
+pt=2/2
+converted=4
+cost={3}{B}
+color=b
+
+# TODO -- gen by neoe

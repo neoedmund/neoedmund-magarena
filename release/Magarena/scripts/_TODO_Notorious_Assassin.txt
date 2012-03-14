@@ -1,0 +1,13 @@
+>Notorious Assassin
+url=http://magiccards.info/query?q=Notorious+Assassin&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Notorious+Assassin
+timing=main
+rarity=R
+type=Creature
+subtype=Human,Spellshaper,Assassin
+pt=2/2
+converted=4
+cost={3}{B}
+color=b
+
+# TODO -- gen by neoe

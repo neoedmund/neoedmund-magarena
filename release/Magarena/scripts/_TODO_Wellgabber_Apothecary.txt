@@ -1,0 +1,13 @@
+>Wellgabber Apothecary
+url=http://magiccards.info/query?q=Wellgabber+Apothecary&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wellgabber+Apothecary
+timing=main
+rarity=C
+type=Creature
+subtype=Merfolk,Cleric
+pt=2/3
+converted=5
+cost={4}{W}
+color=w
+
+# TODO -- gen by neoe

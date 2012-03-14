@@ -1,0 +1,12 @@
+>Living Wall
+url=http://magiccards.info/query?q=Living+Wall&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Living+Wall
+timing=main
+rarity=U
+type=Artifact,Creature
+subtype=Wall
+pt=0/6
+converted=4
+cost={4}
+
+# TODO -- gen by neoe

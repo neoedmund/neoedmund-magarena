@@ -1,0 +1,13 @@
+>Myojin of Cleansing Fire
+url=http://magiccards.info/query?q=Myojin+of+Cleansing+Fire&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Myojin+of+Cleansing+Fire
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Spirit
+pt=4/6
+converted=8
+cost={5}{W}{W}{W}
+color=www
+
+# TODO -- gen by neoe

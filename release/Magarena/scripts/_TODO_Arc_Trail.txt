@@ -1,0 +1,11 @@
+>Arc Trail
+url=http://magiccards.info/query?q=Arc+Trail&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Arc+Trail
+timing=main
+rarity=U
+type=Sorcery
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

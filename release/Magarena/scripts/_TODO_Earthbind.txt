@@ -1,0 +1,12 @@
+>Earthbind
+url=http://magiccards.info/query?q=Earthbind&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Earthbind
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=1
+cost={R}
+color=r
+
+# TODO -- gen by neoe

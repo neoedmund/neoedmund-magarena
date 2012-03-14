@@ -1,0 +1,13 @@
+>Ivory Gargoyle
+url=http://magiccards.info/query?q=Ivory+Gargoyle&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ivory+Gargoyle
+timing=main
+rarity=R
+type=Creature
+subtype=Gargoyle
+pt=2/2
+converted=5
+cost={4}{W}
+color=w
+
+# TODO -- gen by neoe

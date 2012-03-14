@@ -1,0 +1,11 @@
+>Cabal Conditioning
+url=http://magiccards.info/query?q=Cabal+Conditioning&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Cabal+Conditioning
+timing=main
+rarity=R
+type=Sorcery
+converted=7
+cost={6}{B}
+color=b
+
+# TODO -- gen by neoe

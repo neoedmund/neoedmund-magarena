@@ -1,0 +1,13 @@
+>Mistform Mutant
+url=http://magiccards.info/query?q=Mistform+Mutant&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mistform+Mutant
+timing=main
+rarity=U
+type=Creature
+subtype=Illusion,Mutant
+pt=3/4
+converted=6
+cost={4}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

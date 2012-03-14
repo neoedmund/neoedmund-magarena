@@ -1,0 +1,13 @@
+>Riptide Crab
+url=http://magiccards.info/query?q=Riptide+Crab&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Riptide+Crab
+timing=main
+rarity=U
+type=Creature
+subtype=Crab
+pt=1/3
+converted=3
+cost={1}{W}{U}
+color=wu
+
+# TODO -- gen by neoe

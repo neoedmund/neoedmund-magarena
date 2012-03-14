@@ -1,0 +1,11 @@
+>Constricting Tendrils
+url=http://magiccards.info/query?q=Constricting+Tendrils&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Constricting+Tendrils
+timing=main
+rarity=C
+type=Instant
+converted=1
+cost={U}
+color=u
+
+# TODO -- gen by neoe

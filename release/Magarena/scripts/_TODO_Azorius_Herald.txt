@@ -1,0 +1,13 @@
+>Azorius Herald
+url=http://magiccards.info/query?q=Azorius+Herald&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Azorius+Herald
+timing=main
+rarity=U
+type=Creature
+subtype=Spirit
+pt=2/1
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

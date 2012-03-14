@@ -1,0 +1,13 @@
+>Sage of Lat-Nam
+url=http://magiccards.info/query?q=Sage+of+Lat-Nam&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sage+of+Lat-Nam
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Artificer
+pt=1/2
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

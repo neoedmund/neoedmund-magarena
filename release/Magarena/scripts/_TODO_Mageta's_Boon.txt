@@ -1,0 +1,12 @@
+>Mageta's Boon
+url=http://magiccards.info/query?q=Mageta%27s+Boon&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mageta%27s+Boon
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

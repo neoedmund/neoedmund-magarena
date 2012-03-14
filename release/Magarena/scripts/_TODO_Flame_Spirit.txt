@@ -1,0 +1,13 @@
+>Flame Spirit
+url=http://magiccards.info/query?q=Flame+Spirit&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Flame+Spirit
+timing=main
+rarity=U
+type=Creature
+subtype=Elemental,Spirit
+pt=2/3
+converted=5
+cost={4}{R}
+color=r
+
+# TODO -- gen by neoe

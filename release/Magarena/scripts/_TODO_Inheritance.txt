@@ -1,0 +1,11 @@
+>Inheritance
+url=http://magiccards.info/query?q=Inheritance&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Inheritance
+timing=main
+rarity=U
+type=Enchantment
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

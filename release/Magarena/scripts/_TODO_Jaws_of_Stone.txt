@@ -1,0 +1,11 @@
+>Jaws of Stone
+url=http://magiccards.info/query?q=Jaws+of+Stone&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Jaws+of+Stone
+timing=main
+rarity=U
+type=Sorcery
+converted=6
+cost={5}{R}
+color=r
+
+# TODO -- gen by neoe

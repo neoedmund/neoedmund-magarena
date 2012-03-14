@@ -1,0 +1,11 @@
+>Ghostly Flame
+url=http://magiccards.info/query?q=Ghostly+Flame&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ghostly+Flame
+timing=main
+rarity=R
+type=Enchantment
+converted=2
+cost={B}{R}
+color=br
+
+# TODO -- gen by neoe

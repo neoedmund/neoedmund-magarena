@@ -1,0 +1,13 @@
+>Voyager Drake
+url=http://magiccards.info/query?q=Voyager+Drake&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Voyager+Drake
+timing=main
+rarity=U
+type=Creature
+subtype=Drake
+pt=3/3
+converted=4
+cost={3}{U}
+color=u
+
+# TODO -- gen by neoe

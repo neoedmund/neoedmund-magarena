@@ -1,0 +1,13 @@
+>Hikari, Twilight Guardian
+url=http://magiccards.info/query?q=Hikari%2C+Twilight+Guardian&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Hikari%2C+Twilight+Guardian
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Spirit
+pt=4/4
+converted=5
+cost={3}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

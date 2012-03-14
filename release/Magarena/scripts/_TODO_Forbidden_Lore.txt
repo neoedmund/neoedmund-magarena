@@ -1,0 +1,12 @@
+>Forbidden Lore
+url=http://magiccards.info/query?q=Forbidden+Lore&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Forbidden+Lore
+timing=main
+rarity=R
+type=Enchantment
+subtype=Aura
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

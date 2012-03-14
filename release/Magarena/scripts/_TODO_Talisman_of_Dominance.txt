@@ -1,0 +1,10 @@
+>Talisman of Dominance
+url=http://magiccards.info/query?q=Talisman+of+Dominance&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Talisman+of+Dominance
+timing=main
+rarity=U
+type=Artifact
+converted=2
+cost={2}
+
+# TODO -- gen by neoe

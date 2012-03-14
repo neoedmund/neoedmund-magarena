@@ -1,0 +1,11 @@
+>Heal the Scars
+url=http://magiccards.info/query?q=Heal+the+Scars&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Heal+the+Scars
+timing=main
+rarity=C
+type=Instant
+converted=4
+cost={3}{G}
+color=g
+
+# TODO -- gen by neoe

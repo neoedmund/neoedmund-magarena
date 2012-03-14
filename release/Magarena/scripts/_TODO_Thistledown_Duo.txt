@@ -1,0 +1,12 @@
+>Thistledown Duo
+url=http://magiccards.info/query?q=Thistledown+Duo&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Thistledown+Duo
+timing=main
+rarity=C
+type=Creature
+subtype=Kithkin,Soldier,Wizard
+pt=2/2
+converted=7
+cost={2}{W/U}
+
+# TODO -- gen by neoe

@@ -1,0 +1,10 @@
+>Legacy Weapon
+url=http://magiccards.info/query?q=Legacy+Weapon&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Legacy+Weapon
+timing=main
+rarity=R
+type=Legendary,Artifact
+converted=7
+cost={7}
+
+# TODO -- gen by neoe

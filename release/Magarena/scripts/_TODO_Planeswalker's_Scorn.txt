@@ -1,0 +1,11 @@
+>Planeswalker's Scorn
+url=http://magiccards.info/query?q=Planeswalker%27s+Scorn&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Planeswalker%27s+Scorn
+timing=main
+rarity=R
+type=Enchantment
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

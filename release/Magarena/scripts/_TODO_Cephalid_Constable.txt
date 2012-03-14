@@ -1,0 +1,13 @@
+>Cephalid Constable
+url=http://magiccards.info/query?q=Cephalid+Constable&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Cephalid+Constable
+timing=main
+rarity=R
+type=Creature
+subtype=Cephalid,Wizard
+pt=1/1
+converted=3
+cost={1}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

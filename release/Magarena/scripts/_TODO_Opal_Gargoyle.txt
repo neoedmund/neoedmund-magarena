@@ -1,0 +1,11 @@
+>Opal Gargoyle
+url=http://magiccards.info/query?q=Opal+Gargoyle&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Opal+Gargoyle
+timing=main
+rarity=C
+type=Enchantment
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

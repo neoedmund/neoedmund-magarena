@@ -1,0 +1,13 @@
+>Death-Hood Cobra
+url=http://magiccards.info/query?q=Death-Hood+Cobra&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Death-Hood+Cobra
+timing=main
+rarity=C
+type=Creature
+subtype=Snake
+pt=2/2
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

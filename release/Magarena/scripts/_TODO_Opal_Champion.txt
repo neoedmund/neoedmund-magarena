@@ -1,0 +1,11 @@
+>Opal Champion
+url=http://magiccards.info/query?q=Opal+Champion&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Opal+Champion
+timing=main
+rarity=C
+type=Enchantment
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

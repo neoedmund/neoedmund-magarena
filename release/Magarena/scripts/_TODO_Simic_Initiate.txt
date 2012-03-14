@@ -1,0 +1,13 @@
+>Simic Initiate
+url=http://magiccards.info/query?q=Simic+Initiate&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Simic+Initiate
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Mutant
+pt=0/0
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

@@ -1,0 +1,12 @@
+>Heap Doll
+url=http://magiccards.info/query?q=Heap+Doll&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Heap+Doll
+timing=main
+rarity=U
+type=Artifact,Creature
+subtype=Scarecrow
+pt=1/1
+converted=1
+cost={1}
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Horobi, Death's Wail
+url=http://magiccards.info/query?q=Horobi%2C+Death%27s+Wail&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Horobi%2C+Death%27s+Wail
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Spirit
+pt=4/4
+converted=4
+cost={2}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

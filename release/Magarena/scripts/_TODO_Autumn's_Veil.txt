@@ -1,0 +1,11 @@
+>Autumn's Veil
+url=http://magiccards.info/query?q=Autumn%27s+Veil&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Autumn%27s+Veil
+timing=main
+rarity=U
+type=Instant
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

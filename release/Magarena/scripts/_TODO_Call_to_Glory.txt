@@ -1,0 +1,11 @@
+>Call to Glory
+url=http://magiccards.info/query?q=Call+to+Glory&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Call+to+Glory
+timing=main
+rarity=C
+type=Instant
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

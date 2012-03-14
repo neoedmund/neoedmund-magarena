@@ -1,0 +1,10 @@
+>Privileged Position
+url=http://magiccards.info/query?q=Privileged+Position&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Privileged+Position
+timing=main
+rarity=R
+type=Enchantment
+converted=17
+cost={2}{G/W}{G/W}{G/W}
+
+# TODO -- gen by neoe

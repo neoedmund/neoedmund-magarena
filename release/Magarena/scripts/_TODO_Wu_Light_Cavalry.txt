@@ -1,0 +1,13 @@
+>Wu Light Cavalry
+url=http://magiccards.info/query?q=Wu+Light+Cavalry&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wu+Light+Cavalry
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Soldier
+pt=1/2
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

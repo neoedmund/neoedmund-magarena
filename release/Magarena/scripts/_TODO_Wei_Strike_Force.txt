@@ -1,0 +1,13 @@
+>Wei Strike Force
+url=http://magiccards.info/query?q=Wei+Strike+Force&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wei+Strike+Force
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Soldier
+pt=2/1
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

@@ -1,0 +1,10 @@
+>Predator, Flagship
+url=http://magiccards.info/query?q=Predator%2C+Flagship&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Predator%2C+Flagship
+timing=main
+rarity=R
+type=Legendary,Artifact
+converted=5
+cost={5}
+
+# TODO -- gen by neoe

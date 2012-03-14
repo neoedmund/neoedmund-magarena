@@ -1,0 +1,13 @@
+>Yukora, the Prisoner
+url=http://magiccards.info/query?q=Yukora%2C+the+Prisoner&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Yukora%2C+the+Prisoner
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Demon,Spirit
+pt=5/5
+converted=4
+cost={2}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

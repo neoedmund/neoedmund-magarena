@@ -1,0 +1,11 @@
+>Elven Fortress
+url=http://magiccards.info/query?q=Elven+Fortress&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Elven+Fortress
+timing=main
+rarity=C
+type=Enchantment
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

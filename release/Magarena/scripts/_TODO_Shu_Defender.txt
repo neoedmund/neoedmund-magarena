@@ -1,0 +1,13 @@
+>Shu Defender
+url=http://magiccards.info/query?q=Shu+Defender&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Shu+Defender
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Soldier
+pt=2/2
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

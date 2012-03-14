@@ -1,0 +1,13 @@
+>Alaborn Zealot
+url=http://magiccards.info/query?q=Alaborn+Zealot&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Alaborn+Zealot
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Soldier
+pt=1/1
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

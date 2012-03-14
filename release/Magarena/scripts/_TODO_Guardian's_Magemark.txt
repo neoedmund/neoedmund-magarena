@@ -1,0 +1,12 @@
+>Guardian's Magemark
+url=http://magiccards.info/query?q=Guardian%27s+Magemark&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Guardian%27s+Magemark
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

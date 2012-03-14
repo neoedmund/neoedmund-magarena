@@ -1,0 +1,11 @@
+>Look at Me, I'm R&D
+url=http://magiccards.info/query?q=Look+at+Me%2C+I%27m+R%26D&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Look+at+Me%2C+I%27m+R%26D
+timing=main
+rarity=R
+type=Enchantment
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

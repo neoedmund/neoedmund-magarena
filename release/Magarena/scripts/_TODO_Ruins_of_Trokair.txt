@@ -1,0 +1,10 @@
+>Ruins of Trokair
+url=http://magiccards.info/query?q=Ruins+of+Trokair&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ruins+of+Trokair
+timing=main
+rarity=U
+type=Land
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

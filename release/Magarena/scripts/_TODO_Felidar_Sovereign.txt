@@ -1,0 +1,13 @@
+>Felidar Sovereign
+url=http://magiccards.info/query?q=Felidar+Sovereign&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Felidar+Sovereign
+timing=main
+rarity=M
+type=Creature
+subtype=Cat,Beast
+pt=4/6
+converted=6
+cost={4}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

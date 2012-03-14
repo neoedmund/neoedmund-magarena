@@ -1,0 +1,11 @@
+>Manaforce Mace
+url=http://magiccards.info/query?q=Manaforce+Mace&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Manaforce+Mace
+timing=main
+rarity=U
+type=Artifact
+subtype=Equipment
+converted=4
+cost={4}
+
+# TODO -- gen by neoe

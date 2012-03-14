@@ -1,0 +1,13 @@
+>Niall Silvain
+url=http://magiccards.info/query?q=Niall+Silvain&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Niall+Silvain
+timing=main
+rarity=U
+type=Creature
+subtype=Ouphe
+pt=2/2
+converted=3
+cost={G}{G}{G}
+color=ggg
+
+# TODO -- gen by neoe

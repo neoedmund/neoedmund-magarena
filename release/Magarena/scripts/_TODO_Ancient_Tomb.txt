@@ -1,0 +1,10 @@
+>Ancient Tomb
+url=http://magiccards.info/query?q=Ancient+Tomb&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ancient+Tomb
+timing=main
+rarity=U
+type=Land
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

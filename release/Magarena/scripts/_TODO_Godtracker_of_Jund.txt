@@ -1,0 +1,13 @@
+>Godtracker of Jund
+url=http://magiccards.info/query?q=Godtracker+of+Jund&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Godtracker+of+Jund
+timing=main
+rarity=C
+type=Creature
+subtype=Elf,Shaman
+pt=2/2
+converted=3
+cost={1}{R}{G}
+color=rg
+
+# TODO -- gen by neoe

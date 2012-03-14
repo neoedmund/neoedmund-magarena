@@ -1,0 +1,13 @@
+>Ruinous Minotaur
+url=http://magiccards.info/query?q=Ruinous+Minotaur&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ruinous+Minotaur
+timing=main
+rarity=C
+type=Creature
+subtype=Minotaur,Warrior
+pt=5/2
+converted=3
+cost={1}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

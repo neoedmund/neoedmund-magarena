@@ -1,0 +1,11 @@
+>Azorius Ploy
+url=http://magiccards.info/query?q=Azorius+Ploy&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Azorius+Ploy
+timing=main
+rarity=U
+type=Instant
+converted=4
+cost={1}{W}{W}{U}
+color=wwu
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Icy Prison
+url=http://magiccards.info/query?q=Icy+Prison&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Icy+Prison
+timing=main
+rarity=R
+type=Enchantment
+converted=2
+cost={U}{U}
+color=uu
+
+# TODO -- gen by neoe

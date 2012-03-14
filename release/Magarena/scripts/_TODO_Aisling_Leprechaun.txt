@@ -1,0 +1,13 @@
+>Aisling Leprechaun
+url=http://magiccards.info/query?q=Aisling+Leprechaun&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Aisling+Leprechaun
+timing=main
+rarity=C
+type=Creature
+subtype=Faerie
+pt=1/1
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

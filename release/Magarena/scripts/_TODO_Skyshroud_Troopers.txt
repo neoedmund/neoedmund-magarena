@@ -1,0 +1,13 @@
+>Skyshroud Troopers
+url=http://magiccards.info/query?q=Skyshroud+Troopers&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Skyshroud+Troopers
+timing=main
+rarity=C
+type=Creature
+subtype=Elf,Druid,Warrior
+pt=3/3
+converted=4
+cost={3}{G}
+color=g
+
+# TODO -- gen by neoe

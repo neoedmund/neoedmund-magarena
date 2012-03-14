@@ -1,0 +1,13 @@
+>Gideon's Avenger
+url=http://magiccards.info/query?q=Gideon%27s+Avenger&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Gideon%27s+Avenger
+timing=main
+rarity=R
+type=Creature
+subtype=Human,Soldier
+pt=2/2
+converted=3
+cost={1}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

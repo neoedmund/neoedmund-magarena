@@ -1,0 +1,11 @@
+>Volcanic Geyser
+url=http://magiccards.info/query?q=Volcanic+Geyser&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Volcanic+Geyser
+timing=main
+rarity=U
+type=Instant
+converted=2
+cost={X}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

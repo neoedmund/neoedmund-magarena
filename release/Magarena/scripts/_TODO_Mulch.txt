@@ -1,0 +1,11 @@
+>Mulch
+url=http://magiccards.info/query?q=Mulch&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mulch
+timing=main
+rarity=C
+type=Sorcery
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

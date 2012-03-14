@@ -1,0 +1,13 @@
+>Plaguebearer
+url=http://magiccards.info/query?q=Plaguebearer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Plaguebearer
+timing=main
+rarity=R
+type=Creature
+subtype=Zombie
+pt=1/1
+converted=2
+cost={1}{B}
+color=b
+
+# TODO -- gen by neoe

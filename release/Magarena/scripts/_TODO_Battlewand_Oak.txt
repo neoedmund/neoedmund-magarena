@@ -1,0 +1,13 @@
+>Battlewand Oak
+url=http://magiccards.info/query?q=Battlewand+Oak&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Battlewand+Oak
+timing=main
+rarity=C
+type=Creature
+subtype=Treefolk,Warrior
+pt=1/3
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

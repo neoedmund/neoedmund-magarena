@@ -1,0 +1,12 @@
+>Sadistic Glee
+url=http://magiccards.info/query?q=Sadistic+Glee&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sadistic+Glee
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=1
+cost={B}
+color=b
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Phyrexian Driver
+url=http://magiccards.info/query?q=Phyrexian+Driver&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Phyrexian+Driver
+timing=main
+rarity=C
+type=Creature
+subtype=Zombie,Mercenary
+pt=1/1
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

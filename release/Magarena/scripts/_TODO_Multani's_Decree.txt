@@ -1,0 +1,11 @@
+>Multani's Decree
+url=http://magiccards.info/query?q=Multani%27s+Decree&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Multani%27s+Decree
+timing=main
+rarity=C
+type=Sorcery
+converted=4
+cost={3}{G}
+color=g
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Glitterfang
+url=http://magiccards.info/query?q=Glitterfang&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Glitterfang
+timing=main
+rarity=C
+type=Creature
+subtype=Spirit
+pt=1/1
+converted=1
+cost={R}
+color=r
+
+# TODO -- gen by neoe

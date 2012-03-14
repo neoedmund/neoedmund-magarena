@@ -1,0 +1,10 @@
+>Crosis's Catacombs
+url=http://magiccards.info/query?q=Crosis%27s+Catacombs&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Crosis%27s+Catacombs
+timing=main
+rarity=U
+type=Land
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

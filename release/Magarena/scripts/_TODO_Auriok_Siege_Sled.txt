@@ -1,0 +1,12 @@
+>Auriok Siege Sled
+url=http://magiccards.info/query?q=Auriok+Siege+Sled&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Auriok+Siege+Sled
+timing=main
+rarity=U
+type=Artifact,Creature
+subtype=Juggernaut
+pt=3/5
+converted=6
+cost={6}
+
+# TODO -- gen by neoe

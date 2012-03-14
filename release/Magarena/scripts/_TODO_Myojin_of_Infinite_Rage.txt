@@ -1,0 +1,13 @@
+>Myojin of Infinite Rage
+url=http://magiccards.info/query?q=Myojin+of+Infinite+Rage&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Myojin+of+Infinite+Rage
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Spirit
+pt=7/4
+converted=10
+cost={7}{R}{R}{R}
+color=rrr
+
+# TODO -- gen by neoe

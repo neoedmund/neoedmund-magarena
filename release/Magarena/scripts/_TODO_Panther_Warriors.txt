@@ -1,0 +1,13 @@
+>Panther Warriors
+url=http://magiccards.info/query?q=Panther+Warriors&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Panther+Warriors
+timing=main
+rarity=C
+type=Creature
+subtype=Cat,Warrior
+pt=6/3
+converted=5
+cost={4}{G}
+color=g
+
+# TODO -- gen by neoe

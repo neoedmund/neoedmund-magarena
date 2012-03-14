@@ -1,0 +1,13 @@
+>Orcish Squatters
+url=http://magiccards.info/query?q=Orcish+Squatters&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Orcish+Squatters
+timing=main
+rarity=R
+type=Creature
+subtype=Orc
+pt=2/3
+converted=5
+cost={4}{R}
+color=r
+
+# TODO -- gen by neoe

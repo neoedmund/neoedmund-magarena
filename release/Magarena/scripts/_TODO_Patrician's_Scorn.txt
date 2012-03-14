@@ -1,0 +1,11 @@
+>Patrician's Scorn
+url=http://magiccards.info/query?q=Patrician%27s+Scorn&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Patrician%27s+Scorn
+timing=main
+rarity=C
+type=Instant
+converted=4
+cost={3}{W}
+color=w
+
+# TODO -- gen by neoe

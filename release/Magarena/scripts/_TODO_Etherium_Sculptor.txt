@@ -1,0 +1,13 @@
+>Etherium Sculptor
+url=http://magiccards.info/query?q=Etherium+Sculptor&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Etherium+Sculptor
+timing=main
+rarity=C
+type=Artifact,Creature
+subtype=Vedalken,Artificer
+pt=1/2
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Gleam of Resistance
+url=http://magiccards.info/query?q=Gleam+of+Resistance&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Gleam+of+Resistance
+timing=main
+rarity=C
+type=Instant
+converted=5
+cost={4}{W}
+color=w
+
+# TODO -- gen by neoe

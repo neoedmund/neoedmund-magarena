@@ -1,0 +1,13 @@
+>Veldrane of Sengir
+url=http://magiccards.info/query?q=Veldrane+of+Sengir&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Veldrane+of+Sengir
+timing=main
+rarity=U
+type=Legendary,Creature
+subtype=Human,Rogue
+pt=5/5
+converted=7
+cost={5}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

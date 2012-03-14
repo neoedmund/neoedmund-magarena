@@ -1,0 +1,13 @@
+>Meng Huo's Horde
+url=http://magiccards.info/query?q=Meng+Huo%27s+Horde&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Meng+Huo%27s+Horde
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Soldier
+pt=4/5
+converted=5
+cost={4}{G}
+color=g
+
+# TODO -- gen by neoe

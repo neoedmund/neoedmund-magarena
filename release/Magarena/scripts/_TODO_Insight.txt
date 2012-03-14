@@ -1,0 +1,11 @@
+>Insight
+url=http://magiccards.info/query?q=Insight&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Insight
+timing=main
+rarity=U
+type=Enchantment
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

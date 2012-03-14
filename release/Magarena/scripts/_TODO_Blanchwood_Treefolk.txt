@@ -1,0 +1,13 @@
+>Blanchwood Treefolk
+url=http://magiccards.info/query?q=Blanchwood+Treefolk&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Blanchwood+Treefolk
+timing=main
+rarity=C
+type=Creature
+subtype=Treefolk
+pt=4/5
+converted=5
+cost={4}{G}
+color=g
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Orcish Bloodpainter
+url=http://magiccards.info/query?q=Orcish+Bloodpainter&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Orcish+Bloodpainter
+timing=main
+rarity=C
+type=Creature
+subtype=Orc,Shaman
+pt=2/1
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

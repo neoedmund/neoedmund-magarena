@@ -1,0 +1,11 @@
+>Plague Spores
+url=http://magiccards.info/query?q=Plague+Spores&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Plague+Spores
+timing=main
+rarity=C
+type=Sorcery
+converted=6
+cost={4}{B}{R}
+color=br
+
+# TODO -- gen by neoe

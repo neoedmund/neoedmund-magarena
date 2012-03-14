@@ -1,0 +1,13 @@
+>Kyoki, Sanity's Eclipse
+url=http://magiccards.info/query?q=Kyoki%2C+Sanity%27s+Eclipse&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Kyoki%2C+Sanity%27s+Eclipse
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Demon,Spirit
+pt=6/4
+converted=6
+cost={4}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

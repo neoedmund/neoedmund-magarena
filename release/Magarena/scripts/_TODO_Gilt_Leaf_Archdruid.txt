@@ -1,0 +1,13 @@
+>Gilt-Leaf Archdruid
+url=http://magiccards.info/query?q=Gilt-Leaf+Archdruid&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Gilt-Leaf+Archdruid
+timing=main
+rarity=R
+type=Creature
+subtype=Elf,Druid
+pt=3/3
+converted=5
+cost={3}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

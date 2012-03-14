@@ -1,0 +1,11 @@
+>Flourishing Defenses
+url=http://magiccards.info/query?q=Flourishing+Defenses&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Flourishing+Defenses
+timing=main
+rarity=U
+type=Enchantment
+converted=5
+cost={4}{G}
+color=g
+
+# TODO -- gen by neoe

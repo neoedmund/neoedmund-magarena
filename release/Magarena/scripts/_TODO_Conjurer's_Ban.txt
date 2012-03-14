@@ -1,0 +1,11 @@
+>Conjurer's Ban
+url=http://magiccards.info/query?q=Conjurer%27s+Ban&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Conjurer%27s+Ban
+timing=main
+rarity=U
+type=Sorcery
+converted=2
+cost={W}{B}
+color=wb
+
+# TODO -- gen by neoe

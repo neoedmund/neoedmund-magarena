@@ -1,0 +1,11 @@
+>Marble Chalice
+url=http://magiccards.info/query?q=Marble+Chalice&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Marble+Chalice
+timing=main
+rarity=C
+type=Artifact
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

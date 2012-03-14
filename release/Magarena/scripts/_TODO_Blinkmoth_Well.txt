@@ -1,0 +1,10 @@
+>Blinkmoth Well
+url=http://magiccards.info/query?q=Blinkmoth+Well&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Blinkmoth+Well
+timing=main
+rarity=U
+type=Land
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

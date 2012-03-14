@@ -1,0 +1,13 @@
+>Gnat Alley Creeper
+url=http://magiccards.info/query?q=Gnat+Alley+Creeper&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Gnat+Alley+Creeper
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Rogue
+pt=3/1
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

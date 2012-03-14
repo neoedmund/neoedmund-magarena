@@ -1,0 +1,13 @@
+>Unliving Psychopath
+url=http://magiccards.info/query?q=Unliving+Psychopath&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Unliving+Psychopath
+timing=main
+rarity=R
+type=Creature
+subtype=Zombie,Assassin
+pt=0/4
+converted=4
+cost={2}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

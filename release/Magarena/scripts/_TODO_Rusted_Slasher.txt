@@ -1,0 +1,12 @@
+>Rusted Slasher
+url=http://magiccards.info/query?q=Rusted+Slasher&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Rusted+Slasher
+timing=main
+rarity=C
+type=Artifact,Creature
+subtype=Horror
+pt=4/1
+converted=4
+cost={4}
+
+# TODO -- gen by neoe

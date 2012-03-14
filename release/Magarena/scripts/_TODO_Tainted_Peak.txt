@@ -1,0 +1,10 @@
+>Tainted Peak
+url=http://magiccards.info/query?q=Tainted+Peak&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Tainted+Peak
+timing=main
+rarity=U
+type=Land
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

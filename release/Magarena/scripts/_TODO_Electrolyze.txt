@@ -1,0 +1,11 @@
+>Electrolyze
+url=http://magiccards.info/query?q=Electrolyze&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Electrolyze
+timing=main
+rarity=U
+type=Instant
+converted=3
+cost={1}{U}{R}
+color=ur
+
+# TODO -- gen by neoe

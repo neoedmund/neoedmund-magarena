@@ -1,0 +1,13 @@
+>Raven Familiar
+url=http://magiccards.info/query?q=Raven+Familiar&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Raven+Familiar
+timing=main
+rarity=U
+type=Creature
+subtype=Bird
+pt=1/2
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

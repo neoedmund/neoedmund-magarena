@@ -1,0 +1,13 @@
+>Wormfang Drake
+url=http://magiccards.info/query?q=Wormfang+Drake&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wormfang+Drake
+timing=main
+rarity=C
+type=Creature
+subtype=Nightmare,Drake
+pt=3/4
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

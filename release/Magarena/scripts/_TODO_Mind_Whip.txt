@@ -1,0 +1,12 @@
+>Mind Whip
+url=http://magiccards.info/query?q=Mind+Whip&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mind+Whip
+timing=main
+rarity=R
+type=Enchantment
+subtype=Aura
+converted=4
+cost={2}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

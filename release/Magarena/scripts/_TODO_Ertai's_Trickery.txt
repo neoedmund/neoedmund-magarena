@@ -1,0 +1,11 @@
+>Ertai's Trickery
+url=http://magiccards.info/query?q=Ertai%27s+Trickery&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ertai%27s+Trickery
+timing=main
+rarity=U
+type=Instant
+converted=1
+cost={U}
+color=u
+
+# TODO -- gen by neoe

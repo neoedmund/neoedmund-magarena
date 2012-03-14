@@ -1,0 +1,11 @@
+>Crash Landing
+url=http://magiccards.info/query?q=Crash+Landing&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Crash+Landing
+timing=main
+rarity=U
+type=Instant
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

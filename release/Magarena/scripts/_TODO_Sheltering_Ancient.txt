@@ -1,0 +1,13 @@
+>Sheltering Ancient
+url=http://magiccards.info/query?q=Sheltering+Ancient&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sheltering+Ancient
+timing=main
+rarity=U
+type=Creature
+subtype=Treefolk
+pt=5/5
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

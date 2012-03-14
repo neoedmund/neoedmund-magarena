@@ -1,0 +1,12 @@
+>Holy Armor
+url=http://magiccards.info/query?q=Holy+Armor&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Holy+Armor
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

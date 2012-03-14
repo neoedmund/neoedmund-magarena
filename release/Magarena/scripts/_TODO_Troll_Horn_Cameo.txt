@@ -1,0 +1,10 @@
+>Troll-Horn Cameo
+url=http://magiccards.info/query?q=Troll-Horn+Cameo&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Troll-Horn+Cameo
+timing=main
+rarity=U
+type=Artifact
+converted=3
+cost={3}
+
+# TODO -- gen by neoe

@@ -1,0 +1,10 @@
+>Wheel of Fate
+url=http://magiccards.info/query?q=Wheel+of+Fate&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wheel+of+Fate
+timing=main
+rarity=R
+type=Sorcery
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

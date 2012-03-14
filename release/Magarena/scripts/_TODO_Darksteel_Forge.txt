@@ -1,0 +1,10 @@
+>Darksteel Forge
+url=http://magiccards.info/query?q=Darksteel+Forge&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Darksteel+Forge
+timing=main
+rarity=R
+type=Artifact
+converted=9
+cost={9}
+
+# TODO -- gen by neoe

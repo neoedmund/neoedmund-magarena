@@ -1,0 +1,13 @@
+>Plague Dogs
+url=http://magiccards.info/query?q=Plague+Dogs&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Plague+Dogs
+timing=main
+rarity=U
+type=Creature
+subtype=Zombie,Hound
+pt=3/3
+converted=5
+cost={4}{B}
+color=b
+
+# TODO -- gen by neoe

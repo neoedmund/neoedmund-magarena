@@ -1,0 +1,11 @@
+>Mystic Retrieval
+url=http://magiccards.info/query?q=Mystic+Retrieval&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mystic+Retrieval
+timing=main
+rarity=U
+type=Sorcery
+converted=4
+cost={3}{U}
+color=u
+
+# TODO -- gen by neoe

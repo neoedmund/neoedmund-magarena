@@ -1,0 +1,13 @@
+>Undead Warchief
+url=http://magiccards.info/query?q=Undead+Warchief&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Undead+Warchief
+timing=main
+rarity=U
+type=Creature
+subtype=Zombie
+pt=1/1
+converted=4
+cost={2}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

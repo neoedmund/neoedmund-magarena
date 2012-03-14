@@ -1,0 +1,13 @@
+>Guardian of Solitude
+url=http://magiccards.info/query?q=Guardian+of+Solitude&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Guardian+of+Solitude
+timing=main
+rarity=U
+type=Creature
+subtype=Spirit
+pt=1/2
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

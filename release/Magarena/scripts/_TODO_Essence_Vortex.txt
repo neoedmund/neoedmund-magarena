@@ -1,0 +1,11 @@
+>Essence Vortex
+url=http://magiccards.info/query?q=Essence+Vortex&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Essence+Vortex
+timing=main
+rarity=U
+type=Instant
+converted=3
+cost={1}{U}{B}
+color=ub
+
+# TODO -- gen by neoe

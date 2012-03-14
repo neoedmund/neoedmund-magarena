@@ -1,0 +1,11 @@
+>Symbol of Unsummoning
+url=http://magiccards.info/query?q=Symbol+of+Unsummoning&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Symbol+of+Unsummoning
+timing=main
+rarity=C
+type=Sorcery
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

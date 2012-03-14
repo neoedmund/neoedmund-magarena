@@ -1,0 +1,13 @@
+>Infiltrator il-Kor
+url=http://magiccards.info/query?q=Infiltrator+il-Kor&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Infiltrator+il-Kor
+timing=main
+rarity=C
+type=Creature
+subtype=Kor,Rogue
+pt=3/1
+converted=5
+cost={4}{U}
+color=u
+
+# TODO -- gen by neoe

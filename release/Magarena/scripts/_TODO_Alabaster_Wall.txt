@@ -1,0 +1,13 @@
+>Alabaster Wall
+url=http://magiccards.info/query?q=Alabaster+Wall&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Alabaster+Wall
+timing=main
+rarity=C
+type=Creature
+subtype=Wall
+pt=0/4
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

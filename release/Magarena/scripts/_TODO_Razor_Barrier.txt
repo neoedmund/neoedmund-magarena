@@ -1,0 +1,11 @@
+>Razor Barrier
+url=http://magiccards.info/query?q=Razor+Barrier&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Razor+Barrier
+timing=main
+rarity=C
+type=Instant
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

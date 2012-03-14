@@ -1,0 +1,11 @@
+>Legerdemain
+url=http://magiccards.info/query?q=Legerdemain&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Legerdemain
+timing=main
+rarity=U
+type=Sorcery
+converted=4
+cost={2}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

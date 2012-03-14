@@ -1,0 +1,13 @@
+>Peregrine Drake
+url=http://magiccards.info/query?q=Peregrine+Drake&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Peregrine+Drake
+timing=main
+rarity=U
+type=Creature
+subtype=Drake
+pt=2/3
+converted=5
+cost={4}{U}
+color=u
+
+# TODO -- gen by neoe

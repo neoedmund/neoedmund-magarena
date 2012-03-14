@@ -1,0 +1,13 @@
+>Sphinx Sovereign
+url=http://magiccards.info/query?q=Sphinx+Sovereign&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sphinx+Sovereign
+timing=main
+rarity=M
+type=Artifact,Creature
+subtype=Sphinx
+pt=6/6
+converted=8
+cost={4}{W}{U}{U}{B}
+color=wuub
+
+# TODO -- gen by neoe

@@ -1,0 +1,12 @@
+>Coretapper
+url=http://magiccards.info/query?q=Coretapper&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Coretapper
+timing=main
+rarity=U
+type=Artifact,Creature
+subtype=Myr
+pt=1/1
+converted=2
+cost={2}
+
+# TODO -- gen by neoe

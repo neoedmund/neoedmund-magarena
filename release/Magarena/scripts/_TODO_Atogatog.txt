@@ -1,0 +1,13 @@
+>Atogatog
+url=http://magiccards.info/query?q=Atogatog&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Atogatog
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Atog
+pt=5/5
+converted=5
+cost={W}{U}{B}{R}{G}
+color=wubrg
+
+# TODO -- gen by neoe

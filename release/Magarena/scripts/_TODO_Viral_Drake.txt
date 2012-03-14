@@ -1,0 +1,13 @@
+>Viral Drake
+url=http://magiccards.info/query?q=Viral+Drake&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Viral+Drake
+timing=main
+rarity=U
+type=Creature
+subtype=Drake
+pt=1/4
+converted=4
+cost={3}{U}
+color=u
+
+# TODO -- gen by neoe

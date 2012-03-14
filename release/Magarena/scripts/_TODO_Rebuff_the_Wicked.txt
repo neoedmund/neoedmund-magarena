@@ -1,0 +1,11 @@
+>Rebuff the Wicked
+url=http://magiccards.info/query?q=Rebuff+the+Wicked&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Rebuff+the+Wicked
+timing=main
+rarity=U
+type=Instant
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

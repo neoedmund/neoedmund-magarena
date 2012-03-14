@@ -1,0 +1,13 @@
+>Aven Warhawk
+url=http://magiccards.info/query?q=Aven+Warhawk&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Aven+Warhawk
+timing=main
+rarity=U
+type=Creature
+subtype=Bird,Soldier
+pt=2/2
+converted=5
+cost={4}{W}
+color=w
+
+# TODO -- gen by neoe

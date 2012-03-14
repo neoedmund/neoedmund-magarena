@@ -1,0 +1,13 @@
+>Bounty Hunter
+url=http://magiccards.info/query?q=Bounty+Hunter&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Bounty+Hunter
+timing=main
+rarity=R
+type=Creature
+subtype=Human,Archer,Minion
+pt=2/2
+converted=4
+cost={2}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

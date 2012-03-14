@@ -1,0 +1,13 @@
+>Riku of Two Reflections
+url=http://magiccards.info/query?q=Riku+of+Two+Reflections&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Riku+of+Two+Reflections
+timing=main
+rarity=M
+type=Legendary,Creature
+subtype=Human,Wizard
+pt=2/2
+converted=5
+cost={2}{U}{R}{G}
+color=urg
+
+# TODO -- gen by neoe

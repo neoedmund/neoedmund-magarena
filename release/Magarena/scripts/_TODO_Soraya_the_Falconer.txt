@@ -1,0 +1,13 @@
+>Soraya the Falconer
+url=http://magiccards.info/query?q=Soraya+the+Falconer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Soraya+the+Falconer
+timing=main
+rarity=U
+type=Legendary,Creature
+subtype=Human
+pt=2/2
+converted=3
+cost={1}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Urza's Power Plant
+url=http://magiccards.info/query?q=Urza%27s+Power+Plant&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Urza%27s+Power+Plant
+timing=main
+rarity=C
+type=Land
+subtype=Urza's,Power-Plant
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

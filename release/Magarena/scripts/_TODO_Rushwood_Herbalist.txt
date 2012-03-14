@@ -1,0 +1,13 @@
+>Rushwood Herbalist
+url=http://magiccards.info/query?q=Rushwood+Herbalist&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Rushwood+Herbalist
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Spellshaper
+pt=2/2
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

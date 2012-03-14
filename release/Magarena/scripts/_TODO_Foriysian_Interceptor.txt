@@ -1,0 +1,13 @@
+>Foriysian Interceptor
+url=http://magiccards.info/query?q=Foriysian+Interceptor&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Foriysian+Interceptor
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Soldier
+pt=0/5
+converted=4
+cost={3}{W}
+color=w
+
+# TODO -- gen by neoe

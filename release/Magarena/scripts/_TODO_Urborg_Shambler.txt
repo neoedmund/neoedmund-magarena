@@ -1,0 +1,13 @@
+>Urborg Shambler
+url=http://magiccards.info/query?q=Urborg+Shambler&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Urborg+Shambler
+timing=main
+rarity=U
+type=Creature
+subtype=Horror
+pt=4/3
+converted=4
+cost={2}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

@@ -1,0 +1,12 @@
+>Diabolic Machine
+url=http://magiccards.info/query?q=Diabolic+Machine&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Diabolic+Machine
+timing=main
+rarity=U
+type=Artifact,Creature
+subtype=Construct
+pt=4/4
+converted=7
+cost={7}
+
+# TODO -- gen by neoe

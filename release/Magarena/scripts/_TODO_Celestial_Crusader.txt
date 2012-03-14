@@ -1,0 +1,13 @@
+>Celestial Crusader
+url=http://magiccards.info/query?q=Celestial+Crusader&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Celestial+Crusader
+timing=main
+rarity=U
+type=Creature
+subtype=Spirit
+pt=2/2
+converted=4
+cost={2}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

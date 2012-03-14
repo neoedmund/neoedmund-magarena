@@ -1,0 +1,13 @@
+>Nether Shadow
+url=http://magiccards.info/query?q=Nether+Shadow&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Nether+Shadow
+timing=main
+rarity=R
+type=Creature
+subtype=Spirit
+pt=1/1
+converted=2
+cost={B}{B}
+color=bb
+
+# TODO -- gen by neoe

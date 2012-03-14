@@ -1,0 +1,11 @@
+>Flames of the Blood Hand
+url=http://magiccards.info/query?q=Flames+of+the+Blood+Hand&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Flames+of+the+Blood+Hand
+timing=main
+rarity=U
+type=Instant
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

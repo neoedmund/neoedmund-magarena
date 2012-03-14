@@ -1,0 +1,12 @@
+>Aysen Crusader
+url=http://magiccards.info/query?q=Aysen+Crusader&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Aysen+Crusader
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Knight
+converted=4
+cost={2}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

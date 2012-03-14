@@ -1,0 +1,11 @@
+>Tatsumasa, the Dragon's Fang
+url=http://magiccards.info/query?q=Tatsumasa%2C+the+Dragon%27s+Fang&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Tatsumasa%2C+the+Dragon%27s+Fang
+timing=main
+rarity=R
+type=Legendary,Artifact
+subtype=Equipment
+converted=6
+cost={6}
+
+# TODO -- gen by neoe

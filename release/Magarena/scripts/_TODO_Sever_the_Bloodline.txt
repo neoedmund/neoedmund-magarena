@@ -1,0 +1,11 @@
+>Sever the Bloodline
+url=http://magiccards.info/query?q=Sever+the+Bloodline&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sever+the+Bloodline
+timing=main
+rarity=R
+type=Sorcery
+converted=4
+cost={3}{B}
+color=b
+
+# TODO -- gen by neoe

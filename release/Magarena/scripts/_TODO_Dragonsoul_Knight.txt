@@ -1,0 +1,13 @@
+>Dragonsoul Knight
+url=http://magiccards.info/query?q=Dragonsoul+Knight&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dragonsoul+Knight
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Knight
+pt=2/2
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

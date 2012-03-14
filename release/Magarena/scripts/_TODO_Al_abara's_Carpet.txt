@@ -1,0 +1,10 @@
+>Al-abara's Carpet
+url=http://magiccards.info/query?q=Al-abara%27s+Carpet&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Al-abara%27s+Carpet
+timing=main
+rarity=R
+type=Artifact
+converted=5
+cost={5}
+
+# TODO -- gen by neoe

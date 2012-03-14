@@ -1,0 +1,11 @@
+>Web of Inertia
+url=http://magiccards.info/query?q=Web+of+Inertia&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Web+of+Inertia
+timing=main
+rarity=U
+type=Enchantment
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

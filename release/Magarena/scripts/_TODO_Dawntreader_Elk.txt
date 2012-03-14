@@ -1,0 +1,13 @@
+>Dawntreader Elk
+url=http://magiccards.info/query?q=Dawntreader+Elk&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dawntreader+Elk
+timing=main
+rarity=C
+type=Creature
+subtype=Elk
+pt=2/2
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

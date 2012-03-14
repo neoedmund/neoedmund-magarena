@@ -1,0 +1,11 @@
+>Nightmare Lash
+url=http://magiccards.info/query?q=Nightmare+Lash&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Nightmare+Lash
+timing=main
+rarity=R
+type=Artifact
+subtype=Equipment
+converted=4
+cost={4}
+
+# TODO -- gen by neoe

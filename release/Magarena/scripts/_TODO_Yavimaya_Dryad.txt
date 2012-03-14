@@ -1,0 +1,13 @@
+>Yavimaya Dryad
+url=http://magiccards.info/query?q=Yavimaya+Dryad&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Yavimaya+Dryad
+timing=main
+rarity=U
+type=Creature
+subtype=Dryad
+pt=2/1
+converted=3
+cost={1}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Mystic Denial
+url=http://magiccards.info/query?q=Mystic+Denial&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mystic+Denial
+timing=main
+rarity=U
+type=Instant
+converted=3
+cost={1}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

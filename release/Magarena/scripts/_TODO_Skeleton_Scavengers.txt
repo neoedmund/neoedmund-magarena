@@ -1,0 +1,13 @@
+>Skeleton Scavengers
+url=http://magiccards.info/query?q=Skeleton+Scavengers&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Skeleton+Scavengers
+timing=main
+rarity=R
+type=Creature
+subtype=Skeleton
+pt=0/0
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

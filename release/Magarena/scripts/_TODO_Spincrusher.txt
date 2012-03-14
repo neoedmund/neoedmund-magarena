@@ -1,0 +1,12 @@
+>Spincrusher
+url=http://magiccards.info/query?q=Spincrusher&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Spincrusher
+timing=main
+rarity=U
+type=Artifact,Creature
+subtype=Construct
+pt=0/2
+converted=2
+cost={2}
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Broodwarden
+url=http://magiccards.info/query?q=Broodwarden&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Broodwarden
+timing=main
+rarity=U
+type=Creature
+subtype=Eldrazi,Drone
+pt=4/4
+converted=5
+cost={3}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

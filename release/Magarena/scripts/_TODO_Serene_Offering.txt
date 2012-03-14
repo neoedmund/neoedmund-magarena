@@ -1,0 +1,11 @@
+>Serene Offering
+url=http://magiccards.info/query?q=Serene+Offering&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Serene+Offering
+timing=main
+rarity=U
+type=Instant
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

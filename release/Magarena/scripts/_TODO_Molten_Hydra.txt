@@ -1,0 +1,13 @@
+>Molten Hydra
+url=http://magiccards.info/query?q=Molten+Hydra&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Molten+Hydra
+timing=main
+rarity=R
+type=Creature
+subtype=Hydra
+pt=1/1
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

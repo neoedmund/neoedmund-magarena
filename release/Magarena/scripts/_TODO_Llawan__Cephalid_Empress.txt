@@ -1,0 +1,13 @@
+>Llawan, Cephalid Empress
+url=http://magiccards.info/query?q=Llawan%2C+Cephalid+Empress&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Llawan%2C+Cephalid+Empress
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Cephalid
+pt=2/3
+converted=4
+cost={3}{U}
+color=u
+
+# TODO -- gen by neoe

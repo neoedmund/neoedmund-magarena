@@ -1,0 +1,13 @@
+>Wojek Apothecary
+url=http://magiccards.info/query?q=Wojek+Apothecary&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wojek+Apothecary
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Cleric
+pt=1/1
+converted=4
+cost={2}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

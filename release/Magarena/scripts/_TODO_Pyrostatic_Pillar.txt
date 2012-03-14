@@ -1,0 +1,11 @@
+>Pyrostatic Pillar
+url=http://magiccards.info/query?q=Pyrostatic+Pillar&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Pyrostatic+Pillar
+timing=main
+rarity=U
+type=Enchantment
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

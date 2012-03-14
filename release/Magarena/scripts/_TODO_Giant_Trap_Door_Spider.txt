@@ -1,0 +1,13 @@
+>Giant Trap Door Spider
+url=http://magiccards.info/query?q=Giant+Trap+Door+Spider&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Giant+Trap+Door+Spider
+timing=main
+rarity=U
+type=Creature
+subtype=Spider
+pt=2/3
+converted=3
+cost={1}{R}{G}
+color=rg
+
+# TODO -- gen by neoe

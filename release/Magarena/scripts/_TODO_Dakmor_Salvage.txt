@@ -1,0 +1,10 @@
+>Dakmor Salvage
+url=http://magiccards.info/query?q=Dakmor+Salvage&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dakmor+Salvage
+timing=main
+rarity=U
+type=Land
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

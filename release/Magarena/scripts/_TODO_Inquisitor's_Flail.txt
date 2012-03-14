@@ -1,0 +1,11 @@
+>Inquisitor's Flail
+url=http://magiccards.info/query?q=Inquisitor%27s+Flail&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Inquisitor%27s+Flail
+timing=main
+rarity=U
+type=Artifact
+subtype=Equipment
+converted=2
+cost={2}
+
+# TODO -- gen by neoe

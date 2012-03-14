@@ -1,0 +1,13 @@
+>Intet, the Dreamer
+url=http://magiccards.info/query?q=Intet%2C+the+Dreamer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Intet%2C+the+Dreamer
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Dragon
+pt=6/6
+converted=6
+cost={3}{U}{R}{G}
+color=urg
+
+# TODO -- gen by neoe

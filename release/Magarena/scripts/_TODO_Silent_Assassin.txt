@@ -1,0 +1,13 @@
+>Silent Assassin
+url=http://magiccards.info/query?q=Silent+Assassin&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Silent+Assassin
+timing=main
+rarity=R
+type=Creature
+subtype=Human,Mercenary,Assassin
+pt=2/1
+converted=2
+cost={B}{B}
+color=bb
+
+# TODO -- gen by neoe

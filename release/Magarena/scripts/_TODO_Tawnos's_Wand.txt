@@ -1,0 +1,10 @@
+>Tawnos's Wand
+url=http://magiccards.info/query?q=Tawnos%27s+Wand&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Tawnos%27s+Wand
+timing=main
+rarity=U
+type=Artifact
+converted=4
+cost={4}
+
+# TODO -- gen by neoe

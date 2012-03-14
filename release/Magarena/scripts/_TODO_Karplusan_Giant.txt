@@ -1,0 +1,13 @@
+>Karplusan Giant
+url=http://magiccards.info/query?q=Karplusan+Giant&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Karplusan+Giant
+timing=main
+rarity=U
+type=Creature
+subtype=Giant
+pt=3/3
+converted=7
+cost={6}{R}
+color=r
+
+# TODO -- gen by neoe

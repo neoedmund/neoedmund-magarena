@@ -1,0 +1,13 @@
+>Vexing Sphinx
+url=http://magiccards.info/query?q=Vexing+Sphinx&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Vexing+Sphinx
+timing=main
+rarity=R
+type=Creature
+subtype=Sphinx
+pt=4/4
+converted=3
+cost={1}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

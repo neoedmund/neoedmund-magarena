@@ -1,0 +1,11 @@
+>Wolfhunter's Quiver
+url=http://magiccards.info/query?q=Wolfhunter%27s+Quiver&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wolfhunter%27s+Quiver
+timing=main
+rarity=U
+type=Artifact
+subtype=Equipment
+converted=1
+cost={1}
+
+# TODO -- gen by neoe

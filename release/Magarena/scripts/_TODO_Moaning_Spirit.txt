@@ -1,0 +1,13 @@
+>Moaning Spirit
+url=http://magiccards.info/query?q=Moaning+Spirit&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Moaning+Spirit
+timing=main
+rarity=C
+type=Creature
+subtype=Spirit
+pt=2/1
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

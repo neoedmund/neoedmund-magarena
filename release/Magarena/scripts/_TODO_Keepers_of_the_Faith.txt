@@ -1,0 +1,13 @@
+>Keepers of the Faith
+url=http://magiccards.info/query?q=Keepers+of+the+Faith&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Keepers+of+the+Faith
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Cleric
+pt=2/3
+converted=3
+cost={1}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

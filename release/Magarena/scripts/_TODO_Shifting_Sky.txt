@@ -1,0 +1,11 @@
+>Shifting Sky
+url=http://magiccards.info/query?q=Shifting+Sky&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Shifting+Sky
+timing=main
+rarity=R
+type=Enchantment
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

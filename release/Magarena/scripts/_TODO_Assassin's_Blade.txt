@@ -1,0 +1,11 @@
+>Assassin's Blade
+url=http://magiccards.info/query?q=Assassin%27s+Blade&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Assassin%27s+Blade
+timing=main
+rarity=U
+type=Instant
+converted=2
+cost={1}{B}
+color=b
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Hamletback Goliath
+url=http://magiccards.info/query?q=Hamletback+Goliath&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Hamletback+Goliath
+timing=main
+rarity=R
+type=Creature
+subtype=Giant,Warrior
+pt=6/6
+converted=7
+cost={6}{R}
+color=r
+
+# TODO -- gen by neoe

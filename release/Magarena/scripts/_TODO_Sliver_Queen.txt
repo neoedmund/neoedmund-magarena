@@ -1,0 +1,13 @@
+>Sliver Queen
+url=http://magiccards.info/query?q=Sliver+Queen&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sliver+Queen
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Sliver
+pt=7/7
+converted=5
+cost={W}{U}{B}{R}{G}
+color=wubrg
+
+# TODO -- gen by neoe

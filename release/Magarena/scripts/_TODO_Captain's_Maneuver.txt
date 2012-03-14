@@ -1,0 +1,11 @@
+>Captain's Maneuver
+url=http://magiccards.info/query?q=Captain%27s+Maneuver&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Captain%27s+Maneuver
+timing=main
+rarity=U
+type=Instant
+converted=2
+cost={X}{R}{W}
+color=rw
+
+# TODO -- gen by neoe

@@ -1,0 +1,12 @@
+>Emberstrike Duo
+url=http://magiccards.info/query?q=Emberstrike+Duo&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Emberstrike+Duo
+timing=main
+rarity=C
+type=Creature
+subtype=Elemental,Warrior,Shaman
+pt=1/1
+converted=6
+cost={1}{B/R}
+
+# TODO -- gen by neoe

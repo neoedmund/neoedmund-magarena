@@ -1,0 +1,11 @@
+>Transmute Artifact
+url=http://magiccards.info/query?q=Transmute+Artifact&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Transmute+Artifact
+timing=main
+rarity=U
+type=Sorcery
+converted=2
+cost={U}{U}
+color=uu
+
+# TODO -- gen by neoe

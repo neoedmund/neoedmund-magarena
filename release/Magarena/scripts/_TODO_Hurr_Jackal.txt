@@ -1,0 +1,13 @@
+>Hurr Jackal
+url=http://magiccards.info/query?q=Hurr+Jackal&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Hurr+Jackal
+timing=main
+rarity=R
+type=Creature
+subtype=Hound
+pt=1/1
+converted=1
+cost={R}
+color=r
+
+# TODO -- gen by neoe

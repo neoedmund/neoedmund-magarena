@@ -1,0 +1,13 @@
+>Bog Witch
+url=http://magiccards.info/query?q=Bog+Witch&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Bog+Witch
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Spellshaper
+pt=1/1
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

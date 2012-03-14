@@ -1,0 +1,12 @@
+>Shields of Velis Vel
+url=http://magiccards.info/query?q=Shields+of+Velis+Vel&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Shields+of+Velis+Vel
+timing=main
+rarity=C
+type=Tribal,Instant
+subtype=Shapeshifter
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

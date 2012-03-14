@@ -1,0 +1,12 @@
+>Arcanum Wings
+url=http://magiccards.info/query?q=Arcanum+Wings&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Arcanum+Wings
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

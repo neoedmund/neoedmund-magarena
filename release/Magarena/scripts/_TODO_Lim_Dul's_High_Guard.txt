@@ -1,0 +1,13 @@
+>Lim-Dul's High Guard
+url=http://magiccards.info/query?q=Lim-Dul%27s+High+Guard&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Lim-Dul%27s+High+Guard
+timing=main
+rarity=C
+type=Creature
+subtype=Skeleton
+pt=2/1
+converted=3
+cost={1}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

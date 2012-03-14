@@ -1,0 +1,11 @@
+>Spinal Embrace
+url=http://magiccards.info/query?q=Spinal+Embrace&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Spinal+Embrace
+timing=main
+rarity=R
+type=Instant
+converted=6
+cost={3}{U}{U}{B}
+color=uub
+
+# TODO -- gen by neoe

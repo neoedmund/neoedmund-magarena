@@ -1,0 +1,13 @@
+>Liege of the Tangle
+url=http://magiccards.info/query?q=Liege+of+the+Tangle&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Liege+of+the+Tangle
+timing=main
+rarity=M
+type=Creature
+subtype=Elemental
+pt=8/8
+converted=8
+cost={6}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

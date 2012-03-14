@@ -1,0 +1,11 @@
+>Plunge into Darkness
+url=http://magiccards.info/query?q=Plunge+into+Darkness&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Plunge+into+Darkness
+timing=main
+rarity=R
+type=Instant
+converted=2
+cost={1}{B}
+color=b
+
+# TODO -- gen by neoe

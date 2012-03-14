@@ -1,0 +1,13 @@
+>Totem-Guide Hartebeest
+url=http://magiccards.info/query?q=Totem-Guide+Hartebeest&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Totem-Guide+Hartebeest
+timing=main
+rarity=C
+type=Creature
+subtype=Antelope
+pt=2/5
+converted=5
+cost={4}{W}
+color=w
+
+# TODO -- gen by neoe

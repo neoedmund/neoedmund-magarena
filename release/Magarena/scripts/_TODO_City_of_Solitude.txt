@@ -1,0 +1,11 @@
+>City of Solitude
+url=http://magiccards.info/query?q=City+of+Solitude&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=City+of+Solitude
+timing=main
+rarity=R
+type=Enchantment
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

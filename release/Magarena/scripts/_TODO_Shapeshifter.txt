@@ -1,0 +1,11 @@
+>Shapeshifter
+url=http://magiccards.info/query?q=Shapeshifter&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Shapeshifter
+timing=main
+rarity=U
+type=Artifact,Creature
+subtype=Shapeshifter
+converted=6
+cost={6}
+
+# TODO -- gen by neoe

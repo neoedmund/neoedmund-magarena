@@ -1,0 +1,11 @@
+>Chill to the Bone
+url=http://magiccards.info/query?q=Chill+to+the+Bone&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Chill+to+the+Bone
+timing=main
+rarity=C
+type=Instant
+converted=4
+cost={3}{B}
+color=b
+
+# TODO -- gen by neoe

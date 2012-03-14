@@ -1,0 +1,13 @@
+>Latulla, Keldon Overseer
+url=http://magiccards.info/query?q=Latulla%2C+Keldon+Overseer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Latulla%2C+Keldon+Overseer
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Human,Spellshaper
+pt=3/3
+converted=5
+cost={3}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

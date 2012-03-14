@@ -1,0 +1,13 @@
+>Knight of the Skyward Eye
+url=http://magiccards.info/query?q=Knight+of+the+Skyward+Eye&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Knight+of+the+Skyward+Eye
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Knight
+pt=2/2
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

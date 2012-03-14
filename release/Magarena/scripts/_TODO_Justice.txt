@@ -1,0 +1,11 @@
+>Justice
+url=http://magiccards.info/query?q=Justice&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Justice
+timing=main
+rarity=U
+type=Enchantment
+converted=4
+cost={2}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

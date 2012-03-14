@@ -1,0 +1,13 @@
+>Scornful Egotist
+url=http://magiccards.info/query?q=Scornful+Egotist&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Scornful+Egotist
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Wizard
+pt=1/1
+converted=8
+cost={7}{U}
+color=u
+
+# TODO -- gen by neoe

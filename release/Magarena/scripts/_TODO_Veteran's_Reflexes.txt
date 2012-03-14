@@ -1,0 +1,11 @@
+>Veteran's Reflexes
+url=http://magiccards.info/query?q=Veteran%27s+Reflexes&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Veteran%27s+Reflexes
+timing=main
+rarity=C
+type=Instant
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Gruul Scrapper
+url=http://magiccards.info/query?q=Gruul+Scrapper&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Gruul+Scrapper
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Berserker
+pt=3/2
+converted=4
+cost={3}{G}
+color=g
+
+# TODO -- gen by neoe

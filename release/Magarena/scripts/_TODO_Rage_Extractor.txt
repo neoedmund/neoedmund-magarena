@@ -1,0 +1,10 @@
+>Rage Extractor
+url=http://magiccards.info/query?q=Rage+Extractor&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Rage+Extractor
+timing=main
+rarity=U
+type=Artifact
+converted=5
+cost={4}{R}
+
+# TODO -- gen by neoe

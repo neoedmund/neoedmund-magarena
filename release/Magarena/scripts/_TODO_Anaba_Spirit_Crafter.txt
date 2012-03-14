@@ -1,0 +1,13 @@
+>Anaba Spirit Crafter
+url=http://magiccards.info/query?q=Anaba+Spirit+Crafter&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Anaba+Spirit+Crafter
+timing=main
+rarity=U
+type=Creature
+subtype=Minotaur,Shaman
+pt=1/3
+converted=4
+cost={2}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

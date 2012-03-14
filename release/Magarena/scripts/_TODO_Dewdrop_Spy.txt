@@ -1,0 +1,13 @@
+>Dewdrop Spy
+url=http://magiccards.info/query?q=Dewdrop+Spy&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dewdrop+Spy
+timing=main
+rarity=C
+type=Creature
+subtype=Faerie,Rogue
+pt=2/2
+converted=3
+cost={1}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

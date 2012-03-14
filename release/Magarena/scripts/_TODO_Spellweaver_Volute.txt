@@ -1,0 +1,12 @@
+>Spellweaver Volute
+url=http://magiccards.info/query?q=Spellweaver+Volute&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Spellweaver+Volute
+timing=main
+rarity=R
+type=Enchantment
+subtype=Aura
+converted=5
+cost={3}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

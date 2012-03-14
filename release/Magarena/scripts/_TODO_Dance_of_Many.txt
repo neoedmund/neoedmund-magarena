@@ -1,0 +1,11 @@
+>Dance of Many
+url=http://magiccards.info/query?q=Dance+of+Many&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dance+of+Many
+timing=main
+rarity=U
+type=Enchantment
+converted=2
+cost={U}{U}
+color=uu
+
+# TODO -- gen by neoe

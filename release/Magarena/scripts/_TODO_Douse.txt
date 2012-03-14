@@ -1,0 +1,11 @@
+>Douse
+url=http://magiccards.info/query?q=Douse&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Douse
+timing=main
+rarity=U
+type=Enchantment
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Renegade Troops
+url=http://magiccards.info/query?q=Renegade+Troops&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Renegade+Troops
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Soldier
+pt=4/2
+converted=5
+cost={4}{R}
+color=r
+
+# TODO -- gen by neoe

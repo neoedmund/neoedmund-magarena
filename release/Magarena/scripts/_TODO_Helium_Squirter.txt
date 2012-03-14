@@ -1,0 +1,13 @@
+>Helium Squirter
+url=http://magiccards.info/query?q=Helium+Squirter&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Helium+Squirter
+timing=main
+rarity=C
+type=Creature
+subtype=Beast,Mutant
+pt=0/0
+converted=5
+cost={4}{U}
+color=u
+
+# TODO -- gen by neoe

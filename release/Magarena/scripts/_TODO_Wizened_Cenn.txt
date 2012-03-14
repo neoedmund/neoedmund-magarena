@@ -1,0 +1,13 @@
+>Wizened Cenn
+url=http://magiccards.info/query?q=Wizened+Cenn&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wizened+Cenn
+timing=main
+rarity=U
+type=Creature
+subtype=Kithkin,Cleric
+pt=2/2
+converted=2
+cost={W}{W}
+color=ww
+
+# TODO -- gen by neoe

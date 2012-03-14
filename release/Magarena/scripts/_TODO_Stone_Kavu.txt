@@ -1,0 +1,13 @@
+>Stone Kavu
+url=http://magiccards.info/query?q=Stone+Kavu&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Stone+Kavu
+timing=main
+rarity=C
+type=Creature
+subtype=Kavu
+pt=3/3
+converted=5
+cost={4}{G}
+color=g
+
+# TODO -- gen by neoe

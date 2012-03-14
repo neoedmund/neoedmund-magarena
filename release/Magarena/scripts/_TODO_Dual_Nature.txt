@@ -1,0 +1,11 @@
+>Dual Nature
+url=http://magiccards.info/query?q=Dual+Nature&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dual+Nature
+timing=main
+rarity=R
+type=Enchantment
+converted=6
+cost={4}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

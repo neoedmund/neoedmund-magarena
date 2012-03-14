@@ -1,0 +1,11 @@
+>Leap of Flame
+url=http://magiccards.info/query?q=Leap+of+Flame&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Leap+of+Flame
+timing=main
+rarity=C
+type=Instant
+converted=2
+cost={U}{R}
+color=ur
+
+# TODO -- gen by neoe

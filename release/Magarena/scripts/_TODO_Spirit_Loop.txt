@@ -1,0 +1,12 @@
+>Spirit Loop
+url=http://magiccards.info/query?q=Spirit+Loop&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Spirit+Loop
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

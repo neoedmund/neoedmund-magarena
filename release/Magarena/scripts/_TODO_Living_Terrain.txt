@@ -1,0 +1,12 @@
+>Living Terrain
+url=http://magiccards.info/query?q=Living+Terrain&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Living+Terrain
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=4
+cost={2}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

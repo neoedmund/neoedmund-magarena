@@ -1,0 +1,13 @@
+>Valley Rannet
+url=http://magiccards.info/query?q=Valley+Rannet&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Valley+Rannet
+timing=main
+rarity=C
+type=Creature
+subtype=Beast
+pt=6/3
+converted=6
+cost={4}{R}{G}
+color=rg
+
+# TODO -- gen by neoe

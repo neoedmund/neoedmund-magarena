@@ -1,0 +1,13 @@
+>Twilight Shepherd
+url=http://magiccards.info/query?q=Twilight+Shepherd&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Twilight+Shepherd
+timing=main
+rarity=R
+type=Creature
+subtype=Angel
+pt=5/5
+converted=6
+cost={3}{W}{W}{W}
+color=www
+
+# TODO -- gen by neoe

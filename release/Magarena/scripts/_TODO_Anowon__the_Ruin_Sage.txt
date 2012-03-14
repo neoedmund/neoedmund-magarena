@@ -1,0 +1,13 @@
+>Anowon, the Ruin Sage
+url=http://magiccards.info/query?q=Anowon%2C+the+Ruin+Sage&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Anowon%2C+the+Ruin+Sage
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Vampire,Shaman
+pt=4/3
+converted=5
+cost={3}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

@@ -1,0 +1,10 @@
+>Tablet of Epityr
+url=http://magiccards.info/query?q=Tablet+of+Epityr&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Tablet+of+Epityr
+timing=main
+rarity=C
+type=Artifact
+converted=1
+cost={1}
+
+# TODO -- gen by neoe

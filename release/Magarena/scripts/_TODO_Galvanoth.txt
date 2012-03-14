@@ -1,0 +1,13 @@
+>Galvanoth
+url=http://magiccards.info/query?q=Galvanoth&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Galvanoth
+timing=main
+rarity=R
+type=Creature
+subtype=Beast
+pt=3/3
+converted=5
+cost={3}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

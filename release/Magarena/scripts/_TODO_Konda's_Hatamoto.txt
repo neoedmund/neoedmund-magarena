@@ -1,0 +1,13 @@
+>Konda's Hatamoto
+url=http://magiccards.info/query?q=Konda%27s+Hatamoto&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Konda%27s+Hatamoto
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Samurai
+pt=1/2
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

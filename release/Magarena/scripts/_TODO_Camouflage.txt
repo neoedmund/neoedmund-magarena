@@ -1,0 +1,11 @@
+>Camouflage
+url=http://magiccards.info/query?q=Camouflage&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Camouflage
+timing=main
+rarity=U
+type=Instant
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

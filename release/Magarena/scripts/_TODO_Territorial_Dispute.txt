@@ -1,0 +1,11 @@
+>Territorial Dispute
+url=http://magiccards.info/query?q=Territorial+Dispute&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Territorial+Dispute
+timing=main
+rarity=R
+type=Enchantment
+converted=6
+cost={4}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

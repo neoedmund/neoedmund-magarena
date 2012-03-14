@@ -1,0 +1,13 @@
+>Kurgadon
+url=http://magiccards.info/query?q=Kurgadon&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Kurgadon
+timing=main
+rarity=U
+type=Creature
+subtype=Beast
+pt=3/3
+converted=5
+cost={4}{G}
+color=g
+
+# TODO -- gen by neoe

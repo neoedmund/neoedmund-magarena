@@ -1,0 +1,11 @@
+>Mystic Speculation
+url=http://magiccards.info/query?q=Mystic+Speculation&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mystic+Speculation
+timing=main
+rarity=U
+type=Sorcery
+converted=1
+cost={U}
+color=u
+
+# TODO -- gen by neoe

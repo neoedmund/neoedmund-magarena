@@ -1,0 +1,13 @@
+>Savra, Queen of the Golgari
+url=http://magiccards.info/query?q=Savra%2C+Queen+of+the+Golgari&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Savra%2C+Queen+of+the+Golgari
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Elf,Shaman
+pt=2/2
+converted=4
+cost={2}{B}{G}
+color=bg
+
+# TODO -- gen by neoe

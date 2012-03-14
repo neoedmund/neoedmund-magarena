@@ -1,0 +1,10 @@
+>Engineered Explosives
+url=http://magiccards.info/query?q=Engineered+Explosives&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Engineered+Explosives
+timing=main
+rarity=R
+type=Artifact
+converted=0
+cost={X}{0}
+
+# TODO -- gen by neoe

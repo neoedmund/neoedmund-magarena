@@ -1,0 +1,13 @@
+>Foratog
+url=http://magiccards.info/query?q=Foratog&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Foratog
+timing=main
+rarity=U
+type=Creature
+subtype=Atog
+pt=1/2
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Fatigue
+url=http://magiccards.info/query?q=Fatigue&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Fatigue
+timing=main
+rarity=C
+type=Sorcery
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

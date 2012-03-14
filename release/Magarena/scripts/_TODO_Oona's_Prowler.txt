@@ -1,0 +1,13 @@
+>Oona's Prowler
+url=http://magiccards.info/query?q=Oona%27s+Prowler&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Oona%27s+Prowler
+timing=main
+rarity=R
+type=Creature
+subtype=Faerie,Rogue
+pt=3/1
+converted=2
+cost={1}{B}
+color=b
+
+# TODO -- gen by neoe

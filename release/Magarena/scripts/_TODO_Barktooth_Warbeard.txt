@@ -1,0 +1,13 @@
+>Barktooth Warbeard
+url=http://magiccards.info/query?q=Barktooth+Warbeard&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Barktooth+Warbeard
+timing=main
+rarity=U
+type=Legendary,Creature
+subtype=Human,Warrior
+pt=6/5
+converted=7
+cost={4}{B}{R}{R}
+color=brr
+
+# TODO -- gen by neoe

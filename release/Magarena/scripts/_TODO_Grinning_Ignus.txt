@@ -1,0 +1,13 @@
+>Grinning Ignus
+url=http://magiccards.info/query?q=Grinning+Ignus&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Grinning+Ignus
+timing=main
+rarity=C
+type=Creature
+subtype=Elemental
+pt=2/2
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Wellwisher
+url=http://magiccards.info/query?q=Wellwisher&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wellwisher
+timing=main
+rarity=C
+type=Creature
+subtype=Elf
+pt=1/1
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

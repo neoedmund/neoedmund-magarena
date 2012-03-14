@@ -1,0 +1,11 @@
+>Freyalise's Charm
+url=http://magiccards.info/query?q=Freyalise%27s+Charm&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Freyalise%27s+Charm
+timing=main
+rarity=U
+type=Enchantment
+converted=2
+cost={G}{G}
+color=gg
+
+# TODO -- gen by neoe

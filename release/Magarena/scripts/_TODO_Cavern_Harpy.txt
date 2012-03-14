@@ -1,0 +1,13 @@
+>Cavern Harpy
+url=http://magiccards.info/query?q=Cavern+Harpy&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Cavern+Harpy
+timing=main
+rarity=C
+type=Creature
+subtype=Harpy,Beast
+pt=2/1
+converted=2
+cost={U}{B}
+color=ub
+
+# TODO -- gen by neoe

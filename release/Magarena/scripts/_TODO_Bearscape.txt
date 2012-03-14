@@ -1,0 +1,11 @@
+>Bearscape
+url=http://magiccards.info/query?q=Bearscape&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Bearscape
+timing=main
+rarity=R
+type=Enchantment
+converted=3
+cost={1}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

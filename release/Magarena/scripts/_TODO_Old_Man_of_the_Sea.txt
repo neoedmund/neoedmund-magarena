@@ -1,0 +1,13 @@
+>Old Man of the Sea
+url=http://magiccards.info/query?q=Old+Man+of+the+Sea&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Old+Man+of+the+Sea
+timing=main
+rarity=U
+type=Creature
+subtype=Djinn
+pt=2/3
+converted=3
+cost={1}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

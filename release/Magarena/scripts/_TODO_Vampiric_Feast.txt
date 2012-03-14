@@ -1,0 +1,11 @@
+>Vampiric Feast
+url=http://magiccards.info/query?q=Vampiric+Feast&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Vampiric+Feast
+timing=main
+rarity=U
+type=Sorcery
+converted=7
+cost={5}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

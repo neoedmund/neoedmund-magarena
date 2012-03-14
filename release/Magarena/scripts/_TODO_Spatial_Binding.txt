@@ -1,0 +1,11 @@
+>Spatial Binding
+url=http://magiccards.info/query?q=Spatial+Binding&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Spatial+Binding
+timing=main
+rarity=U
+type=Enchantment
+converted=2
+cost={U}{B}
+color=ub
+
+# TODO -- gen by neoe

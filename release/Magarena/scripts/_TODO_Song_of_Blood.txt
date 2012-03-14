@@ -1,0 +1,11 @@
+>Song of Blood
+url=http://magiccards.info/query?q=Song+of+Blood&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Song+of+Blood
+timing=main
+rarity=C
+type=Sorcery
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

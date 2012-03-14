@@ -1,0 +1,13 @@
+>Wild Mammoth
+url=http://magiccards.info/query?q=Wild+Mammoth&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wild+Mammoth
+timing=main
+rarity=U
+type=Creature
+subtype=Elephant
+pt=3/4
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

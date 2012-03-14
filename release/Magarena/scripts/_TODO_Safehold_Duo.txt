@@ -1,0 +1,12 @@
+>Safehold Duo
+url=http://magiccards.info/query?q=Safehold+Duo&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Safehold+Duo
+timing=main
+rarity=C
+type=Creature
+subtype=Elf,Warrior,Shaman
+pt=2/4
+converted=8
+cost={3}{G/W}
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Vindictive Mob
+url=http://magiccards.info/query?q=Vindictive+Mob&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Vindictive+Mob
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Berserker
+pt=5/5
+converted=6
+cost={4}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

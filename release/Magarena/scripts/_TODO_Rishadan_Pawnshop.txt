@@ -1,0 +1,10 @@
+>Rishadan Pawnshop
+url=http://magiccards.info/query?q=Rishadan+Pawnshop&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Rishadan+Pawnshop
+timing=main
+rarity=R
+type=Artifact
+converted=2
+cost={2}
+
+# TODO -- gen by neoe

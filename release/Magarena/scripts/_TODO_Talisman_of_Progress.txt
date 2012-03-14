@@ -1,0 +1,10 @@
+>Talisman of Progress
+url=http://magiccards.info/query?q=Talisman+of+Progress&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Talisman+of+Progress
+timing=main
+rarity=U
+type=Artifact
+converted=2
+cost={2}
+
+# TODO -- gen by neoe

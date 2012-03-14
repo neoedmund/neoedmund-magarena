@@ -1,0 +1,11 @@
+>Hidden Path
+url=http://magiccards.info/query?q=Hidden+Path&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Hidden+Path
+timing=main
+rarity=U
+type=Enchantment
+converted=6
+cost={2}{G}{G}{G}{G}
+color=gggg
+
+# TODO -- gen by neoe

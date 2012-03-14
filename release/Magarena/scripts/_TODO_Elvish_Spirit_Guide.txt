@@ -1,0 +1,13 @@
+>Elvish Spirit Guide
+url=http://magiccards.info/query?q=Elvish+Spirit+Guide&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Elvish+Spirit+Guide
+timing=main
+rarity=U
+type=Creature
+subtype=Elf,Spirit
+pt=2/2
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

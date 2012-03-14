@@ -1,0 +1,13 @@
+>Sakashima the Impostor
+url=http://magiccards.info/query?q=Sakashima+the+Impostor&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sakashima+the+Impostor
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Human,Rogue
+pt=3/1
+converted=4
+cost={2}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

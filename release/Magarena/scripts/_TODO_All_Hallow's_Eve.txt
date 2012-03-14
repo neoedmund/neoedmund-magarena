@@ -1,0 +1,11 @@
+>All Hallow's Eve
+url=http://magiccards.info/query?q=All+Hallow%27s+Eve&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=All+Hallow%27s+Eve
+timing=main
+rarity=R
+type=Sorcery
+converted=4
+cost={2}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

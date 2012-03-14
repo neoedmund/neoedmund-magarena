@@ -1,0 +1,11 @@
+>Mage's Guile
+url=http://magiccards.info/query?q=Mage%27s+Guile&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mage%27s+Guile
+timing=main
+rarity=C
+type=Instant
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

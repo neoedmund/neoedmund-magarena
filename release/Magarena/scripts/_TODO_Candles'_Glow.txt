@@ -1,0 +1,11 @@
+>Candles' Glow
+url=http://magiccards.info/query?q=Candles%27+Glow&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Candles%27+Glow
+timing=main
+rarity=U
+type=Instant
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

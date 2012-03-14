@@ -1,0 +1,13 @@
+>Quicksilver Gargantuan
+url=http://magiccards.info/query?q=Quicksilver+Gargantuan&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Quicksilver+Gargantuan
+timing=main
+rarity=M
+type=Creature
+subtype=Shapeshifter
+pt=7/7
+converted=7
+cost={5}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

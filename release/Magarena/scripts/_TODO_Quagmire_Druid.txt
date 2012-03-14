@@ -1,0 +1,13 @@
+>Quagmire Druid
+url=http://magiccards.info/query?q=Quagmire+Druid&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Quagmire+Druid
+timing=main
+rarity=C
+type=Creature
+subtype=Zombie,Druid
+pt=2/2
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

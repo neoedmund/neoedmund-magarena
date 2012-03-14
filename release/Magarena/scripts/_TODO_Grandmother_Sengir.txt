@@ -1,0 +1,13 @@
+>Grandmother Sengir
+url=http://magiccards.info/query?q=Grandmother+Sengir&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Grandmother+Sengir
+timing=main
+rarity=U
+type=Legendary,Creature
+subtype=Human,Wizard
+pt=3/3
+converted=5
+cost={4}{B}
+color=b
+
+# TODO -- gen by neoe

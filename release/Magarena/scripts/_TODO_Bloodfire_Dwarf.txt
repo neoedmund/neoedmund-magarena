@@ -1,0 +1,13 @@
+>Bloodfire Dwarf
+url=http://magiccards.info/query?q=Bloodfire+Dwarf&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Bloodfire+Dwarf
+timing=main
+rarity=C
+type=Creature
+subtype=Dwarf
+pt=1/1
+converted=1
+cost={R}
+color=r
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Graphic Violence
+url=http://magiccards.info/query?q=Graphic+Violence&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Graphic+Violence
+timing=main
+rarity=C
+type=Instant
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

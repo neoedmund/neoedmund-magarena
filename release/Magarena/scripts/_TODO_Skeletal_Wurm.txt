@@ -1,0 +1,13 @@
+>Skeletal Wurm
+url=http://magiccards.info/query?q=Skeletal+Wurm&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Skeletal+Wurm
+timing=main
+rarity=U
+type=Creature
+subtype=Skeleton,Wurm
+pt=7/6
+converted=8
+cost={7}{B}
+color=b
+
+# TODO -- gen by neoe

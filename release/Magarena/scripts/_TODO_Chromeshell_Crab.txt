@@ -1,0 +1,13 @@
+>Chromeshell Crab
+url=http://magiccards.info/query?q=Chromeshell+Crab&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Chromeshell+Crab
+timing=main
+rarity=R
+type=Creature
+subtype=Crab,Beast
+pt=3/3
+converted=5
+cost={4}{U}
+color=u
+
+# TODO -- gen by neoe

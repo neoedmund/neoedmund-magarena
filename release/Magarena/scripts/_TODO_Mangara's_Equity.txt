@@ -1,0 +1,11 @@
+>Mangara's Equity
+url=http://magiccards.info/query?q=Mangara%27s+Equity&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mangara%27s+Equity
+timing=main
+rarity=U
+type=Enchantment
+converted=3
+cost={1}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Feedback Bolt
+url=http://magiccards.info/query?q=Feedback+Bolt&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Feedback+Bolt
+timing=main
+rarity=U
+type=Instant
+converted=5
+cost={4}{R}
+color=r
+
+# TODO -- gen by neoe

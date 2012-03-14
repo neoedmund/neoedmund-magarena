@@ -1,0 +1,10 @@
+>Dragon's Claw
+url=http://magiccards.info/query?q=Dragon%27s+Claw&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dragon%27s+Claw
+timing=main
+rarity=U
+type=Artifact
+converted=2
+cost={2}
+
+# TODO -- gen by neoe

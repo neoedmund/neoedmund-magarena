@@ -1,0 +1,10 @@
+>Quicksilver Fountain
+url=http://magiccards.info/query?q=Quicksilver+Fountain&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Quicksilver+Fountain
+timing=main
+rarity=R
+type=Artifact
+converted=3
+cost={3}
+
+# TODO -- gen by neoe

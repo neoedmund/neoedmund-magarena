@@ -1,0 +1,13 @@
+>Tallowisp
+url=http://magiccards.info/query?q=Tallowisp&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Tallowisp
+timing=main
+rarity=U
+type=Creature
+subtype=Spirit
+pt=1/3
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

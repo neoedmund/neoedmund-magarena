@@ -1,0 +1,11 @@
+>Teferi's Moat
+url=http://magiccards.info/query?q=Teferi%27s+Moat&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Teferi%27s+Moat
+timing=main
+rarity=R
+type=Enchantment
+converted=5
+cost={3}{W}{U}
+color=wu
+
+# TODO -- gen by neoe

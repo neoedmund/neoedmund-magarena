@@ -1,0 +1,12 @@
+>Earthlore
+url=http://magiccards.info/query?q=Earthlore&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Earthlore
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

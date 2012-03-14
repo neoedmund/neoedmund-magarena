@@ -1,0 +1,13 @@
+>Hipparion
+url=http://magiccards.info/query?q=Hipparion&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Hipparion
+timing=main
+rarity=U
+type=Creature
+subtype=Horse
+pt=1/3
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

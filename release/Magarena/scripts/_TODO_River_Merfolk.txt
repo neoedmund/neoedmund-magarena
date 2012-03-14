@@ -1,0 +1,13 @@
+>River Merfolk
+url=http://magiccards.info/query?q=River+Merfolk&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=River+Merfolk
+timing=main
+rarity=U
+type=Creature
+subtype=Merfolk
+pt=2/1
+converted=2
+cost={U}{U}
+color=uu
+
+# TODO -- gen by neoe

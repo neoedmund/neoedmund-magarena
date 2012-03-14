@@ -1,0 +1,11 @@
+>Inquisitor's Snare
+url=http://magiccards.info/query?q=Inquisitor%27s+Snare&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Inquisitor%27s+Snare
+timing=main
+rarity=C
+type=Instant
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Vastwood Animist
+url=http://magiccards.info/query?q=Vastwood+Animist&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Vastwood+Animist
+timing=main
+rarity=U
+type=Creature
+subtype=Elf,Shaman,Ally
+pt=1/1
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

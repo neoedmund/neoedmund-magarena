@@ -1,0 +1,12 @@
+>Mantle of Leadership
+url=http://magiccards.info/query?q=Mantle+of+Leadership&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mantle+of+Leadership
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

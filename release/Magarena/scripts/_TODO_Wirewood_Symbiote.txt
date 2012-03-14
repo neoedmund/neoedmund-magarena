@@ -1,0 +1,13 @@
+>Wirewood Symbiote
+url=http://magiccards.info/query?q=Wirewood+Symbiote&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wirewood+Symbiote
+timing=main
+rarity=U
+type=Creature
+subtype=Insect
+pt=1/1
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

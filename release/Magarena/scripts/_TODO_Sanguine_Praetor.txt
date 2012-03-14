@@ -1,0 +1,13 @@
+>Sanguine Praetor
+url=http://magiccards.info/query?q=Sanguine+Praetor&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sanguine+Praetor
+timing=main
+rarity=R
+type=Creature
+subtype=Avatar,Praetor
+pt=7/5
+converted=8
+cost={6}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

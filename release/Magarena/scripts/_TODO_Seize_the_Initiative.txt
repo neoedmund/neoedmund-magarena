@@ -1,0 +1,11 @@
+>Seize the Initiative
+url=http://magiccards.info/query?q=Seize+the+Initiative&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Seize+the+Initiative
+timing=main
+rarity=C
+type=Instant
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

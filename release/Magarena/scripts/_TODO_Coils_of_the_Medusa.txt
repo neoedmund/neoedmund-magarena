@@ -1,0 +1,12 @@
+>Coils of the Medusa
+url=http://magiccards.info/query?q=Coils+of+the+Medusa&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Coils+of+the+Medusa
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=2
+cost={1}{B}
+color=b
+
+# TODO -- gen by neoe

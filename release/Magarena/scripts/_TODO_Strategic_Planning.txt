@@ -1,0 +1,11 @@
+>Strategic Planning
+url=http://magiccards.info/query?q=Strategic+Planning&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Strategic+Planning
+timing=main
+rarity=U
+type=Sorcery
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

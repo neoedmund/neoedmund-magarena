@@ -1,0 +1,12 @@
+>Roterothopter
+url=http://magiccards.info/query?q=Roterothopter&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Roterothopter
+timing=main
+rarity=C
+type=Artifact,Creature
+subtype=Thopter
+pt=0/2
+converted=1
+cost={1}
+
+# TODO -- gen by neoe

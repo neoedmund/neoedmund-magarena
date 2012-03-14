@@ -1,0 +1,11 @@
+>Volcanic Wind
+url=http://magiccards.info/query?q=Volcanic+Wind&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Volcanic+Wind
+timing=main
+rarity=U
+type=Sorcery
+converted=6
+cost={4}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

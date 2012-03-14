@@ -1,0 +1,13 @@
+>Greater Harvester
+url=http://magiccards.info/query?q=Greater+Harvester&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Greater+Harvester
+timing=main
+rarity=R
+type=Creature
+subtype=Horror
+pt=5/6
+converted=5
+cost={2}{B}{B}{B}
+color=bbb
+
+# TODO -- gen by neoe

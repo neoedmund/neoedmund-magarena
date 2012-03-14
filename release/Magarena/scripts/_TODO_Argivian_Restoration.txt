@@ -1,0 +1,11 @@
+>Argivian Restoration
+url=http://magiccards.info/query?q=Argivian+Restoration&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Argivian+Restoration
+timing=main
+rarity=U
+type=Sorcery
+converted=4
+cost={2}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

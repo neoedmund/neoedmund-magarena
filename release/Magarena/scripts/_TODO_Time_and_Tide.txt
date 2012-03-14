@@ -1,0 +1,11 @@
+>Time and Tide
+url=http://magiccards.info/query?q=Time+and+Tide&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Time+and+Tide
+timing=main
+rarity=U
+type=Instant
+converted=2
+cost={U}{U}
+color=uu
+
+# TODO -- gen by neoe

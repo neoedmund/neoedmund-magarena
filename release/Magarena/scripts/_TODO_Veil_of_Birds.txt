@@ -1,0 +1,11 @@
+>Veil of Birds
+url=http://magiccards.info/query?q=Veil+of+Birds&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Veil+of+Birds
+timing=main
+rarity=C
+type=Enchantment
+converted=1
+cost={U}
+color=u
+
+# TODO -- gen by neoe

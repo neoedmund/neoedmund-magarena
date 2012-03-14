@@ -1,0 +1,10 @@
+>Fable of Wolf and Owl
+url=http://magiccards.info/query?q=Fable+of+Wolf+and+Owl&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Fable+of+Wolf+and+Owl
+timing=main
+rarity=R
+type=Enchantment
+converted=18
+cost={3}{G/U}{G/U}{G/U}
+
+# TODO -- gen by neoe

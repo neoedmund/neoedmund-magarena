@@ -1,0 +1,12 @@
+>Coal Golem
+url=http://magiccards.info/query?q=Coal+Golem&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Coal+Golem
+timing=main
+rarity=U
+type=Artifact,Creature
+subtype=Golem
+pt=3/3
+converted=5
+cost={5}
+
+# TODO -- gen by neoe

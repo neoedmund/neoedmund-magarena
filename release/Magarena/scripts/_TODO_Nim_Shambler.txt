@@ -1,0 +1,13 @@
+>Nim Shambler
+url=http://magiccards.info/query?q=Nim+Shambler&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Nim+Shambler
+timing=main
+rarity=U
+type=Creature
+subtype=Zombie
+pt=2/1
+converted=4
+cost={2}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

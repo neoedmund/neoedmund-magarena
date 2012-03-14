@@ -1,0 +1,11 @@
+>Chaos Moon
+url=http://magiccards.info/query?q=Chaos+Moon&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Chaos+Moon
+timing=main
+rarity=R
+type=Enchantment
+converted=4
+cost={3}{R}
+color=r
+
+# TODO -- gen by neoe

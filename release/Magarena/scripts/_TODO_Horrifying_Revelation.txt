@@ -1,0 +1,11 @@
+>Horrifying Revelation
+url=http://magiccards.info/query?q=Horrifying+Revelation&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Horrifying+Revelation
+timing=main
+rarity=C
+type=Sorcery
+converted=1
+cost={B}
+color=b
+
+# TODO -- gen by neoe

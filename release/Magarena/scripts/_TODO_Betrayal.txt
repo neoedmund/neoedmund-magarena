@@ -1,0 +1,12 @@
+>Betrayal
+url=http://magiccards.info/query?q=Betrayal&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Betrayal
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=1
+cost={U}
+color=u
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Dematerialize
+url=http://magiccards.info/query?q=Dematerialize&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dematerialize
+timing=main
+rarity=C
+type=Sorcery
+converted=4
+cost={3}{U}
+color=u
+
+# TODO -- gen by neoe

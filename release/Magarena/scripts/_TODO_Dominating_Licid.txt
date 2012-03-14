@@ -1,0 +1,13 @@
+>Dominating Licid
+url=http://magiccards.info/query?q=Dominating+Licid&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dominating+Licid
+timing=main
+rarity=R
+type=Creature
+subtype=Licid
+pt=1/1
+converted=3
+cost={1}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

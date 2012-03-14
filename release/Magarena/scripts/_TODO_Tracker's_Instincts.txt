@@ -1,0 +1,11 @@
+>Tracker's Instincts
+url=http://magiccards.info/query?q=Tracker%27s+Instincts&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Tracker%27s+Instincts
+timing=main
+rarity=U
+type=Sorcery
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

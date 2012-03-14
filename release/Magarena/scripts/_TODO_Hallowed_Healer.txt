@@ -1,0 +1,13 @@
+>Hallowed Healer
+url=http://magiccards.info/query?q=Hallowed+Healer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Hallowed+Healer
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Cleric
+pt=1/1
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

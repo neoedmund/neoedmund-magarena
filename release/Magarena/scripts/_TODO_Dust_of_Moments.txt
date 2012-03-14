@@ -1,0 +1,11 @@
+>Dust of Moments
+url=http://magiccards.info/query?q=Dust+of+Moments&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dust+of+Moments
+timing=main
+rarity=U
+type=Instant
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

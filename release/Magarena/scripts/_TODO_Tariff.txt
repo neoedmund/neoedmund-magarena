@@ -1,0 +1,11 @@
+>Tariff
+url=http://magiccards.info/query?q=Tariff&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Tariff
+timing=main
+rarity=R
+type=Sorcery
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

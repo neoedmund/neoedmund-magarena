@@ -1,0 +1,12 @@
+>Keldon Battlewagon
+url=http://magiccards.info/query?q=Keldon+Battlewagon&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Keldon+Battlewagon
+timing=main
+rarity=R
+type=Artifact,Creature
+subtype=Juggernaut
+pt=0/3
+converted=5
+cost={5}
+
+# TODO -- gen by neoe

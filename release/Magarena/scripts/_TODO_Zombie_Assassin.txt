@@ -1,0 +1,13 @@
+>Zombie Assassin
+url=http://magiccards.info/query?q=Zombie+Assassin&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Zombie+Assassin
+timing=main
+rarity=C
+type=Creature
+subtype=Zombie,Assassin
+pt=3/2
+converted=5
+cost={4}{B}
+color=b
+
+# TODO -- gen by neoe

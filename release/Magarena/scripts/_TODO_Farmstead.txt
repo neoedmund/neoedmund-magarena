@@ -1,0 +1,12 @@
+>Farmstead
+url=http://magiccards.info/query?q=Farmstead&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Farmstead
+timing=main
+rarity=R
+type=Enchantment
+subtype=Aura
+converted=3
+cost={W}{W}{W}
+color=www
+
+# TODO -- gen by neoe

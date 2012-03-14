@@ -1,0 +1,13 @@
+>Giant Dustwasp
+url=http://magiccards.info/query?q=Giant+Dustwasp&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Giant+Dustwasp
+timing=main
+rarity=C
+type=Creature
+subtype=Insect
+pt=3/3
+converted=5
+cost={3}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

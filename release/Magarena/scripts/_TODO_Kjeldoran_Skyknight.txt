@@ -1,0 +1,13 @@
+>Kjeldoran Skyknight
+url=http://magiccards.info/query?q=Kjeldoran+Skyknight&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Kjeldoran+Skyknight
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Knight
+pt=1/1
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

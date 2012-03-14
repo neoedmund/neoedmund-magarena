@@ -1,0 +1,11 @@
+>Cloak of Feathers
+url=http://magiccards.info/query?q=Cloak+of+Feathers&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Cloak+of+Feathers
+timing=main
+rarity=C
+type=Sorcery
+converted=1
+cost={U}
+color=u
+
+# TODO -- gen by neoe

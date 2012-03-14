@@ -1,0 +1,13 @@
+>Silent Specter
+url=http://magiccards.info/query?q=Silent+Specter&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Silent+Specter
+timing=main
+rarity=R
+type=Creature
+subtype=Specter
+pt=4/4
+converted=6
+cost={4}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

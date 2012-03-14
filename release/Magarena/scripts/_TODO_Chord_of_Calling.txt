@@ -1,0 +1,11 @@
+>Chord of Calling
+url=http://magiccards.info/query?q=Chord+of+Calling&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Chord+of+Calling
+timing=main
+rarity=R
+type=Instant
+converted=3
+cost={X}{G}{G}{G}
+color=ggg
+
+# TODO -- gen by neoe

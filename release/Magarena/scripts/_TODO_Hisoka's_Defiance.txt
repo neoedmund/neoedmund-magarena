@@ -1,0 +1,11 @@
+>Hisoka's Defiance
+url=http://magiccards.info/query?q=Hisoka%27s+Defiance&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Hisoka%27s+Defiance
+timing=main
+rarity=C
+type=Instant
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

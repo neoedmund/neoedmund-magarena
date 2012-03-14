@@ -1,0 +1,13 @@
+>Razorfin Abolisher
+url=http://magiccards.info/query?q=Razorfin+Abolisher&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Razorfin+Abolisher
+timing=main
+rarity=U
+type=Creature
+subtype=Merfolk,Wizard
+pt=2/2
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

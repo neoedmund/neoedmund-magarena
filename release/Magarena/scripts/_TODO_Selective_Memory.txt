@@ -1,0 +1,11 @@
+>Selective Memory
+url=http://magiccards.info/query?q=Selective+Memory&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Selective+Memory
+timing=main
+rarity=R
+type=Sorcery
+converted=4
+cost={3}{U}
+color=u
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Trailblazer's Boots
+url=http://magiccards.info/query?q=Trailblazer%27s+Boots&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Trailblazer%27s+Boots
+timing=main
+rarity=U
+type=Artifact
+subtype=Equipment
+converted=2
+cost={2}
+
+# TODO -- gen by neoe

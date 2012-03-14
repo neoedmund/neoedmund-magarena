@@ -1,0 +1,11 @@
+>Scent of Brine
+url=http://magiccards.info/query?q=Scent+of+Brine&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Scent+of+Brine
+timing=main
+rarity=C
+type=Instant
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

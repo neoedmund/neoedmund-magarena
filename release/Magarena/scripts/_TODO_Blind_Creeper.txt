@@ -1,0 +1,13 @@
+>Blind Creeper
+url=http://magiccards.info/query?q=Blind+Creeper&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Blind+Creeper
+timing=main
+rarity=C
+type=Creature
+subtype=Zombie,Beast
+pt=3/3
+converted=2
+cost={1}{B}
+color=b
+
+# TODO -- gen by neoe

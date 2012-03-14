@@ -1,0 +1,13 @@
+>Smokespew Invoker
+url=http://magiccards.info/query?q=Smokespew+Invoker&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Smokespew+Invoker
+timing=main
+rarity=C
+type=Creature
+subtype=Zombie,Mutant
+pt=3/1
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Havoc
+url=http://magiccards.info/query?q=Havoc&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Havoc
+timing=main
+rarity=U
+type=Enchantment
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

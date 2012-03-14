@@ -1,0 +1,13 @@
+>Wurmskin Forger
+url=http://magiccards.info/query?q=Wurmskin+Forger&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wurmskin+Forger
+timing=main
+rarity=C
+type=Creature
+subtype=Elf,Warrior
+pt=2/2
+converted=7
+cost={5}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

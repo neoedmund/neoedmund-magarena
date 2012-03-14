@@ -1,0 +1,13 @@
+>Crypt Ripper
+url=http://magiccards.info/query?q=Crypt+Ripper&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Crypt+Ripper
+timing=main
+rarity=C
+type=Creature
+subtype=Shade
+pt=2/2
+converted=4
+cost={2}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

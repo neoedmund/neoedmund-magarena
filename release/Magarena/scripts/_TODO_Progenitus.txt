@@ -1,0 +1,13 @@
+>Progenitus
+url=http://magiccards.info/query?q=Progenitus&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Progenitus
+timing=main
+rarity=M
+type=Legendary,Creature
+subtype=Hydra,Avatar
+pt=10/10
+converted=10
+cost={W}{W}{U}{U}{B}{B}{R}{R}{G}{G}
+color=wwuubbrrgg
+
+# TODO -- gen by neoe

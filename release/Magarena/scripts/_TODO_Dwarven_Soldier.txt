@@ -1,0 +1,13 @@
+>Dwarven Soldier
+url=http://magiccards.info/query?q=Dwarven+Soldier&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dwarven+Soldier
+timing=main
+rarity=C
+type=Creature
+subtype=Dwarf,Soldier
+pt=2/1
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

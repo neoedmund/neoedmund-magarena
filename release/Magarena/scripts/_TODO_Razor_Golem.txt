@@ -1,0 +1,12 @@
+>Razor Golem
+url=http://magiccards.info/query?q=Razor+Golem&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Razor+Golem
+timing=main
+rarity=C
+type=Artifact,Creature
+subtype=Golem
+pt=3/4
+converted=6
+cost={6}
+
+# TODO -- gen by neoe

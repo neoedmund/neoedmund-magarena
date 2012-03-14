@@ -1,0 +1,11 @@
+>Martyrs' Tomb
+url=http://magiccards.info/query?q=Martyrs%27+Tomb&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Martyrs%27+Tomb
+timing=main
+rarity=U
+type=Enchantment
+converted=4
+cost={2}{W}{B}
+color=wb
+
+# TODO -- gen by neoe

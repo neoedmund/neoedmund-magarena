@@ -1,0 +1,13 @@
+>Walking Sponge
+url=http://magiccards.info/query?q=Walking+Sponge&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Walking+Sponge
+timing=main
+rarity=U
+type=Creature
+subtype=Sponge
+pt=1/1
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Ayesha Tanaka
+url=http://magiccards.info/query?q=Ayesha+Tanaka&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ayesha+Tanaka
+timing=main
+rarity=U
+type=Legendary,Creature
+subtype=Human,Artificer
+pt=2/2
+converted=4
+cost={W}{W}{U}{U}
+color=wwuu
+
+# TODO -- gen by neoe

@@ -1,0 +1,12 @@
+>Orcish Mine
+url=http://magiccards.info/query?q=Orcish+Mine&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Orcish+Mine
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=3
+cost={1}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

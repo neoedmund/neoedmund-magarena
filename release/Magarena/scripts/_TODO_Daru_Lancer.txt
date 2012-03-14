@@ -1,0 +1,13 @@
+>Daru Lancer
+url=http://magiccards.info/query?q=Daru+Lancer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Daru+Lancer
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Soldier
+pt=3/4
+converted=6
+cost={4}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

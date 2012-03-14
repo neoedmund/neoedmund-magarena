@@ -1,0 +1,11 @@
+>Spellbinder
+url=http://magiccards.info/query?q=Spellbinder&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Spellbinder
+timing=main
+rarity=R
+type=Artifact
+subtype=Equipment
+converted=3
+cost={3}
+
+# TODO -- gen by neoe

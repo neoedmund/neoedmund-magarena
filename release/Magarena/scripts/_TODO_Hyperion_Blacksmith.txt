@@ -1,0 +1,13 @@
+>Hyperion Blacksmith
+url=http://magiccards.info/query?q=Hyperion+Blacksmith&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Hyperion+Blacksmith
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Artificer
+pt=2/2
+converted=3
+cost={1}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

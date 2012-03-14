@@ -1,0 +1,10 @@
+>Orochi Hatchery
+url=http://magiccards.info/query?q=Orochi+Hatchery&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Orochi+Hatchery
+timing=main
+rarity=R
+type=Artifact
+converted=1
+cost={X}{X}{0}
+
+# TODO -- gen by neoe

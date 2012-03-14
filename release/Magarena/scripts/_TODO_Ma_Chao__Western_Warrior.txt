@@ -1,0 +1,13 @@
+>Ma Chao, Western Warrior
+url=http://magiccards.info/query?q=Ma+Chao%2C+Western+Warrior&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ma+Chao%2C+Western+Warrior
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Human,Soldier,Warrior
+pt=3/3
+converted=5
+cost={3}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

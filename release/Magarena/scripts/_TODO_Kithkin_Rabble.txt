@@ -1,0 +1,12 @@
+>Kithkin Rabble
+url=http://magiccards.info/query?q=Kithkin+Rabble&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Kithkin+Rabble
+timing=main
+rarity=U
+type=Creature
+subtype=Kithkin
+converted=4
+cost={3}{W}
+color=w
+
+# TODO -- gen by neoe

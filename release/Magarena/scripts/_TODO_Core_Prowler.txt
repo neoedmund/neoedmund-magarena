@@ -1,0 +1,12 @@
+>Core Prowler
+url=http://magiccards.info/query?q=Core+Prowler&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Core+Prowler
+timing=main
+rarity=U
+type=Artifact,Creature
+subtype=Horror
+pt=2/2
+converted=4
+cost={4}
+
+# TODO -- gen by neoe

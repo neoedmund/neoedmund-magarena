@@ -1,0 +1,13 @@
+>Shambling Swarm
+url=http://magiccards.info/query?q=Shambling+Swarm&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Shambling+Swarm
+timing=main
+rarity=R
+type=Creature
+subtype=Horror
+pt=3/3
+converted=4
+cost={1}{B}{B}{B}
+color=bbb
+
+# TODO -- gen by neoe

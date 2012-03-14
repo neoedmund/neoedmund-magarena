@@ -1,0 +1,13 @@
+>Vengevine
+url=http://magiccards.info/query?q=Vengevine&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Vengevine
+timing=main
+rarity=M
+type=Creature
+subtype=Elemental
+pt=4/3
+converted=4
+cost={2}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

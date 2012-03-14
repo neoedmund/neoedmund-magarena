@@ -1,0 +1,11 @@
+>Heartbeat of Spring
+url=http://magiccards.info/query?q=Heartbeat+of+Spring&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Heartbeat+of+Spring
+timing=main
+rarity=R
+type=Enchantment
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

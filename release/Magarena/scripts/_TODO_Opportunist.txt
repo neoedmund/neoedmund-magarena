@@ -1,0 +1,13 @@
+>Opportunist
+url=http://magiccards.info/query?q=Opportunist&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Opportunist
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Soldier
+pt=2/2
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Blood Tyrant
+url=http://magiccards.info/query?q=Blood+Tyrant&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Blood+Tyrant
+timing=main
+rarity=R
+type=Creature
+subtype=Vampire
+pt=5/5
+converted=7
+cost={4}{U}{B}{R}
+color=ubr
+
+# TODO -- gen by neoe

@@ -1,0 +1,12 @@
+>Wings of Aesthir
+url=http://magiccards.info/query?q=Wings+of+Aesthir&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wings+of+Aesthir
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=2
+cost={W}{U}
+color=wu
+
+# TODO -- gen by neoe

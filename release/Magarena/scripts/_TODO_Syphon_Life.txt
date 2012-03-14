@@ -1,0 +1,11 @@
+>Syphon Life
+url=http://magiccards.info/query?q=Syphon+Life&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Syphon+Life
+timing=main
+rarity=U
+type=Sorcery
+converted=3
+cost={1}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

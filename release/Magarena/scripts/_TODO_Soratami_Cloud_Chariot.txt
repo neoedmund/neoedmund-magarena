@@ -1,0 +1,10 @@
+>Soratami Cloud Chariot
+url=http://magiccards.info/query?q=Soratami+Cloud+Chariot&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Soratami+Cloud+Chariot
+timing=main
+rarity=U
+type=Artifact
+converted=5
+cost={5}
+
+# TODO -- gen by neoe

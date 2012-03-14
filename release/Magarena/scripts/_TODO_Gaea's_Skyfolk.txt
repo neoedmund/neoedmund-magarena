@@ -1,0 +1,13 @@
+>Gaea's Skyfolk
+url=http://magiccards.info/query?q=Gaea%27s+Skyfolk&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Gaea%27s+Skyfolk
+timing=main
+rarity=C
+type=Creature
+subtype=Elf,Merfolk
+pt=2/2
+converted=2
+cost={G}{U}
+color=gu
+
+# TODO -- gen by neoe

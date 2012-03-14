@@ -1,0 +1,13 @@
+>Spellgorger Barbarian
+url=http://magiccards.info/query?q=Spellgorger+Barbarian&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Spellgorger+Barbarian
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Nightmare,Barbarian
+pt=3/1
+converted=4
+cost={3}{R}
+color=r
+
+# TODO -- gen by neoe

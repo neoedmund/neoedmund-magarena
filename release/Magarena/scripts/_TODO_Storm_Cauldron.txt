@@ -1,0 +1,10 @@
+>Storm Cauldron
+url=http://magiccards.info/query?q=Storm+Cauldron&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Storm+Cauldron
+timing=main
+rarity=R
+type=Artifact
+converted=5
+cost={5}
+
+# TODO -- gen by neoe

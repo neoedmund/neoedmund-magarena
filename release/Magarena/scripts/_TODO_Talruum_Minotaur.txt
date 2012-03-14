@@ -1,0 +1,13 @@
+>Talruum Minotaur
+url=http://magiccards.info/query?q=Talruum+Minotaur&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Talruum+Minotaur
+timing=main
+rarity=C
+type=Creature
+subtype=Minotaur,Berserker
+pt=3/3
+converted=4
+cost={2}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

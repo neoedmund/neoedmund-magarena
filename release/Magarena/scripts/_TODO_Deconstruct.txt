@@ -1,0 +1,11 @@
+>Deconstruct
+url=http://magiccards.info/query?q=Deconstruct&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Deconstruct
+timing=main
+rarity=C
+type=Sorcery
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

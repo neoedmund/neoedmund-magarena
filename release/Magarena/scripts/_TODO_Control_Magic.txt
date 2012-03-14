@@ -1,0 +1,12 @@
+>Control Magic
+url=http://magiccards.info/query?q=Control+Magic&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Control+Magic
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=4
+cost={2}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

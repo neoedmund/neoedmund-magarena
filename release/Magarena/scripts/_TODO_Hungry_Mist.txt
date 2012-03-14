@@ -1,0 +1,13 @@
+>Hungry Mist
+url=http://magiccards.info/query?q=Hungry+Mist&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Hungry+Mist
+timing=main
+rarity=C
+type=Creature
+subtype=Elemental
+pt=6/2
+converted=4
+cost={2}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

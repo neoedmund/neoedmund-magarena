@@ -1,0 +1,13 @@
+>Zuberi, Golden Feather
+url=http://magiccards.info/query?q=Zuberi%2C+Golden+Feather&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Zuberi%2C+Golden+Feather
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Griffin
+pt=3/3
+converted=5
+cost={4}{W}
+color=w
+
+# TODO -- gen by neoe

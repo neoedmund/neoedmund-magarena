@@ -1,0 +1,11 @@
+>Compulsive Research
+url=http://magiccards.info/query?q=Compulsive+Research&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Compulsive+Research
+timing=main
+rarity=C
+type=Sorcery
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

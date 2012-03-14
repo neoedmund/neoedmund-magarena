@@ -1,0 +1,11 @@
+>Violent Eruption
+url=http://magiccards.info/query?q=Violent+Eruption&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Violent+Eruption
+timing=main
+rarity=U
+type=Instant
+converted=4
+cost={1}{R}{R}{R}
+color=rrr
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Scrapyard Salvo
+url=http://magiccards.info/query?q=Scrapyard+Salvo&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Scrapyard+Salvo
+timing=main
+rarity=C
+type=Sorcery
+converted=3
+cost={1}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

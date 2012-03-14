@@ -1,0 +1,11 @@
+>Seedling Charm
+url=http://magiccards.info/query?q=Seedling+Charm&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Seedling+Charm
+timing=main
+rarity=C
+type=Instant
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

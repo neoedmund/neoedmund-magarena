@@ -1,0 +1,12 @@
+>Clutch of Undeath
+url=http://magiccards.info/query?q=Clutch+of+Undeath&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Clutch+of+Undeath
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=5
+cost={3}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

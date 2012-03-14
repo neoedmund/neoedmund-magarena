@@ -1,0 +1,11 @@
+>Remove Enchantments
+url=http://magiccards.info/query?q=Remove+Enchantments&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Remove+Enchantments
+timing=main
+rarity=C
+type=Instant
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

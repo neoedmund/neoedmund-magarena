@@ -1,0 +1,13 @@
+>Mistfolk
+url=http://magiccards.info/query?q=Mistfolk&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mistfolk
+timing=main
+rarity=C
+type=Creature
+subtype=Illusion
+pt=1/2
+converted=2
+cost={U}{U}
+color=uu
+
+# TODO -- gen by neoe

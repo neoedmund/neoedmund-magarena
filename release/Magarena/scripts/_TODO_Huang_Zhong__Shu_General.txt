@@ -1,0 +1,13 @@
+>Huang Zhong, Shu General
+url=http://magiccards.info/query?q=Huang+Zhong%2C+Shu+General&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Huang+Zhong%2C+Shu+General
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Human,Soldier
+pt=2/3
+converted=4
+cost={2}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

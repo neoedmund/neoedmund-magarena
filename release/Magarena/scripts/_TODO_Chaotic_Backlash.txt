@@ -1,0 +1,11 @@
+>Chaotic Backlash
+url=http://magiccards.info/query?q=Chaotic+Backlash&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Chaotic+Backlash
+timing=main
+rarity=U
+type=Instant
+converted=5
+cost={4}{R}
+color=r
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Marsh Crocodile
+url=http://magiccards.info/query?q=Marsh+Crocodile&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Marsh+Crocodile
+timing=main
+rarity=U
+type=Creature
+subtype=Crocodile
+pt=4/4
+converted=4
+cost={2}{U}{B}
+color=ub
+
+# TODO -- gen by neoe

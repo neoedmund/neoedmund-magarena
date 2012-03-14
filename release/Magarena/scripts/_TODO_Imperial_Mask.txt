@@ -1,0 +1,11 @@
+>Imperial Mask
+url=http://magiccards.info/query?q=Imperial+Mask&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Imperial+Mask
+timing=main
+rarity=R
+type=Enchantment
+converted=5
+cost={4}{W}
+color=w
+
+# TODO -- gen by neoe

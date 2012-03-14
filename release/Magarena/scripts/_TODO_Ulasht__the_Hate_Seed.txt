@@ -1,0 +1,13 @@
+>Ulasht, the Hate Seed
+url=http://magiccards.info/query?q=Ulasht%2C+the+Hate+Seed&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ulasht%2C+the+Hate+Seed
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Hellion,Hydra
+pt=0/0
+converted=4
+cost={2}{R}{G}
+color=rg
+
+# TODO -- gen by neoe

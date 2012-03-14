@@ -1,0 +1,13 @@
+>Mogg Conscripts
+url=http://magiccards.info/query?q=Mogg+Conscripts&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mogg+Conscripts
+timing=main
+rarity=C
+type=Creature
+subtype=Goblin
+pt=2/2
+converted=1
+cost={R}
+color=r
+
+# TODO -- gen by neoe

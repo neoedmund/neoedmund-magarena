@@ -1,0 +1,11 @@
+>Firestorm
+url=http://magiccards.info/query?q=Firestorm&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Firestorm
+timing=main
+rarity=R
+type=Instant
+converted=1
+cost={R}
+color=r
+
+# TODO -- gen by neoe

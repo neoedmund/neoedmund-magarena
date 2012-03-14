@@ -1,0 +1,11 @@
+>Reckless Spite
+url=http://magiccards.info/query?q=Reckless+Spite&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Reckless+Spite
+timing=main
+rarity=U
+type=Instant
+converted=3
+cost={1}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

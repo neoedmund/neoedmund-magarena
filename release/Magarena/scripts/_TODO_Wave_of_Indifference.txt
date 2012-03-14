@@ -1,0 +1,11 @@
+>Wave of Indifference
+url=http://magiccards.info/query?q=Wave+of+Indifference&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wave+of+Indifference
+timing=main
+rarity=C
+type=Sorcery
+converted=1
+cost={X}{R}
+color=r
+
+# TODO -- gen by neoe

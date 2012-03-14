@@ -1,0 +1,13 @@
+>Escaped Shapeshifter
+url=http://magiccards.info/query?q=Escaped+Shapeshifter&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Escaped+Shapeshifter
+timing=main
+rarity=R
+type=Creature
+subtype=Shapeshifter
+pt=3/4
+converted=5
+cost={3}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

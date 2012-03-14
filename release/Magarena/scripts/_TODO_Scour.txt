@@ -1,0 +1,11 @@
+>Scour
+url=http://magiccards.info/query?q=Scour&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Scour
+timing=main
+rarity=U
+type=Instant
+converted=4
+cost={2}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

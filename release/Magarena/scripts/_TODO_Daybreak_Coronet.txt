@@ -1,0 +1,12 @@
+>Daybreak Coronet
+url=http://magiccards.info/query?q=Daybreak+Coronet&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Daybreak+Coronet
+timing=main
+rarity=R
+type=Enchantment
+subtype=Aura
+converted=2
+cost={W}{W}
+color=ww
+
+# TODO -- gen by neoe

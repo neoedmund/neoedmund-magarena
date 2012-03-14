@@ -1,0 +1,10 @@
+>Liar's Pendulum
+url=http://magiccards.info/query?q=Liar%27s+Pendulum&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Liar%27s+Pendulum
+timing=main
+rarity=R
+type=Artifact
+converted=1
+cost={1}
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Veteran Bodyguard
+url=http://magiccards.info/query?q=Veteran+Bodyguard&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Veteran+Bodyguard
+timing=main
+rarity=R
+type=Creature
+subtype=Human
+pt=2/5
+converted=5
+cost={3}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

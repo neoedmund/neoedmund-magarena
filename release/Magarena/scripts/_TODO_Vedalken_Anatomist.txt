@@ -1,0 +1,13 @@
+>Vedalken Anatomist
+url=http://magiccards.info/query?q=Vedalken+Anatomist&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Vedalken+Anatomist
+timing=main
+rarity=U
+type=Creature
+subtype=Vedalken,Wizard
+pt=1/2
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

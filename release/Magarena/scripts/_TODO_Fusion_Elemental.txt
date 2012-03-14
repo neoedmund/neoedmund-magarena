@@ -1,0 +1,13 @@
+>Fusion Elemental
+url=http://magiccards.info/query?q=Fusion+Elemental&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Fusion+Elemental
+timing=main
+rarity=U
+type=Creature
+subtype=Elemental
+pt=8/8
+converted=5
+cost={W}{U}{B}{R}{G}
+color=wubrg
+
+# TODO -- gen by neoe

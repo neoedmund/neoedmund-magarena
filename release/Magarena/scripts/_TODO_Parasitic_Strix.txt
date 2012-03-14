@@ -1,0 +1,13 @@
+>Parasitic Strix
+url=http://magiccards.info/query?q=Parasitic+Strix&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Parasitic+Strix
+timing=main
+rarity=C
+type=Artifact,Creature
+subtype=Bird
+pt=2/2
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

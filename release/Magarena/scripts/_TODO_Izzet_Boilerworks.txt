@@ -1,0 +1,10 @@
+>Izzet Boilerworks
+url=http://magiccards.info/query?q=Izzet+Boilerworks&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Izzet+Boilerworks
+timing=main
+rarity=C
+type=Land
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

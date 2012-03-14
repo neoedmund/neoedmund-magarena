@@ -1,0 +1,13 @@
+>Soltari Guerrillas
+url=http://magiccards.info/query?q=Soltari+Guerrillas&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Soltari+Guerrillas
+timing=main
+rarity=R
+type=Creature
+subtype=Soltari,Soldier
+pt=3/2
+converted=4
+cost={2}{W}{R}
+color=wr
+
+# TODO -- gen by neoe

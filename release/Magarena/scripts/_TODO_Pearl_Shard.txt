@@ -1,0 +1,10 @@
+>Pearl Shard
+url=http://magiccards.info/query?q=Pearl+Shard&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Pearl+Shard
+timing=main
+rarity=U
+type=Artifact
+converted=3
+cost={3}
+
+# TODO -- gen by neoe

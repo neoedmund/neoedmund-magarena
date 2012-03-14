@@ -1,0 +1,11 @@
+>Filigree Fracture
+url=http://magiccards.info/query?q=Filigree+Fracture&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Filigree+Fracture
+timing=main
+rarity=U
+type=Instant
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

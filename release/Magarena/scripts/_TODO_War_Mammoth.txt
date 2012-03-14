@@ -1,0 +1,13 @@
+>War Mammoth
+url=http://magiccards.info/query?q=War+Mammoth&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=War+Mammoth
+timing=main
+rarity=C
+type=Creature
+subtype=Elephant
+pt=3/3
+converted=4
+cost={3}{G}
+color=g
+
+# TODO -- gen by neoe

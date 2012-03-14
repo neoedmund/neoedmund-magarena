@@ -1,0 +1,11 @@
+>Sulfurous Blast
+url=http://magiccards.info/query?q=Sulfurous+Blast&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sulfurous+Blast
+timing=main
+rarity=U
+type=Instant
+converted=4
+cost={2}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

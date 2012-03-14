@@ -1,0 +1,13 @@
+>Belfry Spirit
+url=http://magiccards.info/query?q=Belfry+Spirit&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Belfry+Spirit
+timing=main
+rarity=U
+type=Creature
+subtype=Spirit
+pt=1/1
+converted=5
+cost={3}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

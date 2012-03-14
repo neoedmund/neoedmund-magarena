@@ -1,0 +1,11 @@
+>Hydroblast
+url=http://magiccards.info/query?q=Hydroblast&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Hydroblast
+timing=main
+rarity=U
+type=Instant
+converted=1
+cost={U}
+color=u
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Woodcloaker
+url=http://magiccards.info/query?q=Woodcloaker&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Woodcloaker
+timing=main
+rarity=C
+type=Creature
+subtype=Elf
+pt=3/3
+converted=6
+cost={5}{G}
+color=g
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Dune-Brood Nephilim
+url=http://magiccards.info/query?q=Dune-Brood+Nephilim&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dune-Brood+Nephilim
+timing=main
+rarity=R
+type=Creature
+subtype=Nephilim
+pt=3/3
+converted=4
+cost={B}{R}{G}{W}
+color=brgw
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Knight of Dawn
+url=http://magiccards.info/query?q=Knight+of+Dawn&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Knight+of+Dawn
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Knight
+pt=2/2
+converted=3
+cost={1}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

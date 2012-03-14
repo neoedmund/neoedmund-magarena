@@ -1,0 +1,13 @@
+>Revenant Patriarch
+url=http://magiccards.info/query?q=Revenant+Patriarch&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Revenant+Patriarch
+timing=main
+rarity=U
+type=Creature
+subtype=Spirit
+pt=4/3
+converted=5
+cost={4}{B}
+color=b
+
+# TODO -- gen by neoe

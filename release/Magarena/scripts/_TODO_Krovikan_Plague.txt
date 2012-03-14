@@ -1,0 +1,12 @@
+>Krovikan Plague
+url=http://magiccards.info/query?q=Krovikan+Plague&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Krovikan+Plague
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

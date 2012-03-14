@@ -1,0 +1,11 @@
+>Worms of the Earth
+url=http://magiccards.info/query?q=Worms+of+the+Earth&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Worms+of+the+Earth
+timing=main
+rarity=U
+type=Enchantment
+converted=5
+cost={2}{B}{B}{B}
+color=bbb
+
+# TODO -- gen by neoe

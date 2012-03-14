@@ -1,0 +1,12 @@
+>Reflexes
+url=http://magiccards.info/query?q=Reflexes&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Reflexes
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=1
+cost={R}
+color=r
+
+# TODO -- gen by neoe

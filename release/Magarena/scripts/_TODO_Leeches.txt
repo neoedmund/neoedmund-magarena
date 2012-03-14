@@ -1,0 +1,11 @@
+>Leeches
+url=http://magiccards.info/query?q=Leeches&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Leeches
+timing=main
+rarity=U
+type=Sorcery
+converted=3
+cost={1}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

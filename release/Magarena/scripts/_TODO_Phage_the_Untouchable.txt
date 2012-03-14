@@ -1,0 +1,13 @@
+>Phage the Untouchable
+url=http://magiccards.info/query?q=Phage+the+Untouchable&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Phage+the+Untouchable
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Zombie,Minion
+pt=4/4
+converted=7
+cost={3}{B}{B}{B}{B}
+color=bbbb
+
+# TODO -- gen by neoe

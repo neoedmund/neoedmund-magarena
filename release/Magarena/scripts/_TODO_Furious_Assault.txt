@@ -1,0 +1,11 @@
+>Furious Assault
+url=http://magiccards.info/query?q=Furious+Assault&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Furious+Assault
+timing=main
+rarity=C
+type=Enchantment
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

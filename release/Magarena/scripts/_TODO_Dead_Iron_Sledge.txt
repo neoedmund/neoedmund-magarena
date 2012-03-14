@@ -1,0 +1,11 @@
+>Dead-Iron Sledge
+url=http://magiccards.info/query?q=Dead-Iron+Sledge&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dead-Iron+Sledge
+timing=main
+rarity=U
+type=Artifact
+subtype=Equipment
+converted=1
+cost={1}
+
+# TODO -- gen by neoe

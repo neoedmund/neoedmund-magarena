@@ -1,0 +1,12 @@
+>Auramancer's Guise
+url=http://magiccards.info/query?q=Auramancer%27s+Guise&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Auramancer%27s+Guise
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=4
+cost={2}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

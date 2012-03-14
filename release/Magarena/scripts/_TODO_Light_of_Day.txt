@@ -1,0 +1,11 @@
+>Light of Day
+url=http://magiccards.info/query?q=Light+of+Day&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Light+of+Day
+timing=main
+rarity=U
+type=Enchantment
+converted=4
+cost={3}{W}
+color=w
+
+# TODO -- gen by neoe

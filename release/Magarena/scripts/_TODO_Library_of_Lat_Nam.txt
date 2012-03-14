@@ -1,0 +1,11 @@
+>Library of Lat-Nam
+url=http://magiccards.info/query?q=Library+of+Lat-Nam&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Library+of+Lat-Nam
+timing=main
+rarity=R
+type=Sorcery
+converted=5
+cost={4}{U}
+color=u
+
+# TODO -- gen by neoe

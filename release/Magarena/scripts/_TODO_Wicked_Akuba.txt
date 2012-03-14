@@ -1,0 +1,13 @@
+>Wicked Akuba
+url=http://magiccards.info/query?q=Wicked+Akuba&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wicked+Akuba
+timing=main
+rarity=C
+type=Creature
+subtype=Spirit
+pt=2/2
+converted=2
+cost={B}{B}
+color=bb
+
+# TODO -- gen by neoe

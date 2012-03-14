@@ -1,0 +1,12 @@
+>Breath of Fury
+url=http://magiccards.info/query?q=Breath+of+Fury&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Breath+of+Fury
+timing=main
+rarity=R
+type=Enchantment
+subtype=Aura
+converted=4
+cost={2}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

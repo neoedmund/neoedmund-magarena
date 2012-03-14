@@ -1,0 +1,13 @@
+>Emberwilde Djinn
+url=http://magiccards.info/query?q=Emberwilde+Djinn&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Emberwilde+Djinn
+timing=main
+rarity=R
+type=Creature
+subtype=Djinn
+pt=5/4
+converted=4
+cost={2}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Dream's Grip
+url=http://magiccards.info/query?q=Dream%27s+Grip&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dream%27s+Grip
+timing=main
+rarity=C
+type=Instant
+converted=1
+cost={U}
+color=u
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Okk
+url=http://magiccards.info/query?q=Okk&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Okk
+timing=main
+rarity=R
+type=Creature
+subtype=Goblin
+pt=4/4
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Serpentine Basilisk
+url=http://magiccards.info/query?q=Serpentine+Basilisk&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Serpentine+Basilisk
+timing=main
+rarity=U
+type=Creature
+subtype=Basilisk
+pt=2/3
+converted=4
+cost={2}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

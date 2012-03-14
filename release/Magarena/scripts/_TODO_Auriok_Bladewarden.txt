@@ -1,0 +1,13 @@
+>Auriok Bladewarden
+url=http://magiccards.info/query?q=Auriok+Bladewarden&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Auriok+Bladewarden
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Soldier
+pt=1/1
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Warthog
+url=http://magiccards.info/query?q=Warthog&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Warthog
+timing=main
+rarity=U
+type=Creature
+subtype=Boar
+pt=3/2
+converted=3
+cost={1}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

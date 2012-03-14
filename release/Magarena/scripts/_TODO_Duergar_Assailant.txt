@@ -1,0 +1,12 @@
+>Duergar Assailant
+url=http://magiccards.info/query?q=Duergar+Assailant&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Duergar+Assailant
+timing=main
+rarity=C
+type=Creature
+subtype=Dwarf,Soldier
+pt=1/1
+converted=5
+cost={R/W}
+
+# TODO -- gen by neoe

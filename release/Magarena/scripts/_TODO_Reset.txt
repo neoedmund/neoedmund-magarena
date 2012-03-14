@@ -1,0 +1,11 @@
+>Reset
+url=http://magiccards.info/query?q=Reset&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Reset
+timing=main
+rarity=U
+type=Instant
+converted=2
+cost={U}{U}
+color=uu
+
+# TODO -- gen by neoe

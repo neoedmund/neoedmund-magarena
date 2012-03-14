@@ -1,0 +1,11 @@
+>Chain Stasis
+url=http://magiccards.info/query?q=Chain+Stasis&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Chain+Stasis
+timing=main
+rarity=U
+type=Instant
+converted=1
+cost={U}
+color=u
+
+# TODO -- gen by neoe

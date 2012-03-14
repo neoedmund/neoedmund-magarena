@@ -1,0 +1,10 @@
+>Staff of Zegon
+url=http://magiccards.info/query?q=Staff+of+Zegon&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Staff+of+Zegon
+timing=main
+rarity=C
+type=Artifact
+converted=4
+cost={4}
+
+# TODO -- gen by neoe

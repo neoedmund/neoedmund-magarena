@@ -1,0 +1,13 @@
+>Fire Snake
+url=http://magiccards.info/query?q=Fire+Snake&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Fire+Snake
+timing=main
+rarity=C
+type=Creature
+subtype=Snake
+pt=3/1
+converted=5
+cost={4}{R}
+color=r
+
+# TODO -- gen by neoe

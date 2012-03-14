@@ -1,0 +1,13 @@
+>Zodiac Rat
+url=http://magiccards.info/query?q=Zodiac+Rat&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Zodiac+Rat
+timing=main
+rarity=C
+type=Creature
+subtype=Rat
+pt=1/1
+converted=1
+cost={B}
+color=b
+
+# TODO -- gen by neoe

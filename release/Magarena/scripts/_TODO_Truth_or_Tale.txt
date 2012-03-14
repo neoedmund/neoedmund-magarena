@@ -1,0 +1,11 @@
+>Truth or Tale
+url=http://magiccards.info/query?q=Truth+or+Tale&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Truth+or+Tale
+timing=main
+rarity=U
+type=Instant
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

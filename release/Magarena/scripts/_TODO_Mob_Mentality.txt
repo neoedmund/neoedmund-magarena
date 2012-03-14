@@ -1,0 +1,12 @@
+>Mob Mentality
+url=http://magiccards.info/query?q=Mob+Mentality&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mob+Mentality
+timing=main
+rarity=U
+type=Enchantment
+subtype=Aura
+converted=1
+cost={R}
+color=r
+
+# TODO -- gen by neoe

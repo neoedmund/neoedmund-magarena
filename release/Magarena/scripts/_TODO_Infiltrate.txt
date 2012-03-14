@@ -1,0 +1,11 @@
+>Infiltrate
+url=http://magiccards.info/query?q=Infiltrate&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Infiltrate
+timing=main
+rarity=C
+type=Instant
+converted=1
+cost={U}
+color=u
+
+# TODO -- gen by neoe

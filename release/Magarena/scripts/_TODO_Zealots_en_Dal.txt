@@ -1,0 +1,13 @@
+>Zealots en-Dal
+url=http://magiccards.info/query?q=Zealots+en-Dal&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Zealots+en-Dal
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Soldier
+pt=2/4
+converted=4
+cost={3}{W}
+color=w
+
+# TODO -- gen by neoe

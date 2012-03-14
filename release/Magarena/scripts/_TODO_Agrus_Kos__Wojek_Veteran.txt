@@ -1,0 +1,13 @@
+>Agrus Kos, Wojek Veteran
+url=http://magiccards.info/query?q=Agrus+Kos%2C+Wojek+Veteran&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Agrus+Kos%2C+Wojek+Veteran
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Human,Soldier
+pt=3/3
+converted=5
+cost={3}{R}{W}
+color=rw
+
+# TODO -- gen by neoe

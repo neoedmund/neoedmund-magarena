@@ -1,0 +1,13 @@
+>Vedalken Infuser
+url=http://magiccards.info/query?q=Vedalken+Infuser&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Vedalken+Infuser
+timing=main
+rarity=U
+type=Creature
+subtype=Vedalken,Wizard
+pt=1/4
+converted=4
+cost={3}{U}
+color=u
+
+# TODO -- gen by neoe

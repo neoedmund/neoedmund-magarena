@@ -1,0 +1,11 @@
+>AEther Tide
+url=http://magiccards.info/query?q=AEther+Tide&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=AEther+Tide
+timing=main
+rarity=C
+type=Sorcery
+converted=1
+cost={X}{U}
+color=u
+
+# TODO -- gen by neoe

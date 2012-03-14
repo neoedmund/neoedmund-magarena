@@ -1,0 +1,11 @@
+>Steady Progress
+url=http://magiccards.info/query?q=Steady+Progress&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Steady+Progress
+timing=main
+rarity=C
+type=Instant
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

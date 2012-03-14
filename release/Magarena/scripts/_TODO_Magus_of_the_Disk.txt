@@ -1,0 +1,13 @@
+>Magus of the Disk
+url=http://magiccards.info/query?q=Magus+of+the+Disk&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Magus+of+the+Disk
+timing=main
+rarity=R
+type=Creature
+subtype=Human,Wizard
+pt=2/4
+converted=4
+cost={2}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

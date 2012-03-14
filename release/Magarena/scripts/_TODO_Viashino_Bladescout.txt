@@ -1,0 +1,13 @@
+>Viashino Bladescout
+url=http://magiccards.info/query?q=Viashino+Bladescout&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Viashino+Bladescout
+timing=main
+rarity=C
+type=Creature
+subtype=Viashino,Scout
+pt=2/1
+converted=3
+cost={1}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

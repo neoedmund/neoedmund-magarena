@@ -1,0 +1,13 @@
+>Topan Ascetic
+url=http://magiccards.info/query?q=Topan+Ascetic&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Topan+Ascetic
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Monk
+pt=2/2
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

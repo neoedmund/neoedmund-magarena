@@ -1,0 +1,13 @@
+>Chosen of Markov
+url=http://magiccards.info/query?q=Chosen+of+Markov&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Chosen+of+Markov
+timing=main
+rarity=C
+type=Creature
+subtype=Human
+pt=2/2
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

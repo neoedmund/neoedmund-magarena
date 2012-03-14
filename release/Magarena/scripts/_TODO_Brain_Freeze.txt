@@ -1,0 +1,11 @@
+>Brain Freeze
+url=http://magiccards.info/query?q=Brain+Freeze&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Brain+Freeze
+timing=main
+rarity=U
+type=Instant
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Steel of the Godhead
+url=http://magiccards.info/query?q=Steel+of+the+Godhead&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Steel+of+the+Godhead
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=7
+cost={2}{W/U}
+
+# TODO -- gen by neoe

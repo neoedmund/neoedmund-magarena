@@ -1,0 +1,13 @@
+>Wave Elemental
+url=http://magiccards.info/query?q=Wave+Elemental&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wave+Elemental
+timing=main
+rarity=U
+type=Creature
+subtype=Elemental
+pt=2/3
+converted=4
+cost={2}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

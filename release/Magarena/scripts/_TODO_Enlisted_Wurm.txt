@@ -1,0 +1,13 @@
+>Enlisted Wurm
+url=http://magiccards.info/query?q=Enlisted+Wurm&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Enlisted+Wurm
+timing=main
+rarity=U
+type=Creature
+subtype=Wurm
+pt=5/5
+converted=6
+cost={4}{G}{W}
+color=gw
+
+# TODO -- gen by neoe

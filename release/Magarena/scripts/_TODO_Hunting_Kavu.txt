@@ -1,0 +1,13 @@
+>Hunting Kavu
+url=http://magiccards.info/query?q=Hunting+Kavu&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Hunting+Kavu
+timing=main
+rarity=U
+type=Creature
+subtype=Kavu
+pt=2/3
+converted=3
+cost={1}{R}{G}
+color=rg
+
+# TODO -- gen by neoe

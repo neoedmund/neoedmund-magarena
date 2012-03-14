@@ -1,0 +1,11 @@
+>Mist of Stagnation
+url=http://magiccards.info/query?q=Mist+of+Stagnation&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mist+of+Stagnation
+timing=main
+rarity=R
+type=Enchantment
+converted=5
+cost={3}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

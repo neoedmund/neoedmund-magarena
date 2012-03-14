@@ -1,0 +1,11 @@
+>Peace Talks
+url=http://magiccards.info/query?q=Peace+Talks&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Peace+Talks
+timing=main
+rarity=U
+type=Sorcery
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

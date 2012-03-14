@@ -1,0 +1,11 @@
+>Reality Strobe
+url=http://magiccards.info/query?q=Reality+Strobe&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Reality+Strobe
+timing=main
+rarity=U
+type=Sorcery
+converted=6
+cost={4}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

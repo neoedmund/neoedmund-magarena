@@ -1,0 +1,13 @@
+>Kasimir the Lone Wolf
+url=http://magiccards.info/query?q=Kasimir+the+Lone+Wolf&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Kasimir+the+Lone+Wolf
+timing=main
+rarity=U
+type=Legendary,Creature
+subtype=Human,Warrior
+pt=5/3
+converted=6
+cost={4}{W}{U}
+color=wu
+
+# TODO -- gen by neoe

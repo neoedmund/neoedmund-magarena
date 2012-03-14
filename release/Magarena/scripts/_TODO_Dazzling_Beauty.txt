@@ -1,0 +1,11 @@
+>Dazzling Beauty
+url=http://magiccards.info/query?q=Dazzling+Beauty&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dazzling+Beauty
+timing=main
+rarity=C
+type=Instant
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

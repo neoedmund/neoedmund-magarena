@@ -1,0 +1,11 @@
+>Debt of Loyalty
+url=http://magiccards.info/query?q=Debt+of+Loyalty&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Debt+of+Loyalty
+timing=main
+rarity=R
+type=Instant
+converted=3
+cost={1}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

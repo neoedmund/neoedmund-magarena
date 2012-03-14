@@ -1,0 +1,12 @@
+>Lead-Belly Chimera
+url=http://magiccards.info/query?q=Lead-Belly+Chimera&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Lead-Belly+Chimera
+timing=main
+rarity=U
+type=Artifact,Creature
+subtype=Chimera
+pt=2/2
+converted=4
+cost={4}
+
+# TODO -- gen by neoe

@@ -1,0 +1,12 @@
+>Darksteel Colossus
+url=http://magiccards.info/query?q=Darksteel+Colossus&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Darksteel+Colossus
+timing=main
+rarity=M
+type=Artifact,Creature
+subtype=Golem
+pt=11/11
+converted=11
+cost={11}
+
+# TODO -- gen by neoe

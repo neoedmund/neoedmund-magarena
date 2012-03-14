@@ -1,0 +1,13 @@
+>Sell-Sword Brute
+url=http://magiccards.info/query?q=Sell-Sword+Brute&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Sell-Sword+Brute
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Mercenary
+pt=2/2
+converted=2
+cost={1}{R}
+color=r
+
+# TODO -- gen by neoe

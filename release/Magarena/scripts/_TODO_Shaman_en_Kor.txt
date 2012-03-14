@@ -1,0 +1,13 @@
+>Shaman en-Kor
+url=http://magiccards.info/query?q=Shaman+en-Kor&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Shaman+en-Kor
+timing=main
+rarity=R
+type=Creature
+subtype=Kor,Shaman,Cleric
+pt=1/2
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

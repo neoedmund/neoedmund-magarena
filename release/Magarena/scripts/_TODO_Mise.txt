@@ -1,0 +1,11 @@
+>Mise
+url=http://magiccards.info/query?q=Mise&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mise
+timing=main
+rarity=U
+type=Instant
+converted=1
+cost={U}
+color=u
+
+# TODO -- gen by neoe

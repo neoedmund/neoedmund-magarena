@@ -1,0 +1,13 @@
+>Soratami Mirror-Mage
+url=http://magiccards.info/query?q=Soratami+Mirror-Mage&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Soratami+Mirror-Mage
+timing=main
+rarity=U
+type=Creature
+subtype=Moonfolk,Wizard
+pt=2/1
+converted=4
+cost={3}{U}
+color=u
+
+# TODO -- gen by neoe

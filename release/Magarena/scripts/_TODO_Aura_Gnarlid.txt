@@ -1,0 +1,13 @@
+>Aura Gnarlid
+url=http://magiccards.info/query?q=Aura+Gnarlid&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Aura+Gnarlid
+timing=main
+rarity=C
+type=Creature
+subtype=Beast
+pt=2/2
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

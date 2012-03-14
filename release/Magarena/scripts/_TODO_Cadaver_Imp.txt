@@ -1,0 +1,13 @@
+>Cadaver Imp
+url=http://magiccards.info/query?q=Cadaver+Imp&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Cadaver+Imp
+timing=main
+rarity=C
+type=Creature
+subtype=Imp
+pt=1/1
+converted=3
+cost={1}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

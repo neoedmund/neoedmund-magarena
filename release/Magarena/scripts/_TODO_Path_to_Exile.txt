@@ -1,0 +1,11 @@
+>Path to Exile
+url=http://magiccards.info/query?q=Path+to+Exile&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Path+to+Exile
+timing=main
+rarity=U
+type=Instant
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

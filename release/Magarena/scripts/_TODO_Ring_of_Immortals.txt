@@ -1,0 +1,10 @@
+>Ring of Immortals
+url=http://magiccards.info/query?q=Ring+of+Immortals&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ring+of+Immortals
+timing=main
+rarity=R
+type=Artifact
+converted=5
+cost={5}
+
+# TODO -- gen by neoe

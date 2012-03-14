@@ -1,0 +1,12 @@
+>Verdant Embrace
+url=http://magiccards.info/query?q=Verdant+Embrace&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Verdant+Embrace
+timing=main
+rarity=R
+type=Enchantment
+subtype=Aura
+converted=5
+cost={3}{G}{G}
+color=gg
+
+# TODO -- gen by neoe

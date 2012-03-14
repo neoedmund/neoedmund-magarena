@@ -1,0 +1,13 @@
+>Halo Hunter
+url=http://magiccards.info/query?q=Halo+Hunter&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Halo+Hunter
+timing=main
+rarity=R
+type=Creature
+subtype=Demon
+pt=6/3
+converted=5
+cost={2}{B}{B}{B}
+color=bbb
+
+# TODO -- gen by neoe

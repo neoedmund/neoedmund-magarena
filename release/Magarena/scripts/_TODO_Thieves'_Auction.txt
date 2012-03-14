@@ -1,0 +1,11 @@
+>Thieves' Auction
+url=http://magiccards.info/query?q=Thieves%27+Auction&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Thieves%27+Auction
+timing=main
+rarity=R
+type=Sorcery
+converted=7
+cost={4}{R}{R}{R}
+color=rrr
+
+# TODO -- gen by neoe

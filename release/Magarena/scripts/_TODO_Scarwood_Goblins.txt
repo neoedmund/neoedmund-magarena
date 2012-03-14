@@ -1,0 +1,13 @@
+>Scarwood Goblins
+url=http://magiccards.info/query?q=Scarwood+Goblins&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Scarwood+Goblins
+timing=main
+rarity=C
+type=Creature
+subtype=Goblin
+pt=2/2
+converted=2
+cost={R}{G}
+color=rg
+
+# TODO -- gen by neoe

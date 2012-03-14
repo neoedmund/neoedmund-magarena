@@ -1,0 +1,10 @@
+>Conjurer's Bauble
+url=http://magiccards.info/query?q=Conjurer%27s+Bauble&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Conjurer%27s+Bauble
+timing=main
+rarity=C
+type=Artifact
+converted=1
+cost={1}
+
+# TODO -- gen by neoe

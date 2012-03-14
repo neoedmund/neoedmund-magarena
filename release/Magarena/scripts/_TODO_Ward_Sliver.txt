@@ -1,0 +1,13 @@
+>Ward Sliver
+url=http://magiccards.info/query?q=Ward+Sliver&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ward+Sliver
+timing=main
+rarity=U
+type=Creature
+subtype=Sliver
+pt=2/2
+converted=5
+cost={4}{W}
+color=w
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Aven Windreader
+url=http://magiccards.info/query?q=Aven+Windreader&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Aven+Windreader
+timing=main
+rarity=C
+type=Creature
+subtype=Bird,Soldier,Wizard
+pt=3/3
+converted=5
+cost={3}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

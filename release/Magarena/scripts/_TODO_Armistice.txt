@@ -1,0 +1,11 @@
+>Armistice
+url=http://magiccards.info/query?q=Armistice&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Armistice
+timing=main
+rarity=R
+type=Enchantment
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

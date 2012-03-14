@@ -1,0 +1,13 @@
+>Chartooth Cougar
+url=http://magiccards.info/query?q=Chartooth+Cougar&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Chartooth+Cougar
+timing=main
+rarity=C
+type=Creature
+subtype=Cat,Beast
+pt=4/4
+converted=6
+cost={5}{R}
+color=r
+
+# TODO -- gen by neoe

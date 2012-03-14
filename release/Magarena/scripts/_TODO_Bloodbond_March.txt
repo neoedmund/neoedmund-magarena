@@ -1,0 +1,11 @@
+>Bloodbond March
+url=http://magiccards.info/query?q=Bloodbond+March&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Bloodbond+March
+timing=main
+rarity=R
+type=Enchantment
+converted=4
+cost={2}{B}{G}
+color=bg
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Repay in Kind
+url=http://magiccards.info/query?q=Repay+in+Kind&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Repay+in+Kind
+timing=main
+rarity=R
+type=Sorcery
+converted=7
+cost={5}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

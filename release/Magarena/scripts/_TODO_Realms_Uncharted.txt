@@ -1,0 +1,11 @@
+>Realms Uncharted
+url=http://magiccards.info/query?q=Realms+Uncharted&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Realms+Uncharted
+timing=main
+rarity=R
+type=Instant
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

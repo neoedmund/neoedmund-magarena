@@ -1,0 +1,13 @@
+>Metathran Zombie
+url=http://magiccards.info/query?q=Metathran+Zombie&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Metathran+Zombie
+timing=main
+rarity=C
+type=Creature
+subtype=Metathran,Zombie
+pt=1/1
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

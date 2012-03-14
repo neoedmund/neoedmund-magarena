@@ -1,0 +1,12 @@
+>Plague Rats
+url=http://magiccards.info/query?q=Plague+Rats&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Plague+Rats
+timing=main
+rarity=C
+type=Creature
+subtype=Rat
+converted=3
+cost={2}{B}
+color=b
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Cast Through Time
+url=http://magiccards.info/query?q=Cast+Through+Time&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Cast+Through+Time
+timing=main
+rarity=M
+type=Enchantment
+converted=7
+cost={4}{U}{U}{U}
+color=uuu
+
+# TODO -- gen by neoe

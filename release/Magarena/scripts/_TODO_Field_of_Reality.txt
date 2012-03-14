@@ -1,0 +1,12 @@
+>Field of Reality
+url=http://magiccards.info/query?q=Field+of+Reality&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Field+of+Reality
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

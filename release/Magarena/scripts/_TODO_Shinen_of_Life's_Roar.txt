@@ -1,0 +1,13 @@
+>Shinen of Life's Roar
+url=http://magiccards.info/query?q=Shinen+of+Life%27s+Roar&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Shinen+of+Life%27s+Roar
+timing=main
+rarity=C
+type=Creature
+subtype=Spirit
+pt=1/2
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

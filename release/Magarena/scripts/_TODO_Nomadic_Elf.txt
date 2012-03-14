@@ -1,0 +1,13 @@
+>Nomadic Elf
+url=http://magiccards.info/query?q=Nomadic+Elf&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Nomadic+Elf
+timing=main
+rarity=C
+type=Creature
+subtype=Elf,Nomad
+pt=2/2
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Treefolk Healer
+url=http://magiccards.info/query?q=Treefolk+Healer&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Treefolk+Healer
+timing=main
+rarity=U
+type=Creature
+subtype=Treefolk,Cleric
+pt=2/3
+converted=5
+cost={4}{G}
+color=g
+
+# TODO -- gen by neoe

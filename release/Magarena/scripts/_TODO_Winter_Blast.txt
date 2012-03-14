@@ -1,0 +1,11 @@
+>Winter Blast
+url=http://magiccards.info/query?q=Winter+Blast&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Winter+Blast
+timing=main
+rarity=U
+type=Sorcery
+converted=1
+cost={X}{G}
+color=g
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Vengeful Dreams
+url=http://magiccards.info/query?q=Vengeful+Dreams&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Vengeful+Dreams
+timing=main
+rarity=R
+type=Instant
+converted=2
+cost={W}{W}
+color=ww
+
+# TODO -- gen by neoe

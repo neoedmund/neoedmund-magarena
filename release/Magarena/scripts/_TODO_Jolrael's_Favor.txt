@@ -1,0 +1,12 @@
+>Jolrael's Favor
+url=http://magiccards.info/query?q=Jolrael%27s+Favor&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Jolrael%27s+Favor
+timing=main
+rarity=C
+type=Enchantment
+subtype=Aura
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

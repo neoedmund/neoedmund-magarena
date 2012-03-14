@@ -1,0 +1,13 @@
+>Spined Sliver
+url=http://magiccards.info/query?q=Spined+Sliver&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Spined+Sliver
+timing=main
+rarity=U
+type=Creature
+subtype=Sliver
+pt=2/2
+converted=2
+cost={R}{G}
+color=rg
+
+# TODO -- gen by neoe

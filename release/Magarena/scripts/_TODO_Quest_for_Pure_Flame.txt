@@ -1,0 +1,11 @@
+>Quest for Pure Flame
+url=http://magiccards.info/query?q=Quest+for+Pure+Flame&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Quest+for+Pure+Flame
+timing=main
+rarity=U
+type=Enchantment
+converted=1
+cost={R}
+color=r
+
+# TODO -- gen by neoe

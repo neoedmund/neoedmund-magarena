@@ -1,0 +1,12 @@
+>Traproot Kami
+url=http://magiccards.info/query?q=Traproot+Kami&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Traproot+Kami
+timing=main
+rarity=C
+type=Creature
+subtype=Spirit
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

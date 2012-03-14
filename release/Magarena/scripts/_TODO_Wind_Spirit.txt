@@ -1,0 +1,13 @@
+>Wind Spirit
+url=http://magiccards.info/query?q=Wind+Spirit&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wind+Spirit
+timing=main
+rarity=U
+type=Creature
+subtype=Elemental,Spirit
+pt=3/2
+converted=5
+cost={4}{U}
+color=u
+
+# TODO -- gen by neoe

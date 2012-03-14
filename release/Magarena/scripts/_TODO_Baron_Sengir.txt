@@ -1,0 +1,13 @@
+>Baron Sengir
+url=http://magiccards.info/query?q=Baron+Sengir&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Baron+Sengir
+timing=main
+rarity=U
+type=Legendary,Creature
+subtype=Vampire
+pt=5/5
+converted=8
+cost={5}{B}{B}{B}
+color=bbb
+
+# TODO -- gen by neoe

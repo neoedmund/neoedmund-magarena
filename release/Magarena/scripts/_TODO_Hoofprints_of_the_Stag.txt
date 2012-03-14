@@ -1,0 +1,12 @@
+>Hoofprints of the Stag
+url=http://magiccards.info/query?q=Hoofprints+of+the+Stag&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Hoofprints+of+the+Stag
+timing=main
+rarity=R
+type=Tribal,Enchantment
+subtype=Elemental
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

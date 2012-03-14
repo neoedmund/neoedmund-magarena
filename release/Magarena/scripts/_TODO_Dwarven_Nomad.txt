@@ -1,0 +1,13 @@
+>Dwarven Nomad
+url=http://magiccards.info/query?q=Dwarven+Nomad&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dwarven+Nomad
+timing=main
+rarity=C
+type=Creature
+subtype=Dwarf,Nomad
+pt=1/1
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

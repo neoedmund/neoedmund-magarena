@@ -1,0 +1,12 @@
+>Lurebound Scarecrow
+url=http://magiccards.info/query?q=Lurebound+Scarecrow&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Lurebound+Scarecrow
+timing=main
+rarity=U
+type=Artifact,Creature
+subtype=Scarecrow
+pt=4/4
+converted=3
+cost={3}
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Disease Carriers
+url=http://magiccards.info/query?q=Disease+Carriers&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Disease+Carriers
+timing=main
+rarity=C
+type=Creature
+subtype=Rat
+pt=2/2
+converted=4
+cost={2}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

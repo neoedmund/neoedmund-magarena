@@ -1,0 +1,13 @@
+>Stigma Lasher
+url=http://magiccards.info/query?q=Stigma+Lasher&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Stigma+Lasher
+timing=main
+rarity=R
+type=Creature
+subtype=Elemental,Shaman
+pt=2/2
+converted=2
+cost={R}{R}
+color=rr
+
+# TODO -- gen by neoe

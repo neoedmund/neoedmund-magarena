@@ -1,0 +1,13 @@
+>Elite Cat Warrior
+url=http://magiccards.info/query?q=Elite+Cat+Warrior&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Elite+Cat+Warrior
+timing=main
+rarity=C
+type=Creature
+subtype=Cat,Warrior
+pt=2/3
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

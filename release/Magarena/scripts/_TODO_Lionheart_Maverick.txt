@@ -1,0 +1,13 @@
+>Lionheart Maverick
+url=http://magiccards.info/query?q=Lionheart+Maverick&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Lionheart+Maverick
+timing=main
+rarity=C
+type=Creature
+subtype=Human,Knight
+pt=1/1
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

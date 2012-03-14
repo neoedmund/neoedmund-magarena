@@ -1,0 +1,13 @@
+>Blisterstick Shaman
+url=http://magiccards.info/query?q=Blisterstick+Shaman&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Blisterstick+Shaman
+timing=main
+rarity=C
+type=Creature
+subtype=Goblin,Shaman
+pt=2/1
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

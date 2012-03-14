@@ -1,0 +1,13 @@
+>Phantom Nantuko
+url=http://magiccards.info/query?q=Phantom+Nantuko&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Phantom+Nantuko
+timing=main
+rarity=R
+type=Creature
+subtype=Insect,Spirit
+pt=0/0
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Wydwen, the Biting Gale
+url=http://magiccards.info/query?q=Wydwen%2C+the+Biting+Gale&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wydwen%2C+the+Biting+Gale
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Faerie,Wizard
+pt=3/3
+converted=4
+cost={2}{U}{B}
+color=ub
+
+# TODO -- gen by neoe

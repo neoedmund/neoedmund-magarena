@@ -1,0 +1,11 @@
+>Curse of the Bloody Tome
+url=http://magiccards.info/query?q=Curse+of+the+Bloody+Tome&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Curse+of+the+Bloody+Tome
+timing=main
+rarity=C
+type=Enchantment
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

@@ -1,0 +1,13 @@
+>Outrider en-Kor
+url=http://magiccards.info/query?q=Outrider+en-Kor&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Outrider+en-Kor
+timing=main
+rarity=U
+type=Creature
+subtype=Kor,Rebel,Knight
+pt=2/2
+converted=3
+cost={2}{W}
+color=w
+
+# TODO -- gen by neoe

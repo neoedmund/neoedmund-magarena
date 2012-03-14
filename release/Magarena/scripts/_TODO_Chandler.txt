@@ -1,0 +1,13 @@
+>Chandler
+url=http://magiccards.info/query?q=Chandler&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Chandler
+timing=main
+rarity=C
+type=Legendary,Creature
+subtype=Human,Rogue
+pt=3/3
+converted=5
+cost={4}{R}
+color=r
+
+# TODO -- gen by neoe

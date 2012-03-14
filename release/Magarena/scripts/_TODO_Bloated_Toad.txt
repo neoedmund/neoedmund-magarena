@@ -1,0 +1,13 @@
+>Bloated Toad
+url=http://magiccards.info/query?q=Bloated+Toad&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Bloated+Toad
+timing=main
+rarity=U
+type=Creature
+subtype=Frog
+pt=2/2
+converted=3
+cost={2}{G}
+color=g
+
+# TODO -- gen by neoe

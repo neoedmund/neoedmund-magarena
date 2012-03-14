@@ -1,0 +1,11 @@
+>Vicious Hunger
+url=http://magiccards.info/query?q=Vicious+Hunger&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Vicious+Hunger
+timing=main
+rarity=C
+type=Sorcery
+converted=2
+cost={B}{B}
+color=bb
+
+# TODO -- gen by neoe

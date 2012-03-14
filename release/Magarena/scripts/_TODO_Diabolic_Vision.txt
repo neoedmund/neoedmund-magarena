@@ -1,0 +1,11 @@
+>Diabolic Vision
+url=http://magiccards.info/query?q=Diabolic+Vision&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Diabolic+Vision
+timing=main
+rarity=U
+type=Sorcery
+converted=2
+cost={U}{B}
+color=ub
+
+# TODO -- gen by neoe

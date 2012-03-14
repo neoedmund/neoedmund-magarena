@@ -1,0 +1,11 @@
+>Heaven's Gate
+url=http://magiccards.info/query?q=Heaven%27s+Gate&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Heaven%27s+Gate
+timing=main
+rarity=U
+type=Instant
+converted=1
+cost={W}
+color=w
+
+# TODO -- gen by neoe

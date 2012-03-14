@@ -1,0 +1,13 @@
+>Skill Borrower
+url=http://magiccards.info/query?q=Skill+Borrower&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Skill+Borrower
+timing=main
+rarity=R
+type=Artifact,Creature
+subtype=Human,Wizard
+pt=1/3
+converted=3
+cost={2}{U}
+color=u
+
+# TODO -- gen by neoe

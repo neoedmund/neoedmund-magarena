@@ -1,0 +1,11 @@
+>Guardians' Pledge
+url=http://magiccards.info/query?q=Guardians%27+Pledge&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Guardians%27+Pledge
+timing=main
+rarity=C
+type=Instant
+converted=3
+cost={1}{W}{W}
+color=ww
+
+# TODO -- gen by neoe

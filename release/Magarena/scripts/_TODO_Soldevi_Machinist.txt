@@ -1,0 +1,13 @@
+>Soldevi Machinist
+url=http://magiccards.info/query?q=Soldevi+Machinist&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Soldevi+Machinist
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Wizard,Artificer
+pt=1/1
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

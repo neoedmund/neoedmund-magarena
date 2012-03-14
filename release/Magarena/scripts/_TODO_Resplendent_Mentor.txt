@@ -1,0 +1,13 @@
+>Resplendent Mentor
+url=http://magiccards.info/query?q=Resplendent+Mentor&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Resplendent+Mentor
+timing=main
+rarity=U
+type=Creature
+subtype=Kithkin,Cleric
+pt=2/2
+converted=5
+cost={4}{W}
+color=w
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Shattering Spree
+url=http://magiccards.info/query?q=Shattering+Spree&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Shattering+Spree
+timing=main
+rarity=U
+type=Sorcery
+converted=1
+cost={R}
+color=r
+
+# TODO -- gen by neoe

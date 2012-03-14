@@ -1,0 +1,12 @@
+>Peppersmoke
+url=http://magiccards.info/query?q=Peppersmoke&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Peppersmoke
+timing=main
+rarity=C
+type=Tribal,Instant
+subtype=Faerie
+converted=1
+cost={B}
+color=b
+
+# TODO -- gen by neoe

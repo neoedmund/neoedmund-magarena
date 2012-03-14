@@ -1,0 +1,10 @@
+>Jinxed Choker
+url=http://magiccards.info/query?q=Jinxed+Choker&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Jinxed+Choker
+timing=main
+rarity=R
+type=Artifact
+converted=3
+cost={3}
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Contagion
+url=http://magiccards.info/query?q=Contagion&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Contagion
+timing=main
+rarity=U
+type=Instant
+converted=5
+cost={3}{B}{B}
+color=bb
+
+# TODO -- gen by neoe

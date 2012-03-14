@@ -1,0 +1,13 @@
+>Great Whale
+url=http://magiccards.info/query?q=Great+Whale&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Great+Whale
+timing=main
+rarity=R
+type=Creature
+subtype=Whale
+pt=5/5
+converted=7
+cost={5}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

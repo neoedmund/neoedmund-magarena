@@ -1,0 +1,13 @@
+>Chained Throatseeker
+url=http://magiccards.info/query?q=Chained+Throatseeker&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Chained+Throatseeker
+timing=main
+rarity=C
+type=Creature
+subtype=Horror
+pt=5/5
+converted=6
+cost={5}{U}
+color=u
+
+# TODO -- gen by neoe

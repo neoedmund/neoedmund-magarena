@@ -1,0 +1,11 @@
+>Word of Seizing
+url=http://magiccards.info/query?q=Word+of+Seizing&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Word+of+Seizing
+timing=main
+rarity=R
+type=Instant
+converted=5
+cost={3}{R}{R}
+color=rr
+
+# TODO -- gen by neoe

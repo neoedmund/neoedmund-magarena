@@ -1,0 +1,11 @@
+>Hunting Grounds
+url=http://magiccards.info/query?q=Hunting+Grounds&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Hunting+Grounds
+timing=main
+rarity=R
+type=Enchantment
+converted=2
+cost={G}{W}
+color=gw
+
+# TODO -- gen by neoe

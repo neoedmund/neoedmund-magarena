@@ -1,0 +1,11 @@
+>Travel Preparations
+url=http://magiccards.info/query?q=Travel+Preparations&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Travel+Preparations
+timing=main
+rarity=C
+type=Sorcery
+converted=2
+cost={1}{G}
+color=g
+
+# TODO -- gen by neoe

@@ -1,0 +1,11 @@
+>Torch Song
+url=http://magiccards.info/query?q=Torch+Song&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Torch+Song
+timing=main
+rarity=U
+type=Enchantment
+converted=3
+cost={2}{R}
+color=r
+
+# TODO -- gen by neoe

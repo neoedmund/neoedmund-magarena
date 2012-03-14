@@ -1,0 +1,11 @@
+>Taiga
+url=http://magiccards.info/query?q=Taiga&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Taiga
+timing=main
+rarity=R
+type=Land
+subtype=Mountain,Forest
+converted=0
+cost={0}
+
+# TODO -- gen by neoe

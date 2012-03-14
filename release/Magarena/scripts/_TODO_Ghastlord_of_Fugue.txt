@@ -1,0 +1,12 @@
+>Ghastlord of Fugue
+url=http://magiccards.info/query?q=Ghastlord+of+Fugue&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Ghastlord+of+Fugue
+timing=main
+rarity=R
+type=Creature
+subtype=Spirit,Avatar
+pt=4/4
+converted=25
+cost={U/B}{U/B}{U/B}{U/B}{U/B}
+
+# TODO -- gen by neoe

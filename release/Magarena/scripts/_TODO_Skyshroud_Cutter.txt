@@ -1,0 +1,13 @@
+>Skyshroud Cutter
+url=http://magiccards.info/query?q=Skyshroud+Cutter&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Skyshroud+Cutter
+timing=main
+rarity=C
+type=Creature
+subtype=Beast
+pt=2/2
+converted=4
+cost={3}{G}
+color=g
+
+# TODO -- gen by neoe

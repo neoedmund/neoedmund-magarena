@@ -1,0 +1,13 @@
+>Numot, the Devastator
+url=http://magiccards.info/query?q=Numot%2C+the+Devastator&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Numot%2C+the+Devastator
+timing=main
+rarity=R
+type=Legendary,Creature
+subtype=Dragon
+pt=6/6
+converted=6
+cost={3}{R}{W}{U}
+color=rwu
+
+# TODO -- gen by neoe

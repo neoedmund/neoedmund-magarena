@@ -1,0 +1,10 @@
+>Urza's Hot Tub
+url=http://magiccards.info/query?q=Urza%27s+Hot+Tub&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Urza%27s+Hot+Tub
+timing=main
+rarity=U
+type=Artifact
+converted=2
+cost={2}
+
+# TODO -- gen by neoe

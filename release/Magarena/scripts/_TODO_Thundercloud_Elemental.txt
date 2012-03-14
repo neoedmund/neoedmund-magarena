@@ -1,0 +1,13 @@
+>Thundercloud Elemental
+url=http://magiccards.info/query?q=Thundercloud+Elemental&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Thundercloud+Elemental
+timing=main
+rarity=U
+type=Creature
+subtype=Elemental
+pt=3/4
+converted=7
+cost={5}{U}{U}
+color=uu
+
+# TODO -- gen by neoe

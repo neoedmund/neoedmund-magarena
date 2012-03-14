@@ -1,0 +1,12 @@
+>Wings of Velis Vel
+url=http://magiccards.info/query?q=Wings+of+Velis+Vel&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Wings+of+Velis+Vel
+timing=main
+rarity=C
+type=Tribal,Instant
+subtype=Shapeshifter
+converted=2
+cost={1}{U}
+color=u
+
+# TODO -- gen by neoe

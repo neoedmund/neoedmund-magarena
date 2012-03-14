@@ -1,0 +1,13 @@
+>Golgari Thug
+url=http://magiccards.info/query?q=Golgari+Thug&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Golgari+Thug
+timing=main
+rarity=U
+type=Creature
+subtype=Human,Warrior
+pt=1/1
+converted=2
+cost={1}{B}
+color=b
+
+# TODO -- gen by neoe

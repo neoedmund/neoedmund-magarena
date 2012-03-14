@@ -1,0 +1,11 @@
+>Rune of Protection: White
+url=http://magiccards.info/query?q=Rune+of+Protection%3A+White&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Rune+of+Protection%3A+White
+timing=main
+rarity=C
+type=Enchantment
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

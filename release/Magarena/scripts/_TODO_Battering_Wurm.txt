@@ -1,0 +1,13 @@
+>Battering Wurm
+url=http://magiccards.info/query?q=Battering+Wurm&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Battering+Wurm
+timing=main
+rarity=U
+type=Creature
+subtype=Wurm
+pt=4/3
+converted=7
+cost={6}{G}
+color=g
+
+# TODO -- gen by neoe

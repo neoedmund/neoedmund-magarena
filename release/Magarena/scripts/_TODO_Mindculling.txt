@@ -1,0 +1,11 @@
+>Mindculling
+url=http://magiccards.info/query?q=Mindculling&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Mindculling
+timing=main
+rarity=U
+type=Sorcery
+converted=6
+cost={5}{U}
+color=u
+
+# TODO -- gen by neoe

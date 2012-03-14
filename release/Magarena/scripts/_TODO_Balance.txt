@@ -1,0 +1,11 @@
+>Balance
+url=http://magiccards.info/query?q=Balance&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Balance
+timing=main
+rarity=M
+type=Sorcery
+converted=2
+cost={1}{W}
+color=w
+
+# TODO -- gen by neoe

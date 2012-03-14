@@ -1,0 +1,11 @@
+>Gossamer Chains
+url=http://magiccards.info/query?q=Gossamer+Chains&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Gossamer+Chains
+timing=main
+rarity=C
+type=Enchantment
+converted=2
+cost={W}{W}
+color=ww
+
+# TODO -- gen by neoe

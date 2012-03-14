@@ -1,0 +1,11 @@
+>Rofellos's Gift
+url=http://magiccards.info/query?q=Rofellos%27s+Gift&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Rofellos%27s+Gift
+timing=main
+rarity=C
+type=Sorcery
+converted=1
+cost={G}
+color=g
+
+# TODO -- gen by neoe

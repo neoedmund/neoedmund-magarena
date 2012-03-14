@@ -1,0 +1,11 @@
+>Golden Wish
+url=http://magiccards.info/query?q=Golden+Wish&v=card&s=cname
+image=http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Golden+Wish
+timing=main
+rarity=R
+type=Sorcery
+converted=5
+cost={3}{W}{W}
+color=ww
+
+# TODO -- gen by neoe
