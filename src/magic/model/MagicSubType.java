@@ -39,7 +39,7 @@ public enum MagicSubType {
     Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Tetravite,
     Thalakos, Thopter, Thrull, Treefolk, Triskelavite, Troll, Turtle, Unicorn,
     Vampire, Vedalken, Viashino, Volver, Wall, Warrior, Weird, Werewolf, Whale,
-    Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, Zubera;
+    Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, Zubera, TODO;
 
 	public static final EnumSet<MagicSubType> ALL_BASIC_LANDS = EnumSet.range(Forest, Swamp);
 	
@@ -62,7 +62,9 @@ public enum MagicSubType {
 				return type;
 			}
 		}
-        throw new RuntimeException("Unknown subtype " + name);
+        //throw new RuntimeException("Unknown subtype " + name);
+		System.err.println("Unknown subtype " + name);
+		return TODO;
 	}
     
     public static EnumSet<MagicSubType> getSubTypes(final String[] subTypeNames) {

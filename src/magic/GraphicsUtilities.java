@@ -37,8 +37,11 @@ package magic;
 import java.awt.Graphics2D;
 import java.awt.GraphicsConfiguration;
 import java.awt.GraphicsEnvironment;
+import java.awt.Image;
 import java.awt.RenderingHints;
 import java.awt.Transparency;
+import java.awt.geom.AffineTransform;
+import java.awt.image.AffineTransformOp;
 import java.awt.image.BufferedImage;
 
 /**
@@ -96,46 +99,57 @@ public class GraphicsUtilities {
                                final boolean higherQuality) {
         final int type = (img.getTransparency() == Transparency.OPAQUE) ?
             BufferedImage.TYPE_INT_RGB : BufferedImage.TYPE_INT_ARGB;
-        BufferedImage ret = img;
-        int w, h;
-        if (higherQuality && (img.getWidth() > targetWidth && img.getHeight() > targetHeight)) {
-            // Use multi-step technique: start with original size, then
-            // scale down in multiple passes with drawImage()
-            // until the target size is reached
-            w = img.getWidth();
-            h = img.getHeight();
-        } else {
-            // Use one-step technique: scale directly from original
-            // size to target size with a single drawImage() call
-            w = targetWidth;
-            h = targetHeight;
-        }
+    //    BufferedImage ret = img;
+    //    int w, h;
         
-        do {
-            if (higherQuality && w > targetWidth) {
-                w /= 2;
-                if (w < targetWidth) {
-                    w = targetWidth;
-                }
-            }
+     //   if (higherQuality && (img.getWidth() > targetWidth && img.getHeight() > targetHeight)) {
+     //       // Use multi-step technique: start with original size, then
+     //       // scale down in multiple passes with drawImage()
+     //       // until the target size is reached
+     //       w = img.getWidth();
+     //       h = img.getHeight();
+     //   } else {
+     //       // Use one-step technique: scale directly from original
+     //       // size to target size with a single drawImage() call
+     //       w = targetWidth;
+     //       h = targetHeight;
+     //   }
+	double scalex = (double) targetWidth / img.getWidth();
+	double scaley = (double) targetHeight / img.getHeight();
+	AffineTransform at = AffineTransform.getScaleInstance(scalex, scaley);
+//	AffineTransformOp aop  = new AffineTransformOp(at, AffineTransformOp.TYPE_BICUBIC);
+	final BufferedImage tmp = new BufferedImage(targetWidth, targetHeight, type);
+	Image tmp2 = img.getScaledInstance(targetWidth, targetHeight, Image.SCALE_SMOOTH); 
+	final Graphics2D g2 = tmp.createGraphics();
+	g2.drawImage(tmp2,0,0, null);
+	//g2.drawImage(tmp2, aop, 0, 0);
+	g2.dispose();
+	return tmp;
+//        do {
+//            if (higherQuality && w > targetWidth) {
+//                w /= 2;
+//                if (w < targetWidth) {
+//                    w = targetWidth;
+//                }
+//            }
+//
+//            if (higherQuality && h > targetHeight) {
+//                h /= 2;
+//                if (h < targetHeight) {
+//                    h = targetHeight;
+//                }
+//            }
+//
+//            final BufferedImage tmp = new BufferedImage(w, h, type);
+//            final Graphics2D g2 = tmp.createGraphics();
+//            g2.setRenderingHint(RenderingHints.KEY_INTERPOLATION, hint);
+//            g2.drawImage(ret, 0, 0, w, h, null);
+//            g2.dispose();
+//
+//            ret = tmp;
+//        } while (w != targetWidth || h != targetHeight);
 
-            if (higherQuality && h > targetHeight) {
-                h /= 2;
-                if (h < targetHeight) {
-                    h = targetHeight;
-                }
-            }
-
-            final BufferedImage tmp = new BufferedImage(w, h, type);
-            final Graphics2D g2 = tmp.createGraphics();
-            g2.setRenderingHint(RenderingHints.KEY_INTERPOLATION, hint);
-            g2.drawImage(ret, 0, 0, w, h, null);
-            g2.dispose();
-
-            ret = tmp;
-        } while (w != targetWidth || h != targetHeight);
-
-        return ret;
+//        return ret;
     }
 
     // Returns the graphics configuration for the primary screen

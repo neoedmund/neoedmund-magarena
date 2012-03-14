@@ -28,7 +28,7 @@ public class DeckUtils {
 	public static final FileFilter DECK_FILEFILTER=new FileFilter() {
 		@Override
 		public boolean accept(final File file) {
-			return file.isDirectory()||file.getName().endsWith(DECK_EXTENSION);
+			return file.isDirectory()||file.getName().endsWith(DECK_EXTENSION)||file.getName().toLowerCase().endsWith(".txt");
 		}
 		@Override
 		public String getDescription() {
@@ -188,6 +188,8 @@ public class DeckUtils {
             }
             sb.append(unsupported.get(i).getName());
         }
+        // debug to err
+        System.err.println(sb);
         
         // options panel doesn't have automatic text wrapping 
         // because the method that provides max char limit isn't 

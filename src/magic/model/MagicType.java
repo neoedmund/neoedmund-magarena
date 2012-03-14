@@ -10,7 +10,8 @@ public enum MagicType {
 	Sorcery("Sorcery"),
 	Instant("Instant"),
 	Artifact("Artifact"),
-	Enchantment("Enchantment")
+	Enchantment("Enchantment"),
+	TODO("TODO")
 	;
 	
 	private final String name;
@@ -35,7 +36,9 @@ public enum MagicType {
 				return type;
 			}
 		}
-        throw new RuntimeException("No corresponding MagicType for " + name);
+        //throw new RuntimeException("No corresponding MagicType for " + name);
+		System.err.println("No corresponding MagicType for " + name);
+		return TODO;
 	}
 	
     public boolean hasType(final int flags) {
