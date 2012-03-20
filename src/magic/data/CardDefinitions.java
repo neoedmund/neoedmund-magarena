@@ -257,7 +257,8 @@ public class CardDefinitions {
 		final File cardDir = new File(MagicMain.getScriptsPath());
 		final File[] files = cardDir.listFiles();
 		for (File file : files) {
-			if (file.getName().startsWith("_TODO_")) {
+			boolean loadTODO=true;
+			if (file.getName().startsWith("_TODO_")&&!loadTODO) {
 				System.err.println("skip todo card def " + file.getName());
 			} else {
 				loadCardDefinition(file);
