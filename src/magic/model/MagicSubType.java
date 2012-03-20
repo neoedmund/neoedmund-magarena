@@ -71,6 +71,7 @@ public enum MagicSubType {
     Moag, Muraganda, Phyrexia, Pyrulea, Rabiah, Rath, Ravnica, Segovia,
     Serra_s_Realm, Shadowmoor, Shandalar, Ulgrotha, Valla, Wildfire, Zendikar
 
+    ,TODO
     ;
 
 	public static final EnumSet<MagicSubType> ALL_BASIC_LANDS = EnumSet.range(Forest, Swamp);
@@ -95,7 +96,8 @@ public enum MagicSubType {
 				return type;
 			}
 		}
-        throw new RuntimeException("Unknown subtype " + name);
+        System.err.println("Unknown subtype " + name);
+        return TODO;
 	}
     
     public static EnumSet<MagicSubType> getSubTypes(final String[] subTypeNames) {

@@ -23,6 +23,7 @@ public enum MagicType {
     Sorcery,
     Tribal,
     Vanguard,
+    TODO
     ;
     
     public static final EnumSet<MagicType> ALL_CARD_TYPES = EnumSet.range(Artifact, Vanguard);
@@ -52,7 +53,8 @@ public enum MagicType {
                 return type;
             }
         }
-        throw new RuntimeException("No corresponding MagicType for " + name);
+        System.err.println("No corresponding MagicType for " + name);
+        return TODO;
     }
     
     public boolean hasType(final int flags) {
