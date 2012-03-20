@@ -1,47 +1,61 @@
 package magic.model;
 
+import java.util.EnumSet;
+
 public enum MagicType {
 
-	Basic("Basic"),
-	Legendary("Legendary"),
-	Tribal("Tribal"),
-	Land("Land"),
-	Creature("Creature"),
-	Sorcery("Sorcery"),
-	Instant("Instant"),
-	Artifact("Artifact"),
-	Enchantment("Enchantment"),
-	TODO("TODO")
-	;
-	
-	private final String name;
+    // these are supertypes
+    Basic,
+    Legendary,
+    Ongoing,
+    Snow,
+    World,
+    
+    // these are card types
+    Artifact,
+    Creature,
+    Enchantment,
+    Instant,
+    Land,
+    Plane,
+    Planeswalker,
+    Scheme,
+    Sorcery,
+    Tribal,
+    Vanguard,
+    ;
+    
+    public static final EnumSet<MagicType> ALL_CARD_TYPES = EnumSet.range(Artifact, Vanguard);
+	public static final EnumSet<MagicType> FILTER_TYPES = EnumSet.of(
+			Legendary,
+			Artifact,
+    	    Creature,
+    	    Enchantment,
+    	    Instant,
+    	    Land,
+    	    Sorcery,
+    	    Tribal);
+    
     private final int mask;
-	
-	private MagicType(final String name) {
-		this.name=name;
-        this.mask=1<<ordinal();
-	}
-	
-	private String getName() {
-		return name;
-	}
-	
-	public int getMask() {
-		return mask;
-	}
-	
-	public static MagicType getType(final String name) {
-		for (final MagicType type : values()) {
-			if (type.getName().equalsIgnoreCase(name)) {
-				return type;
-			}
-		}
-        //throw new RuntimeException("No corresponding MagicType for " + name);
-		System.err.println("No corresponding MagicType for " + name);
-		return TODO;
-	}
-	
+    
+    private MagicType() {
+        mask=1<<ordinal();
+    }
+    
+    public int getMask() {
+        return mask;
+    }
+    
+    public static MagicType getType(final String name) {
+        for (final MagicType type : values()) {
+            if (type.toString().equalsIgnoreCase(name)) {
+                return type;
+            }
+        }
+        throw new RuntimeException("No corresponding MagicType for " + name);
+    }
+    
     public boolean hasType(final int flags) {
-		return (flags & getMask()) != 0;
-	}
+        return (flags & getMask()) != 0;
+    }
 }
